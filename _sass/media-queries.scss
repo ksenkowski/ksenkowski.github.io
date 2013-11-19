@@ -1,0 +1,100 @@
+@media only screen and (min-width: 31.250em) {
+	.container{
+		max-width:768px;
+		margin:0 auto;
+	}
+	table{
+		width:500px;
+	}
+	#conspiracy-of-shadows{
+		max-width:1040px;
+	}
+	article.postings{
+		width:auto;
+		float:left;
+	}
+}
+@media only screen and (min-width: 48.000em) {
+	#content aside{
+		width:30%;
+		float:left;
+		margin: 13% auto 1% auto;		
+	}
+	article.postings{
+		width:62%;
+	}
+	article.first{
+		margin:13% auto 1% auto;
+	}
+	
+	.gutters {
+		.col {
+			margin-left: 2%;
+		}	
+		.col:first-child { 
+			margin-left: 0; 
+		}
+	}
+	
+	
+	.span-1 { width: 8.33333333333%; }
+	.span-2 { width: 16.6666666667%; }
+	.span-3 { width: 25%; }
+	.span-4 { width: 33.3333333333%; }
+	.span-5 { width: 41.6666666667%; }
+	.span-6 { width: 50%; }
+	.span-7 { width: 58.3333333333%; }
+	.span-8 { width: 66.6666666667%; }
+	.span-9 { width: 75%; }
+	.span-10 { width: 83.3333333333%; }
+	.span-11 { width: 91.6666666667%; }
+	.span-12 { width: 100%; }
+	
+	.gutters{
+		.span-1 { width: 6.5%; }
+		.span-2 { width: 15.0%; }
+		.span-3 { width: 23.5%; }
+		.span-4 { width: 32.0%; }
+		.span-5 { width: 40.5%; }
+		.span-6 { width: 49.0%; }
+		.span-7 { width: 57.5%; }
+		.span-8 { width: 66.0%; }
+		.span-9 { width: 74.5%; }
+		.span-10 { width: 83.0%; }
+		.span-11 { width: 91.5%; }
+		.span-12 { width: 100%; }
+		
+	}
+	
+}
+@media only screen and (min-width: 65.000em) {
+	.container{
+		max-width:1200px;
+		margin:0 auto;
+	}
+	#conspiracy-of-shadows{
+		max-width:500px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 30%;
+		height: 100%;
+	}
+	#fixed-container{
+		outline: 0;
+		position: absolute;
+		left: 30%;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		overflow: auto;
+	}
+	
+}
+
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {
+    /* Style adjustments for viewports that meet the condition */
+}

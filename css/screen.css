@@ -1,0 +1,1210 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* Normalize CSS
+ * You Know You Love It */
+/* line 3, ../_sass/normalize.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block;
+}
+
+/* line 7, ../_sass/normalize.scss */
+audio, canvas, video {
+  display: inline-block;
+}
+
+/* line 11, ../_sass/normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 16, ../_sass/normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 20, ../_sass/normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 24, ../_sass/normalize.scss */
+a:active, a:hover {
+  outline: 0;
+}
+
+/* line 28, ../_sass/normalize.scss */
+h1 {
+  font-size: 200%;
+}
+
+/* line 32, ../_sass/normalize.scss */
+h2 {
+  font-size: 150%;
+}
+
+/* line 36, ../_sass/normalize.scss */
+h3 {
+  font-size: 117%;
+}
+
+/* line 40, ../_sass/normalize.scss */
+h5 {
+  font-size: 83%;
+}
+
+/* line 44, ../_sass/normalize.scss */
+h6 {
+  font-size: 67%;
+}
+
+/* line 48, ../_sass/normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 52, ../_sass/normalize.scss */
+b, strong {
+  font-weight: bold;
+}
+
+/* line 56, ../_sass/normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 60, ../_sass/normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 65, ../_sass/normalize.scss */
+code, kbd, pre, samp {
+  font-family: monospace,serif;
+  font-size: 1em;
+}
+
+/* line 70, ../_sass/normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 76, ../_sass/normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/* line 80, ../_sass/normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 84, ../_sass/normalize.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 91, ../_sass/normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 95, ../_sass/normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 99, ../_sass/normalize.scss */
+img {
+  border: 0;
+  max-width: 100%;
+}
+
+/* line 104, ../_sass/normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 108, ../_sass/normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* line 112, ../_sass/normalize.scss */
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em;
+}
+
+/* line 118, ../_sass/normalize.scss */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 123, ../_sass/normalize.scss */
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+/* line 129, ../_sass/normalize.scss */
+button, input {
+  line-height: normal;
+}
+
+/* line 133, ../_sass/normalize.scss */
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 138, ../_sass/normalize.scss */
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+/* line 142, ../_sass/normalize.scss */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 147, ../_sass/normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 154, ../_sass/normalize.scss */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 158, ../_sass/normalize.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 163, ../_sass/normalize.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 168, ../_sass/normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 177, ../_sass/normalize.scss */
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
+}
+
+/* line 181, ../_sass/normalize.scss */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 186, ../_sass/normalize.scss */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'customfutharkmedium';
+  src: url("customfuthark-webfont.eot");
+  src: url("customfuthark-webfont.eot?#iefix") format("embedded-opentype"), url("customfuthark-webfont.woff") format("woff"), url("customfuthark-webfont.ttf") format("truetype"), url("customfuthark-webfont.svg#customfutharkmedium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 12, ../_sass/fonts.scss */
+.futhark {
+  font-family: 'customfutharkmedium';
+}
+
+/* line 1, ../_sass/base.scss */
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: normal;
+  font-size: 100%;
+  line-height: 140%;
+  font-weight: 300;
+  color: #333333;
+  background: white;
+}
+
+/* ==========================================================================
+   TYPOGRAPHY - My preference is for percentages when working with fonts. Everyone has their own thing.
+   ========================================================================== */
+/* line 14, ../_sass/base.scss */
+.call-out {
+  font-size: 125%;
+  font-weight: 200;
+  line-height: 160%;
+  color: #880c0a;
+}
+
+/* line 20, ../_sass/base.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 24, ../_sass/base.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 28, ../_sass/base.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 31, ../_sass/base.scss */
+.warning-text {
+  color: #d8c26c;
+}
+
+/* line 34, ../_sass/base.scss */
+.error-text {
+  color: #ff7876;
+}
+
+/* line 37, ../_sass/base.scss */
+.success-text {
+  color: #21c023;
+}
+
+/* line 40, ../_sass/base.scss */
+blockquote {
+  padding: 0 0 0 15px;
+  margin: 0 0 20px;
+}
+
+/* line 44, ../_sass/base.scss */
+blockquote p {
+  margin-bottom: 0;
+  font-size: 120%;
+  font-weight: 300;
+  line-height: 160%;
+}
+
+/* line 50, ../_sass/base.scss */
+blockquote small {
+  display: block;
+  line-height: 100%;
+  color: #999;
+}
+
+/* line 55, ../_sass/base.scss */
+blockquote small:before {
+  content: '\2014 \00A0';
+}
+
+/* BEGIN HEADING STYLES */
+/* line 64, ../_sass/base.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: bold;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+
+/* line 71, ../_sass/base.scss */
+h1, h2, h3 {
+  line-height: 110%;
+}
+
+/* line 74, ../_sass/base.scss */
+h4, h5, h6 {
+  line-height: 160%;
+}
+
+/* line 77, ../_sass/base.scss */
+h1 {
+  font-size: 255%;
+}
+
+/* line 80, ../_sass/base.scss */
+h2 {
+  font-size: 215%;
+}
+
+/* line 83, ../_sass/base.scss */
+h3 {
+  font-size: 170%;
+}
+
+/* line 86, ../_sass/base.scss */
+h4 {
+  font-size: 120%;
+}
+
+/* line 89, ../_sass/base.scss */
+h5 {
+  font-size: 100%;
+}
+
+/* line 92, ../_sass/base.scss */
+h6 {
+  font-size: 90%;
+}
+
+/* END HEADING STYLES */
+/* line 98, ../_sass/base.scss */
+ul,
+ol {
+  padding: 0;
+  margin: 0 0 10px 25px;
+}
+
+/* line 102, ../_sass/base.scss */
+em {
+  color: #880c0a;
+}
+
+/* line 108, ../_sass/base.scss */
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin-bottom: 0;
+}
+
+/* line 111, ../_sass/base.scss */
+ul.spaced-list, ol.spaced-list {
+  margin-bottom: 15px;
+}
+
+/* line 114, ../_sass/base.scss */
+.spaced-list li {
+  margin: 8px 0px;
+}
+
+/* line 117, ../_sass/base.scss */
+ul.unstyled, ol.unstyled {
+  margin-left: 0;
+  list-style: none;
+}
+
+/* line 121, ../_sass/base.scss */
+ul.inline, ol.inline {
+  margin-left: 0;
+  list-style: none;
+}
+
+/* ==========================================================================
+   LINKS - My broad preference is to have no text decoration on links and apply a dotted border on hover.
+   ========================================================================== */
+/* line 129, ../_sass/base.scss */
+a {
+  color: #880c0a;
+  text-decoration: none;
+}
+
+/* line 134, ../_sass/base.scss */
+footer a:hover, footer a:focus {
+  color: #aaaaaa;
+  border-bottom: 1px dotted #aaaaaa;
+}
+
+/* ==========================================================================
+   FORMS - 
+   ========================================================================== */
+/* line 143, ../_sass/base.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 149, ../_sass/base.scss */
+.btn {
+  display: inline-block;
+  padding: 10px 12px;
+  margin-bottom: 0;
+  font-size: 120%;
+  line-height: 140%;
+  color: #f6dcbb;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #880c0a;
+  background-image: -moz-linear-gradient(top, #b52025, #880c0a);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#b52025), to(#880c0a));
+  background-image: -webkit-linear-gradient(top, #b52025, #880c0a);
+  background-image: -o-linear-gradient(top, #b52025, #880c0a);
+  background-image: linear-gradient(to bottom, #b52025, #880c0a);
+  background-repeat: repeat-x;
+  border: 2px solid black;
+}
+
+/* line 175, ../_sass/base.scss */
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled] {
+  color: white;
+  background-color: #880c0a;
+}
+
+/* line 182, ../_sass/base.scss */
+.btn:hover,
+.btn:focus {
+  color: white;
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+  -moz-transition: background-position 0.1s linear;
+  -o-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+}
+
+/* line 192, ../_sass/base.scss */
+.btn-block {
+  display: block;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+/* line 206, ../_sass/base.scss */
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   CLEARFIX
+   ========================================================================== */
+/* line 214, ../_sass/base.scss */
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+/* line 219, ../_sass/base.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 222, ../_sass/base.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* line 1, ../_sass/layout.scss */
+#main {
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 400;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* line 10, ../_sass/layout.scss */
+.container {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 20px 5%;
+}
+
+/* line 16, ../_sass/layout.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  *behavior: url("/js/boxsizing.htc");
+}
+
+/* ==========================================================================
+   CONTENT
+   ========================================================================== */
+/* line 26, ../_sass/layout.scss */
+#fixed-container {
+  overflow: auto;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: url("../img/background.png") no-repeat top left;
+  background-size: 100%;
+}
+
+/* line 35, ../_sass/layout.scss */
+#content {
+  position: relative;
+}
+/* line 38, ../_sass/layout.scss */
+#content aside {
+  width: auto;
+  display: block;
+  float: none;
+  background: white;
+  padding: 3%;
+  margin: 0 auto;
+}
+/* line 45, ../_sass/layout.scss */
+#content aside h2 {
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  text-transform: uppercase;
+  font-size: 180%;
+  color: #880c0a;
+}
+/* line 51, ../_sass/layout.scss */
+#content aside .footnote-callout {
+  margin: 8% 5% 0% 5%;
+  display: block;
+  background: white;
+  padding: 10px;
+  border: 1px solid #333333;
+  position: relative;
+}
+/* line 59, ../_sass/layout.scss */
+#content aside .footnote-callout p {
+  color: #ddeeee p-red;
+  font-style: italic;
+  font-size: 80%;
+  line-height: 100%;
+}
+/* line 66, ../_sass/layout.scss */
+#content aside .footnote-callout .close-me {
+  text-transform: uppercase;
+  font-weight: bold;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  color: white;
+  background: #333333;
+  text-align: center;
+  border: 1px solid #333333;
+  padding: 3px;
+  border-radius: 100px;
+  font-size: 80%;
+  line-height: 100%;
+}
+/* line 86, ../_sass/layout.scss */
+#content aside#mobile-footnotes {
+  display: block;
+  padding: 10px 0px;
+  position: relative;
+  float: none;
+  width: auto;
+}
+
+/* line 95, ../_sass/layout.scss */
+article.postings {
+  display: block;
+  position: relative;
+  padding: 10px 20px;
+  word-wrap: break-word;
+  -webkit-transition: opacity .5s linear;
+  -moz-transition: opacity .5s linear;
+  -ms-transition: opacity .5s linear;
+  -o-transition: opacity .5s linear;
+  transition: opacity .5s linear;
+  background: white;
+  margin: 0 auto 1% auto;
+  min-width: 320px;
+  float: none;
+}
+
+/* line 110, ../_sass/layout.scss */
+article .footnote {
+  font-weight: bold;
+  cursor: pointer;
+  color: #880c0a;
+  border-bottom: 1px dotted #880c0a;
+  margin: 0 5px;
+}
+
+/* line 117, ../_sass/layout.scss */
+article.first {
+  margin: 0 auto;
+}
+
+/* ==========================================================================
+   DEFAULT COLUMN STYLES
+   ========================================================================== */
+/* line 124, ../_sass/layout.scss */
+.col {
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+/* ==========================================================================
+   IMAGES
+   ========================================================================== */
+/* line 134, ../_sass/layout.scss */
+img {
+  vertical-align: middle;
+}
+
+/* ==========================================================================
+   MENU
+   ========================================================================== */
+/* line 142, ../_sass/layout.scss */
+#pageslide {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  z-index: 999999;
+  width: 260px;
+  padding: 0;
+  background-color: #333333;
+  overflow: auto;
+}
+
+/* line 152, ../_sass/layout.scss */
+ul#menu {
+  display: none;
+  text-align: left;
+  background: #333333;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  height: 100%;
+}
+/* line 161, ../_sass/layout.scss */
+ul#menu li {
+  border-right: #333333 solid 15px;
+  text-transform: uppercase;
+  width: 100%;
+  color: #aaaaaa;
+  line-height: 20px;
+}
+/* line 168, ../_sass/layout.scss */
+ul#menu li a {
+  color: #aaaaaa;
+  display: block;
+  text-indent: 24px;
+  text-decoration: none;
+  width: 100%;
+  padding: 30px 0 28px;
+}
+/* line 176, ../_sass/layout.scss */
+ul#menu li a span.arrow {
+  height: 16px;
+  width: 10px;
+  float: left;
+  margin: 2px 0px 0px 10px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url("../img/arrow.png") no-repeat;
+}
+/* line 187, ../_sass/layout.scss */
+ul#menu li a:hover {
+  border: none;
+}
+/* line 190, ../_sass/layout.scss */
+ul#menu li a.red {
+  color: #880c0a;
+}
+/* line 195, ../_sass/layout.scss */
+ul#menu li.current {
+  border-right: 15px solid #880c0a;
+  background: black;
+}
+/* line 199, ../_sass/layout.scss */
+ul#menu li.border {
+  height: 2px;
+  background: #333333;
+  width: 100%;
+  padding: 0;
+  border-right: solid #333333 15px;
+}
+/* line 206, ../_sass/layout.scss */
+ul#menu li.hidden-menu-item {
+  display: none;
+}
+
+/* ==========================================================================
+   HEADER SECTION
+   ========================================================================== */
+/* line 214, ../_sass/layout.scss */
+#conspiracy-of-shadows {
+  min-height: 350px;
+  height: auto;
+  display: table;
+  max-width: 800px;
+  position: relative;
+}
+
+/* line 221, ../_sass/layout.scss */
+.cover {
+  z-index: 100;
+  top: 0;
+  left: 0;
+  position: relative !important;
+  width: 100%;
+  max-width: none;
+}
+
+/* line 229, ../_sass/layout.scss */
+.cover-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-position: left top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.3);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.3);
+}
+
+/* line 244, ../_sass/layout.scss */
+#menu-button {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 700;
+  padding: 10px 16px;
+}
+
+/* line 251, ../_sass/layout.scss */
+#logo {
+  margin: 0px 0px 5px 0px;
+  color: #ffedf2;
+  text-transform: uppercase;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-weight: 400;
+  font-size: 180%;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+/* line 260, ../_sass/layout.scss */
+#header-group {
+  display: table-cell;
+  vertical-align: bottom;
+  position: relative;
+  left: -1px;
+  margin: 0;
+  padding: 65px 5% 12px;
+  width: 100%;
+}
+/* line 269, ../_sass/layout.scss */
+#header-group .header-group-inner {
+  position: relative;
+  z-index: 100;
+}
+/* line 273, ../_sass/layout.scss */
+#header-group .header-group-inner p {
+  border: 0;
+  outline: 0;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  margin: 0px 0px 6px;
+  font-size: 100%;
+  line-height: 120%;
+  color: #ffedf2;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+/* line 286, ../_sass/layout.scss */
+.cta {
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+/* line 295, ../_sass/layout.scss */
+footer {
+  margin: 2% auto 1%;
+  padding: 10px 0 25px;
+  background: white;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-top: 1px solid #ffedf2;
+  font-weight: 400;
+  font-size: 95%;
+  float: left;
+}
+/* line 306, ../_sass/layout.scss */
+footer h5 {
+  font-size: 83%;
+  text-align: center;
+  margin: 10px auto;
+}
+/* line 311, ../_sass/layout.scss */
+footer h6 {
+  font-size: 70%;
+  text-align: center;
+  margin: 0px;
+}
+
+/* ==========================================================================
+   TABLES
+   ========================================================================== */
+/* line 321, ../_sass/layout.scss */
+table {
+  background: white;
+  margin-bottom: 1.25em;
+  border: solid 1px #dddddd;
+  width: 320px;
+  word-wrap: break-word;
+}
+/* line 328, ../_sass/layout.scss */
+table thead, table tfoot {
+  background: #ffedf2;
+  font-weight: bold;
+}
+/* line 332, ../_sass/layout.scss */
+table thead tr td, table thead tr th, table tfoot tr td, table tfoot tr th {
+  padding: 0.5em 0.625em 0.625em;
+  font-size: 0.875em;
+  color: #333333;
+  text-align: left;
+  display: table-cell;
+  line-height: 1.125em;
+}
+/* line 343, ../_sass/layout.scss */
+table tr th, table tr td {
+  padding: 0.5625em 0.625em;
+  font-size: 0.875em;
+  color: #333333;
+  vertical-align: top;
+}
+/* line 349, ../_sass/layout.scss */
+table tr.even, table tr.alt, table tr:nth-of-type(even) {
+  background: #ffedf2;
+}
+/* line 352, ../_sass/layout.scss */
+table th {
+  font-weight: bold;
+}
+/* line 355, ../_sass/layout.scss */
+table td, table th {
+  padding: 9px 10px;
+  text-align: left;
+}
+
+/* line 360, ../_sass/layout.scss */
+.th {
+  line-height: 0;
+  display: inline-block;
+  border: solid 4px white;
+  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+}
+
+/* line 371, ../_sass/layout.scss */
+.th:hover, .th:focus {
+  -webkit-box-shadow: 0 0 6px 1px rgba(13, 171, 239, 0.5);
+  box-shadow: 0 0 6px 1px rgba(13, 171, 239, 0.5);
+}
+
+/* line 376, ../_sass/layout.scss */
+.th.radius {
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 381, ../_sass/layout.scss */
+a.th {
+  display: inline-block;
+}
+
+/* line 384, ../_sass/layout.scss */
+table.responsive {
+  margin-bottom: 0;
+}
+
+/* line 387, ../_sass/layout.scss */
+.pinned {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: white;
+  width: 35%;
+  overflow: hidden;
+  overflow-x: scroll;
+  border-right: 1px solid #aaaaaa;
+  border-left: 1px solid #aaaaaa;
+}
+/* line 398, ../_sass/layout.scss */
+.pinned table {
+  border-right: none;
+  border-left: none;
+  width: 100%;
+}
+/* line 402, ../_sass/layout.scss */
+.pinned table th, .pinned table td {
+  white-space: nowrap;
+}
+/* line 406, ../_sass/layout.scss */
+.pinned td:last-child {
+  border-bottom: 0;
+}
+
+/* line 410, ../_sass/layout.scss */
+div.table-wrapper {
+  position: relative;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-right: 1px solid #aaaaaa;
+}
+/* line 416, ../_sass/layout.scss */
+div.table-wrapper div.scrollable {
+  margin-left: 35%;
+  overflow: scroll;
+  overflow-y: hidden;
+}
+
+/* line 423, ../_sass/layout.scss */
+table.responsive td, table.responsive th {
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/* line 428, ../_sass/layout.scss */
+table.responsive th:first-child, table.responsive td:first-child {
+  display: none;
+}
+
+/* line 432, ../_sass/layout.scss */
+table.responsive.pinned td {
+  display: none;
+}
+
+@media only screen and (min-width: 31.25em) {
+  /* line 2, ../_sass/media-queries.scss */
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  /* line 6, ../_sass/media-queries.scss */
+  table {
+    width: 500px;
+  }
+
+  /* line 9, ../_sass/media-queries.scss */
+  #conspiracy-of-shadows {
+    max-width: 1040px;
+  }
+
+  /* line 12, ../_sass/media-queries.scss */
+  article.postings {
+    width: auto;
+    float: left;
+  }
+}
+@media only screen and (min-width: 48em) {
+  /* line 18, ../_sass/media-queries.scss */
+  #content aside {
+    width: 30%;
+    float: left;
+    margin: 13% auto 1% auto;
+  }
+
+  /* line 23, ../_sass/media-queries.scss */
+  article.postings {
+    width: 62%;
+  }
+
+  /* line 26, ../_sass/media-queries.scss */
+  article.first {
+    margin: 13% auto 1% auto;
+  }
+
+  /* line 31, ../_sass/media-queries.scss */
+  .gutters .col {
+    margin-left: 2%;
+  }
+  /* line 34, ../_sass/media-queries.scss */
+  .gutters .col:first-child {
+    margin-left: 0;
+  }
+
+  /* line 40, ../_sass/media-queries.scss */
+  .span-1 {
+    width: 8.33333333333%;
+  }
+
+  /* line 41, ../_sass/media-queries.scss */
+  .span-2 {
+    width: 16.6666666667%;
+  }
+
+  /* line 42, ../_sass/media-queries.scss */
+  .span-3 {
+    width: 25%;
+  }
+
+  /* line 43, ../_sass/media-queries.scss */
+  .span-4 {
+    width: 33.3333333333%;
+  }
+
+  /* line 44, ../_sass/media-queries.scss */
+  .span-5 {
+    width: 41.6666666667%;
+  }
+
+  /* line 45, ../_sass/media-queries.scss */
+  .span-6 {
+    width: 50%;
+  }
+
+  /* line 46, ../_sass/media-queries.scss */
+  .span-7 {
+    width: 58.3333333333%;
+  }
+
+  /* line 47, ../_sass/media-queries.scss */
+  .span-8 {
+    width: 66.6666666667%;
+  }
+
+  /* line 48, ../_sass/media-queries.scss */
+  .span-9 {
+    width: 75%;
+  }
+
+  /* line 49, ../_sass/media-queries.scss */
+  .span-10 {
+    width: 83.3333333333%;
+  }
+
+  /* line 50, ../_sass/media-queries.scss */
+  .span-11 {
+    width: 91.6666666667%;
+  }
+
+  /* line 51, ../_sass/media-queries.scss */
+  .span-12 {
+    width: 100%;
+  }
+
+  /* line 54, ../_sass/media-queries.scss */
+  .gutters .span-1 {
+    width: 6.5%;
+  }
+  /* line 55, ../_sass/media-queries.scss */
+  .gutters .span-2 {
+    width: 15.0%;
+  }
+  /* line 56, ../_sass/media-queries.scss */
+  .gutters .span-3 {
+    width: 23.5%;
+  }
+  /* line 57, ../_sass/media-queries.scss */
+  .gutters .span-4 {
+    width: 32.0%;
+  }
+  /* line 58, ../_sass/media-queries.scss */
+  .gutters .span-5 {
+    width: 40.5%;
+  }
+  /* line 59, ../_sass/media-queries.scss */
+  .gutters .span-6 {
+    width: 49.0%;
+  }
+  /* line 60, ../_sass/media-queries.scss */
+  .gutters .span-7 {
+    width: 57.5%;
+  }
+  /* line 61, ../_sass/media-queries.scss */
+  .gutters .span-8 {
+    width: 66.0%;
+  }
+  /* line 62, ../_sass/media-queries.scss */
+  .gutters .span-9 {
+    width: 74.5%;
+  }
+  /* line 63, ../_sass/media-queries.scss */
+  .gutters .span-10 {
+    width: 83.0%;
+  }
+  /* line 64, ../_sass/media-queries.scss */
+  .gutters .span-11 {
+    width: 91.5%;
+  }
+  /* line 65, ../_sass/media-queries.scss */
+  .gutters .span-12 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 65em) {
+  /* line 71, ../_sass/media-queries.scss */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* line 75, ../_sass/media-queries.scss */
+  #conspiracy-of-shadows {
+    max-width: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+  }
+
+  /* line 83, ../_sass/media-queries.scss */
+  #fixed-container {
+    outline: 0;
+    position: absolute;
+    left: 30%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+  /* Style adjustments for viewports that meet the condition */
+}

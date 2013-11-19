@@ -1,0 +1,8 @@
+exclude: [Gemfile, Gemfile.lock, README.md]
+
+name: Conspiracy of Shadows
+tagline: Where fiction, art &amp; games collide
+markdown: redcarpet
+pygments: true
+root: /
+permalink: /:title.html

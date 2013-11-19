@@ -1,0 +1,20 @@
+<ul id="menu">
+	<li class="current"><a href="/"> Home <span class="arrow"></span></a></li>
+	<li class="border"></li>
+	<li><a href="http://www.magcloud.com/browse/issue/413729" target="_blank"> Apprentice <span class="arrow"></span></a></li>
+	<li class="border"></li>
+	<li><a href="/credits.html"> Credits <span class="arrow"></span></a></li>
+	<li class="border"></li>
+	<li><a href="http://www.patreon.com/keithsenkowski" target="_blank"> Become a Patron <span class="arrow"></span></a></li>
+	<li class="border"></li>
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fconspiracyofshadows.com" target="_blank"> Share on Facebook <span class="arrow"></span></a></li>
+	<li class="border"></li>
+	<li><a href="https://twitter.com/intent/tweet?text=Conspiracy+of+Shadows:+Where+role-playing+games+and+board+games+meet+http://conspiracyofshadows.com&via=ksenkowski" target="_blank"> Share on Twitter <span class="arrow"></span></a></li>
+	<li class="border"></li>
+	<li class="table-of-contents"><a href="#"> Etymologiae </a></li>
+	<li class="border"></li>
+	{% for post in site.posts %}
+		<li class="hidden-menu-item"><a href="{{ post.url }}">{{ post.title }}</a> <span class="arrow"></span></li>
+		<li class="border hidden-menu-item"></li>
+    {% endfor %}
+</ul>

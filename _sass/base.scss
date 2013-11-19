@@ -1,0 +1,224 @@
+body{
+	font-family:$primary-stack;
+	font-weight:normal;
+	font-size: 100%;
+    line-height: 140%;
+    font-weight: 300;
+	color:$deep-gray;
+	background:$white;
+	
+}
+/* ==========================================================================
+   TYPOGRAPHY - My preference is for percentages when working with fonts. Everyone has their own thing.
+   ========================================================================== */
+.call-out{
+	font-size:125%;
+	font-weight:200;
+	line-height:160%;
+	color:$deep-red;
+}
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+.warning-text{
+	color:$warning-gold;
+}
+.error-text{
+	color:$error-pink;
+}
+.success-text{
+	color:$success-green;
+}
+blockquote {
+	padding: 0 0 0 15px;
+	margin: 0 0 20px;
+}
+blockquote p {
+	margin-bottom: 0;
+	font-size: 120%;
+	font-weight: 300;
+	line-height: 160%;
+}
+blockquote small {
+	display: block;
+	line-height: 100%;
+	color: #999;
+}
+blockquote small:before {
+	content: '\2014 \00A0';
+}
+/* BEGIN HEADING STYLES */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: bold;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+h1,h2,h3{
+	line-height:110%;
+}
+h4,h5,h6{
+	line-height: 160%;
+}
+h1{
+	font-size:255%;
+}
+h2{
+	font-size:215%;
+}
+h3{
+	font-size:170%;
+}
+h4{
+	font-size:120%;
+}
+h5{
+	font-size:100%;
+}
+h6{
+	font-size:90%;
+}
+/* END HEADING STYLES */
+
+ul,
+ol {
+  padding: 0;
+  margin: 0 0 10px 25px;
+}
+em{
+	color:$deep-red;
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin-bottom: 0;
+}
+ul.spaced-list, ol.spaced-list {
+	margin-bottom:15px;
+}
+.spaced-list li{
+	margin:8px 0px;
+}
+ul.unstyled, ol.unstyled {
+	margin-left: 0;
+	list-style: none;
+}
+ul.inline, ol.inline {
+	margin-left: 0;
+	list-style: none;
+}
+/* ==========================================================================
+   LINKS - My broad preference is to have no text decoration on links and apply a dotted border on hover.
+   ========================================================================== */
+
+a {
+    color:$deep-red;
+	text-decoration:none;
+}
+
+footer a:hover, footer a:focus {
+    color: $gray;
+	border-bottom:1px dotted $gray;
+}
+
+/* ==========================================================================
+   FORMS - 
+   ========================================================================== */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 12px;
+	margin-bottom: 0;
+	font-size: 120%;
+	line-height: 140%;
+	color: $gold;
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+	vertical-align: middle;
+	cursor: pointer;
+	background-color: $deep-red;
+	background-image: -moz-linear-gradient(top, $bright-red, $deep-red);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from($bright-red), to($deep-red));
+	background-image: -webkit-linear-gradient(top, $bright-red, $deep-red);
+	background-image: -o-linear-gradient(top, $bright-red, $deep-red);
+	background-image: linear-gradient(to bottom, $bright-red, $deep-red);
+	background-repeat: repeat-x;
+	border:2px solid $black;
+ }
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled] {
+	color: $white;
+	background-color: $deep-red;
+}
+
+
+.btn:hover,
+.btn:focus {
+  color: $white;
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+     -moz-transition: background-position 0.1s linear;
+       -o-transition: background-position 0.1s linear;
+          transition: background-position 0.1s linear;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+/* ==========================================================================
+   CLEARFIX
+   ========================================================================== */
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}

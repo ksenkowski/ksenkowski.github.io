@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'customfutharkmedium';
+  src: url("customfuthark-webfont.eot");
+  src: url("customfuthark-webfont.eot?#iefix") format("embedded-opentype"), url("customfuthark-webfont.woff") format("woff"), url("customfuthark-webfont.ttf") format("truetype"), url("customfuthark-webfont.svg#customfutharkmedium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 12, ../_sass/fonts.scss */
+.futhark {
+  font-family: 'customfutharkmedium';
+}
