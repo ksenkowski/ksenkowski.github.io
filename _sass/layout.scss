@@ -114,7 +114,7 @@ article .footnote{
 	border-bottom:1px dotted $deep-red;
 	margin:0 5px;
 }
-article.first{
+article.first, aside.first{
 	margin:0 auto;
 }
 
@@ -286,6 +286,13 @@ ul#menu{
 .cta{
 	padding-top: 20px;
 	border-top: 1px solid rgba(255,255,255,0.3);
+}
+
+/* ==========================================================================
+   POSTS
+   ========================================================================== */
+.meta, .related-content{
+	text-transform:uppercase;
 }
 
 /* ==========================================================================

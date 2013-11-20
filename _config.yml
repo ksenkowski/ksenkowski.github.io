@@ -1,7 +1,7 @@
 exclude: [Gemfile, Gemfile.lock, README.md]
 
 name: Conspiracy of Shadows
-tagline: Where fiction, art &amp; games collide
+tagline: Can you trust history?
 markdown: redcarpet
 pygments: true
 root: /
