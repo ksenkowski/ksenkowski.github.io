@@ -1,7 +1,7 @@
 $(document).ready(function() {
   		MBP.scaleFix();
 		MBP.hideUrlBar();
-		
+		whatPage();
 		//MENU
 		$('#menu-button').pageslide({direction: 'left'});
 		$('#menu').on('click', '.table-of-contents a', function(e){
@@ -96,6 +96,33 @@ $(document).ready(function() {
 	  }
 		
 });
+if (!Array.prototype.indexOf) {
+  Array.prototype.indexOf = function (searchElement , fromIndex) {
+    var i,
+       	pivot = (fromIndex) ? fromIndex : 0,
+        length;
+    if (!this) {
+      throw new TypeError();
+    }
+
+    length = this.length;
+
+    if (length === 0 || pivot >= length) {
+      return -1;
+    }
+
+    if (pivot < 0) {
+      pivot = length - Math.abs(pivot);
+    }
+
+    for (i = pivot; i < length; i++) {
+      if (this[i] === searchElement) {
+        return i;
+      }
+    }
+    return -1;
+  };
+}
 
 var timeLine = function timeLineF(json, location){
 	$.getJSON(json,
@@ -154,6 +181,12 @@ var createFootnotes = function createFootnotesF(footnote, destination){
 };
 
 var whatPage = function whatPageF(){
-	var fullURL = window.location.href;
-	//SELECT ALL MENU URLS AND CHECK EACH ONE IF THEIR HREF MATCHES variable
+	var fullURL = window.location.pathname;
+	var menuItem = $('body').attr('data-menu');
+	$('#menu li[data-menu="'+menuItem+'"]').addClass('current');
+	if(fullURL.indexOf('tapestry') > -1 || fullURL.indexOf('dooms') > -1){
+		$('.cover-image').css('background-image','url(/img/backgrounds/card-back.jpg)');
+	}else if(fullURL.indexOf('credits') > -1){
+		$('.cover-image').css('background-image','url(/img/backgrounds/trapped.jpg)');
+	}
 };

@@ -283,33 +283,38 @@ body {
   text-align: right;
 }
 
-/* line 28, ../_sass/base.scss */
+/* line 27, ../_sass/base.scss */
+.hidden {
+  display: none;
+}
+
+/* line 30, ../_sass/base.scss */
 .text-center {
   text-align: center;
 }
 
-/* line 31, ../_sass/base.scss */
+/* line 33, ../_sass/base.scss */
 .warning-text {
   color: #d8c26c;
 }
 
-/* line 34, ../_sass/base.scss */
+/* line 36, ../_sass/base.scss */
 .error-text {
   color: #ff7876;
 }
 
-/* line 37, ../_sass/base.scss */
+/* line 39, ../_sass/base.scss */
 .success-text {
   color: #21c023;
 }
 
-/* line 40, ../_sass/base.scss */
+/* line 42, ../_sass/base.scss */
 blockquote {
   padding: 0 0 0 15px;
   margin: 0 0 20px;
 }
 
-/* line 44, ../_sass/base.scss */
+/* line 46, ../_sass/base.scss */
 blockquote p {
   margin-bottom: 0;
   font-size: 120%;
@@ -317,20 +322,20 @@ blockquote p {
   line-height: 160%;
 }
 
-/* line 50, ../_sass/base.scss */
+/* line 52, ../_sass/base.scss */
 blockquote small {
   display: block;
   line-height: 100%;
   color: #999;
 }
 
-/* line 55, ../_sass/base.scss */
+/* line 57, ../_sass/base.scss */
 blockquote small:before {
   content: '\2014 \00A0';
 }
 
 /* BEGIN HEADING STYLES */
-/* line 64, ../_sass/base.scss */
+/* line 66, ../_sass/base.scss */
 h1,
 h2,
 h3,
@@ -344,55 +349,55 @@ h6 {
   text-rendering: optimizelegibility;
 }
 
-/* line 71, ../_sass/base.scss */
+/* line 73, ../_sass/base.scss */
 h1, h2, h3 {
   line-height: 110%;
 }
 
-/* line 74, ../_sass/base.scss */
+/* line 76, ../_sass/base.scss */
 h4, h5, h6 {
   line-height: 160%;
 }
 
-/* line 77, ../_sass/base.scss */
+/* line 79, ../_sass/base.scss */
 h1 {
   font-size: 255%;
 }
 
-/* line 80, ../_sass/base.scss */
+/* line 82, ../_sass/base.scss */
 h2 {
   font-size: 215%;
 }
 
-/* line 83, ../_sass/base.scss */
+/* line 85, ../_sass/base.scss */
 h3 {
   font-size: 170%;
 }
 
-/* line 86, ../_sass/base.scss */
+/* line 88, ../_sass/base.scss */
 h4 {
   font-size: 120%;
 }
 
-/* line 89, ../_sass/base.scss */
+/* line 91, ../_sass/base.scss */
 h5 {
   font-size: 100%;
 }
 
-/* line 92, ../_sass/base.scss */
+/* line 94, ../_sass/base.scss */
 h6 {
   font-size: 90%;
 }
 
 /* END HEADING STYLES */
-/* line 98, ../_sass/base.scss */
+/* line 100, ../_sass/base.scss */
 ul,
 ol {
   padding: 0;
   margin: 0 0 10px 25px;
 }
 
-/* line 105, ../_sass/base.scss */
+/* line 107, ../_sass/base.scss */
 ul ul,
 ul ol,
 ol ol,
@@ -400,23 +405,23 @@ ol ul {
   margin-bottom: 0;
 }
 
-/* line 108, ../_sass/base.scss */
+/* line 110, ../_sass/base.scss */
 ul.spaced-list, ol.spaced-list {
   margin-bottom: 15px;
 }
 
-/* line 111, ../_sass/base.scss */
+/* line 113, ../_sass/base.scss */
 .spaced-list li {
   margin: 8px 0px;
 }
 
-/* line 114, ../_sass/base.scss */
+/* line 116, ../_sass/base.scss */
 ul.unstyled, ol.unstyled {
   margin-left: 0;
   list-style: none;
 }
 
-/* line 118, ../_sass/base.scss */
+/* line 120, ../_sass/base.scss */
 ul.inline, ol.inline {
   margin-left: 0;
   list-style: none;
@@ -425,13 +430,13 @@ ul.inline, ol.inline {
 /* ==========================================================================
    LINKS - My broad preference is to have no text decoration on links and apply a dotted border on hover.
    ========================================================================== */
-/* line 126, ../_sass/base.scss */
+/* line 128, ../_sass/base.scss */
 a {
   color: #880c0a;
   text-decoration: none;
 }
 
-/* line 131, ../_sass/base.scss */
+/* line 133, ../_sass/base.scss */
 footer a:hover, footer a:focus {
   color: #aaaaaa;
   border-bottom: 1px dotted #aaaaaa;
@@ -440,14 +445,14 @@ footer a:hover, footer a:focus {
 /* ==========================================================================
    FORMS - 
    ========================================================================== */
-/* line 140, ../_sass/base.scss */
+/* line 142, ../_sass/base.scss */
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-/* line 146, ../_sass/base.scss */
+/* line 148, ../_sass/base.scss */
 .btn {
   display: inline-block;
   padding: 10px 12px;
@@ -470,7 +475,7 @@ fieldset {
   text-transform: uppercase;
 }
 
-/* line 173, ../_sass/base.scss */
+/* line 175, ../_sass/base.scss */
 .btn:hover,
 .btn:focus,
 .btn:active,
@@ -481,7 +486,7 @@ fieldset {
   background-color: #880c0a;
 }
 
-/* line 180, ../_sass/base.scss */
+/* line 182, ../_sass/base.scss */
 .btn:hover,
 .btn:focus {
   color: white;
@@ -493,7 +498,7 @@ fieldset {
   transition: background-position 0.1s linear;
 }
 
-/* line 190, ../_sass/base.scss */
+/* line 192, ../_sass/base.scss */
 .btn-block {
   display: block;
   width: 100%;
@@ -507,7 +512,7 @@ fieldset {
 /*
  * Allow only vertical resizing of textareas.
  */
-/* line 204, ../_sass/base.scss */
+/* line 206, ../_sass/base.scss */
 textarea {
   resize: vertical;
 }
@@ -515,19 +520,19 @@ textarea {
 /* ==========================================================================
    CLEARFIX
    ========================================================================== */
-/* line 212, ../_sass/base.scss */
+/* line 214, ../_sass/base.scss */
 .clearfix:before,
 .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 217, ../_sass/base.scss */
+/* line 219, ../_sass/base.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 220, ../_sass/base.scss */
+/* line 222, ../_sass/base.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -831,7 +836,7 @@ ul#menu li.hidden-menu-item {
   font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   font-weight: 400;
   font-size: 180%;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
 }
 
 /* line 270, ../_sass/layout.scss */
