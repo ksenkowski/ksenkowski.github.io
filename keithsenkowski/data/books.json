@@ -1,6 +1,0 @@
-{
-"books": [
-	{"title":"The Wheel of Time Series" , "image": "rouladen.jpg", "background": "#b6985a", "author": "Robert Jordan &amp; Brandon Sanderson", "summary": "This is a summary"},
-		{"title":"A Game of Thrones" , "image": "rouladen.jpg", "background": "#b6985a", "author": "George R. R. Martin", "summary": "Another summary"},
-			{"title":"House of Leaves" , "image": "house-of-leaves.jpg", "background": "#b6985a", "author": "Mark Z. Danielewski", "summary": "A summary of House of Leaves."}]
-}

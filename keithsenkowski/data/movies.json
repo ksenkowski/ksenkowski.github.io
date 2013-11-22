@@ -1,7 +1,0 @@
-{
-"movies": [
-	{"title":"Lawrence of Arabia" , "image": "lawrence-of-arabia.jpg", "background": "#b6985a", "summary": "Summary text."},
-	{"title":"Lawrence of Arabia" , "image": "lawrence-of-arabia.jpg", "background": "#b6985a", "summary": "Summary text."},
-	{"title":"Lawrence of Arabia" , "image": "lawrence-of-arabia.jpg", "background": "#b6985a", "summary": "Summary text."}
-	]
-}
