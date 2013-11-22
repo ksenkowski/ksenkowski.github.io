@@ -12,5 +12,12 @@
 .futhark{
 	font-family: 'customfutharkmedium';
 }
+
+em{
+	color:$deep-red;
+	font-weight:300;
+}
+
+
 $primary-stack	:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 $secondary-stack	:Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;

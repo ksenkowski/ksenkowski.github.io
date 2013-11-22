@@ -42,6 +42,9 @@
 		background:$white;
 		padding:3%;
 		margin: 0 auto;
+		img{
+			margin:0 0 1em 0;
+		}
 		h2{
 			font-family:$secondary-stack;
 			text-transform:uppercase;
@@ -92,10 +95,10 @@
 	}
 	
 }
-article.postings{
+.postings{
 	display: block;
 	position: relative;
-	padding: 10px 20px;
+	padding: 3%;
 	word-wrap: break-word;
 	-webkit-transition: opacity .5s linear;
 	-moz-transition: opacity .5s linear;
@@ -106,6 +109,13 @@ article.postings{
 	margin:0 auto 1% auto;
 	min-width:320px;
 	float:none;
+	p{
+		margin:1em 0px 1em 0px;
+	}
+	h3{
+		font-family:$secondary-stack;
+		text-transform:uppercase;
+	}
 }
 article .footnote{
 	font-weight:bold;

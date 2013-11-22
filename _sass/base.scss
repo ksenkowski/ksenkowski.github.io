@@ -99,9 +99,6 @@ ol {
   padding: 0;
   margin: 0 0 10px 25px;
 }
-em{
-	color:$deep-red;
-}
 ul ul,
 ul ol,
 ol ol,
@@ -150,8 +147,8 @@ fieldset {
 	display: inline-block;
 	padding: 10px 12px;
 	margin-bottom: 0;
-	font-size: 120%;
-	line-height: 140%;
+	font-size: 100%;
+	line-height: 120%;
 	color: $gold;
 	text-align: center;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
@@ -165,6 +162,7 @@ fieldset {
 	background-image: linear-gradient(to bottom, $bright-red, $deep-red);
 	background-repeat: repeat-x;
 	border:2px solid $black;
+	text-transform:uppercase;
  }
 
 .btn:hover,
