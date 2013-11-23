@@ -16,6 +16,9 @@
         <meta name="MobileOptimized" content="320">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="/css/screen.css">
+		{% if page.url == "/404.html" %}
+		        <meta http-equiv="refresh" content="5; url=/">
+		{% endif %}
         <script src="/js/vendor/modernizr-2.6.1.min.js"></script>
     </head>
     <body data-menu="{{ page.menu }}">

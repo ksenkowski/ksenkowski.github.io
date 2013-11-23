@@ -814,12 +814,9 @@ ul#menu li.hidden-menu-item {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  -webkit-box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.3);
-  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.3);
 }
 
-/* line 254, ../_sass/layout.scss */
+/* line 251, ../_sass/layout.scss */
 #menu-button {
   position: fixed;
   top: 10px;
@@ -828,7 +825,7 @@ ul#menu li.hidden-menu-item {
   padding: 10px 16px;
 }
 
-/* line 261, ../_sass/layout.scss */
+/* line 258, ../_sass/layout.scss */
 #logo {
   margin: 0px 0px 5px 0px;
   color: #ffedf2;
@@ -839,7 +836,7 @@ ul#menu li.hidden-menu-item {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
 }
 
-/* line 270, ../_sass/layout.scss */
+/* line 267, ../_sass/layout.scss */
 #header-group {
   display: table-cell;
   vertical-align: bottom;
@@ -849,12 +846,12 @@ ul#menu li.hidden-menu-item {
   padding: 65px 5% 12px;
   width: 100%;
 }
-/* line 279, ../_sass/layout.scss */
+/* line 276, ../_sass/layout.scss */
 #header-group .header-group-inner {
   position: relative;
   z-index: 100;
 }
-/* line 283, ../_sass/layout.scss */
+/* line 280, ../_sass/layout.scss */
 #header-group .header-group-inner p {
   border: 0;
   outline: 0;
@@ -866,7 +863,7 @@ ul#menu li.hidden-menu-item {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
 }
 
-/* line 296, ../_sass/layout.scss */
+/* line 293, ../_sass/layout.scss */
 .cta {
   padding-top: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
@@ -875,7 +872,7 @@ ul#menu li.hidden-menu-item {
 /* ==========================================================================
    POSTS
    ========================================================================== */
-/* line 304, ../_sass/layout.scss */
+/* line 301, ../_sass/layout.scss */
 .meta, .related-content {
   text-transform: uppercase;
 }
@@ -883,7 +880,7 @@ ul#menu li.hidden-menu-item {
 /* ==========================================================================
    FOOTER
    ========================================================================== */
-/* line 312, ../_sass/layout.scss */
+/* line 309, ../_sass/layout.scss */
 footer {
   margin: 2% auto 1%;
   padding: 10px 0 25px;
@@ -896,13 +893,13 @@ footer {
   font-size: 95%;
   float: left;
 }
-/* line 323, ../_sass/layout.scss */
+/* line 320, ../_sass/layout.scss */
 footer h5 {
   font-size: 83%;
   text-align: center;
   margin: 10px auto;
 }
-/* line 328, ../_sass/layout.scss */
+/* line 325, ../_sass/layout.scss */
 footer h6 {
   font-size: 70%;
   text-align: center;
@@ -912,7 +909,7 @@ footer h6 {
 /* ==========================================================================
    TABLES
    ========================================================================== */
-/* line 338, ../_sass/layout.scss */
+/* line 335, ../_sass/layout.scss */
 table {
   background: white;
   margin-bottom: 1.25em;
@@ -920,12 +917,12 @@ table {
   width: 320px;
   word-wrap: break-word;
 }
-/* line 345, ../_sass/layout.scss */
+/* line 342, ../_sass/layout.scss */
 table thead, table tfoot {
   background: #ffedf2;
   font-weight: bold;
 }
-/* line 349, ../_sass/layout.scss */
+/* line 346, ../_sass/layout.scss */
 table thead tr td, table thead tr th, table tfoot tr td, table tfoot tr th {
   padding: 0.5em 0.625em 0.625em;
   font-size: 0.875em;
@@ -934,28 +931,28 @@ table thead tr td, table thead tr th, table tfoot tr td, table tfoot tr th {
   display: table-cell;
   line-height: 1.125em;
 }
-/* line 360, ../_sass/layout.scss */
+/* line 357, ../_sass/layout.scss */
 table tr th, table tr td {
   padding: 0.5625em 0.625em;
   font-size: 0.875em;
   color: #333333;
   vertical-align: top;
 }
-/* line 366, ../_sass/layout.scss */
+/* line 363, ../_sass/layout.scss */
 table tr.even, table tr.alt, table tr:nth-of-type(even) {
   background: #ffedf2;
 }
-/* line 369, ../_sass/layout.scss */
+/* line 366, ../_sass/layout.scss */
 table th {
   font-weight: bold;
 }
-/* line 372, ../_sass/layout.scss */
+/* line 369, ../_sass/layout.scss */
 table td, table th {
   padding: 9px 10px;
   text-align: left;
 }
 
-/* line 377, ../_sass/layout.scss */
+/* line 374, ../_sass/layout.scss */
 .th {
   line-height: 0;
   display: inline-block;
@@ -967,29 +964,29 @@ table td, table th {
   transition: all 200ms ease-out;
 }
 
-/* line 388, ../_sass/layout.scss */
+/* line 385, ../_sass/layout.scss */
 .th:hover, .th:focus {
   -webkit-box-shadow: 0 0 6px 1px rgba(13, 171, 239, 0.5);
   box-shadow: 0 0 6px 1px rgba(13, 171, 239, 0.5);
 }
 
-/* line 393, ../_sass/layout.scss */
+/* line 390, ../_sass/layout.scss */
 .th.radius {
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
 
-/* line 398, ../_sass/layout.scss */
+/* line 395, ../_sass/layout.scss */
 a.th {
   display: inline-block;
 }
 
-/* line 401, ../_sass/layout.scss */
+/* line 398, ../_sass/layout.scss */
 table.responsive {
   margin-bottom: 0;
 }
 
-/* line 404, ../_sass/layout.scss */
+/* line 401, ../_sass/layout.scss */
 .pinned {
   position: absolute;
   left: 0;
@@ -1001,47 +998,47 @@ table.responsive {
   border-right: 1px solid #aaaaaa;
   border-left: 1px solid #aaaaaa;
 }
-/* line 415, ../_sass/layout.scss */
+/* line 412, ../_sass/layout.scss */
 .pinned table {
   border-right: none;
   border-left: none;
   width: 100%;
 }
-/* line 419, ../_sass/layout.scss */
+/* line 416, ../_sass/layout.scss */
 .pinned table th, .pinned table td {
   white-space: nowrap;
 }
-/* line 423, ../_sass/layout.scss */
+/* line 420, ../_sass/layout.scss */
 .pinned td:last-child {
   border-bottom: 0;
 }
 
-/* line 427, ../_sass/layout.scss */
+/* line 424, ../_sass/layout.scss */
 div.table-wrapper {
   position: relative;
   margin-bottom: 20px;
   overflow: hidden;
   border-right: 1px solid #aaaaaa;
 }
-/* line 433, ../_sass/layout.scss */
+/* line 430, ../_sass/layout.scss */
 div.table-wrapper div.scrollable {
   margin-left: 35%;
   overflow: scroll;
   overflow-y: hidden;
 }
 
-/* line 440, ../_sass/layout.scss */
+/* line 437, ../_sass/layout.scss */
 table.responsive td, table.responsive th {
   position: relative;
   white-space: nowrap;
   overflow: hidden;
 }
-/* line 445, ../_sass/layout.scss */
+/* line 442, ../_sass/layout.scss */
 table.responsive th:first-child, table.responsive td:first-child {
   display: none;
 }
 
-/* line 449, ../_sass/layout.scss */
+/* line 446, ../_sass/layout.scss */
 table.responsive.pinned td {
   display: none;
 }
