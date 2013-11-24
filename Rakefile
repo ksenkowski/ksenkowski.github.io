@@ -7,6 +7,13 @@ task :delete do
   puts status ? "Success" : "Failed"
 end
 
+desc "Move Tags Directory"
+task :move do
+  puts "\## Moving Directories"
+  status = system("mv _site/related-content .")
+  puts status ? "Success" : "Failed"
+end
+
 desc "Preview Site"
 task :preview do
   puts "\n## Opening site at http://0.0.0.0:4000"
@@ -20,6 +27,7 @@ task :build do
   status = system("jekyll build")
   puts status ? "Success" : "Failed"
   Rake::Task["minify"].invoke
+  Rake::Task["move"].invoke
   puts "\n## Staging modified files"
   status = system("git add .")
   puts status ? "Success" : "Failed"
