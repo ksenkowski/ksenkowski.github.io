@@ -1,9 +1,9 @@
 require "reduce"
 
-desc "Delete _site/"
+desc "Delete Old Tags Directory"
 task :delete do
-  puts "\## Deleting _site/"
-  status = system("rm -r _site")
+  puts "\## Deleting related-content/"
+  status = system("rm -r related-content")
   puts status ? "Success" : "Failed"
 end
 
@@ -26,6 +26,7 @@ task :build do
   puts "\n## Opening _site/ in browser"
   status = system("jekyll build")
   puts status ? "Success" : "Failed"
+  Rake::Task["delete"].invoke
   Rake::Task["minify"].invoke
   Rake::Task["move"].invoke
   puts "\n## Staging modified files"
