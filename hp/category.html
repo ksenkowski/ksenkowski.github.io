@@ -11,7 +11,7 @@
         <link href="css/category/category.css" rel="stylesheet" type="text/css" />
         
         <!--[if lt IE 9]>
-            <link href="/css/ie9.css" media="screen, projection" rel="stylesheet" type="text/css" />
+            <link href="css/ie9.css" media="screen, projection" rel="stylesheet" type="text/css" />
         <![endif]-->
     </head>
 
@@ -184,88 +184,6 @@
     </div>
 
 </div>
-<script type="text/template" id="template-headline">
-    <% _.each( categories, function( category, i ) { %>
-        <li><a href="#" data-slug="<%= category.slug %>"><%= category.name %></a></li>
-    <% }); %>
-</script>
-<script type="text/template" id="template-tab-products">
-    <% _.each( sub_categories, function( sub_category, i ) { %>
-        <li <%= ( i == 0 ) ? 'class="active"' : '' %>>
-            <a href="#<%= sub_category.subcategory_slug %>"><%= sub_category.subcategory_name %></a>
-        </li>
-    <% }); %>
-</script>
-<script type="text/template" id="template-tab-pane">
-    <% _.each( sub_categories, function( sub_category, i ) { %>
-        <div class="tab-pane <%= ( i == 0 ) ? 'active' : '' %>" id="<%= sub_category.subcategory_slug %>"></div>
-    <% }); %>
-</script>
-
-<script type="text/template" id="template-product-item">
-    <% _.each( products, function( product, i ) { %>
-        <div class="product-item <%= ( i > 3 ) ? 'hide' : '' %>">
-            <div class="product-container">
-                
-                <% if( product.is_top ) { %>
-                    <div class="global-ribbon-top-voted">Top voted</div>
-                <% } %>
-            
-                <div class="compare">
-                    <label for="compare-<%= product.id %>">Compare</label>
-                    <span class="global-checkbox" id="checkbox-<%= product.id %>"></span>
-                    <input class="compare" type="checkbox" id="compare-<%= product.id %>" name="compare[]" value="<%= product.id %>">
-                </div>
-        
-                <div id="carousel-<%= product.id %>" class="carousel slide">
-                    <div class="carousel-inner">
-                        <% _.each( product.gallery(), function( image, i ) { %> 
-                            <div class="item <%= ( i == 0 ) ? 'active' : '' %>"><img src="<%= image %>" alt="" /></div>
-                        <% }); %>
-                    </div>
-            
-                    <% if( product.gallery().length > 1 ) { %>
-                        <a class="global-arrow-left controls" href="#carousel-<%= product.id %>" data-slide="prev"></a>
-                        <a class="global-arrow-right controls" href="#carousel-<%= product.id %>" data-slide="next"></a>
-                    <% } %>
-                </div>
-        
-                <h3><%= product.name %></h3>
-				
-                <% var log =  _.each( product.features, function( feature ) { %>
-                    <li class="child"><%= feature.textContent %></li>
-                <% }); %>
-        
-           			
-                <div class="clearfix"></div>
-            </div>
-            <div class="product-price">
-                <div class="price">
-                    <% if( product.usualprice != "" ) { %>
-                        <span class="legend">Starting at <strong class="line-through">$<%= product.usualprice %></strong></span>
-                    <% } %>
-                    <span class="currency">$</span>
-                    <span class="amount"><%= product.price() %>.</span>
-                    <span class="decimal"><%= product.decimals() %></span>
-                </div>
-
-                <div class="links-product">
-                    <a href="<%= product.fullspec %>">View Full Specs</a>
-                    <a href="<%= product.wishlist %>">Add to Wishlist</a>
-                </div>
-            </div>
-            <div class="product-add-cart">
-                <a href="<%= product.buynow %>">Add to Cart</a>
-            </div>
-        </div>
-    <% }); %>
-
-    <div class="view-more">
-        <% if( products.length > 4 ) { %>
-            <a href="#" class="link-more">View all <span class="global-view-all"></span></a>
-        <% } %>
-    </div>
-</script>
 
 
             </div>
