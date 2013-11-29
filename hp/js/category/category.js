@@ -262,14 +262,13 @@ var appendToPage = function appendToPage(categories, sub_categories, models){
     $("#tab-products").html( _.template($("#template-tab-products").html(), sub_categories) );
     $("#tab-internal-content").html( _.template($("#template-tab-pane").html(), sub_categories) );
      
-	setTimeout(addProducts(models), 500);  
-    
-};
-
-var addProducts = function addProducts(models){
 	$('#tab-internal-content > div').each(function( i ) {
 		products = models[$(this).attr('id')];
 		$(this).html( _.template($("#template-product-item").html(), products) );  								                  
     });
+    
+};
+
+var addProducts = function addProducts(models){
 	
 };
