@@ -190,7 +190,7 @@ var processXML = function processXMLF(data, config, urlhash){
                 });
             });
         });
-        setTimeout(function(){appendToPage(categories, sub_categories, models)}, 150);
+        setTimeout(function(){appendToPage(categories, sub_categories, models, urlhash)}, 150);
 
         
         
@@ -198,15 +198,15 @@ var processXML = function processXMLF(data, config, urlhash){
         
 };
 
-var appendToPage = function appendToPage(categories, sub_categories, models){
+var appendToPage = function appendToPage(categories, sub_categories, models, urlhash){
 	$("div.headlineContent ul").html( _.template($("#template-headline").html(), categories) );
 	
-	setTimeout(function(){appendTabs(sub_categories, models)}, 150);
+	setTimeout(function(){appendTabs(sub_categories, models, urlhash)}, 150);
      
     
 };
 
-var appendTabs = function addProducts(sub_categories, models){
+var appendTabs = function addProducts(sub_categories, models, urlhash){
 	$("#tab-products").html( _.template($("#template-tab-products").html(), sub_categories) );
     $("#tab-internal-content").html( _.template($("#template-tab-pane").html(), sub_categories) );
     setTimeout(function(){appendModels(models)}, 150);
