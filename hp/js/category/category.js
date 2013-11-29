@@ -272,8 +272,13 @@ var appendTabs = function addProducts(sub_categories, models){
 };
 var appendModels = function appendModels(models){
 	$('#tab-internal-content > div').each(function( i ) {
-		products = models[$(this).attr('id')];
-		$(this).html( _.template($("#template-product-item").html(), products) );  								                  
+		var products = models[$(this).attr('id')];
+		var item = this;
+		setTimeout(function(){appendProducts(item, products)}, 500);
     });
+};
+
+var appendProducts = function appendProducts(item, products){
+	$(item).html( _.template($("#template-product-item").html(), products) );  								                  
 	
 };
