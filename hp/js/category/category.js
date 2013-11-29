@@ -37,7 +37,7 @@
                 type: "GET",
                 dataType: 'xml',
                 success : function( data ) {
-                    processXML(data, config, urlhash);
+                    setTimeout(processXML(data, config, urlhash), 500);
                    
                     
                 },
@@ -249,19 +249,7 @@ var processXML = function processXMLF(data, config, urlhash){
         });
         
         // Theming
-
-        $("div.headlineContent ul").html( _.template($("#template-headline").html(), categories) );
-        $("#tab-products").html( _.template($("#template-tab-products").html(), sub_categories) );
-        $("#tab-internal-content").html( _.template($("#template-tab-pane").html(), sub_categories) );
-		function addProducts(){
-			$('#tab-internal-content > div').each(function( i ) {
-				products = models[$(this).attr('id')];
-				$(this).html( _.template($("#template-product-item").html(), products) );  								                  
-            });
-			
-		};
-         
-		setTimeout(addProducts, 500);  
+		setTimeout(appendToPage(categories, sub_categories, models), 500);
 		//setTimeout(app._fixProductContainerHeight,750)
         
         
@@ -269,3 +257,19 @@ var processXML = function processXMLF(data, config, urlhash){
         //app._setItemActive( urlhash );
 };
 
+var appendToPage = function appendToPage(categories, sub_categories, models){
+	$("div.headlineContent ul").html( _.template($("#template-headline").html(), categories) );
+    $("#tab-products").html( _.template($("#template-tab-products").html(), sub_categories) );
+    $("#tab-internal-content").html( _.template($("#template-tab-pane").html(), sub_categories) );
+     
+	setTimeout(addProducts(models), 500);  
+    
+};
+
+var addProducts = function addProducts(models){
+	$('#tab-internal-content > div').each(function( i ) {
+		products = models[$(this).attr('id')];
+		$(this).html( _.template($("#template-product-item").html(), products) );  								                  
+    });
+	
+};
