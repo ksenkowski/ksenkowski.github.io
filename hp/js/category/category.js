@@ -69,7 +69,7 @@
         
         $(document).on('click', '#tab-products li', function (e) {
             e.preventDefault();
-            $(this).find("a").tab('show');
+            $(this).child("a").tab('show');
             setTimeout(fixProductContainerHeight, 250);
         });
         
