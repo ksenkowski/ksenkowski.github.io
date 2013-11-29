@@ -218,13 +218,16 @@ var getProducts = function getProductsF(urlhash) {
                     });
                 });
             });
-			var length = $('.product-item').length;
-			var viewMore = '<div class="view-more"><a href="#" class="link-more">View all <span class="global-view-all"></span></a></div>';
-			if (length > 4){
-				$('.tab-pane').append(viewMore);
-			}
- 		setTimeout(fixProductContainerHeight,250);	
         },
+		complete: function(){
+				var length = $('.product-item').length;
+				var viewMore = '<div class="view-more"><a href="#" class="link-more">View all <span class="global-view-all"></span></a></div>';
+				if (length > 4){
+					$('.tab-pane').append(viewMore);
+				}
+	 		setTimeout(fixProductContainerHeight,250);	
+			
+		},
         error: function(errorThrown) {
             //console.log(errorThrown);
         }
