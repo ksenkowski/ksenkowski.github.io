@@ -37,8 +37,8 @@
                 type: "GET",
                 dataType: 'xml',
                 success : function( data ) {
-                    setTimeout(processXML(data, config, urlhash), 500);
-                   
+                    setTimeout(function(){processXML(data, config, urlhash)}, 500);
+			       
                     
                 },
                 error : function( error ) {
@@ -247,9 +247,8 @@ var processXML = function processXMLF(data, config, urlhash){
                 });
             });
         });
-        
+        setTimeout(function(){appendToPage(categories, sub_categories, models)}, 500);
         // Theming
-		setTimeout(appendToPage(categories, sub_categories, models), 500);
 		//setTimeout(app._fixProductContainerHeight,750)
         
         
