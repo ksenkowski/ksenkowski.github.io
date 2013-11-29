@@ -256,6 +256,9 @@ var getProducts = function getProductsF(urlhash) {
 				if (length > 4){
 					$('.tab-pane').append(viewMore);
 				}
+				if (urlhash.indexOf('/') == 0) {
+					$('#tab-products li a:first').trigger('click');
+				}
 	 		setTimeout(fixProductContainerHeight,250);	
 			
 		},
