@@ -47,6 +47,35 @@ $(document).ready(function() {
 });
 
 
+if (!Array.prototype.indexOf) {
+    Array.prototype.indexOf = function(searchElement, fromIndex) {
+        var i,
+                pivot = (fromIndex) ? fromIndex : 0,
+                length;
+
+        if (!this) {
+            throw new TypeError();
+        }
+
+        length = this.length;
+
+        if (length === 0 || pivot >= length) {
+            return -1;
+        }
+
+        if (pivot < 0) {
+            pivot = length - Math.abs(pivot);
+        }
+
+        for (i = pivot; i < length; i++) {
+            if (this[i] === searchElement) {
+                return i;
+            }
+        }
+        return -1;
+    };
+}
+
 var getProducts = function getProductsF(urlhash) {
     //These two change for each country
     var imgPath = 'http://h20386.www2.hp.com/AustraliaStore/images/AUOLS_R2/images/product/';
@@ -118,7 +147,9 @@ var getProducts = function getProductsF(urlhash) {
                             }
                             //END SORTED OUT CONDITIONAL FOR SUBTABS
 
+                            if (urlhash.indexOf(scSlug) > -1) {
                                 $('.tab-content').append('<div class="clearfix ' + scSlug + ' tab-pane active"></div>');
+                            } 
 							
                             $(this).find('Model').each(function(i) {
 								var models = '';
@@ -229,7 +260,7 @@ var getProducts = function getProductsF(urlhash) {
 			
 		},
         error: function(errorThrown) {
-            //console.log(errorThrown);
+            console.log(errorThrown);
         }
 
     });
@@ -237,7 +268,6 @@ var getProducts = function getProductsF(urlhash) {
 };
 
 var fixProductContainerHeight =  function fixProductContainerHeightF() {
-	
     $(".tab-pane").each(function() {
         $(this).find('.product-item:even').each( function() {
             var even_element = $(this).find('.product-container');
@@ -289,32 +319,3 @@ var amountItemsCompare = function amountItemsCompareF() {
         button.removeClass('btn-primary').addClass('btn-disabled');
     }
 };
-if (!Array.prototype.indexOf) {
-    Array.prototype.indexOf = function(searchElement, fromIndex) {
-        var i,
-                pivot = (fromIndex) ? fromIndex : 0,
-                length;
-
-        if (!this) {
-            throw new TypeError();
-        }
-
-        length = this.length;
-
-        if (length === 0 || pivot >= length) {
-            return -1;
-        }
-
-        if (pivot < 0) {
-            pivot = length - Math.abs(pivot);
-        }
-
-        for (i = pivot; i < length; i++) {
-            if (this[i] === searchElement) {
-                return i;
-            }
-        }
-        return -1;
-    };
-}
-
