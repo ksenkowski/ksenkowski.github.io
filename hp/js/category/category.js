@@ -37,7 +37,7 @@
                 type: "GET",
                 dataType: 'xml',
                 success : function( data ) {
-                    processXML(data);
+                    processXML(data, config, urlhash);
                    
                     
                 },
@@ -187,9 +187,8 @@ var processXML = function processXMLF(data){
                     };
                 }
                 
-                var scCount = 0;
+              
                 $(this).find('SubCategory').each(function(j) {
-                    scCount++;
                     var scName = $(this).attr('name');
                     var scSlug = $(this).attr('slug');
                     
