@@ -69,7 +69,7 @@
         
         $(document).on('click', '#tab-products li', function (e) {
             e.preventDefault();
-            $(this).child("a").tab('show');
+            $(this).children("a").tab('show');
             setTimeout(fixProductContainerHeight, 250);
         });
         
@@ -190,9 +190,8 @@ var processXML = function processXMLF(data, config, urlhash){
                 });
             });
         });
-        setTimeout(function(){appendToPage(categories, sub_categories, models)}, 250);
+        setTimeout(function(){appendToPage(categories, sub_categories, models)}, 150);
 
-		setTimeout(function(){setItemActive( urlhash )}, 250);
         
         
         
@@ -202,7 +201,7 @@ var processXML = function processXMLF(data, config, urlhash){
 var appendToPage = function appendToPage(categories, sub_categories, models){
 	$("div.headlineContent ul").html( _.template($("#template-headline").html(), categories) );
 	
-	setTimeout(function(){appendTabs(sub_categories, models)}, 250);
+	setTimeout(function(){appendTabs(sub_categories, models)}, 150);
      
     
 };
@@ -210,7 +209,8 @@ var appendToPage = function appendToPage(categories, sub_categories, models){
 var appendTabs = function addProducts(sub_categories, models){
 	$("#tab-products").html( _.template($("#template-tab-products").html(), sub_categories) );
     $("#tab-internal-content").html( _.template($("#template-tab-pane").html(), sub_categories) );
-    setTimeout(function(){appendModels(models)}, 250);
+    setTimeout(function(){appendModels(models)}, 150);
+	setTimeout(function(){setItemActive( urlhash )}, 150);
 	
 };
 var appendModels = function appendModels(models){
@@ -256,7 +256,7 @@ var fixTabsWidth = function fixTabsWidthF() {
         margin = (total_items - 1) * 2;
 
     return ul.find("li").width( (ul_width - margin ) / total_items );
-},
+};
 
 var setItemActive = function setItemActiveF( hash ) {
     
@@ -270,7 +270,7 @@ var setItemActive = function setItemActiveF( hash ) {
     });
 	$("#tab-products li a[href='#"+ hash.split('/')[1] +"']").tab('show');
 	
-},
+};
 var amountItemsCompare = function amountItemsCompareF() {
     var amount = parseInt( $('.compare input[type="checkbox"]:checked').length );
     var button = $(".compare-info input");
@@ -281,4 +281,4 @@ var amountItemsCompare = function amountItemsCompareF() {
     } else {
         button.removeClass('btn-primary').addClass('btn-disabled');
     }
-},
+};
