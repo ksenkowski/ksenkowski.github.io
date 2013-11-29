@@ -247,7 +247,7 @@ var processXML = function processXMLF(data, config, urlhash){
                 });
             });
         });
-        setTimeout(function(){appendToPage(categories, sub_categories, models)}, 500);
+        setTimeout(function(){appendToPage(categories, sub_categories, models)}, 250);
         // Theming
 		//setTimeout(app._fixProductContainerHeight,750)
         
@@ -259,7 +259,7 @@ var processXML = function processXMLF(data, config, urlhash){
 var appendToPage = function appendToPage(categories, sub_categories, models){
 	$("div.headlineContent ul").html( _.template($("#template-headline").html(), categories) );
 	
-	setTimeout(function(){appendTabs(sub_categories, models)}, 500);
+	setTimeout(function(){appendTabs(sub_categories, models)}, 250);
      
     
 };
@@ -267,18 +267,17 @@ var appendToPage = function appendToPage(categories, sub_categories, models){
 var appendTabs = function addProducts(sub_categories, models){
 	$("#tab-products").html( _.template($("#template-tab-products").html(), sub_categories) );
     $("#tab-internal-content").html( _.template($("#template-tab-pane").html(), sub_categories) );
-    setTimeout(function(){appendModels(models)}, 500);
+    setTimeout(function(){appendModels(models)}, 250);
 	
 };
 var appendModels = function appendModels(models){
 	$('#tab-internal-content > div').each(function( i ) {
 		products = models[$(this).attr('id')];
 		var item = this;
-		setTimeout(function(){appendProducts(item, products)}, 500);
+		setTimeout(function(){appendProducts(item, products)}, 250);
     });
 };
 
 var appendProducts = function appendProducts(item, products){
 	$(item).html( _.template($("#template-product-item").html(), products) );  								                  
-	
 };
