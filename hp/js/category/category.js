@@ -163,7 +163,7 @@
     });
 })(jQuery);
 
-var processXML = function processXMLF(data){
+var processXML = function processXMLF(data, config, urlhash){
 	 $(data).find('ProductCatalog').each(function() {
             categories = [];
             sub_categories = [];
