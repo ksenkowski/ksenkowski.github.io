@@ -258,16 +258,22 @@ var processXML = function processXMLF(data, config, urlhash){
 
 var appendToPage = function appendToPage(categories, sub_categories, models){
 	$("div.headlineContent ul").html( _.template($("#template-headline").html(), categories) );
-    $("#tab-products").html( _.template($("#template-tab-products").html(), sub_categories) );
-    $("#tab-internal-content").html( _.template($("#template-tab-pane").html(), sub_categories) );
+	
+	setTimeout(function(){appendTabs(sub_categories, models)}, 500);
      
+    
+};
+
+var appendTabs = function addProducts(sub_categories, models){
+	$("#tab-products").html( _.template($("#template-tab-products").html(), sub_categories) );
+    $("#tab-internal-content").html( _.template($("#template-tab-pane").html(), sub_categories) );
+    setTimeout(function(){appendModels(models)}, 500);
+	
+};
+var appendModels = function appendModels(models){
 	$('#tab-internal-content > div').each(function( i ) {
 		products = models[$(this).attr('id')];
 		$(this).html( _.template($("#template-product-item").html(), products) );  								                  
     });
-    
-};
-
-var addProducts = function addProducts(models){
 	
 };
