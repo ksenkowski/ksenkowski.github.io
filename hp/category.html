@@ -192,7 +192,7 @@
 <script type="text/template" id="template-tab-products">
     <% _.each( sub_categories, function( sub_category, i ) { %>
         <li <%= ( i == 0 ) ? 'class="active"' : '' %>>
-            <a href="/<%= sub_category.subcategory_slug %>"><%= sub_category.subcategory_name %></a>
+            <a href="#<%= sub_category.subcategory_slug %>"><%= sub_category.subcategory_name %></a>
         </li>
     <% }); %>
 </script>
