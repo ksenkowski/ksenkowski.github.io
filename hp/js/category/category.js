@@ -272,7 +272,7 @@ var appendTabs = function addProducts(sub_categories, models){
 };
 var appendModels = function appendModels(models){
 	$('#tab-internal-content > div').each(function( i ) {
-		var products = models[$(this).attr('id')];
+		products = models[$(this).attr('id')];
 		var item = this;
 		setTimeout(function(){appendProducts(item, products)}, 500);
     });
