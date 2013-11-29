@@ -226,7 +226,7 @@ var getProducts = function getProductsF(urlhash) {
  		setTimeout(fixProductContainerHeight,250);	
         },
         error: function(errorThrown) {
-            console.log(errorThrown);
+            //console.log(errorThrown);
         }
 
     });
@@ -234,9 +234,6 @@ var getProducts = function getProductsF(urlhash) {
 };
 
 var fixProductContainerHeight =  function fixProductContainerHeightF() {
-	while(($children = $(':not(.parent) > .child:lt(2)')).length) {
-	    $children.wrapAll($('<ul class="parent clearfix"></ul>'));
-	}
 	
     $(".tab-pane").each(function() {
         $(this).find('.product-item:even').each( function() {
