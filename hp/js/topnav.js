@@ -9,7 +9,7 @@ var getMenu = function getMenuF() {
     var scCount = 0;
     var cCount = 0;
     $.ajax({
-        url: '/xml/menu.xml',
+        url: 'xml/menu.xml',
         type: "GET",
         dataType: 'xml',
         success: function(data) {
