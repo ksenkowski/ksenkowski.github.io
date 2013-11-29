@@ -121,7 +121,7 @@ var getProducts = function getProductsF(urlhash) {
                                 $('.tab-content').append('<div class="clearfix ' + scSlug + ' tab-pane active"></div>');
                             } 
 							
-                            $(this).find('Model').each(function() {
+                            $(this).find('Model').each(function(i) {
 								var models = '';
                                 var slug = '#' + cSlug;
                                 var modelName = $(this).attr('name');
@@ -148,8 +148,12 @@ var getProducts = function getProductsF(urlhash) {
 								var buynowURL = $(buynow).text();
 								var features = $(this).find('features').children();
 								
+								if(i >3){
+									models += '<div class="product-item hide">';
+								}else{
+									models += '<div class="product-item">';
+								}
 								
-								models += '<div class="product-item">';
 								models += '<div class="product-container">';
 								if(top == 'true'){
 									models += '<div class="global-ribbon-top-voted">'+topValue+'</div>';
@@ -215,10 +219,12 @@ var getProducts = function getProductsF(urlhash) {
                     });
                 });
             });
-            if ($('.hidden').length === $('.tabs').length) {
-                $('.tabs:first').removeClass('hidden');
-            }
-
+			var length = $('.product-item').length;
+			var viewMore = '<div class="view-more"><a href="#" class="link-more">View all <span class="global-view-all"></span></a></div>';
+			if (length > 4){
+				$('.tab-pane').append(viewMore);
+			}
+ 
         },
         error: function(errorThrown) {
             console.log(errorThrown);
