@@ -45,65 +45,8 @@
                     console.log( error );
                 },
             });
-        },
+        }
         
-        _fixProductContainerHeight: function() {
-			while(($children = $(':not(.parent) > .child:lt(2)')).length) {
-			    $children.wrapAll($('<ul class="parent clearfix"></ul>'));
-			}
-			
-            $(".tab-pane").each(function() {
-                $(this).find('.product-item:even').each( function() {
-                    var even_element = $(this).find('.product-container');
-                    var odd_element = $(this).next('.product-item').find('.product-container');
-                    
-                    var even_height = even_element.height();
-                    var odd_height = odd_element.height();
-                    
-                    if( even_height > odd_height ) {
-                        odd_element.height( even_height );
-                    } else {
-                        even_element.height( odd_height );
-                    }
-                    
-                });
-            });
- 			
-        },
-        
-        _fixTabsWidth: function() {
-            var ul = $("ul#tab-products"),
-                ul_width = ul.width(),
-                total_items = ul.find("li").length,
-                margin = (total_items - 1) * 2;
-        
-            return ul.find("li").width( (ul_width - margin ) / total_items );
-        },
-        
-        _setItemActive : function( hash ) {
-            
-            $(".headlineContent ul li").each( function() {
-                $(this).removeClass('active');
-                
-                var current_hash = $(this).find("a").attr('data-slug');
-                if( current_hash == hash.substring(1) ) {
-                    $(this).addClass('active');
-                }
-            });
-			$("#tab-products li a[href='#"+ hash.split('/')[1] +"']").tab('show');
-			
-        },
-        _amountItemsCompare : function() {
-            var amount = parseInt( $('.compare input[type="checkbox"]:checked').length );
-            var button = $(".compare-info input");
-            
-            button.val("Compare ("+ amount +")");
-            if( amount >= 2 ) {
-                button.removeClass('btn-disabled').addClass('btn-primary');
-            } else {
-                button.removeClass('btn-primary').addClass('btn-disabled');
-            }
-        },
     }
     
     $(function() {
@@ -127,7 +70,7 @@
         $(document).on('click', '#tab-products li', function (e) {
             e.preventDefault();
             $(this).find("a").tab('show');
-            app._fixProductContainerHeight();
+            setTimeout(fixProductContainerHeight, 250);
         });
         
         $(document).on('click', '.compare input[type="checkbox"]', function (e) {
@@ -138,7 +81,7 @@
                 span.removeClass().addClass("global-checkbox");
             }
             
-            app._amountItemsCompare();
+            amountItemsCompare();
         });
         
         $(document).on('click', '.compare > span', function (e) {
@@ -152,12 +95,12 @@
                 $(this).removeClass().addClass("global-checkbox");
             }
             
-            app._amountItemsCompare();
+            amountItemsCompare();
         });
         $(document).on('click', '.tab-pane.active .view-more a', function (e) {
             e.preventDefault();
             $(this).parent().siblings(".product-item.hide").removeClass('hide');
-            app._fixProductContainerHeight();
+            setTimeout(fixProductContainerHeight, 250);
             $(this).hide();
         });
     });
@@ -248,12 +191,12 @@ var processXML = function processXMLF(data, config, urlhash){
             });
         });
         setTimeout(function(){appendToPage(categories, sub_categories, models)}, 250);
-        // Theming
-		//setTimeout(app._fixProductContainerHeight,750)
+
+		setTimeout(function(){setItemActive( urlhash )}, 250);
         
         
-        //app._fixTabsWidth();
-        //app._setItemActive( urlhash );
+        
+        
 };
 
 var appendToPage = function appendToPage(categories, sub_categories, models){
@@ -279,5 +222,63 @@ var appendModels = function appendModels(models){
 };
 
 var appendProducts = function appendProducts(item, products){
-	$(item).html( _.template($("#template-product-item").html(), products) );  								                  
+	$(item).html( _.template($("#template-product-item").html(), products) );  
+	setTimeout(fixProductContainerHeight,250);								                  
 };
+
+var fixProductContainerHeight =  function fixProductContainerHeightF() {
+	while(($children = $(':not(.parent) > .child:lt(2)')).length) {
+	    $children.wrapAll($('<ul class="parent clearfix"></ul>'));
+	}
+	
+    $(".tab-pane").each(function() {
+        $(this).find('.product-item:even').each( function() {
+            var even_element = $(this).find('.product-container');
+            var odd_element = $(this).next('.product-item').find('.product-container');
+            
+            var even_height = even_element.height();
+            var odd_height = odd_element.height();
+            
+            if( even_height > odd_height ) {
+                odd_element.height( even_height );
+            } else {
+                even_element.height( odd_height );
+            }
+            
+        });
+    });
+	setTimeout(fixTabsWidth,250);
+};
+var fixTabsWidth = function fixTabsWidthF() {
+    var ul = $("ul#tab-products"),
+        ul_width = ul.width(),
+        total_items = ul.find("li").length,
+        margin = (total_items - 1) * 2;
+
+    return ul.find("li").width( (ul_width - margin ) / total_items );
+},
+
+var setItemActive = function setItemActiveF( hash ) {
+    
+    $(".headlineContent ul li").each( function() {
+        $(this).removeClass('active');
+        
+        var current_hash = $(this).find("a").attr('data-slug');
+        if( current_hash == hash.substring(1) ) {
+            $(this).addClass('active');
+        }
+    });
+	$("#tab-products li a[href='#"+ hash.split('/')[1] +"']").tab('show');
+	
+},
+var amountItemsCompare = function amountItemsCompareF() {
+    var amount = parseInt( $('.compare input[type="checkbox"]:checked').length );
+    var button = $(".compare-info input");
+    
+    button.val("Compare ("+ amount +")");
+    if( amount >= 2 ) {
+        button.removeClass('btn-disabled').addClass('btn-primary');
+    } else {
+        button.removeClass('btn-primary').addClass('btn-disabled');
+    }
+},
