@@ -262,10 +262,10 @@ var processXML = function processXMLF(data, config, urlhash){
 		};
          
 		setTimeout(addProducts, 500);  
-		setTimeout(app._fixProductContainerHeight,750)
+		//setTimeout(app._fixProductContainerHeight,750)
         
         
-        app._fixTabsWidth();
-        app._setItemActive( urlhash );
+        //app._fixTabsWidth();
+        //app._setItemActive( urlhash );
 };
 
