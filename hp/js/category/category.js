@@ -235,6 +235,7 @@ var appendToPage = function appendToPage(categories, sub_categories, models, url
 
 var appendTabs = function addProducts(sub_categories, models, urlhash){
 	$("#tab-products").html( _.template($("#template-tab-products").html(), sub_categories) );
+	alert(sub_categories);
     $("#tab-internal-content").html( _.template($("#template-tab-pane").html(), sub_categories) );
     setTimeout(function(){appendModels(models)}, 150);
 	setTimeout(function(){setItemActive( urlhash )}, 150);
