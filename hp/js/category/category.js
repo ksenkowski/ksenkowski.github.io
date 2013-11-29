@@ -37,111 +37,8 @@
                 type: "GET",
                 dataType: 'xml',
                 success : function( data ) {
-                    
-                    $(data).find('ProductCatalog').each(function() {
-                        categories = [];
-                        sub_categories = [];
-                        models = [];
-						$(this).find('GroupTitle').each(function(){
-							var title = $(this).attr('name');
-							var groupTitle = $(this).attr('group');
-							if(groupTitle == config.category){
-								$('.headlineContent h1').text(title);
-							}
-						});
-                        $(this).find('Category').each(function(i) {
-                            var group = $(this).attr('group');
-                            var cName = $(this).attr('name');
-                            var cSlug = $(this).attr('slug');
-
-                            if (group == config.category) {
-                                categories[i] = {
-                                    name: $(this).attr('name'), 
-                                    slug: $(this).attr('slug') 
-                                };
-                            }
-                            
-                            var scCount = 0;
-                            $(this).find('SubCategory').each(function(j) {
-                                scCount++;
-                                var scName = $(this).attr('name');
-                                var scSlug = $(this).attr('slug');
-                                
-                                if ( urlhash.indexOf('#' + cSlug) > -1 ) {
-                                    if (scSlug != 'no-tab') {
-                                        sub_categories[j] = {
-                                            category_slug       : cSlug,
-                                            subcategory_slug    : scSlug,
-                                            subcategory_name    : scName,
-                                        };
-                                    }
-                                    var arr = [];
-									
-										$(this).find('Model').each( function(k) {
-	                                        var $this = $(this);
-
-	                                        arr.push({
-	                                            id : $this.attr('part'),
-	                                            name : $this.attr('name'),
-	                                            is_top : $this.find('top').attr('rate') != "false",
-	                                            features : $this.find('features > feature'),
-	                                            buynow : $this.find('buynow').text(),
-	                                            fullspec : $this.find('fullspec').text(),
-	                                            wishlist : $this.find('wishlist').text(),
-	                                            usualprice : $this.find('usualprice').text(),
-	                                            price : function() {
-	                                                var price = $this.find('price').text().split('.');
-	                                                return price[0];
-	                                            },
-	                                            decimals : function() {
-	                                                var price = $this.find('price').text().split('.');
-	                                                return typeof price[1] === 'undefined' ? "00" : price[1];
-	                                            },
-	                                            gallery : function() {
-	                                                var gallery_type = $this.attr('gallery'),
-	                                                    id = $this.attr('part'),
-	                                                    arr = [];
-
-	                                                if( gallery_type == 3 ) {
-	                                                    arr.push( config.imgPath + id + "_pm.png" );
-	                                                    arr.push( config.imgPath + id + "1_pm.png" );
-	                                                    arr.push( config.imgPath + id + "2_pm.png" );
-	                                                } else {
-	                                                    arr.push( config.imgPath + id + "_pm.png" );
-	                                                }
-
-	                                                return arr;
-
-	                                            }
-	                                        });
-	                                    });
-
-	                                    models[scSlug] = arr;
-
-                                }
-                            });
-                        });
-                    });
-                    
-                    // Theming
-
-                    $("div.headlineContent ul").html( _.template($("#template-headline").html(), categories) );
-                    $("#tab-products").html( _.template($("#template-tab-products").html(), sub_categories) );
-                    $("#tab-internal-content").html( _.template($("#template-tab-pane").html(), sub_categories) );
-					function addProducts(){
-						$('#tab-internal-content > div').each(function( i ) {
-	 						products = models[$(this).attr('id')];
-							$(this).html( _.template($("#template-product-item").html(), products) );  								                  
-	                    });
-						
-					};
-                     
-					setTimeout(addProducts, 500);  
-					setTimeout(app._fixProductContainerHeight,750)
-                    
-                    
-                    app._fixTabsWidth();
-                    app._setItemActive( urlhash );
+                    processXML(data);
+                   
                     
                 },
                 error : function( error ) {
@@ -265,4 +162,111 @@
         });
     });
 })(jQuery);
+
+var processXML = function processXMLF(data){
+	 $(data).find('ProductCatalog').each(function() {
+            categories = [];
+            sub_categories = [];
+            models = [];
+			$(this).find('GroupTitle').each(function(){
+				var title = $(this).attr('name');
+				var groupTitle = $(this).attr('group');
+				if(groupTitle == config.category){
+					$('.headlineContent h1').text(title);
+				}
+			});
+            $(this).find('Category').each(function(i) {
+                var group = $(this).attr('group');
+                var cName = $(this).attr('name');
+                var cSlug = $(this).attr('slug');
+
+                if (group == config.category) {
+                    categories[i] = {
+                        name: $(this).attr('name'), 
+                        slug: $(this).attr('slug') 
+                    };
+                }
+                
+                var scCount = 0;
+                $(this).find('SubCategory').each(function(j) {
+                    scCount++;
+                    var scName = $(this).attr('name');
+                    var scSlug = $(this).attr('slug');
+                    
+                    if ( urlhash.indexOf('#' + cSlug) > -1 ) {
+                        if (scSlug != 'no-tab') {
+                            sub_categories[j] = {
+                                category_slug       : cSlug,
+                                subcategory_slug    : scSlug,
+                                subcategory_name    : scName,
+                            };
+                        }
+                        var arr = [];
+						
+							$(this).find('Model').each( function(k) {
+                                var $this = $(this);
+
+                                arr.push({
+                                    id : $this.attr('part'),
+                                    name : $this.attr('name'),
+                                    is_top : $this.find('top').attr('rate') != "false",
+                                    features : $this.find('features > feature'),
+                                    buynow : $this.find('buynow').text(),
+                                    fullspec : $this.find('fullspec').text(),
+                                    wishlist : $this.find('wishlist').text(),
+                                    usualprice : $this.find('usualprice').text(),
+                                    price : function() {
+                                        var price = $this.find('price').text().split('.');
+                                        return price[0];
+                                    },
+                                    decimals : function() {
+                                        var price = $this.find('price').text().split('.');
+                                        return typeof price[1] === 'undefined' ? "00" : price[1];
+                                    },
+                                    gallery : function() {
+                                        var gallery_type = $this.attr('gallery'),
+                                            id = $this.attr('part'),
+                                            arr = [];
+
+                                        if( gallery_type == 3 ) {
+                                            arr.push( config.imgPath + id + "_pm.png" );
+                                            arr.push( config.imgPath + id + "1_pm.png" );
+                                            arr.push( config.imgPath + id + "2_pm.png" );
+                                        } else {
+                                            arr.push( config.imgPath + id + "_pm.png" );
+                                        }
+
+                                        return arr;
+
+                                    }
+                                });
+                            });
+
+                            models[scSlug] = arr;
+
+                    }
+                });
+            });
+        });
+        
+        // Theming
+
+        $("div.headlineContent ul").html( _.template($("#template-headline").html(), categories) );
+        $("#tab-products").html( _.template($("#template-tab-products").html(), sub_categories) );
+        $("#tab-internal-content").html( _.template($("#template-tab-pane").html(), sub_categories) );
+		function addProducts(){
+			$('#tab-internal-content > div').each(function( i ) {
+				products = models[$(this).attr('id')];
+				$(this).html( _.template($("#template-product-item").html(), products) );  								                  
+            });
+			
+		};
+         
+		setTimeout(addProducts, 500);  
+		setTimeout(app._fixProductContainerHeight,750)
+        
+        
+        app._fixTabsWidth();
+        app._setItemActive( urlhash );
+};
 
