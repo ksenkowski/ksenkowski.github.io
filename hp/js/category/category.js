@@ -157,68 +157,64 @@ var processXML = function processXMLF(data, config, urlhash){
                     };
                 }
                 
-              	if(urlhash.indexOf(cSlug) > -1){
-					$(this).find('SubCategory').each(function(j) {
-	                    var scName = $(this).attr('name');
-	                    var scSlug = $(this).attr('slug');
+              
+                $(this).find('SubCategory').each(function(j) {
+                    var scName = $(this).attr('name');
+                    var scSlug = $(this).attr('slug');
+                    
+                    if ( urlhash.indexOf('#' + cSlug) > -1 ) {
+                        if (scSlug != 'no-tab') {
+                            sub_categories[j] = {
+                                category_slug       : cSlug,
+                                subcategory_slug    : scSlug,
+                                subcategory_name    : scName,
+                            };
+                        }
+                        var arr = [];
+						
+							$(this).find('Model').each( function(k) {
+                                var $this = $(this);
 
-	                    if ( urlhash.indexOf('#' + cSlug) > -1 ) {
-	                        if (scSlug != 'no-tab') {
-	                            sub_categories[j] = {
-	                                category_slug       : cSlug,
-	                                subcategory_slug    : scSlug,
-	                                subcategory_name    : scName,
-	                            };
-	                        }
-	                        var arr = [];
+                                arr.push({
+                                    id : $this.attr('part'),
+                                    name : $this.attr('name'),
+                                    is_top : $this.find('top').attr('rate') != "false",
+                                    features : $this.find('features > feature'),
+                                    buynow : $this.find('buynow').text(),
+                                    fullspec : $this.find('fullspec').text(),
+                                    wishlist : $this.find('wishlist').text(),
+                                    usualprice : $this.find('usualprice').text(),
+                                    price : function() {
+                                        var price = $this.find('price').text().split('.');
+                                        return price[0];
+                                    },
+                                    decimals : function() {
+                                        var price = $this.find('price').text().split('.');
+                                        return typeof price[1] === 'undefined' ? "00" : price[1];
+                                    },
+                                    gallery : function() {
+                                        var gallery_type = $this.attr('gallery'),
+                                            id = $this.attr('part'),
+                                            arr = [];
 
-								$(this).find('Model').each( function(k) {
-	                                var $this = $(this);
+                                        if( gallery_type == 3 ) {
+                                            arr.push( config.imgPath + id + "_pm.png" );
+                                            arr.push( config.imgPath + id + "1_pm.png" );
+                                            arr.push( config.imgPath + id + "2_pm.png" );
+                                        } else {
+                                            arr.push( config.imgPath + id + "_pm.png" );
+                                        }
 
-	                                arr.push({
-	                                    id : $this.attr('part'),
-	                                    name : $this.attr('name'),
-	                                    is_top : $this.find('top').attr('rate') != "false",
-	                                    features : $this.find('features > feature'),
-	                                    buynow : $this.find('buynow').text(),
-	                                    fullspec : $this.find('fullspec').text(),
-	                                    wishlist : $this.find('wishlist').text(),
-	                                    usualprice : $this.find('usualprice').text(),
-	                                    price : function() {
-	                                        var price = $this.find('price').text().split('.');
-	                                        return price[0];
-	                                    },
-	                                    decimals : function() {
-	                                        var price = $this.find('price').text().split('.');
-	                                        return typeof price[1] === 'undefined' ? "00" : price[1];
-	                                    },
-	                                    gallery : function() {
-	                                        var gallery_type = $this.attr('gallery'),
-	                                            id = $this.attr('part'),
-	                                            arr = [];
+                                        return arr;
 
-	                                        if( gallery_type == 3 ) {
-	                                            arr.push( config.imgPath + id + "_pm.png" );
-	                                            arr.push( config.imgPath + id + "1_pm.png" );
-	                                            arr.push( config.imgPath + id + "2_pm.png" );
-	                                        } else {
-	                                            arr.push( config.imgPath + id + "_pm.png" );
-	                                        }
+                                    }
+                                });
+                            });
 
-	                                        return arr;
+                            models[scSlug] = arr;
 
-	                                    }
-	                                });
-	                            });
-
-	                            models[scSlug] = arr;
-
-	                    }
-	                });
-	                
-				
-	
-				}
+                    }
+                });
             });
         });
         setTimeout(function(){appendToPage(categories, sub_categories, models, urlhash)}, 150);
@@ -230,7 +226,7 @@ var processXML = function processXMLF(data, config, urlhash){
 };
 
 var appendToPage = function appendToPage(categories, sub_categories, models, urlhash){
-	$("div.headlineContent ul").html( _.template($("#template-headline").html(), categories) );
+	$("div.headlineContent ul").html( _.template($("#template-headline").html(), categories) );	
 	setTimeout(function(){appendTabs(sub_categories, models, urlhash)}, 150);
      
     
@@ -238,6 +234,7 @@ var appendToPage = function appendToPage(categories, sub_categories, models, url
 
 var appendTabs = function addProducts(sub_categories, models, urlhash){
 	$("#tab-products").html( _.template($("#template-tab-products").html(), sub_categories) );
+	alert(sub_categories);
     $("#tab-internal-content").html( _.template($("#template-tab-pane").html(), sub_categories) );
     setTimeout(function(){appendModels(models)}, 150);
 	setTimeout(function(){setItemActive( urlhash )}, 150);
