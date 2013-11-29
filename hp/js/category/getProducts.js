@@ -209,8 +209,9 @@ var getProducts = function getProductsF(urlhash) {
                                } else {
                                     //just output single image
 									models += '<div class="item active"><img src="'+imgPath+imageBase+'_pm.png" alt="'+modelName+'"/></div>';
-                               }
-								models += '</div></div>';
+                               		models += '</div></div>';
+								}
+								
 								
 								models += '<h3>'+modelName+'</h3><ul>';
 								//Add Features Here
