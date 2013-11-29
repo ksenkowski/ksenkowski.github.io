@@ -256,8 +256,10 @@ var getProducts = function getProductsF(urlhash) {
 				if (length > 4){
 					$('.tab-pane').append(viewMore);
 				}
-				if (urlhash.indexOf('/') == 0) {
-					$('#tab-products li a:first').trigger('click');
+			
+				if (urlhash.indexOf('/') <= 0) {
+					urlhash = $('#tab-products li:first').children('a').attr('href');
+					getProducts(urlhash);
 				}
 	 		setTimeout(fixProductContainerHeight,250);	
 			
