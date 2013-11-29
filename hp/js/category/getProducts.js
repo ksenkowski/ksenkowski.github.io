@@ -15,37 +15,37 @@ $(document).ready(function() {
         getProducts(data);
         return false;
     });
+    $(document).on('click', '.compare input[type="checkbox"]', function (e) {
+         var span = $(this).siblings("span");
+         if( $(this).is(":checked") ) {
+             span.removeClass().addClass("global-checkbox-checked");
+         } else {
+             span.removeClass().addClass("global-checkbox");
+         }
+         
+         amountItemsCompare();
+     });
+     $(document).on('click', '.compare > span', function (e) {
+         var checkbox = $(this).siblings('input[type="checkbox"]');
+         var label = $(this).siblings("label");
+         
+         label.trigger("click");
+         if( checkbox.is(":checked") ) {
+             $(this).removeClass().addClass("global-checkbox-checked");
+         } else {
+             $(this).removeClass().addClass("global-checkbox");
+         }
+         
+         amountItemsCompare();
+     });
+     $(document).on('click', '.tab-pane.active .view-more a', function (e) {
+         e.preventDefault();
+         $(this).parent().siblings(".product-item.hide").removeClass('hide');
+         app._fixProductContainerHeight();
+         $(this).hide();
+     });
 });
 
-
-if (!Array.prototype.indexOf) {
-    Array.prototype.indexOf = function(searchElement, fromIndex) {
-        var i,
-                pivot = (fromIndex) ? fromIndex : 0,
-                length;
-
-        if (!this) {
-            throw new TypeError();
-        }
-
-        length = this.length;
-
-        if (length === 0 || pivot >= length) {
-            return -1;
-        }
-
-        if (pivot < 0) {
-            pivot = length - Math.abs(pivot);
-        }
-
-        for (i = pivot; i < length; i++) {
-            if (this[i] === searchElement) {
-                return i;
-            }
-        }
-        return -1;
-    };
-}
 
 var getProducts = function getProductsF(urlhash) {
     //These two change for each country
@@ -89,14 +89,15 @@ var getProducts = function getProductsF(urlhash) {
                     var cSlug = $(this).attr('slug');
                    //Creates the Main Nav for the top of the page 
                     if (group == category) {
-                        $('.headlineContent ul').append('<li><a href="#" class="load-products" data-slug="#' + cSlug + '">' + cName + '</a></li>');
+                        $('.headlineContent ul').append('<li><a href="#' + cSlug + '">' + cName + '</a></li>');
                     }
 					
                     $(this).find('SubCategory').each(function() {
                         scCount++;
                         var scName = $(this).attr('name');
                         var scSlug = $(this).attr('slug');
-
+						
+						
                         if (urlhash.indexOf('#' + cSlug) > -1) {
                             //Creates Tab/Slider Sub Menu Thing
 							var tabs = '';
@@ -117,9 +118,7 @@ var getProducts = function getProductsF(urlhash) {
                             }
                             //END SORTED OUT CONDITIONAL FOR SUBTABS
 
-                            if (urlhash.indexOf(scSlug) > -1) {
                                 $('.tab-content').append('<div class="clearfix ' + scSlug + ' tab-pane active"></div>');
-                            } 
 							
                             $(this).find('Model').each(function(i) {
 								var models = '';
@@ -224,7 +223,7 @@ var getProducts = function getProductsF(urlhash) {
 			if (length > 4){
 				$('.tab-pane').append(viewMore);
 			}
- 
+ 		setTimeout(fixProductContainerHeight,250);	
         },
         error: function(errorThrown) {
             console.log(errorThrown);
@@ -233,3 +232,89 @@ var getProducts = function getProductsF(urlhash) {
     });
 
 };
+
+var fixProductContainerHeight =  function fixProductContainerHeightF() {
+	while(($children = $(':not(.parent) > .child:lt(2)')).length) {
+	    $children.wrapAll($('<ul class="parent clearfix"></ul>'));
+	}
+	
+    $(".tab-pane").each(function() {
+        $(this).find('.product-item:even').each( function() {
+            var even_element = $(this).find('.product-container');
+            var odd_element = $(this).next('.product-item').find('.product-container');
+            
+            var even_height = even_element.height();
+            var odd_height = odd_element.height();
+            
+            if( even_height > odd_height ) {
+                odd_element.height( even_height );
+            } else {
+                even_element.height( odd_height );
+            }
+            
+        });
+    });
+	setTimeout(fixTabsWidth,250);
+};
+var fixTabsWidth = function fixTabsWidthF() {
+    var ul = $("ul#tab-products"),
+        ul_width = ul.width(),
+        total_items = ul.find("li").length,
+        margin = (total_items - 1) * 2;
+
+    return ul.find("li").width( (ul_width - margin ) / total_items );
+};
+
+var setItemActive = function setItemActiveF( hash ) {
+    
+    $(".headlineContent ul li").each( function() {
+        $(this).removeClass('active');
+        
+        var current_hash = $(this).find("a").attr('data-slug');
+        if( current_hash == hash.substring(1) ) {
+            $(this).addClass('active');
+        }
+    });
+	$("#tab-products li a[href='#"+ hash.split('/')[1] +"']").tab('show');
+	
+};
+var amountItemsCompare = function amountItemsCompareF() {
+    var amount = parseInt( $('.compare input[type="checkbox"]:checked').length );
+    var button = $(".compare-info input");
+    
+    button.val("Compare ("+ amount +")");
+    if( amount >= 2 ) {
+        button.removeClass('btn-disabled').addClass('btn-primary');
+    } else {
+        button.removeClass('btn-primary').addClass('btn-disabled');
+    }
+};
+if (!Array.prototype.indexOf) {
+    Array.prototype.indexOf = function(searchElement, fromIndex) {
+        var i,
+                pivot = (fromIndex) ? fromIndex : 0,
+                length;
+
+        if (!this) {
+            throw new TypeError();
+        }
+
+        length = this.length;
+
+        if (length === 0 || pivot >= length) {
+            return -1;
+        }
+
+        if (pivot < 0) {
+            pivot = length - Math.abs(pivot);
+        }
+
+        for (i = pivot; i < length; i++) {
+            if (this[i] === searchElement) {
+                return i;
+            }
+        }
+        return -1;
+    };
+}
+
