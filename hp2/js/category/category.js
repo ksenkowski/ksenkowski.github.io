@@ -33,7 +33,7 @@
 
         getXML : function( xmlFile, config, urlhash ) {
             $.ajax({
-                url: "/xml/category/" + xmlFile,
+                url: "xml/category/" + xmlFile,
                 type: "GET",
                 dataType: 'xml',
                 success : function( data ) {
