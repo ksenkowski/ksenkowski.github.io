@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "The Cold Gods"
+title:  "The Karatarathi"
 description: ""
-excerpt: "According to the Norderins and Sarls, the Cold Gods rose up as men during mankind’s enslavement to the Jotun. They were the son of Wodan, the majordomo of the Jotun king, Skirn, and they led a general revolt that led to the destruction of..."
+excerpt: ""
 date:   2013-11-09 05:00:00
-categories: C
+categories: K
 tags: [jutun, war god, noderins, sarls]
 ---
 

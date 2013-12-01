@@ -33,11 +33,10 @@
 
         getXML : function( xmlFile, config, urlhash ) {
             $.ajax({
-                url: "xml/category/" + xmlFile,
+                url: "/xml/category/" + xmlFile,
                 type: "GET",
                 dataType: 'xml',
                 success : function( data ) {
-                    
                     $(data).find('ProductCatalog').each(function() {
                         categories = [];
                         sub_categories = [];
@@ -128,18 +127,12 @@
                     $("div.headlineContent ul").html( _.template($("#template-headline").html(), categories) );
                     $("#tab-products").html( _.template($("#template-tab-products").html(), sub_categories) );
                     $("#tab-internal-content").html( _.template($("#template-tab-pane").html(), sub_categories) );
-					function addProducts(){
-						$('#tab-internal-content > div').each(function( i ) {
-	 						products = models[$(this).attr('id')];
-							$(this).html( _.template($("#template-product-item").html(), products) );  								                  
-	                    });
-						
-					};
+                    $('#tab-internal-content > div').each(function( i ) {
+                        products = models[$(this).attr('id')];
+                        $(this).html( _.template($("#template-product-item").html(), products) );                                                 
+                    });
                      
-					setTimeout(addProducts, 500);  
-					setTimeout(app._fixProductContainerHeight,750)
-                    
-                    
+					app._fixProductContainerHeight();
                     app._fixTabsWidth();
                     app._setItemActive( urlhash );
                     
@@ -151,24 +144,19 @@
         },
         
         _fixProductContainerHeight: function() {
-			while(($children = $(':not(.parent) > .child:lt(2)')).length) {
-			    $children.wrapAll($('<ul class="parent clearfix"></ul>'));
-			}
+			// while(($children = $(':not(.parent) > .child:lt(2)')).length) {
+			//     $children.wrapAll($('<ul class="parent clearfix"></ul>'));
+			// }
 			
-            $(".tab-pane").each(function() {
-                $(this).find('.product-item:even').each( function() {
-                    var even_element = $(this).find('.product-container');
-                    var odd_element = $(this).next('.product-item').find('.product-container');
-                    
-                    var even_height = even_element.height();
-                    var odd_height = odd_element.height();
-                    
-                    if( even_height > odd_height ) {
-                        odd_element.height( even_height );
-                    } else {
-                        even_element.height( odd_height );
+            $(".tab-pane.active").each(function() {
+                var max_height = 0;
+                $(this).find('.product-item .product-container').each( function() {
+                    if( $(this).height() > max_height ) {
+                        max_height = $(this).height();
                     }
-                    
+                });
+                $(this).find('.product-item .product-container').each( function() {
+                    $(this).height( max_height );
                 });
             });
  			
@@ -194,6 +182,9 @@
                 }
             });
 			$("#tab-products li a[href='#"+ hash.split('/')[1] +"']").tab('show');
+		//	while(($children = $(':not(.parent) > .child:lt(2)')).length) {
+		//	    $children.wrapAll($('<ul class="parent clearfix"></ul>>'));
+		//	}
 			
         },
         _amountItemsCompare : function() {
@@ -247,8 +238,8 @@
         $(document).on('click', '.compare > span', function (e) {
             var checkbox = $(this).siblings('input[type="checkbox"]');
             var label = $(this).siblings("label");
-            
-            label.trigger("click");
+
+            checkbox.trigger("click");
             if( checkbox.is(":checked") ) {
                 $(this).removeClass().addClass("global-checkbox-checked");
             } else {
