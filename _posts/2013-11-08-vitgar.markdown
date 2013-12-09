@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Vitigar"
+description: ""
+excerpt: ""
+date:   2013-12-01 05:00:00
+categories: I
+tags: [ostarathi, ilvabir, thedohar]
+menu: amal-dynasty
+---
+
+Vitigar was the Kur of Ostarathi Greater Voria from 219 through 223 2E, succeeding to the throne during the early stage of the Third Gothic War as the Imperial legato Bermudo was consolidating his gains in Lesser Voria.

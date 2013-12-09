@@ -21,7 +21,7 @@ module Jekyll
       if site.layouts.key? 'related-content'
         dir = 'related-content'
         site.tags.keys.each do |tag|
-          write_tag_index(site, File.join(dir, tag.gsub(/\s+/, "")), tag)
+          write_tag_index(site, File.join(dir, tag.gsub(/\s+/, "-")), tag)
         end
       end
     end

@@ -1,10 +1,11 @@
 ---
 ayout: post
 title:  "The Tarathi"
-description: ""
-excerpt: ""
+description: "Translation Coming Soon"
+excerpt: "Translation Coming Soon"
 date:   2013-11-09 05:00:00
 categories: T
-tags: [jutun, war god, noderins, sarls]
+tags: [ostarathi, vestarathi]
 ---
 
+Translation Coming Soon

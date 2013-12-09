@@ -43,7 +43,8 @@
 		padding:3%;
 		margin: 0 auto;
 		img{
-			margin:0 0 1em 0;
+			margin:0 auto 1em;
+			display:block;
 		}
 		h2{
 			font-family:$secondary-stack;
@@ -115,6 +116,14 @@
 	h3{
 		font-family:$secondary-stack;
 		text-transform:uppercase;
+	}
+	hr{
+		margin:10px 0px 60px;
+		display: block; 
+		height: 1px;
+		border: 0; 
+		border-top: 1px double $deep-red;
+		padding:0;
 	}
 }
 article .footnote{
@@ -334,7 +343,7 @@ footer{
    ========================================================================== */
 table {
     background: $white;
-    margin-bottom: 1.25em;
+    margin-bottom: 30px;
     border: solid 1px #dddddd;
 	width:320px;
 	word-wrap:break-word;
@@ -344,19 +353,19 @@ table {
 	    font-weight: bold;
 		
 		tr td, tr th{
-			padding: 0.5em 0.625em 0.625em;
-		    font-size: 0.875em;
+			padding: .5% .625% .625%;
+		    font-size: 87.5%;
 		    color: $deep-gray;
 		    text-align: left;
 		    display: table-cell;
-		    line-height: 1.125em;
+		    line-height: 112.5%;
 		    
 		}
 	}
 	
 	tr th, tr td{
-		padding: 0.5625em 0.625em;
-	    font-size: 0.875em;
+		padding: .5625% .625%;
+	    font-size: 87.5%;
 	    color: $deep-gray;
 		vertical-align:top;	    
 	}

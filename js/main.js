@@ -188,5 +188,7 @@ var whatPage = function whatPageF(){
 		$('.cover-image').css('background-image','url(/img/backgrounds/card-back.jpg)');
 	}else if(fullURL.indexOf('credits') > -1){
 		$('.cover-image').css('background-image','url(/img/backgrounds/trapped.jpg)');
+	}else if(fullURL.indexOf('unity') > -1){
+		$('.cover-image').css('background-image','url(/img/backgrounds/unity.jpg)');
 	}
 };

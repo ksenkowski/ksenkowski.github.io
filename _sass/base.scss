@@ -12,15 +12,22 @@ body{
    TYPOGRAPHY - My preference is for percentages when working with fonts. Everyone has their own thing.
    ========================================================================== */
 .call-out{
-	font-size:125%;
+	font-size:110%;
 	font-weight:200;
-	line-height:160%;
+	line-height:140%;
 	color:$deep-red;
+	padding:0 3%;
+	text-align:justify;
+}
+.small{
+	font-size:80% !important;
 }
 .text-left {
   text-align: left;
 }
-
+.text-uppercase{
+	text-transform:uppercase;
+}
 .text-right {
   text-align: right;
 }
@@ -57,7 +64,9 @@ blockquote small {
 blockquote small:before {
 	content: '\2014 \00A0';
 }
-/* BEGIN HEADING STYLES */
+/* ==========================================================================
+   HEADING STYLES
+   ========================================================================== */
 h1,
 h2,
 h3,
@@ -94,8 +103,9 @@ h5{
 h6{
 	font-size:90%;
 }
-/* END HEADING STYLES */
-
+/* ==========================================================================
+   LIST STYLES
+   ========================================================================== */
 ul,
 ol {
   padding: 0;
@@ -120,6 +130,9 @@ ul.unstyled, ol.unstyled {
 ul.inline, ol.inline {
 	margin-left: 0;
 	list-style: none;
+}
+.inline li{
+	display:inline-block;
 }
 /* ==========================================================================
    LINKS - My broad preference is to have no text decoration on links and apply a dotted border on hover.

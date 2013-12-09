@@ -1,10 +1,11 @@
 ---
 ayout: post
 title:  "The Ostarathi"
-description: ""
-excerpt: ""
+description: "Translation Coming Soon"
+excerpt: "Translation Coming Soon"
 date:   2013-11-09 05:00:00
 categories: O
-tags: [jutun, war god, noderins, sarls]
+tags: [vestarathi, karatarathi]
 ---
 
+Translation Coming Soon
