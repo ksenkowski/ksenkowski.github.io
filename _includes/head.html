@@ -6,19 +6,16 @@
         <title>Conspiracy of Shadows | {{ page.title }}</title>
 		<meta property="og:title" content="{{ page.title }}"/>
 		<meta property="og:type" content="website" />
-		<meta property="og:url" content=""/>
+		<meta property="og:url" content="http://conspiracyofshadows.com"/>
 		<meta property="og:description" content="{{ page.description }}"/>
 		<meta property="og:image" content="/facebook-share.png" />
 		<meta property="og:image:width" content="200" />
 		<meta property="og:image:height" content="200" />
-		<meta name="description" content=""/>
+		<meta name="description" content="{{ page.description }}"/>
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="/css/screen.css">
-		{% if page.url == "/404.html" %}
-		        <meta http-equiv="refresh" content="5; url=/">
-		{% endif %}
         <script src="/js/vendor/modernizr-2.6.1.min.js"></script>
     </head>
     <body data-menu="{{ page.menu }}">
