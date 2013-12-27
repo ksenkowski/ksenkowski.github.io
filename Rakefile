@@ -12,6 +12,13 @@ task :move do
   puts status ? "Success" : "Failed"
 end
 
+desc "Image Optim"
+task :optim do
+  puts "\n## Optimizing Images"
+  status = system("imageOptim --directory /Applications/MAMP/htdocs/conspiracyofshadows/ksenkowski.github.io/img # [options]")
+  puts status ? "Success" : "Failed"
+end
+
 desc "Preview Site"
 task :preview do
   puts "\n## Opening site at http://0.0.0.0:4000"
@@ -21,6 +28,7 @@ end
 
 desc "Build and Commit Site"
 task :build do
+  Rake::Task["optim"].invoke
   puts "\n## Opening _site/ in browser"
   status = system("jekyll build")
   puts status ? "Success" : "Failed"
