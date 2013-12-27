@@ -457,7 +457,12 @@ a {
   text-decoration: none;
 }
 
-/* line 146, ../_sass/base.scss */
+/* line 145, ../_sass/base.scss */
+a:hover {
+  border-bottom: 1px dotted #880c0a;
+}
+
+/* line 148, ../_sass/base.scss */
 footer a:hover, footer a:focus {
   color: #aaaaaa;
   border-bottom: 1px dotted #aaaaaa;
@@ -466,14 +471,14 @@ footer a:hover, footer a:focus {
 /* ==========================================================================
    FORMS - 
    ========================================================================== */
-/* line 155, ../_sass/base.scss */
+/* line 157, ../_sass/base.scss */
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-/* line 161, ../_sass/base.scss */
+/* line 163, ../_sass/base.scss */
 .btn {
   display: inline-block;
   padding: 10px 12px;
@@ -496,7 +501,7 @@ fieldset {
   text-transform: uppercase;
 }
 
-/* line 188, ../_sass/base.scss */
+/* line 190, ../_sass/base.scss */
 .btn:hover,
 .btn:focus,
 .btn:active,
@@ -507,10 +512,10 @@ fieldset {
   background-color: #880c0a;
 }
 
-/* line 195, ../_sass/base.scss */
+/* line 197, ../_sass/base.scss */
 .btn:hover,
 .btn:focus {
-  color: white;
+  border-bottom: 2px solid black;
   text-decoration: none;
   background-position: 0 -15px;
   -webkit-transition: background-position 0.1s linear;
@@ -519,7 +524,7 @@ fieldset {
   transition: background-position 0.1s linear;
 }
 
-/* line 205, ../_sass/base.scss */
+/* line 207, ../_sass/base.scss */
 .btn-block {
   display: block;
   width: 100%;
@@ -533,7 +538,7 @@ fieldset {
 /*
  * Allow only vertical resizing of textareas.
  */
-/* line 219, ../_sass/base.scss */
+/* line 221, ../_sass/base.scss */
 textarea {
   resize: vertical;
 }
@@ -541,19 +546,19 @@ textarea {
 /* ==========================================================================
    CLEARFIX
    ========================================================================== */
-/* line 227, ../_sass/base.scss */
+/* line 229, ../_sass/base.scss */
 .clearfix:before,
 .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 232, ../_sass/base.scss */
+/* line 234, ../_sass/base.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 235, ../_sass/base.scss */
+/* line 237, ../_sass/base.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -700,8 +705,17 @@ textarea {
   border-top: 1px double #880c0a;
   padding: 0;
 }
+/* line 130, ../_sass/layout.scss */
+.postings ul li h4 {
+  margin: 10px 0px 0px;
+}
+/* line 133, ../_sass/layout.scss */
+.postings ul li p {
+  margin: 0;
+  font-style: italic;
+}
 
-/* line 129, ../_sass/layout.scss */
+/* line 140, ../_sass/layout.scss */
 article .footnote {
   font-weight: bold;
   cursor: pointer;
@@ -710,7 +724,7 @@ article .footnote {
   margin: 0 5px;
 }
 
-/* line 136, ../_sass/layout.scss */
+/* line 147, ../_sass/layout.scss */
 article.first, aside.first {
   margin: 0 auto;
 }
@@ -718,7 +732,7 @@ article.first, aside.first {
 /* ==========================================================================
    DEFAULT COLUMN STYLES
    ========================================================================== */
-/* line 143, ../_sass/layout.scss */
+/* line 154, ../_sass/layout.scss */
 .col {
   display: block;
   float: left;
@@ -728,7 +742,7 @@ article.first, aside.first {
 /* ==========================================================================
    IMAGES
    ========================================================================== */
-/* line 153, ../_sass/layout.scss */
+/* line 164, ../_sass/layout.scss */
 img {
   vertical-align: middle;
 }
@@ -736,7 +750,7 @@ img {
 /* ==========================================================================
    MENU
    ========================================================================== */
-/* line 161, ../_sass/layout.scss */
+/* line 172, ../_sass/layout.scss */
 #pageslide {
   position: fixed;
   top: 0;
@@ -748,7 +762,7 @@ img {
   overflow: auto;
 }
 
-/* line 171, ../_sass/layout.scss */
+/* line 182, ../_sass/layout.scss */
 ul#menu {
   display: none;
   text-align: left;
@@ -758,7 +772,7 @@ ul#menu {
   list-style-type: none;
   height: 100%;
 }
-/* line 180, ../_sass/layout.scss */
+/* line 191, ../_sass/layout.scss */
 ul#menu li {
   border-right: #333333 solid 15px;
   text-transform: uppercase;
@@ -766,7 +780,7 @@ ul#menu li {
   color: #aaaaaa;
   line-height: 20px;
 }
-/* line 187, ../_sass/layout.scss */
+/* line 198, ../_sass/layout.scss */
 ul#menu li a {
   color: #aaaaaa;
   display: block;
@@ -775,7 +789,7 @@ ul#menu li a {
   width: 100%;
   padding: 30px 0 28px;
 }
-/* line 195, ../_sass/layout.scss */
+/* line 206, ../_sass/layout.scss */
 ul#menu li a span.arrow {
   height: 16px;
   width: 10px;
@@ -785,20 +799,20 @@ ul#menu li a span.arrow {
   vertical-align: middle;
   background: url("../img/arrow.png") no-repeat;
 }
-/* line 206, ../_sass/layout.scss */
+/* line 217, ../_sass/layout.scss */
 ul#menu li a:hover {
   border: none;
 }
-/* line 209, ../_sass/layout.scss */
+/* line 220, ../_sass/layout.scss */
 ul#menu li a.red {
   color: #880c0a;
 }
-/* line 214, ../_sass/layout.scss */
+/* line 225, ../_sass/layout.scss */
 ul#menu li.current {
   border-right: 15px solid #880c0a;
   background: black;
 }
-/* line 218, ../_sass/layout.scss */
+/* line 229, ../_sass/layout.scss */
 ul#menu li.border {
   height: 2px;
   background: #333333;
@@ -806,7 +820,7 @@ ul#menu li.border {
   padding: 0;
   border-right: solid #333333 15px;
 }
-/* line 225, ../_sass/layout.scss */
+/* line 236, ../_sass/layout.scss */
 ul#menu li.hidden-menu-item {
   display: none;
 }
@@ -814,7 +828,7 @@ ul#menu li.hidden-menu-item {
 /* ==========================================================================
    HEADER SECTION
    ========================================================================== */
-/* line 233, ../_sass/layout.scss */
+/* line 244, ../_sass/layout.scss */
 #conspiracy-of-shadows {
   min-height: 350px;
   height: auto;
@@ -823,7 +837,7 @@ ul#menu li.hidden-menu-item {
   position: relative;
 }
 
-/* line 240, ../_sass/layout.scss */
+/* line 251, ../_sass/layout.scss */
 .cover {
   z-index: 100;
   top: 0;
@@ -833,7 +847,7 @@ ul#menu li.hidden-menu-item {
   max-width: none;
 }
 
-/* line 248, ../_sass/layout.scss */
+/* line 259, ../_sass/layout.scss */
 .cover-image {
   position: absolute;
   width: 100%;
@@ -847,7 +861,7 @@ ul#menu li.hidden-menu-item {
   background-size: cover;
 }
 
-/* line 260, ../_sass/layout.scss */
+/* line 271, ../_sass/layout.scss */
 #menu-button {
   position: fixed;
   top: 10px;
@@ -856,7 +870,7 @@ ul#menu li.hidden-menu-item {
   padding: 10px 16px;
 }
 
-/* line 267, ../_sass/layout.scss */
+/* line 278, ../_sass/layout.scss */
 #logo {
   margin: 0px 0px 5px 0px;
   color: #ffedf2;
@@ -867,7 +881,7 @@ ul#menu li.hidden-menu-item {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
 }
 
-/* line 276, ../_sass/layout.scss */
+/* line 287, ../_sass/layout.scss */
 #header-group {
   display: table-cell;
   vertical-align: bottom;
@@ -877,12 +891,12 @@ ul#menu li.hidden-menu-item {
   padding: 65px 5% 12px;
   width: 100%;
 }
-/* line 285, ../_sass/layout.scss */
+/* line 296, ../_sass/layout.scss */
 #header-group .header-group-inner {
   position: relative;
   z-index: 100;
 }
-/* line 289, ../_sass/layout.scss */
+/* line 300, ../_sass/layout.scss */
 #header-group .header-group-inner p {
   border: 0;
   outline: 0;
@@ -894,7 +908,7 @@ ul#menu li.hidden-menu-item {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
 }
 
-/* line 302, ../_sass/layout.scss */
+/* line 313, ../_sass/layout.scss */
 .cta {
   padding-top: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
@@ -903,7 +917,7 @@ ul#menu li.hidden-menu-item {
 /* ==========================================================================
    POSTS
    ========================================================================== */
-/* line 310, ../_sass/layout.scss */
+/* line 321, ../_sass/layout.scss */
 .meta, .related-content {
   text-transform: uppercase;
 }
@@ -911,7 +925,7 @@ ul#menu li.hidden-menu-item {
 /* ==========================================================================
    FOOTER
    ========================================================================== */
-/* line 318, ../_sass/layout.scss */
+/* line 329, ../_sass/layout.scss */
 footer {
   margin: 2% auto 1%;
   padding: 10px 0 25px;
@@ -924,13 +938,13 @@ footer {
   font-size: 95%;
   float: left;
 }
-/* line 329, ../_sass/layout.scss */
+/* line 340, ../_sass/layout.scss */
 footer h5 {
   font-size: 83%;
   text-align: center;
   margin: 10px auto;
 }
-/* line 334, ../_sass/layout.scss */
+/* line 345, ../_sass/layout.scss */
 footer h6 {
   font-size: 70%;
   text-align: center;
@@ -940,7 +954,7 @@ footer h6 {
 /* ==========================================================================
    TABLES
    ========================================================================== */
-/* line 344, ../_sass/layout.scss */
+/* line 355, ../_sass/layout.scss */
 table {
   background: white;
   margin-bottom: 30px;
@@ -948,12 +962,12 @@ table {
   width: 320px;
   word-wrap: break-word;
 }
-/* line 351, ../_sass/layout.scss */
+/* line 362, ../_sass/layout.scss */
 table thead, table tfoot {
   background: #ffedf2;
   font-weight: bold;
 }
-/* line 355, ../_sass/layout.scss */
+/* line 366, ../_sass/layout.scss */
 table thead tr td, table thead tr th, table tfoot tr td, table tfoot tr th {
   padding: .5% .625% .625%;
   font-size: 87.5%;
@@ -962,28 +976,28 @@ table thead tr td, table thead tr th, table tfoot tr td, table tfoot tr th {
   display: table-cell;
   line-height: 112.5%;
 }
-/* line 366, ../_sass/layout.scss */
+/* line 377, ../_sass/layout.scss */
 table tr th, table tr td {
   padding: .5625% .625%;
   font-size: 87.5%;
   color: #333333;
   vertical-align: top;
 }
-/* line 372, ../_sass/layout.scss */
+/* line 383, ../_sass/layout.scss */
 table tr.even, table tr.alt, table tr:nth-of-type(even) {
   background: #ffedf2;
 }
-/* line 375, ../_sass/layout.scss */
+/* line 386, ../_sass/layout.scss */
 table th {
   font-weight: bold;
 }
-/* line 378, ../_sass/layout.scss */
+/* line 389, ../_sass/layout.scss */
 table td, table th {
   padding: 9px 10px;
   text-align: left;
 }
 
-/* line 383, ../_sass/layout.scss */
+/* line 394, ../_sass/layout.scss */
 .th {
   line-height: 0;
   display: inline-block;
@@ -995,29 +1009,29 @@ table td, table th {
   transition: all 200ms ease-out;
 }
 
-/* line 394, ../_sass/layout.scss */
+/* line 405, ../_sass/layout.scss */
 .th:hover, .th:focus {
   -webkit-box-shadow: 0 0 6px 1px rgba(13, 171, 239, 0.5);
   box-shadow: 0 0 6px 1px rgba(13, 171, 239, 0.5);
 }
 
-/* line 399, ../_sass/layout.scss */
+/* line 410, ../_sass/layout.scss */
 .th.radius {
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
 
-/* line 404, ../_sass/layout.scss */
+/* line 415, ../_sass/layout.scss */
 a.th {
   display: inline-block;
 }
 
-/* line 407, ../_sass/layout.scss */
+/* line 418, ../_sass/layout.scss */
 table.responsive {
   margin-bottom: 0;
 }
 
-/* line 410, ../_sass/layout.scss */
+/* line 421, ../_sass/layout.scss */
 .pinned {
   position: absolute;
   left: 0;
@@ -1029,47 +1043,47 @@ table.responsive {
   border-right: 1px solid #aaaaaa;
   border-left: 1px solid #aaaaaa;
 }
-/* line 421, ../_sass/layout.scss */
+/* line 432, ../_sass/layout.scss */
 .pinned table {
   border-right: none;
   border-left: none;
   width: 100%;
 }
-/* line 425, ../_sass/layout.scss */
+/* line 436, ../_sass/layout.scss */
 .pinned table th, .pinned table td {
   white-space: nowrap;
 }
-/* line 429, ../_sass/layout.scss */
+/* line 440, ../_sass/layout.scss */
 .pinned td:last-child {
   border-bottom: 0;
 }
 
-/* line 433, ../_sass/layout.scss */
+/* line 444, ../_sass/layout.scss */
 div.table-wrapper {
   position: relative;
   margin-bottom: 20px;
   overflow: hidden;
   border-right: 1px solid #aaaaaa;
 }
-/* line 439, ../_sass/layout.scss */
+/* line 450, ../_sass/layout.scss */
 div.table-wrapper div.scrollable {
   margin-left: 35%;
   overflow: scroll;
   overflow-y: hidden;
 }
 
-/* line 446, ../_sass/layout.scss */
+/* line 457, ../_sass/layout.scss */
 table.responsive td, table.responsive th {
   position: relative;
   white-space: nowrap;
   overflow: hidden;
 }
-/* line 451, ../_sass/layout.scss */
+/* line 462, ../_sass/layout.scss */
 table.responsive th:first-child, table.responsive td:first-child {
   display: none;
 }
 
-/* line 455, ../_sass/layout.scss */
+/* line 466, ../_sass/layout.scss */
 table.responsive.pinned td {
   display: none;
 }

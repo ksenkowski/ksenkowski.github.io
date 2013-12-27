@@ -142,7 +142,9 @@ a {
     color:$deep-red;
 	text-decoration:none;
 }
-
+a:hover{
+	border-bottom:1px dotted $deep-red;
+}
 footer a:hover, footer a:focus {
     color: $gray;
 	border-bottom:1px dotted $gray;
@@ -193,7 +195,7 @@ fieldset {
 
 .btn:hover,
 .btn:focus {
-  color: $white;
+	border-bottom:2px solid $black;
   text-decoration: none;
   background-position: 0 -15px;
   -webkit-transition: background-position 0.1s linear;

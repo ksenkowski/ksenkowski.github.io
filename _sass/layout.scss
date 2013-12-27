@@ -125,6 +125,17 @@
 		border-top: 1px double $deep-red;
 		padding:0;
 	}
+	ul{
+		li{
+			h4{
+				margin:10px 0px 0px;
+			}
+			p{
+				margin:0;
+				font-style:italic;
+			}
+		}
+	}
 }
 article .footnote{
 	font-weight:bold;
