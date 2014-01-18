@@ -1144,7 +1144,7 @@ table.responsive.pinned td {
   }
 
   /* line 32, ../_sass/media-queries.scss */
-  .first {
+  #content article.first {
     margin: 13% auto 1% auto;
   }
 
