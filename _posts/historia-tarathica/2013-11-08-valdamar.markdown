@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Valdamar"
+description: "Translation Coming Soon"
+excerpt: "Translation Coming Soon"
+date:   2014-01-06 05:00:00
+categories: V
+tags: [ostarathi]
+menu: amal-dynasty
+---
+
+Valdamar was the Kur of the Ostarathi federation in Sloria from 130 3e to his death in 148 3E. During his reign he allied with the Cavasla Horde against the Empire, then following the death of Skorpa Khagan, he fought against the Horde to consolidate his control over the Ostarathi federation.
+
+While a part of the Horde, he was a trusted vassal of Skorpa Khagan, participating on raids deep into the Empire and commanded all Tarathi forces at the *Battle of Carlundo's Orchid*. Following the death of the Khagan, he consolidated his control over the Ostarathi federation, settled in Sloria, and successfully defeated the many sons of Skorpa to retain independence.
+
+Unlike previous Ostarathi kurs, he was not succeeded by a succession crisis drenched in bloodshed. Instead his brother, a veritable unknown individual named Vildemir, took the throne of the federation

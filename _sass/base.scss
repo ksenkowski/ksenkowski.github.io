@@ -134,6 +134,13 @@ ul.inline, ol.inline {
 .inline li{
 	display:inline-block;
 }
+ol.upper-roman{
+	list-style-type:upper-roman;	
+}
+ol.lower-roman{
+	list-style-type:lower-roman;
+}
+
 /* ==========================================================================
    LINKS - My broad preference is to have no text decoration on links and apply a dotted border on hover.
    ========================================================================== */

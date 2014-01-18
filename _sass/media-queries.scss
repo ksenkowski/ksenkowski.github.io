@@ -9,9 +9,12 @@
 	#conspiracy-of-shadows{
 		max-width:1040px;
 	}
-	article.postings{
+	.postings{
 		width:auto;
 		float:left;
+		h3{
+			text-align:left;
+		}
 	}
 }
 @media only screen and (min-width: 48.000em) {
@@ -23,10 +26,10 @@
 		margin: 13% auto 1% auto;		
 		
 	}
-	article.postings{
+	.postings{
 		width:62%;
 	}
-	article.first{
+	.first{
 		margin:13% auto 1% auto;
 	}
 	
