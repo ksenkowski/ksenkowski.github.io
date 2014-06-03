@@ -28,7 +28,7 @@ end
 
 desc "Build and Commit Site"
 task :build do
-  Rake::Task["optim"].invoke
+  #Rake::Task["optim"].invoke
   puts "\n## Opening _site/ in browser"
   status = system("jekyll build")
   puts status ? "Success" : "Failed"
