@@ -1,0 +1,166 @@
+
+.tarathica{
+	background:url('../img/imperio/map.jpg') top center no-repeat fixed;
+	
+	header{
+		padding: 1em 3em;
+		background:$white;
+		border-left: 1px solid rgba(0,0,0,0.07);
+		border-right: 1px solid rgba(0,0,0,0.07);
+		h1{
+			text-align:center;
+			margin:0;
+			padding-top:1em;
+			text-transform:uppercase;
+			color:$darkest-color;
+			letter-spacing:2px;
+			font-size:120%;
+		}
+		h2{
+			text-align:center;
+			margin:0;
+			padding:1em 0;
+			color:$darker-color;
+			letter-spacing:2px;
+			font-size:100%;
+		}
+		nav{
+			text-align:center;
+			font-size:2em;
+			ul{
+				margin:0;
+				padding:0;
+				li{
+					margin-top:0.5em;
+					padding-right:0.35em;
+					&.sup{
+						margin-top:-0.5em;
+						margin-right: 0.4em;
+					}
+					a{
+						span{
+							display:block;
+							width: 0;
+							height: 0;
+							border: 8px solid transparent;
+							border-bottom-color: $highlight-color;
+							position: relative;
+							top: -8px;
+							text-indent:-9999px;
+							&:after{
+								content: '';
+								position: absolute;
+								left: -8px;
+								top: 8px;
+								width: 0;
+								height: 0;
+								border: 8px solid transparent;
+								border-top-color: $highlight-color;
+							}
+							&.down{
+								border-bottom-color: $white;
+							}
+							&.down:after{
+								border-top-color: $darker-color;
+							}
+							&.up{
+								border-bottom-color: $darker-color;
+							}
+							&.up:after{
+								border-top-color: $white;
+							}
+						}
+						
+					}
+				}
+			}
+		}
+	}
+	article{
+		background:$white;
+		padding: 1em 1.75em 100px;
+		border: 1px solid rgba(0,0,0,0.07);
+		border-bottom: 0;
+		min-height:600px;
+		.chapter-icon{
+			display:block;
+			margin:1em auto;
+		}
+		
+		aside{
+			padding:1.5em;
+			
+			&.related-content{
+				padding: 1.5em 0;
+			}
+			h4{
+				margin:1.5em 0 0 0;
+			}
+		}
+		h3{
+			margin:0 0 1.5em 0;
+			text-transform:uppercase;
+		}
+		p{
+			margin: 0;
+			text-indent: 1.25em;
+			line-height:160%;
+			font-size:120%;
+			.footnote{
+				font-style:italic;
+				color:$lightest-color;
+				cursor:help;
+			}
+			&.first{
+				text-indent:0;
+			}
+		}
+		
+	}
+}
+
+/* ==========================================================================
+   GRID
+   ========================================================================== */
+
+.introduction-text{
+	padding:1em;
+	height:0;
+	padding-bottom:80%;
+}
+
+/* ==========================================================================
+   MEDIA QUERIES
+   ========================================================================== */
+
+
+@media only screen and (min-width: 31.250em) {
+	.tarathica{
+		.content{
+			width:31.250em;
+		}
+	}
+}
+@media only screen and (min-width: 48.000em) {
+	.tarathica{
+		.content{
+			width:48em;
+		}
+		aside.author-note{
+			width:49%;
+		}
+	}
+	
+}
+@media only screen and (min-width: 65.000em) {
+	.tarathica{
+		.content{
+			width:65em;
+		}
+	}
+
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {
+    /* Style adjustments for viewports that meet the condition */
+}

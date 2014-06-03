@@ -5,4 +5,4 @@ tagline: Can you trust history?
 markdown: redcarpet
 pygments: true
 root: /
-permalink: /:title.html
+permalink: /:categories/:title.html

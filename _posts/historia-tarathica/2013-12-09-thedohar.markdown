@@ -1,12 +1,12 @@
 ---
-layout: post
+layout: tarathica
 title:  "Thedohar"
 description: "Thedohar was the Kur of the Ostarathi from 217 3E to 219 3E, nephew to Thedomir the Great through his sister Lafrida, and cousin to his predicesor, Avalarik. He did not travel with his people into Greater Voria during the invasion, but stayed in Torozium (modern Graziste in Zerem) until he as summoned to assume the regal dignity of the Ostarathi people."
 excerpt: "Thedohar was the Kur of the Ostarathi from 217 3E to 219 3E, nephew to Thedomir the Great through his sister Lafrida, and cousin to his predicesor, Avalarik. He did not travel with his people into Greater Voria during the invasion, but stayed in Torozium (modern Graziste in Zerem) until he as summoned to assume the regal dignity of the Ostarathi people."
 date:   2013-12-09 05:00:00
-categories: T
+categories: historia-tarathica
 tags: [ostarathi, vitigar, thedomir, amal, avalarik]
-menu: amal-dynasty
+menu: "tarathica"
 ---
 
 Thedohar was the Kur of the Ostarathi from 217 3E to 219 3E, nephew to Thedomir the Great through his sister Lafrida, and cousin to his predicesor, Avalarik. He did not travel with his people into Greater Voria during the invasion, but stayed in Torozium (modern Graziste in Zerem) until he as summoned to assume the regal dignity of the Ostarathi people.

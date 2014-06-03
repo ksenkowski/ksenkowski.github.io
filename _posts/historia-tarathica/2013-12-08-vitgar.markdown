@@ -1,12 +1,12 @@
 ---
-layout: post
+layout: tarathica
 title:  "Vitigar"
 description: "Vitigar was the Kur of Ostarathi Greater Voria from 219 through 223 3E, succeeding to the throne during the early stage of the Third Tarathi War as the Imperial legato Bermudo was consolidating his gains in Lesser Voria."
 excerpt: "Vitigar was the Kur of Ostarathi Greater Voria from 219 through 223 3E, succeeding to the throne during the early stage of the Third Tarathi War as the Imperial legato Bermudo was consolidating his gains in Lesser Voria."
 date:   2013-12-09 15:00:00
-categories: V
+categories: historia-tarathica
 tags: [ostarathi, ilvabir, thedohar, vitigar, amal]
-menu: amal-dynasty
+menu: "tarathica"
 ---
 
 Vitigar was the Kur of Ostarathi Greater Voria from 219 through 223 3E, taking to the throne from Thedohar by force during the early stage of the Third Tarathi War as the Imperial legato Bermudo was consolidating his gains in Lesser Voria. Husband of Amal's only surviving child, Untha, he took the child as his bride to strengthen his claim to the kurdom. In this he was successful as the Ostarathi nobility rallied behind him against the invaders for a short time.

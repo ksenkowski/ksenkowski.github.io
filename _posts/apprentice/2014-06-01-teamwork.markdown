@@ -1,0 +1,12 @@
+---
+layout: apprentice
+title:  "Apprentice - Teamwork"
+description: "Teamwork is a central part of Conspiracy of Shadows: Apprentice for the Warband, which always moves together from location to location. The master and his Minions may never take advantage of Teamwork."
+categories: "apprentice"
+menu: "apprentice"
+---
+<h3 class="text-center">Journey Phase</h3>
+<p class="first">Teamwork is a central part of Conspiracy of Shadows: Apprentice for the Warband, which always moves together from location to location. The master and his Minions may never take advantage of Teamwork.</p>
+<p>To utilize Teamwork, a player who wishes his character to help must describe his actions in a single sentence after his ally describes his own actions. In doing so, that character is defining what Trait he is using to aid his ally.</p>
+<p class="call-out text-center">Freya the Silent leads the clans through the surrounding woods via secret paths, allowing them to arrive unnoticed.</p>
+<p class="first">The above example defines that Freya is aiding Haltaf by using her Hunter Trait. Mechanically, she is adding her own Trait rating to Haltaf’s Throw. Therefore Haltaf now Throws 13 Rune Stones instead of 7. However, if the Throw fails, the master will grant both characters Conditions he feels are appropriate to the context of the events.</p>

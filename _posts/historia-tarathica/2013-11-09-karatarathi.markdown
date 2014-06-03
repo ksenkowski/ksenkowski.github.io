@@ -1,14 +1,15 @@
 ---
-layout: post
+layout: tarathica
 title:  "The Karatarathi"
 description: "The Karatarathi were a Tarathi people from the northwestern coast of the Brav Sea."
 excerpt: "The Karatarathi were a Tarathi people from the northwestern coast of the Brav Sea. They are first mentioned in the works of Zellas as confederates of the Hatarathi, who at the time of his writing [ The Epistles to Zeno, 1344 2E ], they had taken the Hegoi Wall had overrun Ilaria [ Later Zerem ], Sloria [ Later Karatan], and were threatening Greater Voria."
 date:   2013-11-09 05:00:00
-categories: K
+categories: historia-tarathica
 tags: [battle of nis, hatarathi, first tarathi war, second tarathi war, ostarathi]
+menu: "tarathica"
 ---
-
-The Karatarathi were a Tarathi people from the northwestern coast of the Brav Sea. They are first mentioned in the works of Zellas as confederates of the Hatarathi, who at the time of his writing **[ The Epistles to Zeno, 1344 2E ]**, they had taken the Hegoi Wall had overrun Ilaria **[ Later Zerem ]**, Sloria **[ Later Karatan]**, and were threatening Greater Voria. This incursion came to a close when they were routed at the *Battle of Nis* by the Emperodar Claudio Tarathodar. The Karatarathi were driven back over the Hegoi Wall into Zeged Mountains near the fortress of Cerrte **[Later Cerrta]**.
+<h3>The Karatarathi</h3>
+<p class="first">The Karatarathi were a Tarathi people from the northwestern coast of the Brav Sea. They are first mentioned in the works of Zellas as confederates of the Hatarathi, who at the <span class="footnote" title="The Epistles to Zeno, 1344 2E" rel="tooltip">time of his writing</span>, they had taken the Hegoi Wall had overrun <span class="footnote" title="Modern Zerem" rel="tooltip">Ilaria</span>, <span class="footnote" title="Modern Tarathan Duchy of Karatan" rel="tooltip">Sloria</span>, and were threatening Greater Voria. This incursion came to a close when they were routed at the *Battle of Nis* by the Emperodar Claudio Tarathodar. The Karatarathi were driven back over the Hegoi Wall into Zeged Mountains near the fortress of <span class="footnote" title="Modern Cerrta" rel="tooltip">Cerrte</span>.</p>
 
 In 50, while the Duque Primero of the East Vincent I de Cibala started the first Tarathi War with their cousins the Hatarathi, the Karatarathi under their Kur Herwig the White, swept across the Orda River north of Cerrte and took Granmonta by surprise. After two years they were able to extract a heavy ransom from the Duque Primero of the West, Veto de Cibala before returning to the Zeged Mountains.
 

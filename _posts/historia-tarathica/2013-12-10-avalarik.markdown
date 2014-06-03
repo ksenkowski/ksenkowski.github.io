@@ -1,12 +1,12 @@
 ---
-layout: post
+layout: tarathica
 title:  "Avalarik"
 description: "Avalarik was the only son of Thedomir the Great's daughter Amal and Uvarik, a prince from the Vestarathi Kurdom of Tovosa, succeeding his grandfather at the age of ten years old in 209 3E."
 excerpt: "Avalarik was the only son of Thedomir the Great's daughter Amal and Uvarik, a prince from the Vestarathi Kurdom of Tovosa, succeeding his grandfather at the age of ten years old in 209 3E."
 date:   2013-12-10 05:00:00
-categories: A
+categories: historia-tarathica
 tags: [ostarathi, thedohar, thedomir, amal, avalarik]
-menu: amal-dynasty
+menu: "tarathica"
 ---
 
 Avalarik was the only son of Thedomir the Great's daughter Amal and Uvarik, a prince from the Vestarathi Kurdom of Tovosa, succeeding his grandfather at the age of ten years old in 209 3E. His mother assumed his regency and imported tutors from the Empire to raise her son in the Vorian fashion. This angered the Ostarathi nobility who found the Vorians effeminate. The Kurdom found itself split into factions who sought to seize control of the young prince.

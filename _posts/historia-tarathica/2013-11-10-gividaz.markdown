@@ -1,11 +1,12 @@
 ---
-layout: post
+layout: tarathica
 title:  "The Gividaz"
 description: "In 1336 2E, the Gividaz are first reported as joining the Tarathi in their invasion of the province of Dervas [Later Toloska]. They had migrated from Sarl Country and Zellas reported that they were a lesser Sarl tribe that was forced out for not being war-like enough."
-excerpt: "In 1336 2E, the Gividaz are first reported as joining the Tarathi in their invasion of the province of Dervas **[Later Toloska]**. They had migrated from Sarl Country and Zellas reported that they were a lesser Sarl tribe that was forced out for not being war-like enough."
+excerpt: "In 1336 2E, the Gividaz are first reported as joining the Tarathi in their invasion of the province of Dervas [Later Toloska]. They had migrated from Sarl Country and Zellas reported that they were a lesser Sarl tribe that was forced out for not being war-like enough."
 date:   2013-11-09 05:00:00
-categories: G
+categories: historia-tarathica
 tags: [tarathi, cavasla horde]
+menu: "tarathica"
 ---
 
 In 1336 2E, the Gividaz are first reported as joining the Tarathi in their invasion of the province of Dervas **[Later Toloska]**. They had migrated from Sarl Country and Zellas reported that they were a lesser Sarl tribe that was forced out for not being war-like enough. Despite this they terrified the Tarathi, who allied with them to yoke their strength for their invasion of the Empire.

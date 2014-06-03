@@ -1,4 +1,3 @@
-//Here you will find all the plugins used in the examples.
 // Avoid `console` errors in browsers that lack a console.
 if (!(window.console && console.log)) {
     (function() {
@@ -11,206 +10,145 @@ if (!(window.console && console.log)) {
         }
     }());
 }
-/*
- * jQuery pageSlide
- * Version 2.0
- * http://srobbin.com/jquery-pageslide/
- *
- * jQuery Javascript plugin which slides a webpage over to reveal an additional interaction pane.
- *
- * Copyright (c) 2011 Scott Robbin (srobbin.com)
- * Dual licensed under the MIT and GPL licenses.
-*/
-
-;(function($){
-    // Convenience vars for accessing elements
-    var $body = $('body'),
-        $pageslide = $('#pageslide');
-    
-    var _sliding = false,   // Mutex to assist closing only once
-        _lastCaller;        // Used to keep track of last element to trigger pageslide
-    
-	// If the pageslide element doesn't exist, create it
-    if( $pageslide.length == 0 ) {
-         $pageslide = $('<div />').attr( 'id', 'pageslide' )
-                                  .css( 'display', 'none' )
-                                  .appendTo( $('body') );
-    }
-    
-    /*
-     * Private methods 
-     */
-    function _load( url, useIframe ) {
-        // Are we loading an element from the page or a URL?
-        if ( url.indexOf("#") === 0 ) {                
-            // Load a page element                
-            $(url).clone(true).appendTo( $pageslide.empty() ).show();
-        } else {
-            // Load a URL. Into an iframe?
-            if( useIframe ) {
-                var iframe = $("<iframe />").attr({
-                                                src: url,
-                                                frameborder: 0,
-                                                hspace: 0
-                                            })
-                                            .css({
-                                                width: "100%",
-                                                height: "100%"
-                                            });
-                
-                $pageslide.html( iframe );
-            } else {
-                $pageslide.load( url );
-            }
-            
-            $pageslide.data( 'localEl', false );
-            
-        }
-    }
-    
-    // Function that controls opening of the pageslide
-    function _start( direction, speed ) {
-        var slideWidth = $pageslide.outerWidth( true ),
-            bodyAnimateIn = {},
-            slideAnimateIn = {};
-        
-        // If the slide is open or opening, just ignore the call
-        if( $pageslide.is(':visible') || _sliding ) return;	        
-        _sliding = true;
-                                                                    
-        switch( direction ) {
-            case 'left':
-                $pageslide.css({ left: 'auto', right: '-' + slideWidth + 'px' });
-                bodyAnimateIn['margin-left'] = '-=' + slideWidth;
-                slideAnimateIn['right'] = '+=' + slideWidth;
-                break;
-            default:
-                $pageslide.css({ left: '-' + slideWidth + 'px', right: 'auto' });
-                bodyAnimateIn['margin-left'] = '+=' + slideWidth;
-                slideAnimateIn['left'] = '+=' + slideWidth;
-                break;
-        }
-                    
-        // Animate the slide, and attach this slide's settings to the element
-        $body.animate(bodyAnimateIn, speed);
-        $pageslide.show()
-                  .animate(slideAnimateIn, speed, function() {
-                      _sliding = false;
-                  });
-    }
-      
-    /*
-     * Declaration 
-     */
-    $.fn.pageslide = function(options) {
-        var $elements = this;
-        
-        // On click
-        $elements.click( function(e) {
-            var $self = $(this),
-                settings = $.extend({ href: $self.attr('href') }, options);
-            
-            // Prevent the default behavior and stop propagation
-            e.preventDefault();
-            e.stopPropagation();
-            
-            if ( $pageslide.is(':visible') && $self[0] == _lastCaller ) {
-                // If we clicked the same element twice, toggle closed
-                $.pageslide.close();
-            } else {                 
-                // Open
-                $.pageslide( settings );
-
-                // Record the last element to trigger pageslide
-                _lastCaller = $self[0];
-            }       
-        });                   
-	};
-	
-	/*
-     * Default settings 
-     */
-    $.fn.pageslide.defaults = {
-        speed:      200,        // Accepts standard jQuery effects speeds (i.e. fast, normal or milliseconds)
-        direction:  'right',    // Accepts 'left' or 'right'
-        modal:      false,      // If set to true, you must explicitly close pageslide using $.pageslide.close();
-        iframe:     true,       // By default, linked pages are loaded into an iframe. Set this to false if you don't want an iframe.
-        href:       null        // Override the source of the content. Optional in most cases, but required when opening pageslide programmatically.
-    };
-	
-	/*
-     * Public methods 
-     */
-	
-	// Open the pageslide
-	$.pageslide = function( options ) {	    
-	    // Extend the settings with those the user has provided
-        var settings = $.extend({}, $.fn.pageslide.defaults, options);
-	    
-	    // Are we trying to open in different direction?
-        if( $pageslide.is(':visible') && $pageslide.data( 'direction' ) != settings.direction) {
-            $.pageslide.close(function(){
-                _load( settings.href, settings.iframe );
-                _start( settings.direction, settings.speed );
-            });
-        } else {                
-            _load( settings.href, settings.iframe );
-            if( $pageslide.is(':hidden') ) {
-                _start( settings.direction, settings.speed );
-            }
-        }
-        
-        $pageslide.data( settings );
-	}
-	
-	// Close the pageslide
-	$.pageslide.close = function( callback ) {
-        var $pageslide = $('#pageslide'),
-            slideWidth = $pageslide.outerWidth( true ),
-            speed = $pageslide.data( 'speed' ),
-            bodyAnimateIn = {},
-            slideAnimateIn = {}
-            	        
-        // If the slide isn't open, just ignore the call
-        if( $pageslide.is(':hidden') || _sliding ) return;	        
-        _sliding = true;
-        
-        switch( $pageslide.data( 'direction' ) ) {
-            case 'left':
-                bodyAnimateIn['margin-left'] = '+=' + slideWidth;
-                slideAnimateIn['right'] = '-=' + slideWidth;
-                break;
-            default:
-                bodyAnimateIn['margin-left'] = '-=' + slideWidth;
-                slideAnimateIn['left'] = '-=' + slideWidth;
-                break;
-        }
-        
-        $pageslide.animate(slideAnimateIn, speed);
-        $body.animate(bodyAnimateIn, speed, function() {
-            $pageslide.hide();
-            _sliding = false;
-            if( typeof callback != 'undefined' ) callback();
-        });
-    }
-	
-	/* Events */
-	
-	// Don't let clicks to the pageslide close the window
-    $pageslide.click(function(e) {
-        e.stopPropagation();
-    });
-
-	// Close the pageslide if the document is clicked or the users presses the ESC key, unless the pageslide is modal
-	$(document).bind('click keyup', function(e) {
-	    // If this is a keyup event, let's see if it's an ESC key
-        if( e.type == "keyup" && e.keyCode != 27) return;
-	    
-	    // Make sure it's visible, and we're not modal	    
-	    if( $pageslide.is( ':visible' ) && !$pageslide.data( 'modal' ) ) {	        
-	        $.pageslide.close();
-	    }
+$(function() {
+	$('footer').on('click', 'nav a.open', function(e){
+		e.preventDefault();
+		var id = '.' + $(this).attr('data-container');
+		var container = $('#menuContainer');
+		if(container.height()<=0) {
+				container.animate({
+					height: '200px'});
+				container.children().children().css('padding', '1.5em');	
+				$(id).css({display: 'block'});
+				$(id).siblings().css({display: 'none'});				
+		}else{
+			if($(id).is(':visible')){
+				container.animate({
+					height: '0px'}, function(){
+						container.children().children().css('padding', '0px');
+						
+					});
+			}else{
+				$(id).css({display: 'block'});
+				$(id).siblings().css({display: 'none'});
+				
+			}
+		}
 	});
-	
-})(jQuery);
+	$('main').on('click', function(e){
+		var container = $('#menuContainer');
+		if(container.height()=== 200) {
+			container.animate({
+				height: '0px',
+				padding: '0px'});
+		}
+	});
+});
+$( function(){
+    var targets = $('[rel~=tooltip]'),
+        target  = false,
+        tooltip = false,
+        title   = false;
+ 
+    targets.on('mouseenter', function(){
+		target = $( this );
+        tip = target.attr('title');
+        tooltip = $( '<div id="tooltip"></div>' );
+ 
+        if(!tip || tip == ''){
+            return false;
+		}
+ 
+        target.removeAttr('title');
+        tooltip.css('opacity', 0).html(tip).appendTo('body');
+ 
+        var init_tooltip = function(){
+            if( $( window ).width() < tooltip.outerWidth() * 1.5 ){
+                tooltip.css('max-width', $( window ).width() / 2 );
+			}else{
+                tooltip.css('max-width', 340 );
+			}
+ 
+            var pos_left = target.offset().left + ( target.outerWidth() / 2 ) - ( tooltip.outerWidth() / 2 ),
+                pos_top  = target.offset().top - tooltip.outerHeight() - 20;
+ 
+            if( pos_left < 0 ){
+                pos_left = target.offset().left + target.outerWidth() / 2 - 20;
+                tooltip.addClass( 'left' );
+            }else{
+                tooltip.removeClass( 'left' );
+			}
+			if( pos_left + tooltip.outerWidth() > $( window ).width() ){
+                pos_left = target.offset().left - tooltip.outerWidth() + target.outerWidth() / 2 + 20;
+                tooltip.addClass( 'right' );
+            }else{
+                tooltip.removeClass( 'right' );
+			}
+ 
+            if( pos_top < 0 ){
+                var pos_top  = target.offset().top + target.outerHeight();
+                tooltip.addClass( 'top' );
+            }else{
+                tooltip.removeClass( 'top' );	
+			}
+ 
+            tooltip.css( { left: pos_left, top: pos_top } ).animate( { top: '+=10', opacity: 1 }, 50 );
+        };
+ 
+        init_tooltip();
+        $( window ).resize( init_tooltip );
+ 
+        var remove_tooltip = function(){
+            tooltip.animate( { top: '-=10', opacity: 0 }, 50, function(){
+                $( this ).remove();
+            });
+			target.attr( 'title', tip );
+        };
+ 
+        target.on( 'mouseleave', remove_tooltip );
+        tooltip.on( 'click', remove_tooltip );
+    });
+});
 
+$( function(){
+	var throwStones = function throwStonesF(number) {
+		$('#rune-stone-results').empty();
+		var arr = [ ];
+		arr = ["F", "U", "W", "A", "R", "K", "X", "V", "H", "N", "I", "J", "Y", "P", "Z", "S", "T", "B", "E", "M", "L", "Q", "O", "D", "The Black Stone"];
+
+	    var shuffled = arr.slice(0), i = arr.length, temp, index;
+	    while (i--) {
+	        index = Math.floor(i * Math.random());
+	        temp = shuffled[index];
+	        shuffled[index] = shuffled[i];
+	        shuffled[i] = temp;
+	    }
+		var value = parseInt(number);
+		shuffled =  shuffled.slice(0,value);
+		var h = 0, t = 0;
+		for(i = 0; i < shuffled.length; i++){
+
+			var headTail = Math.floor(Math.random(2) * 2);
+			if(headTail == 1){
+				if(shuffled[i] == "The Black Stone"){
+					$('#rune-stone-results').append('<li class="black-stone"></li>');
+				}else{
+					$('#rune-stone-results').append('<li class="futhark"><span>' + shuffled[i] + '</span></li>');
+				}
+				h = h + 1;
+			}else{
+				t = t + 1;
+				if(shuffled[i] == "The Black Stone"){
+					$('#rune-stone-results').append('<li class="black-stone"></li>');
+				}else{
+					$('#rune-stone-results').append('<li class="tails">' + shuffled[i] + '</li>');
+				}
+			} 
+		}
+	};
+	$('#throw-stones').on('click', function(){
+		var number = $('#number-of-stones').val();
+		throwStones(number);
+	});
+
+});

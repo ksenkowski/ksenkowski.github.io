@@ -1,0 +1,347 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	*behavior: url('/js/boxsizing.htc'); 
+	
+}
+
+body{
+	font-family:$primary-stack;
+	font-weight:normal;
+	font-size: 100%;
+    line-height: 140%;
+    font-weight: 300;
+	color:$deep-gray;
+	background:$white;
+	height:100%;
+	min-height:100%;
+	position:relative;
+}
+main{
+	max-width:100%;
+	margin:0 auto;
+	height:100%;
+	width:100%;
+}
+/* ==========================================================================
+   IMAGES
+   ========================================================================== */
+
+img {
+    vertical-align: middle;
+}
+
+/* ==========================================================================
+   TYPOGRAPHY - My preference is for percentages when working with fonts. Everyone has their own thing.
+   ========================================================================== */
+.call-out{
+	font-weight:400;
+	color:$darkest-color;
+	padding:3%;
+}
+.small{
+	font-size:80% !important;
+}
+.text-left {
+  text-align: left;
+}
+.text-uppercase{
+	text-transform:uppercase;
+}
+.text-right {
+  text-align: right;
+}
+.hidden{
+	display:none;
+}
+.text-center {
+  text-align: center;
+}
+.warning-text{
+	color:$warning-gold;
+}
+.error-text{
+	color:$error-pink;
+}
+.success-text{
+	color:$success-green;
+}
+blockquote {
+	padding: 0 0 0 15px;
+	margin: 0 0 20px;
+}
+blockquote p {
+	margin-bottom: 0;
+	font-size: 120%;
+	font-weight: 300;
+	line-height: 160%;
+}
+blockquote small {
+	display: block;
+	line-height: 100%;
+	color: #999;
+}
+blockquote small:before {
+	content: '\2014 \00A0';
+}
+/* ==========================================================================
+   HEADING STYLES
+   ========================================================================== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: bold;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+h1,h2,h3{
+	line-height:110%;
+}
+h4,h5,h6{
+	line-height: 160%;
+}
+h1{
+	font-size:255%;
+}
+h2{
+	font-size:215%;
+}
+h3{
+	font-size:170%;
+}
+h4{
+	font-size:120%;
+}
+h5{
+	font-size:100%;
+}
+h6{
+	font-size:90%;
+}
+/* ==========================================================================
+   LIST STYLES
+   ========================================================================== */
+ul,
+ol {
+  padding: 0;
+  margin: 0 0 10px 25px;
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin-bottom: 0;
+}
+ul.spaced-list, ol.spaced-list {
+	margin-bottom:15px;
+}
+.spaced-list li{
+	margin:8px 0px;
+}
+ul.unstyled, ol.unstyled {
+	margin-left: 0;
+	list-style: none;
+}
+ul.inline, ol.inline {
+	margin-left: 0;
+	list-style: none;
+}
+.inline li{
+	display:inline-block;
+}
+ol.upper-roman{
+	list-style-type:upper-roman;	
+}
+ol.lower-roman{
+	list-style-type:lower-roman;
+}
+
+/* ==========================================================================
+   LINKS - My broad preference is to have no text decoration on links and apply a dotted border on hover.
+   ========================================================================== */
+
+a {
+    color:$highlight-color;
+	text-decoration:none;
+}
+a:hover{
+	border-bottom:1px dotted $highlight-color;
+}
+
+/* ==========================================================================
+   FORMS - 
+   ========================================================================== */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+textarea {
+    resize: vertical;
+}
+/* ==========================================================================
+   CLEARFIX
+   ========================================================================== */
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+/* ==========================================================================
+   TOOLTIPS
+   ========================================================================== */
+
+#tooltip{
+    text-align: center;
+    color: $white;
+    background: $deep-gray;
+    position: absolute;
+    z-index: 100;
+    padding: 15px;
+	&:after{
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid $deep-gray;
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -10px;
+        margin-left: -5px;
+    }
+	&.top:after{
+        border-top-color: transparent;
+        border-bottom: 10px solid $deep-gray;
+        top: -20px;
+        bottom: auto;
+    }
+	&.left:after{
+        left: 10px;
+        margin: 0;
+    }
+	&.right:after{
+        right: 10px;
+        left: auto;
+        margin: 0;
+    }
+}
+ 
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+@-webkit-keyframes shake {
+ 	0% { -webkit-transform: scale(1); }
+		50% { -webkit-transform: scale(0.9); }
+		100% { -webkit-transform: scale(1); }
+}
+@-moz-keyframes shake {
+ 	0% { -webkit-transform: scale(1); }
+		50% { -webkit-transform: scale(0.9); }
+		100% { -webkit-transform: scale(1); }
+}
+@-o-keyframes shake {
+  	0% { -webkit-transform: scale(1); }
+		50% { -webkit-transform: scale(0.9); }
+		100% { -webkit-transform: scale(1); }
+}
+@keyframes shake{
+  	0% { -webkit-transform: scale(1); }
+		50% { -webkit-transform: scale(0.9); }
+		100% { -webkit-transform: scale(1); }
+}
+
+footer{
+	background:$white;
+	position:fixed;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:100;
+	min-height:80px;
+	padding:0;
+	border-top: 1px solid rgba(0,0,0,0.07);
+	
+	nav{
+		ul{
+			display:table;
+			width:100%;
+			li{
+				display:table-cell;
+				float:left;
+				width:25%;
+				a{
+					display:block;
+					text-align:center;
+					img{
+						max-width:70px;
+						margin:0 auto;
+						display:block;
+					}
+					&:hover{
+						border:none;
+						-webkit-animation-name: shake;
+					  	-webkit-animation-duration: 200ms;
+							-webkit-transform-origin:50% 50%;
+							-webkit-animation-iteration-count: 2;
+							-webkit-animation-timing-function: linear;
+					}
+				}
+			}	
+		}
+	}
+	#menuContainer{
+		width:100%;
+		height:0;
+		.overlay{
+			background:rgba(0,0,0,0.75);
+			top:80px;
+			left:0;
+			bottom:0;
+			right:0;
+			position:absolute;
+			.gameContent, .bookContent, .artContent{
+				display:none;
+				position:relative;
+				h4{
+					text-transform:uppercase;
+					margin:0;
+				}
+				p{
+					color:$white;
+					margin:-5px 0px 10px;
+				}
+			}
+		}
+	}
+}
+@media only screen and (min-width: 48.000em) {
+	footer{
+		#menuContainer{
+			.overlay{
+				.gameContent, .bookContent, .artContent{
+					p{
+						display:block;
+					}
+				}
+			}
+		}
+	}
+}

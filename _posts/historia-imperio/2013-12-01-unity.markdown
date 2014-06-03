@@ -1,18 +1,22 @@
 ---
-layout: historia-imperio
-title:  "Historia Imperio - Part 1"
-chapter-title: "Unity"
+layout: imperio
+title:  "Historia Imperio - Unity"
 description: "Unity. It was the word he used throughout his reign, from the first days when his father's soldiers raised him on their shields in the distant provinces of Novia, to the last moments on his deathbed where he gasped out his dying demands to his daughters and the Patriarch."
-excerpt: "Unity. It was the word he used throughout his reign, from the first days when his father's soldiers raised him on their shields in the distant provinces of Novia, to the last moments on his deathbed where he gasped out his dying demands to his daughters and the Patriarch."
-date:   2013-12-01 05:00:00
-categories: historia-imperio
-menu: historia-imperio
-forward: "<p>In the year of our Lord 1204, the eight hundred and eighty-seventh year of this, the Third Era, my father, Don Jerónimo Sánchez de Carranza died at the siege of Cidiero. He was a renown soldier, famed for his swordsmanship, his keen intellect and for capturing the heart of Maria de Falkia, daughter of Felipe el Aumentador and most importantly to you, my mother. He was the very figure from which all other men were measured and he died gloriously for his God, for his Lord, and for his family. Yet, that legacy, for which he is most well known is not why you hold this manuscript in your hands.</p>
+categories: "historia-imperio"
+menu: "imperio"
+---
+<h3 class="text-center">Chapter One &#8226; Unity</h3>
+<aside class="author-note">
+<p>In the year of our Lord 1204, the eight hundred and eighty-seventh year of this, the Third Era, my father, Don Jerónimo Sánchez de Carranza died at the siege of Cidiero. He was a renown soldier, famed for his swordsmanship, his keen intellect and for capturing the heart of Maria de Falkia, daughter of Felipe el Aumentador and most importantly to you, my mother. He was the very figure from which all other men were measured and he died gloriously for his God, for his Lord, and for his family. Yet, that legacy, for which he is most well known is not why you hold this manuscript in your hands.</p>
+
 <p>On the 57th anniversary of my birth, I was fortunate enough to be counted among those who regained what was lost with my father's death, the most holy city of Cidiero, ushering in a new age of peace in the Empire. Amongst the wreckage and ruin that was my family's ancient estate, which dated to the time Luis Argyros de Carranza, who founded our line while serving the Empire with distinction in the wars to eradicate the Pablician heresy, I found what you hold currently within your hands, my father's true legacy.</p>
+
 <p>My mother has told me that swordsmanship, soldiery and statesmanship were never the true calling of Don Jerónimo. Rather his love of scholarship, second only to his love of my blessed mother, and the works that sprang from that love, were what made his soul sing. These incomplete, burnt and tattered manuscripts outlining the very history of this, the Third Era, is what he wished the world to remember him for. Where there are gaps, I have sought to fill them in my own meager way, and little justice do I do my sire, but taken with his writing, maps and illustrations, I can only hope to have filled his soul, be it in heaven or hell, with some measure of pride.</p>
-<p><em>Don Felipe Jerónimo de Carranza</em></p>
+
+<p class="text-right">Don Felipe Jerónimo de Carranza</p>
+</aside>
 <h4>Preface</h4>
-<p>I know not if the task I have undertaken to mark the history of this Era from the founding of the Empire will reward me in any way for the work I have done, and neither do I care. What I do here, what I invest my labor in, is of greater importance than any vindication or praise I might receive. Moreover, the subject is one that demands a seriousness of intent as it goes back 1200 years, from the gestation of a singular idea to an immense tapestry of different ideas, both virtuous and damned.</p>
+<p class="first">I know not if the task I have undertaken to mark the history of this Era from the founding of the Empire will reward me in any way for the work I have done, and neither do I care. What I do here, what I invest my labor in, is of greater importance than any vindication or praise I might receive. Moreover, the subject is one that demands a seriousness of intent as it goes back 1200 years, from the gestation of a singular idea to an immense tapestry of different ideas, both virtuous and damned.</p>
  
 <p>I have very little doubt that for the majority of my readers the earliest days of foundation will possess little worthy of attention and they will hurry forward to these modern days so that they might glean some meaning concerning our current state. I pray that they will come to understand that a modern state of being only shows it's true value through the lens of its evolution through time.</p>
  
@@ -20,13 +24,15 @@ forward: "<p>In the year of our Lord 1204, the eight hundred and eighty-seventh 
  
 <p>However one may view these deeds and their originators, I view them with little regard. They fall short of the subject I would turn my reader to pay most close attention to, the life and morality of the communities in which we will explore. Observe the quality, the passion, the moral decay and moments of pious humility. It is these base actions that separate us from the divine, these low motivations that make us who we are, both then and now.</p>
  
-<p>I pray you stay with me gentle reader, at least a little while.</p>"
----
+<p>I pray you stay with me gentle reader, at least a little while.</p>
+
+<img src="/img/imperio/raven.png" alt="Chapter Icon" class="chapter-icon" />
 
 <p>Unity. It was the word he used throughout his reign, from the first days when his father's soldiers raised him on their shields in the distant provinces of Novia, to the last moments on his deathbed where he gasped out his dying demands to his daughters and the Patriarch. The day he marched at the head of his armies through the Aguilca Gates that fateful autumn day in which this very era was birthed in blood and steel, his Legato, the good Martin Antolinez swore that is what the great Campeador whispered through gritted teeth.</p>
 <p>Though not yet known by that exulted name, for only after he took the head of Lino, Duque Primero of the East, years later would men honor him so, he was received like the Emperodars of old by the senate, with streets crowded with paid onlookers. He was a shrewd man, and such partisan plays were well within his sight, and so he marched his men under arms to the senate house, once the sacred home of republican virtues, now a whore, legs spread to all who have the coin to mount her. Though he was an energetic forty years of age, his arms were lead from the butchery of the last two days, making the mounting of the great stairs into the whore's bosom a task as physically difficult as it was distasteful.</p>
 <p>It was at the top of the steps, surrounded by his most loyal soldiers, who knew the errand they were on and understood the danger that lay within that temple to corruption, he turned back to the sea of soldiers and civilians below him. There he paused, his eyes closed, soaking in the dying rays of the sun, caressing the lion headed pommel of his father's sword, then raising his other hand called for silence. Vidas, his loyal boyhood companion, future Patriarcha of the yet to be built capital of Cidiero, knew that the Campeador was filled with anger and would unleash it with words now, on those steps before entering the dangerous den where no emotional mistake could be made. He pulled out his stylus and parchment, taking a seat at his master's feet, a heavy book his table, and looked up in anticipation.</p>
 <p>The silence was long, and not a man, woman or child stirred the Campeador from his sightless thoughts. Slowly, as if waking from a deep sleep and realizing that the days before had not been horrific dreams but the true events of his life, he lowered his head from the sun and opened his eyes to hold the crowd in their crystal blue depths. The anticipation of his coming words had reached an orgasmic pitch that he could practically taste, so he savored it a moment before speaking.</p>
+<aside>
 <p class="call-out">Citizens. My countrymen. I come before you now to seek your wise counsel. Two days past, outside the gates of this eternal city of Corriento, with sword in hand, I led my soldiers against Maximiano Aurelio de Valentia, your leader, your Duque, who though my enemy, he was a man of honor. For two days we fought before and on the Muerlenta Bridge, watering the ground with the blood of too many men, turning the river black, and darkening the skies with flies.</p>
 <p class="call-out">For the first time in years I found myself on the front lines, shielding my brother soldier and being shielded in return. My arm, like so many of the soldiers you see before you today, swung endlessly, bringing death and destruction upon anyone who stood before me, be it a man or young boy conscripted into service. This was the path I chose, and it was only fitting that I share the burden with the men who chose to follow me here.</p>
 <p class="call-out">Was my enemy, whose head dear Martin here took with his own sword, a good man or an evil man? It is said that the evil of a man's life lives on while the good drains away to the soil like the blood from a sacrificed bull. So it shall be with Maximiano, a man I have known and honored for the many years prior to this time of violence, and for many years hence.</p>
@@ -35,9 +41,8 @@ forward: "<p>In the year of our Lord 1204, the eight hundred and eighty-seventh 
 <p class="call-out">Julio, who once stood at this very spot before meeting his death in this very house, crossed that sacred border because he believed that he must, that is was right, and that the blood he must wade through would lead his country to greatness. In time, despite his ultimate betrayal, he was proved right. But…</p>
 <p class="call-out">Do I dare? Do I dare take this next step? Do I dare cross the sacred border, for if I do, there will be a red sea of violence that washes over our great country and I will be it’s origin. If I do, I will allow no man, woman or child to bar my path, and that… that is a terrible price to pay.</p>
 <p class="call-out">So I ask you my countrymen. Do I cross this threshold behind me and unleash the deluge?</p>
+</aside>
 <p>For several minutes the crowd stared back in a murky silence, neither giving ascent nor demanding he turn back from the course of action that had brought him there. They knew the truth, for they had gone about their daily lives, laboring, eating, fornicating, and dying under a constant cacophony of stories told by the honorable senate about the man before them. It was that this man before them was the ambitious monster from the wild and savage north, come south to end the Empire and enslave its people for his own carnal delights.</p>
 <p>And then, like the slow rise of a distant noise, the word was given. At first it was just a few old men who had been living with the corruption of the house behind the Campeador for decades, who simply, silently took to their knees. Then it was the craftsmen who had suffered under grueling taxes, followed by the whores and orphans who knew of no justice, even there in the light of the world.</p>
 <p>And like that, the crowd kneeled and the word was given. A simple nod was all he returned, no smile marring his stoic face, no light in his eyes, for he knew what work lay ahead. He turned and walked into building before him without even a word to his companions and for some time silence reigned over the great forum, blanketing the people as they looked up from their knees to the great stone monument to the very virtues the Empire was founded on.</p>
 <p>Then there was screaming. Then there was blood running down those marble steps like a river. Then the first steps towards unity were taken.</p>
-<p class="text-center"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=22CYCQED4LMGE" class="btn">Buy Worlds Without Master<br/> Volume 1, Issue. 2</a></p>
-

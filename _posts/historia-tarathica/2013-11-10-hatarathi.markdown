@@ -1,14 +1,15 @@
 ---
-layout: post
+layout: tarathica
 title:  "The Hatarathi"
 description: "The Hatarathi were a Tarathi people from the high plains in the Unknowable East."
-excerpt: "The Hatarathi were a Tarathi people from the high plains in the *Unknowable East*. They are first mentioned in the works of Zellas as confederates of the Karatarathi, who at the time of his writing [ The Epistles to Zeno, 1344 2E ], they had taken the Hegoi Wall had overrun Ilaria [ Later Zerem ], Sloria [ Later Karatan ], and were threatening Greater Voria."
+excerpt: "The Hatarathi were a Tarathi people from the high plains in the Unknowable East. They are first mentioned in the works of Zellas as confederates of the Karatarathi, who at the time of his writing [ The Epistles to Zeno, 1344 2E ], they had taken the Hegoi Wall had overrun Ilaria [ Later Zerem ], Sloria [ Later Karatan ], and were threatening Greater Voria."
 date:   2013-11-09 05:00:00
-categories: H
+categories: historia-tarathica
 tags: [battle of nis, karatarathi, first tarathi war, second tarathi war, battle of palido, vestarathi]
+menu: "tarathica"
 ---
 
-The Hatarathi were a Tarathi people from the high plains in the *Unknowable East*. They are first mentioned in the works of Zellas as confederates of the Karatarathi, who at the time of his writing **[ The Epistles to Zeno, 1344 2E ]**, they had taken the Hegoi Wall had overrun Ilaria **[ Later Zerem ]**, Sloria **[ Later Karatan ]**, and were threatening Greater Voria. This incursion came to a close when they were routed at the *Battle of Nis* by the Emperodar Claudio Tarathodar. The Hatarathi were driven back over the Hegoi Wall into Kidava **[ Later Eastern Toloska ]**, which Amon eventually pulled the Empire out of in a bid to create a more manageable frontier.
+The Hatarathi were a Tarathi people from the high plains in the *Unknowable East*. They are first mentioned in the works of Zellas as confederates of the Karatarathi, who at the <span class="footnote" title="The Epistles to Zeno, 1344 2E" rel="tooltip">time of his writing</span>, they had taken the Hegoi Wall had overrun Ilaria **[ Later Zerem ]**, Sloria **[ Later Karatan ]**, and were threatening Greater Voria. This incursion came to a close when they were routed at the *Battle of Nis* by the Emperodar Claudio Tarathodar. The Hatarathi were driven back over the Hegoi Wall into Kidava **[ Later Eastern Toloska ]**, which Amon eventually pulled the Empire out of in a bid to create a more manageable frontier.
 
 In 50, the Dux Primero of the East, Vincente I, attacked the Hatarathi north of the Kid River, sparking the first Tarathi War (50-52 3E). For two years he chased the Hatarathi and the Karatarathi through the Kidava basin, unable to engage them as they melted away each time he brought his forces to bear. It wasn't until he was able to pin a large force against the Zeged Mountains in the north and force a damaging peace in which hostages and jade were taken, which was to be followed by an annual tribute of jade and amber in vast quantities.
 

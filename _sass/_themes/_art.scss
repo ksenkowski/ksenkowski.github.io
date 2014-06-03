@@ -1,0 +1,190 @@
+
+.art{
+	background:url('../img/art/background.jpg') top center no-repeat fixed;
+	
+	header{
+		padding: 1em 3em;
+		background:$white;
+		border-left: 1px solid rgba(0,0,0,0.07);
+		border-right: 1px solid rgba(0,0,0,0.07);
+		h1{
+			text-align:center;
+			margin:0;
+			padding-top:1em;
+			text-transform:uppercase;
+			color:$darkest-color;
+			letter-spacing:2px;
+			font-size:120%;
+		}
+		h2{
+			text-align:center;
+			margin:0;
+			padding:1em 0;
+			color:$darker-color;
+			letter-spacing:2px;
+			font-size:100%;
+		}
+		nav{
+			text-align:center;
+			font-size:2em;
+			ul{
+				margin:0;
+				padding:0;
+				li{
+					margin-top:0.5em;
+					padding-right:0.35em;
+					&.sup{
+						margin-top:-0.5em;
+						margin-right: 0.4em;
+					}
+					a{
+						span{
+							display:block;
+							width: 0;
+							height: 0;
+							border: 6px solid transparent;
+							border-bottom-color: $highlight-color;
+							position: relative;
+							top: -6px;
+							text-indent:-9999px;
+							&:after{
+								content: '';
+								position: absolute;
+								left: -6px;
+								top: 6px;
+								width: 0;
+								height: 0;
+								border: 6px solid transparent;
+								border-top-color: $highlight-color;
+							}
+							&.down{
+								border-bottom-color: $white;
+							}
+							&.down:after{
+								border-top-color: $darker-color;
+							}
+							&.up{
+								border-bottom-color: $darker-color;
+							}
+							&.up:after{
+								border-top-color: $white;
+							}
+						}
+						
+					}
+				}
+			}
+		}
+	}
+	article{
+		background:$white;
+		padding: 1em 1.75em 100px;
+		border: 1px solid rgba(0,0,0,0.07);
+		border-bottom: 0;
+		min-height:600px;
+		.gallery-title{
+			text-align:center;
+			margin:10px 0px 20px;
+			color:$primary-color;
+		}
+		.gallery-row{
+			padding:1em 0px;
+			figure{
+				padding:3%;
+				a{
+				background:$gray;
+				padding:5%;
+				display:block;
+				border:solid 1px $deep-gray;
+					img{
+						margin:0 auto;
+						display:block;
+						border:solid 1px $deep-gray;
+					}
+				}
+				figcaption{
+					padding:10px 0px;
+					
+					h4{
+						margin:0px;
+						font-size:100%;
+					}
+					p{
+						font-size:95%;
+					}
+				}
+			}
+		}
+		aside{
+			padding:2em;
+		}
+		.chapter-icon{
+			display:block;
+			margin:1em auto;
+		}
+		h3, h4{
+			margin:0 0 1.5em 0;
+			text-transform:uppercase;
+		}
+		p{
+			margin: 0;
+			text-indent: 1.25em;
+			line-height:160%;
+			font-size:120%;
+			&.first{
+				text-indent:0;
+			}
+		}
+		aside{
+			p.call-out{
+				text-indent:0;
+				margin:0 0 .5em 0;
+				
+			}
+		}
+		
+	}
+}
+
+/* ==========================================================================
+   GRID
+   ========================================================================== */
+
+.introduction-text{
+	padding:1em;
+	height:0;
+	padding-bottom:80%;
+}
+
+/* ==========================================================================
+   MEDIA QUERIES
+   ========================================================================== */
+
+
+@media only screen and (min-width: 31.250em) {
+	.art{
+		.content{
+			width:31.250em;
+		}
+	}
+}
+@media only screen and (min-width: 48.000em) {
+	.art{
+		.content{
+			width:48em;
+		}
+	}
+	
+}
+@media only screen and (min-width: 65.000em) {
+	.art{
+		.content{
+			width:65em;
+		}
+	}
+
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {
+    /* Style adjustments for viewports that meet the condition */
+}

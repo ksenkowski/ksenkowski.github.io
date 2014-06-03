@@ -1,0 +1,53 @@
+/* ==========================================================================
+   DEFAULT COLUMN STYLES
+   ========================================================================== */
+.content{
+	margin:0 auto;
+	width:18.750em;;
+}
+
+.col { 
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+@media only screen and (min-width: 48.000em) {
+	.gutters {
+		.col {
+			margin-left: 2%;
+		}	
+		.col:first-child { 
+			margin-left: 0; 
+		}
+	}
+	
+	.span-1 { width: 8.33333333333%; }
+	.span-2 { width: 16.6666666667%; }
+	.span-3 { width: 25%; }
+	.span-4 { width: 33.3333333333%; }
+	.span-5 { width: 41.6666666667%; }
+	.span-6 { width: 50%; }
+	.span-7 { width: 58.3333333333%; }
+	.span-8 { width: 66.6666666667%; }
+	.span-9 { width: 75%; }
+	.span-10 { width: 83.3333333333%; }
+	.span-11 { width: 91.6666666667%; }
+	.span-12 { width: 100%; }
+	
+	.gutters{
+		.span-1 { width: 6.5%; }
+		.span-2 { width: 15.0%; }
+		.span-3 { width: 23.5%; }
+		.span-4 { width: 32.0%; }
+		.span-5 { width: 40.5%; }
+		.span-6 { width: 49.0%; }
+		.span-7 { width: 57.5%; }
+		.span-8 { width: 66.0%; }
+		.span-9 { width: 74.5%; }
+		.span-10 { width: 83.0%; }
+		.span-11 { width: 91.5%; }
+		.span-12 { width: 100%; }
+	}
+	
+}
