@@ -862,17 +862,16 @@ footer #menuContainer .overlay .gameContent p, footer #menuContainer .overlay .b
 }
 /* line 2, ../_sass/_themes/_homepage.scss */
 .homepage {
-  background: black url("../img/homepage/looming.jpg") top center no-repeat fixed;
-  background-size: 100%;
+  background: black url("../img/homepage/looming.jpg") top right no-repeat fixed;
 }
-/* line 5, ../_sass/_themes/_homepage.scss */
+/* line 4, ../_sass/_themes/_homepage.scss */
 .homepage header {
   padding: 1em 3em;
   background: white;
   border-left: 1px solid rgba(0, 0, 0, 0.07);
   border-right: 1px solid rgba(0, 0, 0, 0.07);
 }
-/* line 10, ../_sass/_themes/_homepage.scss */
+/* line 9, ../_sass/_themes/_homepage.scss */
 .homepage header h1 {
   text-align: center;
   margin: 0;
@@ -882,7 +881,7 @@ footer #menuContainer .overlay .gameContent p, footer #menuContainer .overlay .b
   letter-spacing: 2px;
   font-size: 120%;
 }
-/* line 19, ../_sass/_themes/_homepage.scss */
+/* line 18, ../_sass/_themes/_homepage.scss */
 .homepage header h2 {
   text-align: center;
   margin: 0;
@@ -891,21 +890,21 @@ footer #menuContainer .overlay .gameContent p, footer #menuContainer .overlay .b
   letter-spacing: 2px;
   font-size: 100%;
 }
-/* line 31, ../_sass/_themes/_homepage.scss */
+/* line 30, ../_sass/_themes/_homepage.scss */
 .homepage article {
   background: white;
   padding: 1em 1.75em 100px;
   border: 1px solid rgba(0, 0, 0, 0.07);
   border-bottom: 0;
 }
-/* line 36, ../_sass/_themes/_homepage.scss */
+/* line 35, ../_sass/_themes/_homepage.scss */
 .homepage article p {
   margin: 0;
   text-indent: 1.25em;
   line-height: 160%;
   font-size: 120%;
 }
-/* line 41, ../_sass/_themes/_homepage.scss */
+/* line 40, ../_sass/_themes/_homepage.scss */
 .homepage article p.first {
   text-indent: 0;
 }
@@ -913,7 +912,7 @@ footer #menuContainer .overlay .gameContent p, footer #menuContainer .overlay .b
 /* ==========================================================================
    GRID
    ========================================================================== */
-/* line 52, ../_sass/_themes/_homepage.scss */
+/* line 51, ../_sass/_themes/_homepage.scss */
 .introduction-text {
   padding: 1em;
   height: 0;
@@ -924,19 +923,19 @@ footer #menuContainer .overlay .gameContent p, footer #menuContainer .overlay .b
    MEDIA QUERIES
    ========================================================================== */
 @media only screen and (min-width: 31.25em) {
-  /* line 65, ../_sass/_themes/_homepage.scss */
+  /* line 64, ../_sass/_themes/_homepage.scss */
   .homepage .content {
     width: 31.250em;
   }
 }
 @media only screen and (min-width: 48em) {
-  /* line 72, ../_sass/_themes/_homepage.scss */
+  /* line 71, ../_sass/_themes/_homepage.scss */
   .homepage .content {
     width: 48em;
   }
 }
 @media only screen and (min-width: 65em) {
-  /* line 80, ../_sass/_themes/_homepage.scss */
+  /* line 79, ../_sass/_themes/_homepage.scss */
   .homepage .content {
     width: 65em;
   }
