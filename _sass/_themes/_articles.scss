@@ -1,0 +1,201 @@
+/* ==========================================================================
+   ARTICLES
+   ========================================================================== */
+.homepage, .about, .single, .archive, .show{
+	padding-bottom:51px;
+	section{
+		padding:1em;
+	}
+}
+nav{
+	padding:0% 5%;
+}
+.archive{
+	h3{
+		margin:.25em;
+		a{
+			color:$dark-gray;
+			&:hover{
+				color:$highlight
+			}
+		}
+	}
+}
+#throw-stones{
+	padding:5% 0%;
+}
+#rune-stone-results{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	li{
+		float:left;
+		font-size:300%;
+		border-radius:100%;
+		display:inline-block;
+		height:70px;
+		width:70px;
+		margin:10px;
+		background:url('../img/articles/apprentice/stones.jpg') no-repeat;
+		&.tails{
+			text-indent:-99999px;
+		}
+		&.blackstone{
+			background:$black !important;
+		}
+		span{
+			display:block;
+			width:100%;
+			height:100%;
+			text-align:center;
+			margin-top:12px;
+		}
+	}	
+}
+.to-the-top{
+	width:100px;
+	height:50px;
+	padding:0 1%;
+	line-height:50px;
+	text-align:center;
+	background:$gray;
+	border:$highlight 3px solid;
+	color:$highlight;
+	position:fixed;
+	bottom:5%;
+	right:5%;
+	display:none;
+	cursor:pointer;
+	z-index:500;
+	&:focus, &:hover{
+		background:$off-white;
+		color:$dark-gray;
+	}
+}
+
+article{
+	figure{
+		padding:2% 0;
+		figcaption{
+		}
+	}
+	.futhark{
+		font-family:$futhark;
+		color: $highlight; 		
+	}
+	.dream{
+		figcaption{
+			border-top:3px solid $gray;
+			padding-top:.05em;
+			margin:.5em 0 0;
+			font-size:.75em;
+			line-height:1.5em;
+			font-weight:400;
+			font-family:$secondary-stack;
+			text-transform:uppercase;
+			color:$dark-gray;
+		}
+	}
+	ul{
+		.futhark{
+			float: left; 
+			font-size: 2.688em; 
+			line-height: .75em; 
+			padding: 4px 8px 0px 3px; 
+			width:50px;
+			display:block;
+		}
+	}
+	.toc{
+		text-transform:uppercase;
+		font-weight:bold;
+	}
+	.block{
+		margin:1.8em 0 0 0;
+	}
+	hr{
+		height:3px;
+		border:0;
+		background:$black;
+		background-image:-webkit-linear-gradient(left, $black, $gray, $white);
+		margin:0 0 .25em 0;
+	}
+	h3{
+		text-transform:uppercase;
+		margin:0 0 1em;
+		font-size:2em;
+	}
+	h4{
+		margin:1.8em 0 .25em 0;
+	}
+	.maps{
+		border-top:3px solid $black;
+		margin:1% 0;
+	}
+}
+#all-titles{
+	margin:20px auto;
+}
+#results{
+	opacity:0;
+	background:transparent;
+	transition:all .5s;
+	position:absolute;
+	top: 65px;
+	left:0;
+	right:0;
+	width: 100%;
+	height:0;
+	&.show{
+		height:auto;
+		z-index:1;
+		opacity:1;
+		transition:all .5s;
+		background:$white;
+	}
+	li{
+		border-bottom:2px solid $highlight;
+		padding:0 1% 0 1%;
+		&:last-of-type{
+			border-bottom:none;
+			padding-bottom:1%;
+		}
+		&:first-of-type{
+			padding-top:1%;
+		}
+	}
+	a{
+		display:block;
+		padding:2% 1%;
+		h3{
+			color:$dark-gray;
+			margin:.25em 0;
+		}
+		p{
+			color:$black;
+			margin:0 0 .75em;
+		}
+	}
+}
+#articles{
+	width:100%;
+	height:100%;
+	z-index:10;
+	background:$white;
+	overflow:hidden;
+	transition:all .5s;
+	overflow-y:scroll;
+	&.in{
+		transition:all .5s;
+		right:0;
+	}
+}
+/* ==========================================================================
+   MEDIA QUERIES
+   ========================================================================== */
+@media only screen and (min-width: 31.250em) {
+}
+@media only screen and (min-width: 48.000em) {
+}
+@media only screen and (min-width: 65.000em) {
+}

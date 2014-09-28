@@ -1,0 +1,78 @@
+/* ==========================================================================
+   MAIN HEADER
+   ========================================================================== */
+
+#masthead {
+	background:transparent;
+	box-shadow:none;
+	border-bottom:solid 4px $black;
+	position:relative;
+	height:36px;
+	display:block;
+	transition: all .25s ease-in-out;
+	z-index:500;
+	&:hover{
+		background:$off-white;
+		border-bottom-color:$highlight;
+	}
+	.logo{
+		margin:0 auto;
+	}
+	
+}
+
+#hero{
+	position:relative;
+	border-bottom:3px solid $black;
+	.article-meta{
+		padding:1em;
+		h2{
+			font-size:2.5em;
+			line-height:1em;
+			margin-bottom:.1em;
+		}
+		h3{
+			line-height:1em;
+			margin-bottom:.875em;
+		}
+		p{
+			margin:.25em;
+			font-size:1.2em;
+			line-height:1.4em;
+		}
+		.byline{
+		}
+		h2{
+			text-transform:uppercase;
+		}
+	}
+}
+/* ==========================================================================
+   MEDIA QUERIES
+   ========================================================================== */
+
+
+@media only screen and (min-width: 31.250em) {
+	#masthead {
+		height:42px;
+	}
+
+}
+@media only screen and (min-width: 48.000em) {
+	#masthead {
+		height:62px;
+	}
+}
+@media only screen and (min-width: 65.000em) {
+	#masthead {
+		height:82px;
+	}
+	#hero{
+		img{
+			border-right:3px solid $black;
+		}
+		.article-meta{
+			border:none;
+		}
+	}
+}

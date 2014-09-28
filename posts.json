@@ -1,0 +1,22 @@
+---
+---
+{% assign count = '0' %}
+{% assign idx = '0' %}
+[
+	{% for post in site.posts %}
+		{% capture count %}{{count | plus: '1'}}{% endcapture %}
+		{
+		"title"    : "{{ post.title }}",
+		"href"     : "{{ post.url }}",
+		"tag" : "{{post.tag}}",
+		"id": "{{count}}",
+		"excerpt" : "{{post.excerpt}}",
+		"date"     : {
+			"day"   : "{{ post.date | date: "%d" }}",
+			"month" : "{{ post.date | date: "%B" }}",
+			"year"  : "{{ post.date | date: "%Y" }}"
+		}
+		}
+	{% unless forloop.last %},{% endunless %}
+	{% endfor %}
+]

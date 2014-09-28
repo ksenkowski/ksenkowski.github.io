@@ -1,0 +1,14 @@
+<header id="hero">
+	<div class="clearfix">		
+		<div class="span-8 col">
+			<img src="{{site.baseurl}}/img/articles/{{ page.image }}"/>
+		</div>
+		<div class="span-4 col article-meta">
+			<h2>{{ page.title }}</h2>
+			<h3>{{ page.subtitle }}</h3>
+			<p class="first"><em>By {{ page.author }}</em></p>
+			<p class="first"><em>Translated on {{ page.date | date: "%b %-d, %Y" }}</em></p>	
+			<p class="first">{{ page.excerpt }}</p>
+		</div>
+	</div>
+</header>	

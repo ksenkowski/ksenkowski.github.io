@@ -1,0 +1,139 @@
+---
+layout: default
+title:  "Lion Hunt"
+subtitle: "An Empire Reforged"
+image: "unity.jpg"
+author: "Don Felipe Jerónimo de Carranza"
+date:   2014-09-01 15:21:23
+categories: historia imperio
+tag: "Historia Imperio Lion Hunt"
+excerpt: "Crispo had been dead eleven years, yet the great man called out to his only son, wracked by pain and slowly wasting away with fever. His mother, Saint Rosalia, ancient and infirm, sat at his side, ignoring his half mad pleas for forgiveness from a long betrayed son, praying that in the end he might embrace the God and join the Church."
+menu: "<li><a href='#preface'>Preface</a></li>"
+---
+<section>
+<div class="clearfix gutters">
+	<aside class="span-3 col empty">
+		<h4>Table of Contents</h4>
+		{% include article/article-nav.html %}
+	</aside>
+	<div class="span-6 col">
+		<p>The masterful career of the Campeador, his reform of the Empire, campaigns against the Kavari barbarians and the Empire of Hikmet, his murder of his only son and second wife and the building of the great city in which I now sit were meticulously documented by my father. Alas, they did not survive in their entirety. From the burnt scraps of paper I have recovered and snippets found in his love letters to my mother, I have been able to construct a simple narrative to fill in the gaps.</p>
+		<p>The Campeador's first acts following the slaughter of the old Imperial Senate was to institute a series of internal reforms in the segments of the Empire he controlled. He rebuilt the provincial system over years as a meritocracy, eliminating herditary governmental posts, and opened the way for the various federated tribes that made their home within the interior of the Empire's borders to attain positions worthy of their skills. These reforms led to the rising of Lino, the Duque Primero of the East against him.</p>
+	</div>
+	<aside class="span-3 col empty">
+		&nbsp;
+	</aside>
+</div>
+<div class="clearfix gutters">
+	<aside class="span-3 col">
+		<blockquote>
+		<p>Left Column</p>
+		</blockquote>			
+	</aside>
+	<div class="span-6 col">
+		<p>The war with Lino was short, but violent to the extreme, with the razing of Alca being only one of it's famous atrocities. In the end, he slew his rival with his own hands, the very last time he would raise his sword in anger it seems, and brought his reforms to the whole of the Empire, taking the title of Emperodar, being the first to do so since the Imperial Partition of Diego the Great.</p>
+		<p>He was then challenged by both the Kavari and the Empire of Hikmet, forcing him to travel constantly between two fronts, one to the north of the Heloi Wall, and the other to the south, across the Middle Sea. It was during this time of great stress he ordered the execution of his heir and only son, Crispos, as well as his second wife, Euda. My father intimates to my mother that though the official reasoning was an adulterous affair between the two, he believed that this was the first sign of the madness that would haunt the Campeador and his line until it was extinguished.</p>
+	</div>
+	<aside class="span-3 col empty">
+		&nbsp;
+	</aside>
+</div>
+<div class="clearfix gutters">
+	<aside class="span-3 col">
+		<p>Left Column</p>			
+	</aside>
+	<div class="span-6 col">
+		<p>For ten years following that vile murder, as if in penance, the Campeador raised the great holy city Cidiero, which though it carries his name, was dedicated to Crispos in every way imaginable. Though the Falki who tarnished our home with their short reign and destroyed much of the glory that once was, some monuments to his mourned and maligned son still stand.</p>
+		<p>The aftermath of this ten year effort to erect a monument to his own folly broke the body of an already broken spirit. By the grace of God, my father's text surrounding his death and the aftermath have been preserved. With scant words he encapsulates the complexity of the great man and highlights the permanency his reign brought to the Empire despite being followed by three daughters. My father named them the Lionesses, and it is an apt description. They were the image of their mother, but molded on the Campeador, fierce warriors, possessive of their inheritance, and perhaps half mad. Like my father, I let will let you decide.</p>
+	</div>
+	<aside class="span-3 col">
+		<p>Right Column</p>
+	</aside>
+</div>
+<div class="clearfix gutters">
+	<aside class="span-3 col">
+		<p>Left Column</p>			
+	</aside>
+	<div class="span-6 col">
+		<p>Crispo had been dead eleven years, yet the great man called out to his only son, wracked by pain and slowly wasting away with fever. His mother, Saint Rosalia, ancient and infirm, sat at his side, ignoring his half mad pleas for forgiveness from a long betrayed son, praying that in the end he might embrace the God and join the Church. Sitting at the back of the room in the deep shadows, his three daughters, Carisa, Carlita, and Carlota stared on, awaiting the death of the man they worshiped as a god, knowing full well it would bring war with their cousins Hidalgo and Adelio.</p>
+		<p>Some readers may be shocked at my blasphemous naming of the great saint and savior of the Church as an unapologetic heretic, but to say otherwise would be to lie. Martin Antolinez, who outlived his master by almost ten years before he was murdered as an unbeliever, though he had long taken on the habit of a monk, states unequivocally that the Campeador never embraced the Church like the rest of his family. He in fact states:</p>
+	</div>
+	<aside class="span-3 col">
+		<p>Right Column</p>
+	</aside>
+</div>
+<div class="clearfix gutters">
+	<aside class="span-3 col empty">&nbsp;</aside>
+	<div class="span-6 col">
+		<p>"His was a warrior's soul. Cid, the Campeador worshiped nothing more or less than Guerro. He laid his sword at the feet of that bloody minded god, even begging me in the end to give him a sword and slay him so he might ascend to the bloody altar clothed as a soldier."</p>
+	</div>
+	<aside class="span-3 col empty">&nbsp;</aside>
+</div>
+<div class="clearfix gutters">
+	<aside class="span-3 col">
+		<p>Left Column</p>			
+	</aside>
+	<div class="span-6 col">
+		<p>It is to that very moment we return, Martin holding his master's hand, tears streaming into his beard, listening to the Campeador's harsh whispers. His final commands to the one soldier he could trust without any hesitation or reservations. A man of the one true God now, Martin listened, and nodded, and finally let go of his master's parchment-like hand. Standing at attention, he barked out an order to the guardsmen in the room, all of whom heard the bloody-minded final whispers of their beloved lord.</p>
+		<p>Two rushed forward to prop up that great leader of men, one wrapping the old man's hand around the hilt of Tizona, the sword by which the Campeador had taken an Empire. Martin drew a blade of his own and stepped forward. The Lionesses too drew their swords, creating a circle of blades to surround old man, engaging in an ancient, blood ritual contrary to their beliefs. After the briefest of nods from Martin, they plunged their blades into the dying man as one, bringing an end to his suffering, an end to twenty four years of rule, and an end to the madness that led the great man to murder his only son and wife eleven years before.</p>
+	</div>
+	<aside class="span-3 col">
+		<p>Right Column</p>
+	</aside>
+</div>
+<div class="clearfix gutters">
+	<aside class="span-3 col">
+		<p>Left Column</p>			
+	</aside>
+	<div class="span-6 col">
+		<p>Martin does not tell us what occurred immediately following this solemn ritual murder, but it is not difficult to surmise that the three sisters held council together to chart their own fate. They were women, raised by their father as soldiers and leaders of men in battle, but still they were women. If I may be so bold, they were much like my own wife, brash, bold, powerful in every way, yet underestimated by fools. Then as now, women in positions of authority are constantly challenged by men who believe them weak and unable to lead. Their cousins Hidalgo and Adelio certainly believed this, and not a day after the Campeador's state funeral, they decided to test this theory, declaring Hidalgo Emperodar and Adelio his heir.</p>
+	</div>
+	<aside class="span-3 col">
+		<p>Right Column</p>
+	</aside>
+</div>
+<div class="clearfix gutters">
+	<aside class="span-3 col">
+		<p>Left Column</p>			
+	</aside>
+	<div class="span-6 col">
+		<p>Civil war, a dormant disease that had long plagued the Empire before the Campeador had cut it out like a cancer, came back with a venom long unseen but not forgotten. The imperial provinces of Hellas, Tasos, and Masonia all declared for the usurper, leaving the three sisters surrounded by enemies and unable to reach their loyal soldiers elsewhere in the Empire. For that moment, the world seemed to hold it's breath, waiting to see what the daughters of the great man would do before declaring for any particular side. Those desire for blood would not be disappointed if the words of Senan de Peralta y Ezpeleta, cunning servant to Hidalgo, and witness to what happens to those who go hunting for lions.</p>
+	</div>
+	<aside class="span-3 col">
+		<p>Right Column</p>
+	</aside>
+</div>
+<div class="clearfix gutters">
+	<aside class="span-1 empty col">&nbsp;</aside>
+	<div class="span-10 col">
+		<p>Through the silence of the royal palace in the deep night, we stole, clothed in black, our feet padded and our weapons blackened. I was at the back of our troop of assassins, furtively fingering the sword at my side, praying we would not find the daughters of the Campeador. My companions held no such hesitations, for it would be to them the Empire would fall once these women were left to drown in their own blood.</p>
+		<p>"Quiet Honorio!" hissed our fearless leader, Hidalgo I, "I can hear your breathing, which means any guard we have not bribed can too."</p>
+		<p>As if it was a prophecy foretold, a light crossed the ground in front of us, reflecting the red light on naked steel. Standing rigid like a statue, clad in the purple and iron of the royal guard, the man before us turned, smiled at my Emperodar and walked off, leaving the way to the imperial quarters exposed to our dire purpose. Hidalgo looked over his shoulder and whispered, "Gaspar, get the door!"</p>
+		<p>Gaspar, a mountain of a man, lumbered forward, handing me his axe before bracing himself at the door. With one great kick, the wooden door exploded inward, showering the room beyond with splinters. He quickly stepped back, ripping the axe from my hand as Hidalgo and Adelio led the rest of the men into the room. Before he shifted his bulk to follow, I grabbed his arm and hissed, "If this fails, we all will be crucified."</p>
+		<p>"They'd have to lift me off the ground first," he grunted back, but followed the rest cautiously. As we entered, the sight that greeted us is one I hope never to see again. Arrayed in a circle around the blessed daughters of our Campeador stood our angry cadre of assassins, slowly circling, silent in words, but their eyes screamed with rapine lust. </p>
+		<p>My companions saw three woman, the youngest not more than a girl, dressed in bed clothes, hair in disarray, and short naked blades held before them. All three were the spitting image of their mother, said to be the most beautiful woman in the Empire, with the exception of their hatred filled eyes. Those eyes, those almost feline eyes were the legacy of their father.</p>
+		<p>"Carisa, put that down. Even Tío Cid could barely lift it as a grown man," barked Hidalgo as he pushed forward from the crowd, his sword low but ready to strike, "There is no way out of this for you girls. Lower the swords, accept your place, and be grateful I wish to marry you off. A crueler man... A man like your father, would have your raped then strangled... or did he prefer it the other way around?"</p>
+		<p>Carlota, the youngest, wildest, and most like their father, let loose a low, almost animalistic sound, spittle flying from her teeth. She raised her sword and tensed as if she was about to strike Hidalgo, when Carlita laid a hand on her shoulder and said, "Peace sister. Peace. You know the truth when you hear it."</p>
+		<p>With that the tension flew from the room as the three women lowered the points of their swords. The men relaxed, save Gaspar and myself, who slowly slid towards the door. When everyone around relaxes is the time you must be ready for trouble. Gaspar and I are not strangers to trouble and knew the moment was upon us to choose which side we ultimately would take. </p>
+		<p>"Well I think I know which one I shall take, Hidalgo," laughed a smirking Adelio as he stepped forward, his hand out to take Carlita's. And take his hand she did, at the wrist, spraying blood across the room. His scream echoed off the marble walls as he fell to his knees. The three women sprang forth, working like butchers to take life after life.</p>
+		<p>Within seconds five men lay dead. Then ten men. Then there were only four men alive in the room, staring at the three women who had bathed in blood of those who would have used them like whores. The audacity that any daughter of the Campeador, the Lion of Novia, the Emperodar of a land that knows no sunset, would meekly give in to a pimp like Hidalgo and his cheap thug of a cousin, is beyond the measure of a man like myself.</p>
+		<p>It took Carlota walking to Adelio, leaving a trail of bloody footprints with her bare feet on the bright white marble, and spilling his intestines like writhing snakes on the ground for that reality to dawn on poor Hidalgo the Ill Fated. With a squeal he turned on his heels and made for the doorway Gaspar and I framed, breathlessly begging us to let him by.</p>
+		<p>"One does not challenge lionesses in their own den, Emperodar," I said, grasping his sword arm, forcing him to drop the blade. Gaspar grabbed his other arm, holding his body between us as his bowels emptied on the floor. We turned him to face his fate, as the three daughters of the greatest man to rule the Empire strode towards him with deadly purpose.</p>
+		<p>"Please. Dear God, please," he whined as each woman kissed him with bloody lips on his forehead before stepping back to stare down at the pimp who would be a king.</p>
+		<p>"An Emperodar should not kill another Emperodar, even if he is a usurper," whispered Carisa as she stared into my eyes. With the slightest of nods I drew my blade across the throat of the first and last man to challenge the rule of the Lionesses of the Campeador.</p>
+	</div>
+	<aside class="span-1 empty col">&nbsp;</aside>
+</div>
+
+<div class="clearfix gutters">
+	<aside class="span-3 col">
+		<p>Left Column</p>			
+	</aside>
+	<div class="span-6 col">
+		<p>Clearly, Senan de Peralta y Ezpeleta has a high opinion of himself, painting a savage and inspiring picture of this bloody moment in imperial history, placing himself firmly in support of the reign of the three women. How much truth there is to this I cannot say with certitude. What my work has uncovered is that he and Gaspar were the only survivors of the failed coup, and went on to travel and live a life of adventure during and after the reign of the Lionesses, both working for and against the three sisters. The historian in me looks upon his five volume memoir with a deep skepticism, but the man of action, the lover of a good tale in me revels in his words and secretly hopes that the truth outweighs the fiction.</p>
+	</div>
+	<aside class="span-3 col">
+		<p>Right Column</p>
+	</aside>
+</div>
+</section>

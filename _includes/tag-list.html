@@ -1,7 +1,0 @@
-<ul class="unstyled inline text-uppercase small">
-	{% for tag in page.tags %}
-	<li>
-		<a href="{{ site.url }}/related-content/{{ tag | replace: ' ', '-' }}/" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>
-	</li>
-	{% unless forloop.last %} | {% endunless %}{% endfor %}
-</ul>

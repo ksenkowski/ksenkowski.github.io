@@ -1,5 +1,20 @@
-{% include header.html %}
-<div class="content">
-{{ content }}
-</div>
-{% include footer.html %}
+<!DOCTYPE html>
+<html>
+
+  {% include common/head.html %}
+
+  <body>
+    {% include common/header.html %}
+    <main id="single">
+		<article class="single" data-current="{{ page.url }}">
+		    {% include article/article-head.html %}
+		    {{ content }}
+		</article>
+		<div class="to-the-top">TOC</div>
+	</main>
+	   {% include common/footer.html %}
+
+		  </body>
+
+		</html>
+		
