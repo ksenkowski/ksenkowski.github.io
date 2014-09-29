@@ -38,7 +38,8 @@ menu: "<li><a href='#selecting-roles'>Selecting Roles</a></li>
 		<li>Will he give in to Hatred and begin the cycle anew?</li>
 		</ul>
 	</div>
-	<aside class="span-3 col empty">
+	<aside class="span-3 col">
+		<a href="#" class="button toggle-font" data-font="gutenberg" data-target="body, h1, h2, h3, h4, blockquote p">Font Swap</a>
 		<h4>What You Need to Play</h4>
 		<ul class="unstyled spaced-list">
 			<li>The Text</li>

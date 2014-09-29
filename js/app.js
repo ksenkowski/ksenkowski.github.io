@@ -6,7 +6,7 @@
 	});
 	// These are private
 	var masthead = $('#masthead');
-	var container, value, regex, data, content;
+	var container, value, regex, data, content, target;
 	var currentArticle, id, nxt, prv;
 	var i = 0;
 	var h = 0;
@@ -61,9 +61,19 @@
 			$('main').on('click','.to-the-top', function(){
 				$('html,body').animate({scrollTop: 0});
 			});
+			$('main').on('click', '.toggle-font', function(e){
+				e.preventDefault();
+				data = $(this).attr('data-font');
+				target = $(this).attr('data-target');
+				console.log(data + ', ' + target);
+				shadows.util.toggleFont(data, target);
+			});
 		},
 		isEmpty: function(item){
 			return !$.trim(item.html());
+		},
+		toggleFont: function(font, element){
+			$(element).toggleClass(font);
 		},
 		shuffle: function(array){
 			currentIndex = array.length, temporaryValue, randomIndex;
