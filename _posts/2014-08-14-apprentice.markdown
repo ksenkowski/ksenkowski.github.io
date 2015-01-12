@@ -6,7 +6,7 @@ image: "apprentice/header.jpg"
 author: "Keith Senkowski"
 date:   2014-01-01 15:21:23
 categories: apprentice
-tag: "Apprentice RPG role playing game"
+tag: "Apprentice RPG role-playing game"
 excerpt: "Conspiracy of Shadows: Apprentice is a stand alone RPG strongly influenced by Norse mythology that pits two forces against each other, building a narrative over time leveraging rune stones to resolve conflicts."
 menu: "<li><a href='#selecting-roles'>Selecting Roles</a></li>
 <li><a href='#destiny-stones'>Destiny Stones</a></li>
