@@ -33,12 +33,11 @@
 			});
 			search.on('keyup', function(e){
 				value = $(this).val();
-				console.log(value);
 				shadows.autocomplete.search(value);
 			});
 			search.on('focus', function(){
 				setTimeout(function(){
-					shadows.articles.close();					
+			//		shadows.articles.close();					
 				}, 250);
 			});
 			$("img").unveil(200, function() {
@@ -65,8 +64,7 @@
 				e.preventDefault();
 				data = $(this).attr('data-font');
 				target = $(this).attr('data-target');
-				console.log(data + ', ' + target);
-				shadows.util.toggleFont(data, target);
+					shadows.util.toggleFont(data, target);
 			});
 		},
 		isEmpty: function(item){
@@ -92,15 +90,15 @@
 		pagination: function(){
 			currentArticle = $('article').attr('data-current');
 			data = json.responseJSON;
-			console.log(currentArticle);
+			console.log(data);
 			$.each(data, function(k,v){
 				if(v.href == currentArticle){
 					id = v.id;
-					}
+				}
 			});
+			console.log(id);
 			$.each(data, function(k,v){
 				if(id + 1 == v.id){
-					console.log(v.id);	
 					nxt = v.href;
 				}else if(id - 1 == v.id){
 					prv = v.href;
