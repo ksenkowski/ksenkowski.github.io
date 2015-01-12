@@ -81,63 +81,97 @@ nav{
 }
 
 article{
-	figure{
-		padding:2% 0;
-		figcaption{
+	section{
+		table{
+			border:3px solid $dark-gray;
+			width:100%;
+			caption{
+				font-size:1.6em;
+				font-family:$secondary-stack;
+				line-height:1.7em;
+				text-align:center;
+				margin:.8em 0;
+			}
+			thead{
+				background:$off-white;
+				border-bottom:3px solid $dark-gray;
+				tr{
+					th{
+						font-weight:800;
+						padding:12px 30px;
+						color:$dark-gray;
+						text-align:left;
+					}
+				}
+			}
+			tbody{
+				tr{
+					td{
+						padding:12px 30px;
+						color:$dark-gray;
+					}
+				}
+			}
 		}
-	}
-	.futhark{
-		font-family:$futhark;
-		color: $highlight; 		
-	}
-	.dream{
-		figcaption{
-			border-top:3px solid $gray;
-			padding-top:.05em;
-			margin:.5em 0 0;
-			font-size:.75em;
-			line-height:1.5em;
-			font-weight:400;
-			font-family:$secondary-stack;
-			text-transform:uppercase;
-			color:$dark-gray;
+		figure{
+			padding:2% 0;
+			figcaption{
+			}
 		}
-	}
-	ul{
 		.futhark{
-			float: left; 
-			font-size: 2.688em; 
-			line-height: .75em; 
-			padding: 4px 8px 0px 3px; 
-			width:50px;
-			display:block;
+			font-family:$futhark;
+			color: $highlight; 		
 		}
-	}
-	.toc{
-		text-transform:uppercase;
-		font-weight:bold;
-	}
-	.block{
-		margin:1.8em 0 0 0;
-	}
-	hr{
-		height:3px;
-		border:0;
-		background:$black;
-		background-image:-webkit-linear-gradient(left, $black, $gray, $white);
-		margin:0 0 .25em 0;
-	}
-	h3{
-		text-transform:uppercase;
-		margin:0 0 1em;
-		font-size:2em;
-	}
-	h4{
-		margin:1.8em 0 .25em 0;
-	}
-	.maps{
-		border-top:3px solid $black;
-		margin:1% 0;
+		.dream{
+			figcaption{
+				border-top:3px solid $gray;
+				padding-top:.05em;
+				margin:.5em 0 0;
+				font-size:.75em;
+				line-height:1.5em;
+				font-weight:400;
+				font-family:$secondary-stack;
+				text-transform:uppercase;
+				color:$dark-gray;
+			}
+		}
+		ul{
+			.futhark{
+				float: left; 
+				font-size: 2.688em; 
+				line-height: .75em; 
+				padding: 4px 8px 0px 3px; 
+				width:50px;
+				display:block;
+			}
+		}
+		.toc{
+			text-transform:uppercase;
+			font-weight:bold;
+		}
+		.block{
+			margin:1.8em 0 0 0;
+		}
+		hr{
+			height:3px;
+			border:0;
+			background:$black;
+			background-image:-webkit-linear-gradient(left, $black, $gray, $white);
+			margin:0 0 .25em 0;
+		}
+		h3{
+			text-transform:uppercase;
+			margin:0 0 1em;
+			font-size:2em;
+		}
+		h4, h5, h6{
+			margin:1.8em 0 .25em 0;
+		}
+		.maps{
+			border-top:3px solid $black;
+			margin:1% 0;
+		}
+		
 	}
 }
 #all-titles{

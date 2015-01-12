@@ -1,5 +1,5 @@
 ---
-layout: tarathica
+layout: default
 title:  "The Hatarathi"
 description: "The Hatarathi were a Tarathi people from the high plains in the Unknowable East."
 excerpt: "The Hatarathi were a Tarathi people from the high plains in the Unknowable East. They are first mentioned in the works of Zellas as confederates of the Karatarathi, who at the time of his writing [ The Epistles to Zeno, 1344 2E ], they had taken the Hegoi Wall had overrun Ilaria [ Later Zerem ], Sloria [ Later Karatan ], and were threatening Greater Voria."

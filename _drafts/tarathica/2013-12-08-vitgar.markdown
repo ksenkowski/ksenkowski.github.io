@@ -1,5 +1,5 @@
 ---
-layout: tarathica
+layout: default
 title:  "Vitigar"
 description: "Vitigar was the Kur of Ostarathi Greater Voria from 219 through 223 3E, succeeding to the throne during the early stage of the Third Tarathi War as the Imperial legato Bermudo was consolidating his gains in Lesser Voria."
 excerpt: "Vitigar was the Kur of Ostarathi Greater Voria from 219 through 223 3E, succeeding to the throne during the early stage of the Third Tarathi War as the Imperial legato Bermudo was consolidating his gains in Lesser Voria."

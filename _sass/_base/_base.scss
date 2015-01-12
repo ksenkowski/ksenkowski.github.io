@@ -85,7 +85,7 @@ p{
 }
 blockquote {
 	padding: 0 0 0 15px;
-	margin: 0 0 20px;
+	margin: 1em 0;
 	p {
 		margin-bottom: 0;
 		font-size: 1.2em;
@@ -129,17 +129,20 @@ h2{
 	line-height:1em;
 }
 h3{
-	font-size:1.250em;
+	font-size:1.750em;
 	line-height:1em;
 }
 h4{
-	font-size:1.2em;
+	font-size:1.6em;
+	line-height:1em;
 }
 h5{
-	font-size:1em;
+	font-size:1.4em;
+	line-height:1em;
 }
 h6{
-	font-size:.9em;
+	font-size:1.3em;
+	line-height:1em;
 }
 /* ==========================================================================
    LIST STYLES
@@ -148,7 +151,11 @@ ul,
 ol {
   	padding: 0;
   	margin: 0px 0 10px 25px;
+	line-height:1.6;
 	font-size:1.2em;
+	ul,ol{
+		font-size:1em;
+	}
 }
 ul ul,
 ul ol,
@@ -161,6 +168,11 @@ ul.spaced-list, ol.spaced-list {
 	margin-top:15px;
 	li{
 		margin:8px 0px;
+		small{
+			line-height:1.4em;
+			display:block;
+			margin:-5px 0px 10px;
+		}
 	}
 }
 ul.unstyled, ol.unstyled {

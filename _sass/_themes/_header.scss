@@ -27,24 +27,32 @@
 	.article-meta{
 		padding:1em;
 		h2{
-			font-size:2.5em;
+			font-size:2.25em;
 			line-height:1em;
-			margin-bottom:.1em;
+			margin-bottom:.25em;
+			text-transform:uppercase;
 		}
 		h3{
 			line-height:1em;
 			margin-bottom:.875em;
+			font-size:1.7em;
 		}
 		p{
-			margin:.25em;
-			font-size:1.2em;
-			line-height:1.4em;
+			text-indent:0;
+			&.byline{
+				margin:0;
+				font-size:1.2em;
+				line-height:1.2em;
+				font-weight:800;
+			}
+			&.description{
+				font-size:1.2em;
+				line-height:1.4em;
+				margin:1em 0 0;
+			}
+			
 		}
-		.byline{
-		}
-		h2{
-			text-transform:uppercase;
-		}
+		
 	}
 }
 /* ==========================================================================

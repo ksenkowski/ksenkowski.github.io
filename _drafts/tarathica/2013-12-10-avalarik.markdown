@@ -1,5 +1,5 @@
 ---
-layout: tarathica
+layout: default
 title:  "Avalarik"
 description: "Avalarik was the only son of Thedomir the Great's daughter Amal and Uvarik, a prince from the Vestarathi Kurdom of Tovosa, succeeding his grandfather at the age of ten years old in 209 3E."
 excerpt: "Avalarik was the only son of Thedomir the Great's daughter Amal and Uvarik, a prince from the Vestarathi Kurdom of Tovosa, succeeding his grandfather at the age of ten years old in 209 3E."

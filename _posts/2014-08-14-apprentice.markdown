@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Apprentice"
+title:  "Apprentice RPG"
 subtitle: "All Sin Has It's Seeds Sown In Ambition"
 image: "apprentice/header.jpg"
 author: "Keith Senkowski"

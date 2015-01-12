@@ -1,5 +1,5 @@
 ---
-layout: tarathica
+layout: default
 title:  "Valdamar"
 description: "The Historia Tarathica is an encyclopedia compiled by Isidro de Mercer in the 319th year of the Third Era. It forms a bridge between a condensed epitome of classical learning of the latter part of the Second Age, and the slowly growing knowledge of the early years of the First Age."
 excerpt: "Valdamar was the Kur of the Ostarathi federation in Sloria from 130 3e to his death in 148 3E."
