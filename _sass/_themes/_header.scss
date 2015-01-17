@@ -64,23 +64,32 @@
 	#masthead {
 		height:42px;
 	}
-
 }
 @media only screen and (min-width: 48.000em) {
 	#masthead {
 		height:62px;
 	}
+	#hero{
+		.article-meta{
+			position:absolute;
+			top:20px;
+		}
+	}
+}
+@media only screen and (min-width:58em){
+		#hero{
+			.article-meta{
+				border:none;
+				position:relative;
+				top:0;
+			}
+			img{
+				border-right:3px solid $black;
+			}
+		}
 }
 @media only screen and (min-width: 65.000em) {
 	#masthead {
 		height:82px;
-	}
-	#hero{
-		img{
-			border-right:3px solid $black;
-		}
-		.article-meta{
-			border:none;
-		}
 	}
 }

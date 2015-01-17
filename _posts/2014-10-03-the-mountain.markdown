@@ -8,23 +8,117 @@ date:   2014-01-01 15:21:23
 categories: rpg
 tag: "the mountain RPG role playing game"
 excerpt: "The Mountain is an RPG about a quest into a strange and distant land in search of the Mountain and the evil that lies within."
-menu: "<li><a href='#structure-play'>Structure of Play</a></li>
-<li><a href='#basic-mechanic'>The Basic Mechanic</a></li>
-<li><a href='#doom-dice'>Doom Dice</a></li>
-<li><a href='#traits'>Traits &amp; Talents</a></li>
-<li><a href='#characters'>Characters</a></li>
-<li><a href='#playing-the-game'>Playing the Game</a></li>
-<li><a href='#skirmishes'>Skirmishes</a></li>
-<li><a href='#the-journey'>The Journey</a></li>
-<li><a href='#the-wyrding'>The Wyrding</a></li>
-<li><a href='#taint'>Taint</a></li>
-<li><a href='#adversaries'>Adversaries</a></li>"
+menu: ""
 ---
 <section>
-<div class="clearfix gutters">
+<div class="clearfix gutters" id="playing-the-game">
 	<aside class="span-3 col">
-		<h4>Table of Contents</h4>
-		{% include article/article-nav.html %}	
+		<nav id="toc">
+			<h4>Table of Contents <span class="toggle open">></span></h4>
+			<ol class="spaced-list upper-roman toc">
+				<li class="parent"><a href='#playing-the-game'>Playing the Game</a>
+					<ol class="spaced-list lower-roman child">
+						<li><a href="#structure-play">Structure of Play</a></li>
+						<li><a href="#basic-mechanic">The Basic Mechanic</a></li>
+						<li><a href="#dificulty-table">The Difficulty Table</a></li>
+						<li><a href="#harm-examples">Harm Examples</a></li>
+					</ol>
+				</li>
+				<li class="parent"><a href='#doom-dice'>Doom Dice</a>
+					<ol class="spaced-list lower-roman child">
+						<li><a href="#visions-torment">Visions of Torment Table</a></li>
+					</ol>
+				</li>
+				<li class="parent"><a href='#traits-intro'>Traits &amp; Talents</a>
+					<ol class="spaced-list lower-roman child">
+						<li><a href="#traits">Traits</a></li>
+						<li><a href="#derived-traits">Derived Traits</a></li>
+						<li><a href="#talents">Talents</a></li>
+					</ol>
+				</li>
+				<li class="parent"><a href='#characters'>Characters</a>
+					<ol class="spaced-list lower-roman child">
+						<li><a href="#archetypes">Choose an Archetypes</a></li>
+						<li><a href="#backgrounds">Create a Background</a>
+						<ol class="spaced-list">
+							<li><a href="#choose-culture">Choose a Culture</a></li>
+							<li><a href="#personal-history">Generate Personal History &amp; Friend</a></li>
+						</ol>
+						</li>
+						<li><a href="#classes">Choose a Class</a>
+							<ol class="spaced-list">
+								<li><a href="#ana-sister">Ana Sister</a></li>
+								<li><a href="#archivist">Archivist</a></li>
+								<li><a href="#caravan-master">Caravan Master</a></li>
+								<li><a href="#guildsman">Guildsman</a></li>
+								<li><a href="#imperial-guardsman">Imperial Guardsman</a></li>
+								<li><a href="#kole">Kole</a></li>
+								<li><a href="#inquisidor">Inquisidor</a></li>
+								<li><a href="#sell-sword">Sell Sword</a></li>
+								<li><a href="#sual">Sual</a></li>
+							</ol>
+						</li>
+						<li><a href="#general-talents">Choose a General Talent</a></li>
+						<li><a href="#network">Assign Network</a></li>
+						<li><a href="#gear">Purchase Gear</a></li>
+					</ol>
+				</li>
+				<li class="parent"><a href='#playing-the-game'>Playing the Game</a>
+					<ol class="spaced-list lower-roman child">
+						<li><a href="#play-structure">Play Structure</a></li>
+						<li><a href="#advancement">The Journey</a></li>
+						<li><a href="#advancement">Advancement</a></li>
+						<li><a href="#advancement">Character Death</a></li>
+					</ol>
+				</li>
+				<li class="parent"><a href='#skirmishes'>Skirmishes</a>
+					<ol class="spaced-list lower-roman child">
+						<li><a href="#terrain-table">Terrain Table</a></li>
+						<li><a href="#round-sequence">Recovery Phase</a></li>
+						<li><a href="#round-sequence">Determine Tempo</a></li>
+						<li><a href="#round-sequence">Movement</a></li>
+						<li><a href="#round-sequence">Range Attacks</a></li>
+						<li><a href="#round-sequence">Melee Attacks</a></li>
+						<li><a href="#round-sequence">Damage</a></li>
+						<li><a href="#round-sequence">Morale</a></li>
+						<li><a href="#round-sequence">Advantages &amp; Disadvantages</a></li>
+						<li><a href="#round-sequence">Wyrding</a></li>
+						<li><a href="#round-sequence">Winning &amp; Losing</a></li>
+						<li><a href="#round-sequence">Aftermath</a></li>
+					</ol>
+				</li>
+				<li class="parent"><a href='#the-wyrding'>The Wyrding</a>
+					<ol class="spaced-list lower-roman child">
+						<li><a href="#structure-play">Effects</a></li>
+						<li><a href="#structure-play">Scope</a></li>
+						<li><a href="#structure-play">Duration</a></li>
+						<li><a href="#structure-play">Named Wyrds</a></li>
+						<li><a href="#structure-play">Consequences of Failure</a></li>
+						<li><a href="#structure-play">Rituals</a>
+							<ol class="spaced-list">
+								<li><a href="#ana-sister">Necromancy</a></li>
+								<li><a href="#archivist">Exocrism</a></li>
+								<li><a href="#caravan-master">Enchantment</a></li>
+								<li><a href="#guildsman">Summoning</a></li>
+							</ol>
+						</li>
+					</ol>
+				</li>
+				<li class="parent"><a href='#taint'>Taint</a>
+					<ol class="spaced-list lower-roman child">
+						<li><a href="#structure-play">Taint Modifier Tables</a></li>
+						<li><a href="#structure-play">Taint Sinkholes</a></li>
+						<li><a href="#structure-play">Becoming Tainted</a></li>
+					</ol>
+				</li>
+				<li class="parent"><a href='#adversaries'>Adversaries</a>
+					<ol class="spaced-list lower-roman child">
+						<li><a href="#structure-play">The Tainted</a></li>
+					</ol>
+				</li>
+			</ol>
+		</nav>
+		&nbsp;
 	</aside>
 	<div class="span-6 col">
 		<p class="first">You can hear the pounding in your ears. The world seems to vibrate in dread before you eyes. Things flit in the shadows. Awful things just out of sight that defy explanation. And always, always the drumming.</p>
@@ -54,17 +148,11 @@ menu: "<li><a href='#structure-play'>Structure of Play</a></li>
 		<p class="first">This game is a marriage between the structures and practices board games and role-playing games, but at it's heart it is still about playing out stories. The base structure is handed to you, as are the characters and materials needed to get going, but that doesn't remove player imagination and investment. It simply frames in towards one direction.</p>
 		<p>While, in this game you don't invent a character out of whole cloth, you do in fact create the character, making them all your own. In the tradition of improv, the Scenario gives you some key components and a direction, but it is up to the players to make something of it. Create unique mannerisms and voices to capture the essence of how you view the character.</p>
 	</div>
-	<aside class="span-3 col">
-		<blockquote>
-			<p>In <em>The Mountain</em> you roll handfuls of six sided dice to resolve situations. Each die in each roll counts as it's own result, either being successful or failure. A roll of 4, 5, or 6 counts as a success, while a roll of 1, 2, or 3 counts as a failure.</p>
-		</blockquote>
+	<aside class="span-3 col empty">&nbsp;
 	</aside>
 </div>
 <div class="clearfix gutters block">
-	<aside class="span-3 col">
-		<blockquote>
-			<p>The adversity a character must overcome is called the Difficulty and is dictated by the GM based upon the context of the situation. It is either a fixed number or equal to the number of successes rolled in opposition to the character.</p>
-		</blockquote>
+	<aside class="span-3 col empty">&nbsp;
 	</aside>
 	<div class="span-6 col">
 		<p>Gameplay is divided into three segments which are built on top of one another to tell the story of your Cell's attempt to acquire. Arcs are constructed from a number of Turns, and Turns are constructed by a number of Scenes. It is the Game Master's responsibility to manage and track all of this.</p>

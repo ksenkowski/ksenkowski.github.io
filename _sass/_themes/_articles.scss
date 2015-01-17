@@ -81,6 +81,51 @@ nav{
 }
 
 article{
+	#toc{
+		cursor: pointer;
+		width:100%;
+		padding:1% 5%;
+		display:none;
+		&.fixed{
+			position:fixed;
+			display:block;
+			top:0;
+			left:0px;
+			background:$off-white;
+			width:100%;
+			min-height:40px;
+			padding:1% 5%;
+			border-bottom:3px solid $black;
+		}
+		h4{
+			margin:0;
+			.toggle{
+				cursor: pointer;
+				display:block;
+				float:right;
+				&.open{
+					transform: rotate(90deg);
+				}
+				&.close{
+					transform: rotate(-90deg);
+					
+				}
+			}
+			
+		}
+		.toc{
+			display:none;
+		}
+		.child{
+			display:none;
+		}
+		.open{
+			.child{
+				display:block;
+			}
+		}
+		
+	}
 	section{
 		table{
 			border:3px solid $dark-gray;
@@ -238,5 +283,31 @@ article{
 }
 @media only screen and (min-width: 48.000em) {
 }
-@media only screen and (min-width: 65.000em) {
+@media only screen and(min-width:58em){
+}
+@media only screen and (min-width: 78.125em) {
+	article{
+		#toc{
+			display:block;
+			h4{
+				.toggle{
+					display:none;
+				}
+			}
+			.toc{
+				display:block;
+			}
+			&.fixed{
+				h4{
+					.toggle{
+						display:block;
+					}
+				}
+				
+				.toc{	
+					display:none;
+				}
+			}
+		}
+	}
 }

@@ -8,26 +8,31 @@ date:   2014-01-01 15:21:23
 categories: rpg
 tag: "Apprentice RPG role-playing game"
 excerpt: "Conspiracy of Shadows: Apprentice is a stand alone RPG strongly influenced by Norse mythology that pits two forces against each other, building a narrative over time leveraging rune stones to resolve conflicts."
-menu: "<li><a href='#selecting-roles'>Selecting Roles</a></li>
-<li><a href='#destiny-stones'>Destiny Stones</a></li>
-<li><a href='#rune-stones'>Rune Stones</a></li>
-<li><a href='#traits'>Traits, Heroics &amp; Talents</a></li>
-<li><a href='#resources'>Resources &amp; Location</a></li>
-<li><a href='#turn-structure'>Turn Structure</a></li>
-<li><a href='#trial-declaration'>Trial Declaration</a></li>
-<li><a href='#journey-phase'>Journey Phase</a></li>
-<li><a href='#challenge-phase'>Challenge Phase</a></li>
-<li><a href='#teamwork'>Teamwork</a></li>
-<li><a href='#glorious-battle'>Glorious Battle</a></li>
-<li><a href='#litany-heroes'>Litany of Heroes</a></li>
-<li><a href='#endgame'>Endgame</a></li>
-<li><a href='#apprentice-map'>Map Descriptions</a></li>"
+menu: ""
 ---
 <section>
 <div class="clearfix gutters">
 	<aside class="span-3 col">
-		<h4>Table of Contents</h4>
-		{% include article/article-nav.html %}	
+		<nav id="toc">
+			<h4>Table of Contents</h4>
+			<ol class="spaced-list upper-roman toc">
+				<li><a href='#selecting-roles'>Selecting Roles</a></li>
+				<li><a href='#destiny-stones'>Destiny Stones</a></li>
+				<li><a href='#rune-stones'>Rune Stones</a></li>
+				<li><a href='#traits'>Traits, Heroics &amp; Talents</a></li>
+				<li><a href='#resources'>Resources &amp; Location</a></li>
+				<li><a href='#turn-structure'>Turn Structure</a></li>
+				<li><a href='#trial-declaration'>Trial Declaration</a></li>
+				<li><a href='#journey-phase'>Journey Phase</a></li>
+				<li><a href='#challenge-phase'>Challenge Phase</a></li>
+				<li><a href='#teamwork'>Teamwork</a></li>
+				<li><a href='#glorious-battle'>Glorious Battle</a></li>
+				<li><a href='#litany-heroes'>Litany of Heroes</a></li>
+				<li><a href='#endgame'>Endgame</a></li>
+				<li><a href='#apprentice-map'>Map Descriptions</a></li>
+			</ol>
+		</nav>
+		&nbsp;
 	</aside>
 	<div class="span-6 col">
 		<p class="first">There can only ever be one Master Galgarmr and one Apprentice at any given time. This is the law set down when the Jutun ruled the north with their alien sorcery. Thus, the Apprentice did as he should, seeking to strike down his master and replace him. He failed and was sacrificed to the Cold Gods. Shackled to an iceberg, he was cast adrift to freeze as a proper sacrifice. He refused. In the dark, frigid north he found an icebound ship with 4 starving Noderin warriors on a quest to destroy a great evil… His Master.</p>

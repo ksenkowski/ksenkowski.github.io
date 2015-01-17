@@ -6,11 +6,12 @@
 	});
 	// These are private
 	var masthead = $('#masthead');
-	var container, value, regex, data, content, target;
-	var currentArticle, id, nxt, prv;
+	var container, value, regex, data, content, target, top;
+	var currentArticle, id, nxt, prv, tocTitle, tocChild;
 	var i = 0;
 	var h = 0;
 	var t = 0;
+	var o = 0;
 	var currentIndex, temporaryValue, randomIndex;
 	var search = $('.search');
 	var array = [];
@@ -24,6 +25,7 @@
 	function bind() {
 		// Bind jQuery click and page events
 		shadows.util.init();
+		shadows.accordion.init('#toc');
 	};
 	shadows.util = {
 		init: function(){
@@ -45,20 +47,18 @@
 			    this.style.opacity = 1;
 			  });
 			});
+			if ($(window).scrollTop() > 600) {
+				$('#toc').addClass('fixed');
+			} else {
+				$('#toc').removeClass('fixed');
+			}
+			
 			$(window).scroll(function(){
-				if ($(this).scrollTop() > 100) {
-					$('.to-the-top').fadeIn();
+				if ($(this).scrollTop() > 800) {
+					$('#toc').addClass('fixed');
 				} else {
-					$('.to-the-top').fadeOut();
+					$('#toc').removeClass('fixed');
 				}
-			});
-			$('nav').on('click', 'a', function(e){
-				e.preventDefault();
-				container = $(this).attr('href');
-				$('html,body').animate({scrollTop: $(container).offset().top});
-			})
-			$('main').on('click','.to-the-top', function(){
-				$('html,body').animate({scrollTop: 0});
 			});
 			$('main').on('click', '.toggle-font', function(e){
 				e.preventDefault();
@@ -90,21 +90,61 @@
 		pagination: function(){
 			currentArticle = $('article').attr('data-current');
 			data = json.responseJSON;
-			console.log(data);
 			$.each(data, function(k,v){
 				if(v.href == currentArticle){
 					id = v.id;
 				}
 			});
-			console.log(id);
 			$.each(data, function(k,v){
 				if(id + 1 == v.id){
 					nxt = v.href;
 				}else if(id - 1 == v.id){
 					prv = v.href;
 				}
-				console.log(nxt+', '+prv);
 			})
+		}
+	};
+	shadows.accordion = {
+		init: function(element){
+			$('#toc').on('click', 'a', function(e){
+				e.preventDefault();
+				container = $(this).attr('href');
+				top = $(container).offset().top - 48;
+				$('html,body').animate({scrollTop: top});
+				element = $(this).parent('li');
+				shadows.accordion.open(element);
+				if(!$(this).parent().hasClass('parent')){
+					$('#toc h4').trigger('click');					
+				}
+			});
+			tocTitle = $('.parent');
+			tocChild = $('.child');
+			tocTitle.each(function(){
+				i++;
+				$(this).addClass('element-'+i);
+			});
+			tocChild.each(function(){
+				o++;
+				$(this).addClass('element-'+o);
+			});
+			$('.parent.element-1').addClass('open');
+			$('#toc').on('click', 'h4', function(){
+				var toc = $('.toc');
+				if(toc.is(':visible')){
+					$('.toc').fadeOut();					
+					$(this).children('.toggle').removeClass('close').addClass('open');
+				}else{
+					$('.toc').fadeIn();					
+					$(this).children('.toggle').removeClass('open').addClass('close');					
+				}
+			});
+		},
+		open: function(element){
+			tocChild = element.children('.child');			
+			if(tocChild.is(':hidden')){
+				$('.parent').removeClass('open');
+				element.addClass('open');			
+			}
 		}
 	};
 	shadows.runes = {
