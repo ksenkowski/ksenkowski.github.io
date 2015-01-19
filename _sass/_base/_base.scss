@@ -289,22 +289,32 @@ fieldset{
 }
 
 /* ==========================================================================
-   SOCIAL SHARE
+   TABLES
    ========================================================================== */
-#social-share{
+table{
+	width:100%;
+	border-collapse:collapse;
+}
+tr:nth-of-type(odd){
 	background:$gray;
-	min-height:4.5em;
-	margin:0 auto;
-	padding:1em;
-	overflow:hidden;
+}
+th{
+	background:$off-white;
+	font-weight:bold;
+}
+td,th{
+	padding:6px;
+	text-align:left;
 }
 /* ==========================================================================
    MEDIA QUERIES
    ========================================================================== */
 
 @media only screen and (min-width: 31.250em) {
+
 }
 @media only screen and (min-width: 48.000em) {
+
 }
 @media only screen and (min-width: 65.000em) {
 	
