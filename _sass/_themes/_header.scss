@@ -7,10 +7,10 @@
 	box-shadow:none;
 	border-bottom:solid 4px $black;
 	position:relative;
-	height:36px;
+	height:86px;
 	display:block;
 	transition: all .25s ease-in-out;
-	z-index:500;
+	z-index:5;
 	&:hover{
 		background:$off-white;
 		border-bottom-color:$highlight;
@@ -18,12 +18,39 @@
 	.logo{
 		margin:0 auto;
 	}
-	
 }
-
-#hero{
+#menu{
+	background:$gray;
+	padding:1em;
+	border-bottom:solid 4px $black;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:.75em;
+	font-family:$tertiary-stack;
+	.nav-item {
+		margin-left: 2%;
+		float:left;
+	}
+	.nav-item:first-child {
+		margin-left: 0;
+	}
+	.nav-item{
+		width:60px;
+	}
+}
+#hero, .hero{
 	position:relative;
 	border-bottom:3px solid $black;
+	img{
+		border-bottom:3px solid $black;	
+		border-left:none;	
+	}
+	&.second{
+		img{
+			border-top:3px solid $black;		
+		}
+	}
 	.article-meta{
 		padding:1em;
 		h2{
@@ -62,34 +89,53 @@
 
 @media only screen and (min-width: 31.250em) {
 	#masthead {
-		height:42px;
+		height:108px;
 	}
 }
 @media only screen and (min-width: 48.000em) {
 	#masthead {
-		height:62px;
+		height:142px;
 	}
-	#hero{
+	#hero, .hero{
 		.article-meta{
 			position:absolute;
 			top:20px;
+			color:$off-white;
+		}
+		img{
+			border-top:none;	
+			border-bottom:none;	
+		}
+		.second{
+			img{
+				border-top:none;	
+				border-bottom:none;	
+				
+			}
 		}
 	}
 }
 @media only screen and (min-width:58em){
-		#hero{
+		#hero, .hero{
 			.article-meta{
 				border:none;
 				position:relative;
 				top:0;
+				color:$black;
 			}
 			img{
 				border-right:3px solid $black;
+			}
+			&.second{
+				img{
+					border-right:none;
+					border-left:3px solid $black;
+				}
 			}
 		}
 }
 @media only screen and (min-width: 65.000em) {
 	#masthead {
-		height:82px;
+		height:142px;
 	}
 }

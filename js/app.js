@@ -2,7 +2,6 @@
 	'use strict';
 	var json = $.getJSON('/posts.json', function(){
 		shadows.autocomplete.home();
-		shadows.articles.pagination();
 	});
 	// These are private
 	var masthead = $('#masthead');
@@ -47,19 +46,6 @@
 			    this.style.opacity = 1;
 			  });
 			});
-			if ($(window).scrollTop() > 600) {
-				$('#toc').addClass('fixed');
-			} else {
-				$('#toc').removeClass('fixed');
-			}
-			
-			$(window).scroll(function(){
-				if ($(this).scrollTop() > 800) {
-					$('#toc').addClass('fixed');
-				} else {
-					$('#toc').removeClass('fixed');
-				}
-			});
 			$('main').on('click', '.toggle-font', function(e){
 				e.preventDefault();
 				data = $(this).attr('data-font');
@@ -86,27 +72,9 @@
 			return array;
 		}
 	};
-	shadows.articles = {
-		pagination: function(){
-			currentArticle = $('article').attr('data-current');
-			data = json.responseJSON;
-			$.each(data, function(k,v){
-				if(v.href == currentArticle){
-					id = v.id;
-				}
-			});
-			$.each(data, function(k,v){
-				if(id + 1 == v.id){
-					nxt = v.href;
-				}else if(id - 1 == v.id){
-					prv = v.href;
-				}
-			})
-		}
-	};
 	shadows.accordion = {
 		init: function(element){
-			$('#toc').on('click', 'a', function(e){
+			$('.toc').on('click', 'a', function(e){
 				e.preventDefault();
 				container = $(this).attr('href');
 				top = $(container).offset().top - 48;
@@ -130,11 +98,11 @@
 			$('.parent.element-1').addClass('open');
 			$('#toc').on('click', 'h4', function(){
 				var toc = $('.toc');
-				if(toc.is(':visible')){
-					$('.toc').fadeOut();					
+				if(toc.hasClass('is-visible')){
+					$('.toc').removeClass('is-visible');					
 					$(this).children('.toggle').removeClass('close').addClass('open');
 				}else{
-					$('.toc').fadeIn();					
+					$('.toc').addClass('is-visible');					
 					$(this).children('.toggle').removeClass('open').addClass('close');					
 				}
 			});

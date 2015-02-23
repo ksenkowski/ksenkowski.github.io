@@ -291,9 +291,42 @@ fieldset{
 /* ==========================================================================
    TABLES
    ========================================================================== */
+	.table-scroll{
+		display: block;
+		position: relative;
+		width: 100%;
+		caption{
+			display:block;
+		}
+		thead{
+			display:block;
+			float:left;
+			border-bottom:none;
+			tr,th{
+				display:block;
+				width:100%;
+			}
+		}
+		tbody{
+			display:block;
+			width:auto;
+			position:relative;
+			overflow-x:auto;
+			white-space:nowrap;
+			tr{
+				display:inline-block;
+				vertical-align:top;
+				td{
+					display:block;
+				}
+			}
+		}
+	}
+
 table{
 	width:100%;
 	border-collapse:collapse;
+	border-spacing: 0;
 }
 tr:nth-of-type(odd){
 	background:$gray;
@@ -314,8 +347,42 @@ td,th{
 
 }
 @media only screen and (min-width: 48.000em) {
-
+	
 }
 @media only screen and (min-width: 65.000em) {
+	.table-scroll{
+		display: table;
+		position: static;
+		caption{
+			display:table-caption;
+		}
+		thead{
+			display: table-header-group;
+			vertical-align: middle;
+			float:none;
+			border-bottom:3px solid $dark-gray;
+			tr{
+				display:table-row;
+			}
+			th{
+				display:table-cell;
+			}
+			th.twelve{
+				width:12%;
+			}
+		}
+		tbody{
+			display: table-row-group;
+			position: static;
+			vertical-align: middle;
+			white-space:normal;
+			tr{
+				display:table-row;
+				td{
+					display:table-cell;
+				}
+			}
+		}
+	}
 	
 }

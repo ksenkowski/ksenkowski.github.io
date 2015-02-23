@@ -4,12 +4,20 @@
 #site-footer{
 	padding:.5em;
 	background:$gray;
-	border-top:3px solid $black;
 	width:100%;
 	z-index:500;
+	min-height:160px;
 	p{
 		font-size:.875em;
 		text-indent:0;
+	}
+	nav{
+		text-transform:uppercase;
+		font-weight:bold;
+		font-size:.75em;
+		font-family:$tertiary-stack;
+		line-height:4em;
+		padding:0;
 	}
 }
 /* ==========================================================================

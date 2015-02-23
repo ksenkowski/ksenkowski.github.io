@@ -10,28 +10,30 @@ tag: "Apprentice RPG role-playing game"
 excerpt: "Conspiracy of Shadows: Apprentice is a stand alone RPG strongly influenced by Norse mythology that pits two forces against each other, building a narrative over time leveraging rune stones to resolve conflicts."
 menu: ""
 ---
+<nav id="toc">
+	<h4>Table of Contents</h4>
+</nav>
+<nav class="toc">
+	<ol class="spaced-list upper-roman">
+		<li><a href='#selecting-roles'>Selecting Roles</a></li>
+		<li><a href='#destiny-stones'>Destiny Stones</a></li>
+		<li><a href='#rune-stones'>Rune Stones</a></li>
+		<li><a href='#traits'>Traits, Heroics &amp; Talents</a></li>
+		<li><a href='#resources'>Resources &amp; Location</a></li>
+		<li><a href='#turn-structure'>Turn Structure</a></li>
+		<li><a href='#trial-declaration'>Trial Declaration</a></li>
+		<li><a href='#journey-phase'>Journey Phase</a></li>
+		<li><a href='#challenge-phase'>Challenge Phase</a></li>
+		<li><a href='#teamwork'>Teamwork</a></li>
+		<li><a href='#glorious-battle'>Glorious Battle</a></li>
+		<li><a href='#litany-heroes'>Litany of Heroes</a></li>
+		<li><a href='#endgame'>Endgame</a></li>
+		<li><a href='#apprentice-map'>Map Descriptions</a></li>
+	</ol>
+</nav>
 <section>
 <div class="clearfix gutters">
-	<aside class="span-3 col">
-		<nav id="toc">
-			<h4>Table of Contents</h4>
-			<ol class="spaced-list upper-roman toc">
-				<li><a href='#selecting-roles'>Selecting Roles</a></li>
-				<li><a href='#destiny-stones'>Destiny Stones</a></li>
-				<li><a href='#rune-stones'>Rune Stones</a></li>
-				<li><a href='#traits'>Traits, Heroics &amp; Talents</a></li>
-				<li><a href='#resources'>Resources &amp; Location</a></li>
-				<li><a href='#turn-structure'>Turn Structure</a></li>
-				<li><a href='#trial-declaration'>Trial Declaration</a></li>
-				<li><a href='#journey-phase'>Journey Phase</a></li>
-				<li><a href='#challenge-phase'>Challenge Phase</a></li>
-				<li><a href='#teamwork'>Teamwork</a></li>
-				<li><a href='#glorious-battle'>Glorious Battle</a></li>
-				<li><a href='#litany-heroes'>Litany of Heroes</a></li>
-				<li><a href='#endgame'>Endgame</a></li>
-				<li><a href='#apprentice-map'>Map Descriptions</a></li>
-			</ol>
-		</nav>
+	<aside class="span-3 col empty">
 		&nbsp;
 	</aside>
 	<div class="span-6 col">

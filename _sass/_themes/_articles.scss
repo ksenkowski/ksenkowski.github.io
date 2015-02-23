@@ -80,52 +80,74 @@ nav{
 	z-index:500;
 }
 
-article{
-	#toc{
-		cursor: pointer;
-		width:100%;
-		padding:1% 5%;
-		display:none;
-		&.fixed{
-			position:fixed;
-			display:block;
-			top:0;
-			left:0px;
-			background:$off-white;
-			width:100%;
-			min-height:40px;
-			padding:1% 5%;
-			border-bottom:3px solid $black;
-		}
-		h4{
-			margin:0;
-			.toggle{
-				cursor: pointer;
-				display:block;
-				float:right;
-				&.open{
-					transform: rotate(90deg);
-				}
-				&.close{
-					transform: rotate(-90deg);
-					
-				}
-			}
-			
-		}
-		.toc{
-			display:none;
-		}
-		.child{
-			display:none;
-		}
-		.open{
-			.child{
-				display:block;
-			}
-		}
-		
+#toc{
+	cursor: pointer;
+	position:fixed;
+	display:block;
+	bottom:0;
+	left:0px;
+	background:$off-white;
+	width:100%;
+	min-height:40px;
+	padding:1% 5%;
+	z-index:10;
+	border-top:3px solid $black;
+	h4{
+		margin:0;
+		text-align:center;
+		color:$highlight;		
 	}
+	
+}
+
+.toc{
+    /* by default it's hidden - on top of the viewport */
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+	padding:0px 0px 60px 30px;
+	background:$gray;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+	font-size:.75em;
+    overflow: auto;
+    /* this fixes the buggy scrolling on webkit browsers - mobile devices only - when overflow property is applied */
+    -webkit-overflow-scrolling: touch;
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+	&.is-visible{
+	    -webkit-transform: translateY(0);
+	    -moz-transform: translateY(0);
+	    -ms-transform: translateY(0);
+	    -o-transform: translateY(0);
+	    transform: translateY(0);
+	}
+	.child{
+		display:none;
+	}
+	.open{
+		.child{
+			display:block;
+		}
+	}
+	
+}
+
+
+
+article{
 	section{
 		table{
 			border:3px solid $dark-gray;
