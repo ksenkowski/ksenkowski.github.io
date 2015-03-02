@@ -17,7 +17,6 @@ menu: ""
 		&nbsp;
 	</aside>
 	<div class="span-6 col">
-		<h2>Everything is an Illusion</h2>
 		<p class="first">You can hear the pounding in your ears. The world seems to vibrate in dread before you eyes. Things flit in the shadows. Awful things just out of sight that defy explanation. And always, always the drumming.</p>
 		<p>If you were alone in this you would have gone mad long ago. You are not sure if that is a good thing, but at least you are not alone in your knowledge. Something is coming. Something old. Something that hungers. Something that hates.</p>
 		<p>If you hadn't had found that old book, you might have stayed in the Great City, the Mother to Us All, waiting for the merciful end to your suffering. But you found the book. You studied the map. You fought off the mad cultists who tried to take it back and you planned your next move.</p>
@@ -26,11 +25,17 @@ menu: ""
 	<aside class="span-3 col empty">&nbsp;
 	</aside>
 </div>
+<img src="/img/articles/divider.png" class="divider" width="300px" height="50px">
 {% include mountain/introduction/index.html %}
+<img src="/img/articles/divider.png" class="divider" width="300px" height="50px">
 {% include mountain/characters/index.html %}
+<img src="/img/articles/divider.png" class="divider" width="300px" height="50px">
 {% include mountain/journey/index.html %}
+<img src="/img/articles/divider.png" class="divider" width="300px" height="50px">
 {% include mountain/skirmishes/index.html %}
+<img src="/img/articles/divider.png" class="divider" width="300px" height="50px">
 {% include mountain/wyrding/index.html %}
+<img src="/img/articles/divider.png" class="divider" width="300px" height="50px">
 {% include mountain/adversaries/index.html %}
 
 </section>

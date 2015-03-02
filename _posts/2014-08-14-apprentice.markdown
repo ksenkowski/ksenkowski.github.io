@@ -76,7 +76,6 @@ menu: ""
 		</ul>		
 	</aside>
 	<div class="span-6 col">
-		<hr>
 		<h3>Selecting Roles</h3>
 		<p class="first">Conspiracy of Shadows: Apprentice is intended for three to nine players who will play out the confrontation between the Apprentice and the Master together with their respective followers. Prior to play beginning, each player must select a role in the following order:</p>
 		<ul class="spaced-list">
@@ -94,7 +93,6 @@ menu: ""
 <div class="clearfix gutters block" id="destiny-stones">
 	<aside class="span-3 col empty">&nbsp;</aside>
 	<div class="span-6 col">
-		<hr>
 		<h3>Destiny Stones</h3>
 		<p class="first">The game requires 20 stones or other tokens to represent Destiny. Each character begins with a set number of Destiny Stones and will spend and earn more throughout play.</p>
 		<p>When Destiny Stones are spent they are placed in a pool on the table and are taken from this pool when earned. If there aren't any stones in the pool when Destiny is earned, the player gets nothing. Destiny grants the player the power to change the game world and introduce new elements, characters, and facts into the fiction.</p>
@@ -121,7 +119,6 @@ menu: ""
 		&nbsp;
 	</aside>
 	<div class="span-6 col">
-		<hr>
 		<h3>Rune Stones</h3>
 		<p class="first">The game uses twenty-five [25] Rune Stones mixed in a bag or box. Twenty-four are marked with the Runes and one is completely black. When a Throw is called for the player will blindly draw a number of stones equal to the Trait they are using from the bag, shake them up in their hands, and toss them on the table. Any Rune that Falls (lands Rune side up) is a success. Additionally, if the Rune matches one of the Runes influencing the Throw, add an additional success for each match.</p>
 	</div>
@@ -216,7 +213,6 @@ menu: ""
 		&nbsp;
 	</aside>
 	<div class="span-6 col">
-		<hr>
 		<h3>Traits, Heroics &amp; Talents</h3>
 		<p class="first">Traits are what define the capabilities of the named characters in the game. Each trait has a Rune which, when the trait is used and that Rune comes face up, adds an additional success. The traits also have a description to identify what things are possible using it. If anything you characters wish to try does not fall under one of the traits, the Master chooses the closest approximation.</p>
 		<div class="clearfix">
@@ -252,7 +248,6 @@ menu: ""
 		</figure>
 	</aside>
 	<div class="span-6 col">
-		<hr>
 		<h3>Resources &amp; Location</h3>
 		<p class="first">Resources are a key metric that defines how the game comes to a conclusion. Each Resource is either people or artifacts that are at the service of one of the characters. Each of these elements have a name, a value, and a Rune associated with it.</p>
 		<p>Resources either resides with a character, or at a specific location. When a Resource resides with a character, it can be used to aid that character in appropriate Challenges. The Resource functions like a Trait, adding to the Throw a number of stones equal to it's value. If it's Rune appears during a Throw it also provides an additional success.</p>
@@ -268,7 +263,6 @@ menu: ""
 		&nbsp;
 	</aside>
 	<div class="span-6 col">
-		<hr>
 		<h3>Turn Structure</h3>
 		<p class="first">Conspiracy of Shadows: Apprentice follows a strict turn structure. Each turn is broken into four phases, Trial Declaration, Journey, Warband Challenge, and Master Challenge. The alternating of turns continues until the Apprentice and his Warband choose to initiate the final confrontation with the Master.</p>
 		<h4>Trial Declaration Phase<br><small>If a Trial is ongoing, skip this Phase</small></h4>
@@ -316,7 +310,6 @@ menu: ""
 		&nbsp;
 	</aside>
 	<div class="span-6 col">
-		<hr>
 		<h3>Trial Declaration</h3>
 		<p class="first">Overcoming Trials is how you accomplish things in Conspiracy of Shadows: Apprentice. The goal is either to gain a new Resource, improve a Resource, to deprive your enemy a Resource, or to send the Minions or members of the Warband to Valhalla, eliminating them and their Resources from the game. This is the time to engage in role-playing as you create the narrative of the conflict between the Master and the Apprentice.</p>
 		<p>To acquire a Resource, it first must be defined in two sentences or less. It is best to load those sentences with as much detail as you can muster.</p>
@@ -361,7 +354,6 @@ menu: ""
 		</figure>
 	</aside>
 	<div class="span-6 col">
-		<hr>
 		<h3>Journey Phase</h3>
 		<p class="first">During the Journey Phase, the Warband has the opportunity to move to another location on the map. To do so they first engage in a Journey as dictated by the Journey Chart. A Journey is a Challenge with one of two outcomes. The Warband arrives unscathed by the events or they are blown off course by the Master's manipulations of the sea to a location of his choosing.</p>
 		<p>Upon arriving, at either the desired destination or the off course destination, the description of the location must be read aloud to the group by the Apprentice if the Warband is moving or by the Master if he or his Minions are moving.</p>
@@ -383,7 +375,6 @@ menu: ""
 	<aside class="span-3 col empty">&nbsp;
 	</aside>
 	<div class="span-6 col">
-		<hr>
 		<h3>Challenge Phase</h3>
 		<p class="first">With the Trial identified, the first Challenge must be defined. When the Apprentice or Warband is acting, the Master identifies the Challenge. When the Master or his Minions are acting, the Apprentice must identify the Challenge. The Challenge can be defined freely from the elements defined in the description of the location and by the visual representation of the map, or can be created from the use of Destiny Stones. However, it must be done in three sentences or less.</p>
 	</div>
@@ -490,7 +481,6 @@ menu: ""
 	<aside class="span-3 col empty">&nbsp;
 	</aside>
 	<div class="span-6 col">
-		<hr>
 		<h3>Teamwork</h3>
 		<p class="first">Teamwork is a central part of Conspiracy of Shadows: Apprentice for the Warband, which always moves together from location to location. The master and his Minions may never take advantage of Teamwork.</p>
 	</div>
@@ -530,7 +520,6 @@ menu: ""
 		</figure>
 	</aside>
 	<div class="span-6 col">
-		<hr>
 		<h3>Glorious Battle</h3>
 		<p class="first">At any time in the game, when a character is facing another named character except the Master, he may call for Glorious Battle. In this case, the normal Challenge resolution is tabled and the characters enter into a one-on-one combat event. Instead of events centering on a single Throw, a series of Throws happen simultaneously in this fight to the death.</p>
 		<p>The player who called for Glorious Battle first describes his attack in a single sentence and through that description defines what Trait he is using.</p>
@@ -562,7 +551,6 @@ menu: ""
 	<aside class="span-3 col empty">&nbsp;
 	</aside>
 	<div class="span-6 col">
-		<hr>
 		<h3>Litany of Heroes</h3>
 		<p class="first">The Litany of Heroes serves as living narrative of the trials and tribulations of the Apprentice and the Master while also serving as a mechanical record of everything in play. It marks every Challenge overcome and every Glorious Battle by every character in the game. The document is created collectively by every player in the game. It is the responsibility of each player to write down a narrative of the events their character was a part of in this single document.</p>
 		<p>If something is not recorded in the Litany of Heroes, it did not happen, literally. If at any time you fail to mark something down during the game, all of the results are forfeit. You must roll back any changes to your character sheets. This is not negotiable.</p>
@@ -582,7 +570,6 @@ menu: ""
 	<aside class="span-3 col empty">&nbsp;
 	</aside>
 	<div class="span-6 col">
-		<hr>
 		<h3>Endgame</h3>
 		<p class="first">The last turn of the game begins when the Apprentice and his Warband feel they have built up enough Resources in their estimation to confront the Master in his own lair. Facing the Master in his lair is not done lightly as failure here means the end of the Apprentice and possibly the entire Warband.</p>
 		<p>During the Warband's Trial Declaration Phase, the Apprentice declares that the final confrontation is at hand, and that he and the Warband are moving to face the Master. The Master then describes his lair and the Resources that are arrayed there to defeat the invaders. The Challenge Phases are then followed in the same order as the rest of the game and do not end until either the Master or the Apprentice is defeated.</p>

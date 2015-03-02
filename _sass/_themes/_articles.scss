@@ -7,6 +7,12 @@
 		padding:1em;
 	}
 }
+.divider{
+	display:block;
+	margin:50px auto;
+	width:300px;
+	height:50px;
+}
 .button{
 	min-width:100px;
 	height:50px;
@@ -217,14 +223,14 @@ article{
 			font-weight:bold;
 		}
 		.block{
-			margin:1.8em 0 0 0;
+			margin:1.8em 0;
 		}
 		hr{
 			height:3px;
 			border:0;
 			background:$black;
-			background-image:-webkit-linear-gradient(left, $black, $gray, $white);
-			margin:0 0 .25em 0;
+			background-image:-webkit-linear-gradient(left, $white, $black, $white);
+			margin:1em 0;
 		}
 		h3{
 			text-transform:uppercase;
