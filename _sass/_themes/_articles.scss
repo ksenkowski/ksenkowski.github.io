@@ -237,6 +237,9 @@ article{
 			margin:0 0 1em;
 			font-size:2em;
 		}
+		h3 + p.first{
+			margin-top:-1.25em;
+		}
 		h4, h5, h6{
 			margin:1.8em 0 .25em 0;
 		}
