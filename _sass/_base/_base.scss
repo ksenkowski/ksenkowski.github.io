@@ -347,9 +347,6 @@ td,th{
 
 }
 @media only screen and (min-width: 48.000em) {
-	
-}
-@media only screen and (min-width: 65.000em) {
 	.table-scroll{
 		display: table;
 		position: static;
@@ -402,5 +399,8 @@ td,th{
 			}
 		}
 	}
+	
+}
+@media only screen and (min-width: 65.000em) {
 	
 }
