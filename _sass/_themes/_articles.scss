@@ -3,15 +3,17 @@
    ========================================================================== */
 .homepage, .about, .single, .archive, .show{
 	padding-bottom:51px;
-	section{
-		padding:1em;
-	}
+}
+article{
+	padding:em(20px) em(16px);
 }
 .divider{
 	display:block;
 	margin:50px auto;
 	width:300px;
 	height:50px;
+	background:url('../img/articles/divider.png') no-repeat;
+	background-size:100% 100%;
 }
 .button{
 	min-width:100px;
@@ -154,100 +156,97 @@ nav{
 
 
 article{
-	section{
-		table{
-			border:3px solid $dark-gray;
-			width:100%;
-			caption{
-				font-size:1.6em;
-				font-family:$secondary-stack;
-				line-height:1.7em;
-				text-align:center;
-				margin:.8em 0;
-			}
-			thead{
-				background:$off-white;
-				border-bottom:3px solid $dark-gray;
-				tr{
-					th{
-						font-weight:800;
-						padding:12px 30px;
-						color:$dark-gray;
-						text-align:left;
-					}
-				}
-			}
-			tbody{
-				tr{
-					td{
-						padding:12px 30px;
-						color:$dark-gray;
-					}
+	table{
+		border:3px solid $dark-gray;
+		width:100%;
+		caption{
+			font-size:1.6em;
+			font-family:$secondary-stack;
+			line-height:1.7em;
+			text-align:center;
+			margin:.8em 0;
+		}
+		thead{
+			background:$off-white;
+			border-bottom:3px solid $dark-gray;
+			tr{
+				th{
+					font-weight:800;
+					padding:12px 30px;
+					color:$dark-gray;
+					text-align:left;
 				}
 			}
 		}
-		figure{
-			padding:2% 0;
-			figcaption{
+		tbody{
+			tr{
+				td{
+					padding:12px 30px;
+					color:$dark-gray;
+				}
 			}
 		}
+	}
+	figure{
+		padding:2% 0;
+		figcaption{
+		}
+	}
+	.futhark{
+		font-family:$futhark;
+		color: $highlight; 		
+	}
+	.dream{
+		figcaption{
+			border-top:3px solid $gray;
+			padding-top:.05em;
+			margin:.5em 0 0;
+			font-size:.75em;
+			line-height:1.5em;
+			font-weight:400;
+			font-family:$secondary-stack;
+			text-transform:uppercase;
+			color:$dark-gray;
+		}
+	}
+	ul{
 		.futhark{
-			font-family:$futhark;
-			color: $highlight; 		
+			float: left; 
+			font-size: 2.688em; 
+			line-height: .75em; 
+			padding: 4px 8px 0px 3px; 
+			width:50px;
+			display:block;
 		}
-		.dream{
-			figcaption{
-				border-top:3px solid $gray;
-				padding-top:.05em;
-				margin:.5em 0 0;
-				font-size:.75em;
-				line-height:1.5em;
-				font-weight:400;
-				font-family:$secondary-stack;
-				text-transform:uppercase;
-				color:$dark-gray;
-			}
-		}
-		ul{
-			.futhark{
-				float: left; 
-				font-size: 2.688em; 
-				line-height: .75em; 
-				padding: 4px 8px 0px 3px; 
-				width:50px;
-				display:block;
-			}
-		}
-		.toc{
-			text-transform:uppercase;
-			font-weight:bold;
-		}
-		.block{
-			margin:1.8em 0;
-		}
-		hr{
-			height:3px;
-			border:0;
-			background:$black;
-			background-image:-webkit-linear-gradient(left, $white, $black, $white);
-			margin:1em 0;
-		}
-		h3{
-			text-transform:uppercase;
-			margin:0 0 1em;
-			font-size:2em;
-		}
-		h3 + p.first{
-			margin-top:-1.25em;
-		}
-		h4, h5, h6{
-			margin:1.8em 0 .25em 0;
-		}
-		.maps{
-			border-top:3px solid $black;
-			margin:1% 0;
-		}
-		
+	}
+	.toc{
+		text-transform:uppercase;
+		font-weight:bold;
+	}
+	.block{
+		margin:1.8em 0;
+	}
+	hr{
+		height:3px;
+		border:0;
+		background:$black;
+		background-image:-webkit-linear-gradient(left, $white, $black, $white);
+		margin:1em 0;
+	}
+	h3{
+		text-transform:uppercase;
+		margin:0 0 1em;
+		font-size:2em;
+	}
+	h3 + p.first{
+		margin-top:-1.25em;
+	}
+	h4, h5, h6{
+		margin:1.8em 0 .25em 0;
+	}
+	.maps{
+		border-top:3px solid $black;
+		margin:1% 0;
 	}
 }
 #all-titles{
