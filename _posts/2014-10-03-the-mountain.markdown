@@ -11,7 +11,17 @@ excerpt: "The Mountain is an RPG about a quest into a strange and distant land i
 menu: ""
 ---
 <article class="item" data-nav="Introduction">
-	<section class="clearfix gutters">
+	<section class="content">
+		<!-- <picture>
+			<source media="(min-width: 65.000em)" srcset="/img/common/title.png, /img/common-2x/title.png 2x">
+				<source media="(min-width: 48.000em)" srcset="/img/common/title-portrait.png, /img/common-2x/title-portrait.png 2x">
+					<source media="(min-width: 20.em)" srcset="/img/common/title-mid.png, /img/common-2x/title-mid.png 2x">
+						<source media="(min-width: 1.000em)" srcset="/img/common/title-mobile.png, /img/common-2x/title-mobile.png 2x">
+			<img src="/img/common/title.png" alt="Conspiracy of Shadows" class="logo">
+		</picture> -->
+		<img src="/img/articles/mountain/header.png" class="masthead" alt="The Mountain"/>
+	</section>
+	<section class="content gutters legible">
 		<aside class="span-3 col">
 			&nbsp;
 		</aside>
@@ -33,5 +43,9 @@ menu: ""
 {% include mountain/skirmishes/index.html %}
 <article class="item" data-nav="Creating Adversaries">
 {% include mountain/adversaries/index.html %}
+	<div class="divider"></div>	
+</article>
+<article class="item" data-nav="Mundane Templates">
+{% include mountain/adversaries/mundane/index.html %}
 	<div class="divider"></div>	
 </article>

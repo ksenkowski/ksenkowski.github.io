@@ -335,9 +335,34 @@ th{
 	background:$off-white;
 	font-weight:bold;
 }
+th.twelve, td.twelve{
+	width:12%;
+}
+th.twenty, td.twenty{
+	width:20%;
+}
+th.thirty-three, td.thirty-three{
+	width:33%;
+}
+th.sixty-six, td.sixty-six{
+	width:66%;
+}
+th.forty, td.forty{
+	width:40%;
+}
+th.five, td.five{
+	width:5%;
+}
+th.ten, td.ten{
+	width:10%;
+}
+
 td,th{
 	padding:6px;
 	text-align:left;
+}
+td.top, th.top{
+	vertical-align:top;
 }
 /* ==========================================================================
    MEDIA QUERIES
@@ -363,27 +388,6 @@ td,th{
 			}
 			th{
 				display:table-cell;
-			}
-			th.twelve{
-				width:12%;
-			}
-			th.twenty{
-				width:20%;
-			}
-			th.thirty-three{
-				width:33%;
-			}
-			th.sixty-six{
-				width:66%;
-			}
-			th.forty{
-				width:40%;
-			}
-			th.five{
-				width:5%;
-			}
-			th.ten{
-				width:10%;
 			}
 		}
 		tbody{

@@ -18,6 +18,12 @@
 	.logo{
 		margin:0 auto;
 	}
+	@include breakpoint(mobile){
+		height:108px;
+	}
+	@include breakpoint(portrait){
+		height:142px;
+	}
 }
 #menu{
 	background:$gray;
@@ -78,25 +84,9 @@
 				margin:1em 0 0;
 			}
 			
-		}
-		
+		}		
 	}
-}
-/* ==========================================================================
-   MEDIA QUERIES
-   ========================================================================== */
-
-
-@media only screen and (min-width: 31.250em) {
-	#masthead {
-		height:108px;
-	}
-}
-@media only screen and (min-width: 48.000em) {
-	#masthead {
-		height:142px;
-	}
-	#hero, .hero{
+	@include breakpoint(portrait){
 		.article-meta{
 			position:absolute;
 			top:20px;
@@ -112,30 +102,24 @@
 				border-bottom:none;	
 				
 			}
-		}
+		}	
 	}
-}
-@media only screen and (min-width:58em){
-		#hero, .hero{
-			.article-meta{
-				border:none;
-				position:relative;
-				top:0;
-				color:$black;
-			}
+	
+	@include breakpoint(landscape){
+		.article-meta{
+			border:none;
+			position:relative;
+			top:0;
+			color:$black;
+		}
+		img{
+			border-right:3px solid $black;
+		}
+		&.second{
 			img{
-				border-right:3px solid $black;
-			}
-			&.second{
-				img{
-					border-right:none;
-					border-left:3px solid $black;
-				}
+				border-right:none;
+				border-left:3px solid $black;
 			}
 		}
-}
-@media only screen and (min-width: 65.000em) {
-	#masthead {
-		height:142px;
 	}
 }

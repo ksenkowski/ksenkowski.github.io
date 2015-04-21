@@ -4,8 +4,13 @@
 .homepage, .about, .single, .archive, .show{
 	padding-bottom:51px;
 }
-article{
+.legible{
 	padding:em(20px) em(16px);
+}
+.masthead{
+	max-width:1024px;
+	display:block;
+	margin:0 auto;
 }
 .divider{
 	display:block;
@@ -309,12 +314,6 @@ article{
 /* ==========================================================================
    MEDIA QUERIES
    ========================================================================== */
-@media only screen and (min-width: 31.250em) {
-}
-@media only screen and (min-width: 48.000em) {
-}
-@media only screen and(min-width:58em){
-}
 @media only screen and (min-width: 78.125em) {
 	article{
 		#toc{
