@@ -2,42 +2,20 @@
 <html>
 	{% include common/head.html %}
 	<body>
+		<!--[if lt IE 8]>
+		    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		  <![endif]-->
 		{% include common/header.html %}
 		<main>
-			{% assign count = '0' %}
-			{% assign idx = '0' %}
-			{% for posts in site.posts limit: 3 %}
-			{% capture count %}{{count | plus: '1'}}{% endcapture %}
-			
-			{% if count == '2' %}
-				<section class="hero second">
-					<div class="clearfix">		
-						<div class="span-4 col article-meta">
-							<h2>{{ posts.title }}</h2>
-							<h3>{{ posts.subtitle }}</h3>
-							<p class="description">{{ posts.excerpt }}<br/><a href="{{posts.url}}">Read More ></a></p>
-						</div>
-						<div class="span-8 col">
-							<img src="{{site.baseurl}}/img/articles/{{ posts.image }}"/>
-						</div>
-					</div>
-				</section>	
-			{% else %}
-				<section class="hero">
-					<div class="clearfix">		
-						<div class="span-8 col">
-							<img src="{{site.baseurl}}/img/articles/{{ posts.image }}"/>
-						</div>
-						<div class="span-4 col article-meta">
-							<h2>{{ posts.title }}</h2>
-							<h3>{{ posts.subtitle }}</h3>
-							<p class="description">{{ posts.excerpt }}<br/><a href="{{posts.url}}">Read More ></a></p>
-						</div>
-					</div>
-				</section>	
-			{% endif %}
-			
-			{% endfor %}
+			<section class="content">
+				<img src="/img/articles/about/header.jpg" alt="Keith Senkowski" class="head-image"/>
+			</section>
+			<section class="content legible">
+				<p class="first">Hi, my name is Keith Senkowski and I am an illustrator, author, technologist and game designer. For over ten years I have been working on a project called Conspiracy of Shadows. It began as a tabletop role-playing game and eventually evolved into a multi-faceted art project.</p>
+				<p>This site is the primary digital representation of this project. Everything you find on this website is tied to the fictional world at the center of the project. Here you will find games, fiction, and fictional academic articles outlining the details of that world.</p>
+				<p>In this latest incarnation of the site I have decided to take a different approach to the posts. My goal is to handcraft each page to taylor it to the content while maintaining design conventions I have created for the site.</p>
+				<p>If you like what you see on this site, you can support the work by pledging at <strong><a href="http://www.patreon.com/keithsenkowski" target="_blank">Patreon</a></strong>. There you can see some additional work on this project, watch a video explaining what Patreon is and how I am using it, and have the opportunity to get some of my physical artwork.</p>		
+			</section>
 		</main>
 		{% include common/footer.html %}
 	</body>

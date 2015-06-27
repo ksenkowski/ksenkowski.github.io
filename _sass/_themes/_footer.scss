@@ -2,21 +2,15 @@
    SITE FOOTER
    ========================================================================== */
 #site-footer{
-	padding:.5em;
+	border-right:solid 4px $black;
+	border-left:solid 4px $black;
+	border-top:solid 4px $black;
+	padding:em(15px) em(10px);
 	background:$gray;
 	width:100%;
 	z-index:500;
-	min-height:160px;
 	p{
 		font-size:.875em;
 		text-indent:0;
-	}
-	nav{
-		text-transform:uppercase;
-		font-weight:bold;
-		font-size:.75em;
-		font-family:$tertiary-stack;
-		line-height:4em;
-		padding:0;
 	}
 }

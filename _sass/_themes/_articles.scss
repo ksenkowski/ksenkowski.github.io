@@ -6,6 +6,11 @@
 }
 .legible{
 	padding:em(20px) em(16px);
+	border-right:solid 4px $black;
+	border-left:solid 4px $black;
+}
+.head-image{
+	border-bottom:solid 4px $black;	
 }
 .masthead{
 	max-width:1024px;
@@ -39,19 +44,14 @@
 .gutenberg{
 	font-family:$gutenberg !important;
 }
+.futhark{
+	font-family:$futhark;
+	color: $highlight; 	
+	font-size:em(32px);	
+}
+
 nav{
 	padding:0% 5%;
-}
-.archive{
-	h3{
-		margin:.25em;
-		a{
-			color:$dark-gray;
-			&:hover{
-				color:$highlight
-			}
-		}
-	}
 }
 #throw-stones{
 	padding:5% 0%;
@@ -197,10 +197,6 @@ article{
 		figcaption{
 		}
 	}
-	.futhark{
-		font-family:$futhark;
-		color: $highlight; 		
-	}
 	.dream{
 		figcaption{
 			border-top:3px solid $gray;
@@ -258,6 +254,7 @@ article{
 	margin:20px auto;
 }
 #results{
+	border-top:solid 4px $black;
 	opacity:0;
 	background:transparent;
 	transition:all .5s;
@@ -269,7 +266,7 @@ article{
 	height:0;
 	&.show{
 		height:auto;
-		z-index:1;
+		z-index:10;
 		opacity:1;
 		transition:all .5s;
 		background:$white;

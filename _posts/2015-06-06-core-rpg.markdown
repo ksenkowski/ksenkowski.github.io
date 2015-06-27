@@ -1,0 +1,30 @@
+---
+layout: new
+title:  "Conspiracy of Shadows RPG"
+subtitle: "The Line Must Be Drawn Here"
+image: "books.png"
+author: "Keith Senkowski"
+date:   2015-06-06 15:21:23
+categories: rpg
+tag: "the role playing game rpg mechanics rules"
+excerpt: "This far! No further!"
+menu: ""
+---
+<article>
+	<blockquote>
+		<p>"He who fights with monsters might take care lest he thereby become a monster."</p>
+		<p>~ Friedrich Nietzche, Beyond Good and Evil, Aphorism 146</p>
+	</blockquote>
+	{% include core/introduction/index.html %}
+<div class="divider"></div>	
+	{% include core/characters/index.html %}
+<div class="divider"></div>	
+	{% include core/journey/index.html %}
+<div class="divider"></div>	
+	{% include core/skirmishes/index.html %}
+<div class="divider"></div>	
+	{% include core/wyrding/index.html %}
+<div class="divider"></div>	
+	{% include core/adversaries/index.html %}
+<div class="divider"></div>	
+</article>

@@ -3,11 +3,12 @@
    ========================================================================== */
 
 #masthead {
-	background:transparent;
+	background-color:$white;
 	box-shadow:none;
 	border-bottom:solid 4px $black;
+	border-right:solid 4px $black;
+	border-left:solid 4px $black;
 	position:relative;
-	height:86px;
 	display:block;
 	transition: all .25s ease-in-out;
 	z-index:5;
@@ -18,46 +19,32 @@
 	.logo{
 		margin:0 auto;
 	}
-	@include breakpoint(mobile){
-		height:108px;
-	}
-	@include breakpoint(portrait){
-		height:142px;
-	}
+}
+#search-box{
+	display:none;
+	padding:em(10px);
+	background-color:$gray;
+	border-right:solid 4px $black;
+	border-left:solid 4px $black;
+	border-bottom:solid 4px $black;
 }
 #menu{
-	background:$gray;
+	background:$white;
+	border-left:solid 4px $black;
 	padding:1em;
-	border-bottom:solid 4px $black;
 	text-align:center;
 	text-transform:uppercase;
 	font-weight:bold;
 	font-size:.75em;
 	font-family:$tertiary-stack;
-	.nav-item {
-		margin-left: 2%;
-		float:left;
-	}
 	.nav-item:first-child {
 		margin-left: 0;
-	}
-	.nav-item{
-		width:60px;
 	}
 }
 #hero, .hero{
 	position:relative;
-	border-bottom:3px solid $black;
-	img{
-		border-bottom:3px solid $black;	
-		border-left:none;	
-	}
-	&.second{
-		img{
-			border-top:3px solid $black;		
-		}
-	}
-	.article-meta{
+	background-color:$white;
+	&.article-meta{
 		padding:1em;
 		h2{
 			font-size:2.25em;
@@ -69,6 +56,7 @@
 			line-height:1em;
 			margin-bottom:.875em;
 			font-size:1.7em;
+			text-indent:0;
 		}
 		p{
 			text-indent:0;
@@ -85,41 +73,5 @@
 			}
 			
 		}		
-	}
-	@include breakpoint(portrait){
-		.article-meta{
-			position:absolute;
-			top:20px;
-			color:$off-white;
-		}
-		img{
-			border-top:none;	
-			border-bottom:none;	
-		}
-		.second{
-			img{
-				border-top:none;	
-				border-bottom:none;	
-				
-			}
-		}	
-	}
-	
-	@include breakpoint(landscape){
-		.article-meta{
-			border:none;
-			position:relative;
-			top:0;
-			color:$black;
-		}
-		img{
-			border-right:3px solid $black;
-		}
-		&.second{
-			img{
-				border-right:none;
-				border-left:3px solid $black;
-			}
-		}
 	}
 }

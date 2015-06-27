@@ -1,15 +1,25 @@
 ---
 layout: about
 ---
-<article class="archive">
-	<section>
-		<div class="content">
-			<fieldset>
-				<input type="text" class="search" placeholder="Search">
-			</fieldset>
-			<div id="results">
-				<ul class="unstyled"></ul>
-			</div>
-		</div>
-	</section>
+<article class="archive content">
+			{% assign count = '0' %}
+			{% assign idx = '0' %}
+			{% for posts in site.posts %}
+			{% capture count %}{{count | plus: '1'}}{% endcapture %}
+			
+			{% if count == '2' %}
+				<section class="hero second article-meta">
+					<h2>{{ posts.title }}</h2>
+					<h3>{{ posts.subtitle }}</h3>
+					<p class="description">{{ posts.excerpt }}<br/><a href="{{posts.url}}">Read More ></a></p>
+				</section>	
+			{% else %}
+				<section class="hero article-meta">
+					<h2>{{ posts.title }}</h2>
+					<h3>{{ posts.subtitle }}</h3>
+					<p class="description">{{ posts.excerpt }}<br/><a href="{{posts.url}}">Read More ></a></p>
+				</section>	
+			{% endif %}
+			
+			{% endfor %}
 </article>

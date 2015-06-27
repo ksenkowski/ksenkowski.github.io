@@ -5,6 +5,8 @@
 	margin:0 auto;
 	min-width:19em;
 	position:relative;
+	border-right:solid 4px $black;
+	border-left:solid 4px $black;
 	@include clearfix;
 	@include breakpoint(mobile){
 		min-width:31.250em;

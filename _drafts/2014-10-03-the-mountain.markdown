@@ -27,9 +27,11 @@ menu: ""
 		</aside>
 		<div class="span-6 col">
 			<p class="first">You can hear the pounding in your ears. The world seems to vibrate in dread before you eyes. Things flit in the shadows. Awful things just out of sight that defy explanation. And always, always the drumming.</p>
-			<p>If you were alone in this you would have gone mad long ago. You are not sure if that is a good thing, but at least you are not alone in your knowledge. Something is coming. Something old. Something that hungers. Something that hates.</p>
-			<p>If you hadn't had found that old book, you might have stayed in the Great City, the Mother to Us All, waiting for the merciful end to your suffering. But you found the book. You studied the map. You fought off the mad cultists who tried to take it back and you planned your next move.</p>
-			<p>With the city only miles behind you, the five of you set out on a hard road. Each step takes you to your doom or your salvation. You don't know which, and you don't really care. All you know is you must get it, that nebulous thing that will close the gate. The thing those cultist want to keep hidden so... so <em><strong>it</strong></em> can be unleashed upon the world.</p>
+			<p>If you were alone in this you would have gone mad long ago. You are not sure if that is a good thing, but at least you are not alone. Something is coming. Something old. Something that hungers. Something that hates.</p>
+			<p>If you hadn't found that old book, you might have stayed in the Great City, the Mother to Us All, waiting for the merciful end. But you found the book. The book...</p>
+			<p>You studied the map. You fought off the mad cultists who tried to take it back. You planned your next move. You implemented your plan.</p>
+			<p>It was a disaster. They were waiting for you. One of you died. Another took his own life after he learned what you needed to do next.</p>
+			<p>With the city only miles behind you, you set out on a hard road. Each step takes you to your doom but perhaps the world's salvation. You don't know how it will play out. All you know is you must get it, that nebulous thing that will close the gate. The thing those cultist want to keep hidden so... so <em><strong>it</strong></em> can be unleashed upon the world.</p>
 		</div>
 		<aside class="span-3 col empty">&nbsp;
 		</aside>
