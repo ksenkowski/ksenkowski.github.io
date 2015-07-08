@@ -1,0 +1,218 @@
+.timeline-container { 
+	width: 90%;
+	max-width: 65.000em;
+	margin: 0 auto;
+	
+}
+
+#timeline {
+	position: relative;
+	padding: 2em 0;
+	margin: {
+		top: 2em;
+		bottom: 2em;
+	}
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 18px;
+		height: 100%;
+		width: 4px;
+		background: $dark-gray;
+	}
+	
+	@include breakpoint(desktop) {
+		margin: {
+			top: 3em;
+			bottom: 3em;
+		}
+
+		&::before {
+			left: 50%;
+			margin-left: -2px;
+		}
+	}
+}
+
+.timeline-block {
+	position: relative;
+	margin: 2em 0;
+	@include clearfix;
+
+	&:first-child {
+		margin-top: 0;
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	@include breakpoint(desktop) {
+		margin: 4em 0;
+
+		&:first-child {
+			margin-top: 0;
+		}
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+.timeline-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	box-shadow: 0 0 0 4px $dark-gray, inset 0 2px 0 rgba(#000, .08), 0 3px 0 4px rgba(#000, .05) ;
+
+	img {
+		display: block;
+		width: 24px;
+		height: 24px;
+		position: relative;
+		left: 50%;
+		top: 50%;
+		margin-left: -12px;
+		margin-top: -12px;
+	}
+
+	&.picture {
+		background: $highlight;
+	}
+
+	&.movie {
+		background: $highlight;
+	}
+
+	&.location {
+		background: $highlight;
+	}
+
+	@include breakpoint(desktop) {
+		width: 60px;
+		height: 60px;
+		left: 50%;
+		margin-left: -30px;
+
+	}
+}
+.timeline-content {
+	position: relative;
+	margin-left: 60px;
+	background: $off-white;
+	padding: 1em;
+	border: 3px $dark-gray solid;
+	@include clearfix;
+
+	h2 {
+		color: $highlight;
+	}
+
+	p, .read-more, .date {
+		font-size: em(13px);
+	}
+
+	.read-more, .date {
+		display: inline-block;
+	}
+
+	p {
+		margin: 1em 0;
+		line-height: 1.6;
+	}
+
+	.read-more {
+		float: right;
+		padding: .8em 1em;
+		background: $link-color;
+		color: $highlight;
+
+		.no-touch &:hover {
+			background-color: $link-color, 5%;
+		}
+	}
+
+	.date {
+		float: left;
+		padding: .8em 0;
+		opacity: .7;
+	}
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 12px;
+		right: 100.5%;
+		height: 0;
+		width: 0;
+		border: 7px solid transparent;
+		border-right: 7px solid $dark-gray;
+	}
+
+	@include breakpoint(portrait) {
+		h2 {
+			font-size: em(20px);
+		}
+
+		p {
+			font-size: em(16px);
+		}
+
+		.read-more, .date {
+			font-size: em(14px);
+		}
+	}
+
+	@include breakpoint(desktop) {
+		margin-left: 0;
+		padding: 1.6em;
+		width: 45%;
+
+		&::before {
+			top: 24px;
+			left: 100%;
+			border-color: transparent;
+			border-left-color: $dark-gray;
+		}
+
+		.read-more {
+			float: left;
+		}
+
+		.date {
+			position: absolute;
+			width: 100%;
+			left: 122%;
+			top: 6px;
+			font-size: em(16px);
+		}
+
+		.timeline-block:nth-child(even) & {
+			float: right;
+
+			&::before {
+				top: 24px;
+				left: auto;
+				right: 100.5%;
+				border-color: transparent;
+				border-right-color: $dark-gray;
+			}
+
+			.read-more {
+				float: right;
+			}
+
+			.date {
+				left: auto;
+				right: 122%;
+				text-align: right;
+			}
+		}
+
+	}
+}

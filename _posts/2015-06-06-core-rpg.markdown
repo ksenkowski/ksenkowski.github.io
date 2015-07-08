@@ -6,7 +6,7 @@ image: "books.png"
 author: "Keith Senkowski"
 date:   2015-06-06 15:21:23
 categories: rpg
-tag: "the role playing game rpg mechanics rules"
+tag: "the role playing game rpg mechanics rules conspiracy of shadows core"
 excerpt: "This far! No further!"
 menu: ""
 ---

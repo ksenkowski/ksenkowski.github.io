@@ -2,7 +2,8 @@
    ARTICLES
    ========================================================================== */
 .homepage, .about, .single, .archive, .show{
-	padding-bottom:51px;
+	padding-bottom:20px;
+	background:$white;
 }
 .legible{
 	padding:em(20px) em(16px);
@@ -70,7 +71,11 @@ nav{
 		margin:10px;
 		background:url('../img/articles/apprentice/stones.jpg') no-repeat;
 		&.tails{
-			text-indent:-99999px;
+			span{
+				color:$black;
+				opacity:.2;
+				filter: alpha(opacity=20);
+			}
 		}
 		&.blackstone{
 			background:$black !important;

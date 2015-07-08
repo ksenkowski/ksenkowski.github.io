@@ -156,7 +156,7 @@ if (typeof Object.create !== "function") {
 					if(array[i] == 'The Black Stone'){
 						container.append('<li class="blackstone"></li>');
 					}else{
-						container.append('<li class="tails"></li>');					
+						container.append('<li class="tails futhark"><span>'+array[i]+'</span></li>');					
 					}
 				}
 			}
