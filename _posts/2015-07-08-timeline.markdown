@@ -183,5 +183,70 @@ menu: ""
 	</div> 
 </div> 
 
+<div class="timeline-block">
+	<div class="timeline-img location">
+		<!-- <img src="img/icon-location.svg" alt="Location"> -->
+	</div>
+
+	<div class="timeline-content">
+		<h2>Acension of Nezzarnebukad</h2>
+		<p class="first"></p>
+		<!-- <a href="#0" class="read-more">Read more</a> -->
+		<span class="date">53 Classical Era</span>
+	</div> 
+</div> 
+
+<div class="timeline-block">
+	<div class="timeline-img movie">
+		<!-- <img src="img/icon-movie.svg" alt="Movie"> -->
+	</div>
+
+	<div class="timeline-content">
+		<h2>The Journey of the Lord of Heavenly Wisdom</h2>
+		<p class="first"></p>
+		<!-- <a href="#0" class="read-more">Read more</a> -->
+		<span class="date">78 Classical Era</span>
+	</div> 
+</div> 
+
+<div class="timeline-block">
+	<div class="timeline-img location">
+		<!-- <img src="img/icon-location.svg" alt="Location"> -->
+	</div>
+
+	<div class="timeline-content">
+		<h2>The Lord of Abandoned Orphans Returns to Court</h2>
+		<p class="first"></p>
+		<!-- <a href="#0" class="read-more">Read more</a> -->
+		<span class="date">78 Classical Era</span>
+	</div> 
+</div> 
+
+<div class="timeline-block">
+	<div class="timeline-img location">
+		<!-- <img src="img/icon-location.svg" alt="Location"> -->
+	</div>
+
+	<div class="timeline-content">
+		<h2>Ascension of the Lord " " " "</h2>
+		<p class="first"></p>
+		<!-- <a href="#0" class="read-more">Read more</a> -->
+		<span class="date">85 Classical Era</span>
+	</div> 
+</div> 
+
+<div class="timeline-block">
+	<div class="timeline-img location">
+		<!-- <img src="img/icon-location.svg" alt="Location"> -->
+	</div>
+
+	<div class="timeline-content">
+		<h2>Lots of Destruction</h2>
+		<p class="first"></p>
+		<!-- <a href="#0" class="read-more">Read more</a> -->
+		<span class="date">100 Classical Era</span>
+	</div> 
+</div> 
+
 </section>
 </article>
