@@ -10,7 +10,7 @@ tag: "the role playing game rpg mechanics rules conspiracy of shadows core"
 excerpt: "This far! No further!"
 menu: ""
 ---
-<article>
+<article class="content single">
 	<blockquote>
 		<p>"He who fights with monsters might take care lest he thereby become a monster."</p>
 		<p>~ Friedrich Nietzche, Beyond Good and Evil, Aphorism 146</p>

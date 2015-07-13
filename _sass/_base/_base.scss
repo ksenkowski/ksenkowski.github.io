@@ -289,37 +289,37 @@ fieldset{
 /* ==========================================================================
    TABLES
    ========================================================================== */
-//	.table-scroll{
-//		display: block;
-//		position: relative;
-//		width: 100%;
-//		caption{
-//			display:block;
-//		}
-//		thead{
-//			display:block;
-//			float:left;
-//			border-bottom:none;
-//			tr,th{
-//				display:block;
-//				width:100%;
-//			}
-//		}
-//		tbody{
-//			display:block;
-//			width:auto;
-//			position:relative;
-//			overflow-x:auto;
-//			white-space:nowrap;
-//			tr{
-//				display:inline-block;
-//				vertical-align:top;
-//				td{
-//					display:block;
-//				}
-//			}
-//		}
-//	}
+	.table-scroll{
+		display: block;
+		position: relative;
+		width: 100%;
+		caption{
+			display:block;
+		}
+		thead{
+			display:block;
+			float:left;
+			border-bottom:none;
+			tr,th{
+				display:block;
+				width:100%;
+			}
+		}
+		tbody{
+			display:block;
+			width:auto;
+			position:relative;
+			overflow-x:auto;
+			white-space:nowrap;
+			tr{
+				display:inline-block;
+				vertical-align:top;
+				td{
+					display:block;
+				}
+			}
+		}
+	}
 
 table{
 	width:100%;
