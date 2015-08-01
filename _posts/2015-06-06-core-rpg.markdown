@@ -7,7 +7,7 @@ author: "Keith Senkowski"
 date:   2015-06-06 15:21:23
 categories: rpg
 tag: "the role playing game rpg mechanics rules conspiracy of shadows core"
-excerpt: "This far! No further!"
+excerpt: "This is a game about being the hero. It is about drawing a line in the sand and shaking your fist against the night. It isn't about survival, but about ensuring the world's survival."
 menu: ""
 ---
 <article class="content single">
