@@ -11,7 +11,7 @@ excerpt: "An online way to cast your runes for Conspiracy of Shadows and Conspir
 menu: ""
 ---
 <article class="content single">
-<section>
+<section class="block">
 	<div id="throw-stones">
 		<fieldset>
 			<select class="text-center">
