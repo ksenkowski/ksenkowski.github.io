@@ -191,6 +191,32 @@ ol.lower-roman{
 	list-style-type:lower-roman;
 }
 
+.styled-numbers{
+	counter-reset:ranger;
+}
+.styled-numbers dt{
+	position:relative;
+	font-weight:bold;
+	font-size:em(16px);
+	padding:4px 0px 10px;
+}
+.styled-numbers dt:before{
+	content: counter(ranger);
+	counter-increment:ranger;
+	position:absolute;
+	left:0;
+	top:75%;
+	font-weight:bold;
+	font-size:em(50px);
+	line-height:em(1px);
+}
+.styled-numbers dd{
+	margin:0 0 50px 0;
+	font-size:.875em;
+}
+.styled-numbers dt, .styled-numbers dd{
+	padding-left:50px;
+}
 /* ==========================================================================
    LINKS - My broad preference is to have no text decoration on links and apply a dotted border on hover.
    ========================================================================== */
