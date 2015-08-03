@@ -190,33 +190,70 @@ ol.upper-roman{
 ol.lower-roman{
 	list-style-type:lower-roman;
 }
+/* ==========================================================================
+   STYLED DEFINITION LIST - Create number designs using definition lists.
+   ========================================================================== */
 
-.styled-numbers{
-	counter-reset:ranger;
+#journey-numbers{
+	counter-reset:journey;
 }
-.styled-numbers dt{
-	position:relative;
-	font-weight:bold;
-	font-size:em(16px);
-	padding:4px 0px 10px;
+#map-numbers{
+	counter-reset:map;
 }
-.styled-numbers dt:before{
-	content: counter(ranger);
-	counter-increment:ranger;
-	position:absolute;
-	left:0;
-	top:75%;
-	font-weight:bold;
-	font-size:em(50px);
-	line-height:em(1px);
+#arc-numbers{
+	counter-reset:arc;
 }
-.styled-numbers dd{
-	margin:0 0 50px 0;
-	font-size:.875em;
+#journey-numbers dt:before{
+	content: counter(journey);
+	counter-increment:journey;
 }
-.styled-numbers dt, .styled-numbers dd{
-	padding-left:50px;
+#arc-numbers dt:before{
+	content: counter(arc);
+	counter-increment:arc;
 }
+#map-numbers dt:before{
+	content: counter(map);
+	counter-increment:map;
+}
+#conflict dt:before{
+	display:none;
+}
+
+.styled-numbers {
+	dt{
+		position:relative;
+		font-weight:bold;
+		font-size:em(16px);
+		padding:4px 0px 10px 50px;
+	}
+	dt:before{
+		position:absolute;
+		left:0;
+		top:75%;
+		font-weight:bold;
+		font-size:em(50px);
+		line-height:em(1px);
+	}
+	&.nested{
+		margin-top:30px;
+		dt:before{
+			font-size:em(30px);
+			top:75%;
+		}
+		dt{
+			padding:0px 0px 0px 50px;
+		}
+		dd{
+			margin:0px 0px 20px 0px;
+		}
+	}
+	dd{
+		margin:0 0 50px 0;
+		font-size:.875em;
+		padding-left:50px;
+	}
+}
+
 /* ==========================================================================
    LINKS - My broad preference is to have no text decoration on links and apply a dotted border on hover.
    ========================================================================== */
