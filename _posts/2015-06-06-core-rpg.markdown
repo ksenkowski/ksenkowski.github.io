@@ -32,5 +32,5 @@ menu: ""
 	{% include core/wyrding/index.html %}
 <div class="divider"></div>	
 	<!-- {% include core/adversaries/index.html %}
-<div class="divider"></div>	 -->
+<div class="divider"></div> -->
 </article>
