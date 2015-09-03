@@ -10,21 +10,27 @@ tag: "the role playing game rpg mechanics rules conspiracy of shadows core"
 excerpt: "This is a game about being the hero. It is about drawing a line in the sand and shaking your fist against the night. It isn't about survival, but about ensuring the world's survival."
 menu: ""
 ---
-<article class="content single">
-	<blockquote>
-		<p>"He who fights with monsters might take care lest he thereby become a monster."</p>
-		<p>~ Friedrich Nietzche, Beyond Good and Evil, Aphorism 146</p>
-	</blockquote>
+<article class="content legible">
+	<section class="clearfix gutters block">
+		<aside class="span-3 col empty">&nbsp;</aside>
+		<div class="span-6 col">
+			<blockquote>
+				<p class="courier">For some reason, you will no longer be the person you believed you once were. You'll detect slow and subtle shifts going on all around you, more importantly shifts in you. Worse, you'll realize it's always been shifting, like a shimmer of sorts, a vast shimmer, only dark like a room. But you won't understand why or how.</p>
+				<p class="courier">~ House of Leaves</p>
+			</blockquote>
+		</div>
+		<aside class="span-3 col empty">&nbsp;</aside>
+	</section>
 	{% include core/introduction/index.html %}
 <div class="divider"></div>	
-	{% include core/characters/index.html %}
-<div class="divider"></div>	
+	<!-- {% include core/characters/index.html %}
+<div class="divider"></div>	 -->
 	{% include core/journey/index.html %}
 <div class="divider"></div>	
 	{% include core/skirmishes/index.html %}
 <div class="divider"></div>	
 	{% include core/wyrding/index.html %}
 <div class="divider"></div>	
-	{% include core/adversaries/index.html %}
-<div class="divider"></div>	
+	<!-- {% include core/adversaries/index.html %}
+<div class="divider"></div>	 -->
 </article>
