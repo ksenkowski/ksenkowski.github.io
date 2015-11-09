@@ -3,7 +3,7 @@ layout: article
 title:  "Tracking to Letter Spacing"
 date:   2015-11-08
 category: musings
-tag: "css letter-spacing photoshop tracking"
+tag: "css letter-spacing photoshop tracking typography"
 excerpt: "How to convert the Photoshop tracking values to the appropriate letter-spacing value in CSS."
 class: "CSS"
 ---
@@ -23,14 +23,17 @@ class: "CSS"
 	<div class="span-1 col empty"></div>
 	<div class="span-6 col">
 		<p>For the uninitiated, <strong><em>tracking</em></strong> is the adjustment of the spacing of characters throughout an entire word. When used for evil it can severly impact the legibility of the type. So use it for good people.</p>
-		<p>On the right you can see where to find the tracking value of type in Photoshop. Once you have it, use it in the following calculation:</p>
 		<code>
 			letter-spacing = tracking / 1000<br/>
+			0.2 = 200 / 1000<br/>
 			letter-spacing:0.2px;
 		</code>
 	</div>
 	<aside class="span-4 col">
+		<figure>
 		<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/musings/tracking.png" alt="Photoshop Tracking"/>
+		<figcaption>This is where you can find the tracking value in the Photoshop character dialogue</figcaption>
+	</figure>
 	</aside>	
 	<div class="span-1 col empty"></div>	
 	</div>

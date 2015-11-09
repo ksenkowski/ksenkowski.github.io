@@ -3,7 +3,7 @@
    ========================================================================== */
 .divider{
 	display:block;
-	margin:50px auto;
+	margin:em(50px) auto 0;
 	width:300px;
 	height:50px;
 	background:url('../img/articles/divider.png') no-repeat;
@@ -38,6 +38,18 @@
 			}		
 		}	
 	}
+	figure{
+		figcaption{
+			margin:0 0 em(20px);
+			padding:em(10px);
+			font-size:em(14px);
+			line-height:120%;
+			font-style:italic;
+			@include breakpoint(portrait){
+				margin:0;
+			}
+		}
+	}
 }
 
 #futhark{
@@ -64,9 +76,18 @@
 		p{
 			strong{
 				color:$tertiary-color;			
-			}
-			
+			}			
 		}
+		figure{
+			border-top:2px solid $tertiary-dark;
+			border-left:2px solid $tertiary-dark;
+			border-right:2px solid $tertiary-dark;
+			figcaption{
+				border-bottom:2px solid $tertiary-dark;
+				background:$tertiary-light;
+			}
+		}
+		
 	}
 }
 
@@ -83,6 +104,15 @@
 				color:$primary-light;			
 			}		
 		}	
+		figure{
+			border-left:2px solid $secondary-dark;
+			border-right:2px solid $secondary-dark;
+			border-top:2px solid $secondary-dark;
+			figcaption{
+				border-bottom:2px solid $secondary-dark;
+				background:$secondary-light;
+			}
+		}
 	}
 	h2{
 		font-family:$secondary-stack;
@@ -91,19 +121,35 @@
 		line-height:105%;
 	}
 }
-#dragon-002{
+#dragon-year-one{
 	.header{
-		background:$primary-light url('../img/articles/dragon/002/cover.jpg') no-repeat;
+		background:$primary-light url('../img/articles/dragon/year-one/cover.jpg') no-repeat;
 		background-size:cover;
 		color:$white;		
 	}
 	.review{
 		padding:4% 2% 2%;
+		
+		h2{
+			margin:0 0 em(20px);
+			color:$secondary-dark;
+		}
 		p{
 			strong{
 				color:$secondary-light;			
 			}			
 		}
+		figure{
+			border-left:2px solid $secondary-dark;
+			border-right:2px solid $secondary-dark;
+			border-top:2px solid $secondary-dark;
+			figcaption{
+				border-bottom:2px solid $secondary-dark;
+				background:$secondary-light;
+				color:$white;
+			}
+		}
+		
 	}
 	
 }
@@ -137,11 +183,6 @@ article{
 					color:$dark-gray;
 				}
 			}
-		}
-	}
-	figure{
-		padding:2% 0;
-		figcaption{
 		}
 	}
 	.dream{
