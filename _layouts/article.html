@@ -3,10 +3,12 @@
 
   {% include common/head.html %}
 
-  <body>
+  <body id="{{ page.class }}">
     {% include common/header.html %}
-    <main id='transition' class='transition-articles transition-theme'>
+    <main>
+		<article class="single">
 		    {{ content }}
+		</article>	
 	</main>
 	   {% include common/footer.html %}
 

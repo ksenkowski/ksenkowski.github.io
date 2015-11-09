@@ -1,0 +1,57 @@
+<article id="archive">
+	<section class="header">
+		<div class="content">
+			<div class="col span-3 empty"></div>
+			<div class="col span-6">
+				<h1>the meaning of life the universe and everything</h1>
+				<p class="subtitle">These long-form essays, art postings, and game designs will change your life. By <strong><em>changing your life</em></strong> I of course mean I stole some of your precious time. Why are you here? Go outside.</p>
+			</div>
+			<div class="col span-3 empty"></div>
+	
+		</div>
+	</section>
+	{% for post in site.posts %}
+	  {% for cat in post.categories %}
+	    {% if cat == 'article' %}
+		{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+		{% if thecycle == 'odd' %}
+<section class="archive-article odd">
+	<div class="content">
+		<div class="col span-3 empty"></div>
+		<div class="col span-6">
+          <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+		  
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+		  <p class="excerpt">{{ post.excerpt}}</p>
+		</div>
+		<div class="col span-3 empty"></div>
+
+
+	</div>
+
+</section>
+ {% else %}
+ <section class="archive-article even">
+ 	<div class="content">
+ 		<div class="col span-3 empty"></div>
+ 		<div class="col span-6">
+           <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+           <h2>
+             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+           </h2>
+ 		  <p class="excerpt">{{ post.excerpt}}</p>
+ 		</div>
+ 		<div class="col span-3 empty"></div>
+
+
+ 	</div>
+
+ </section>
+  {% endif %}
+	    {% endif %}
+	  {% endfor %}
+	{% endfor %}
+	
+</article>

@@ -5,8 +5,6 @@
 	margin:0 auto;
 	min-width:19em;
 	position:relative;
-	border-right:solid 4px $black;
-	border-left:solid 4px $black;
 	@include clearfix;
 	@include breakpoint(mobile){
 		min-width:31.250em;
@@ -14,7 +12,7 @@
 	@include breakpoint(portrait){
 		min-width:48.000em;
 	}
-	@include breakpoint(landscape){
+	@include breakpoint(portrait){
 		.span-1 { width: 8.33333333333%; }
 		.span-2 { width: 16.6666666667%; }
 		.span-3 { width: 25%; }
@@ -38,13 +36,14 @@
 	width: 100%;
 	&.empty{
 		display:none;
-		@include breakpoint(landscape){
+		@include breakpoint(portrait){
 			display:block;
+			min-height:1px;
 		}
 	}
 }
 .gutters{
-	@include breakpoint(landscape){
+	@include breakpoint(portrait){
 		.span-1 { width: 6.5%; }
 		.span-2 { width: 15.0%; }
 		.span-3 { width: 23.5%; }

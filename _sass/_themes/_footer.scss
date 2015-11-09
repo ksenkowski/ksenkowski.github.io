@@ -2,15 +2,14 @@
    SITE FOOTER
    ========================================================================== */
 #site-footer{
-	border-right:solid 4px $black;
-	border-left:solid 4px $black;
-	border-top:solid 4px $black;
-	padding:em(15px) em(10px);
-	background:$gray;
+	padding:35px 10px 15px;
+	background:$white;
 	width:100%;
 	z-index:500;
+	border-top:2px solid $gray;
 	p{
-		font-size:.875em;
+		font-size:em(12px);
 		text-indent:0;
+		margin:0;
 	}
 }

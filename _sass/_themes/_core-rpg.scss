@@ -1,0 +1,93 @@
+/* ==========================================================================
+   STYLED DEFINITION LIST - Create number designs using definition lists.
+   ========================================================================== */
+
+#journey-numbers{
+	counter-reset:journey;
+}
+#map-numbers{
+	counter-reset:map;
+}
+#arc-numbers{
+	counter-reset:arc;
+}
+#journey-numbers dt:before{
+	content: counter(journey);
+	counter-increment:journey;
+}
+#arc-numbers dt:before{
+	content: counter(arc);
+	counter-increment:arc;
+}
+#map-numbers dt:before{
+	content: counter(map);
+	counter-increment:map;
+}
+#conflict dt:before{
+	display:none;
+}
+
+.styled-numbers {
+	dt{
+		position:relative;
+		font-weight:bold;
+		font-size:em(16px);
+		padding:4px 0px 10px 50px;
+	}
+	dt:before{
+		position:absolute;
+		left:0;
+		top:75%;
+		font-weight:bold;
+		font-size:em(50px);
+		line-height:em(1px);
+	}
+	&.nested{
+		margin-top:30px;
+		dt:before{
+			font-size:em(30px);
+			top:75%;
+		}
+		dt{
+			padding:0px 0px 0px 50px;
+		}
+		dd{
+			margin:0px 0px 20px 0px;
+		}
+	}
+	dd{
+		margin:0 0 50px 0;
+		font-size:.875em;
+		padding-left:50px;
+	}
+}
+
+.styled-numberless{
+	dt{
+		position:relative;
+		font-weight:bold;
+		font-size:em(16px);
+		padding:4px 0px 10px 0px;
+	}
+	&.nested{
+		margin-top:30px;
+		dt:before{
+			font-size:em(30px);
+			top:75%;
+		}
+		dt{
+			padding:0px 0px 0px 50px;
+		}
+		dd{
+			margin:0px 0px 20px 50px;
+			ul{
+				margin-left:25px;
+			}
+		}
+	}
+	dd{
+		margin:0;
+		font-size:.875em;
+	}
+	
+}

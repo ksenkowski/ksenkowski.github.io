@@ -7,15 +7,9 @@
 		  <![endif]-->
 		{% include common/header.html %}
 		<main>
-			<section class="content">
-				<img src="/img/articles/about/header.jpg" alt="Keith Senkowski" class="head-image"/>
-			</section>
-			<section class="content legible">
-				<p class="first">Hi, my name is Keith Senkowski and I am an illustrator, author, technologist and game designer. For over ten years I have been working on a project called Conspiracy of Shadows. It began as a tabletop role-playing game and eventually evolved into a multi-faceted art project.</p>
-				<p>This site is the primary digital representation of this project. Everything you find on this website is tied to the fictional world at the center of the project. Here you will find games, fiction, and fictional academic articles outlining the details of that world.</p>
-				<p>In this latest incarnation of the site I have decided to take a different approach to the posts. My goal is to handcraft each page to taylor it to the content while maintaining design conventions I have created for the site.</p>
-				<p>If you like what you see on this site, you can support the work by pledging at <strong><a href="http://www.patreon.com/keithsenkowski" target="_blank">Patreon</a></strong>. There you can see some additional work on this project, watch a video explaining what Patreon is and how I am using it, and have the opportunity to get some of my physical artwork.</p>		
-			</section>
+			{% include homepage/declaration.html %}
+			{% include homepage/patreon.html %}
+			{% include homepage/criticalmass.html %}
 		</main>
 		{% include common/footer.html %}
 	</body>

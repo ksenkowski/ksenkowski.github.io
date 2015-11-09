@@ -3,7 +3,7 @@ title: Conspiracy of Shadows
 email: keith.senkowski@gmail.com
 description: > #Hi, my name is Keith Senkowski and I am an illustrator, author, technologist and game designer. For over ten years I have been working on a project called Conspiracy of Shadows. It began as a tabletop role-playing game (RPG) and eventually evolved into a multi-faceted art project.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://conspiracyofshadows.com.com" # the base hostname & protocol for your site
+url: "http://conspiracyofshadows.com" # the base hostname & protocol for your site
 twitter_username: ksenkowski
 github_username:  ksenkowski
 
@@ -14,3 +14,11 @@ permalink: /:categories/:title.html
 sass:
   sass_dir: _sass
   style: :compressed
+  
+gems:
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
+
+- jekyll-feed

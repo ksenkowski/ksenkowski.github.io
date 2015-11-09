@@ -1,0 +1,222 @@
+---
+layout: article
+title:  "Clasical Era Timeline"
+date:   2014-01-06 05:00:00
+category: article
+tags: "Timeline History Conspiracy of Shadows"
+excerpt: "A timeline of the Classical Era."
+class: "classical-era"
+---
+<section class="header">
+	<div class="content">
+	<aside class="span-3 col empty"></aside>
+	<div class="span-6 col">
+		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
+		<h1>{{ page.title }}</h1>
+	</div>
+	<aside class="span-3 col empty"></aside>	
+	</div>
+</section>
+
+<section id="timeline" class="timeline-container">
+	<div class="content">
+		<div class="timeline-block">
+			<div class="timeline-img picture">
+				<!-- <img src="img/icon-picture.svg" alt="Picture"> -->
+			</div>
+		<div class="timeline-content">
+			<h2>Return of the Sarlecids</h2>
+			<p class="first">The Mythic Era comes to a close when the 25 Riders led the decendents of Sarl the Betrayed out of the Frozen Plains to destroy the earthly domains of the Alfar and Skarians.</p>
+			<!-- <a href="#0" class="read-more">Read more</a> -->
+			<span class="date">1 Classical Era</span>
+		</div> 
+		</div> 
+		<div class="timeline-block">
+			<div class="timeline-img movie">
+				<!-- <img src="img/icon-movie.svg" alt="Movie"> -->
+			</div>
+			<div class="timeline-content">
+				<h2>Conquest of Menor</h2>
+				<p class="first">Mernetah, the God-King of Karth conquers Menor, cutting off the Rankians of this land from their home in Santuvessa.</p>
+				<!-- <a href="#0" class="read-more">Read more</a> -->
+				<span class="date">2 Classical Era</span>
+			</div> 
+		</div> 
+		<div class="timeline-block">
+			<div class="timeline-img picture">
+				<!-- <img src="img/icon-picture.svg" alt="Picture"> -->
+			</div>
+			<div class="timeline-content">
+				<h2>Collapse of Hattu</h2>
+				<p class="first">The Hattu Kingdom splinters into a series of rump kingdoms when the Sarlecids sack the capital of Unam.</p>
+				<!-- <a href="#0" class="read-more">Read more</a> -->
+				<span class="date">5 Classical Era</span>
+			</div> 
+		</div> 
+		<div class="timeline-block">
+			<div class="timeline-img location">
+				<!-- <img src="img/icon-location.svg" alt="Location"> -->
+			</div>
+			<div class="timeline-content">
+				<h2>The Diaspora Begins</h2>
+				<p class="first">The various tribes north of the Mae Mar and the Infinito Mar begin massive migrations across the world, fleeing from the ravages of the Sarlecids. This puts pressure on the stable kingdoms in the south as they either war with or try to assimilate these tribes.</p>
+				<!-- <a href="#0" class="read-more">Read more</a> -->
+				<span class="date">9 Classical Era</span>
+			</div> 
+		</div> 
+		<div class="timeline-block">
+			<div class="timeline-img location">
+				<!-- <img src="img/icon-location.svg" alt="Location"> -->
+			</div>
+			<div class="timeline-content">
+				<h2>The Naku War Begins</h2>
+				<p class="first">A confederation of Sarlecids and Hellas tribes from the Hellane Penninsula attack the Hattu rump state of Naku, sparking a ten year war.</p>
+				<!-- <a href="#0" class="read-more">Read more</a> -->
+				<span class="date">10 Classical Era</span>
+			</div> 
+		</div> 
+		<div class="timeline-block">
+			<div class="timeline-img movie">
+				<!-- <img src="img/icon-movie.svg" alt="Movie"> -->
+			</div>
+			<div class="timeline-content">
+				<h2>Death of The Lord of Productive Fortunes</h2>
+				<p class="first">The last and greatest of the pre-Classical Skarian Lords of the Dawn passes quiety in his sleep. He is succeeded by his son, Lord of the Even Stride, who moved the capital of the Dawn Kingom south to the City of Silver, which is well protected from the migrating tribes to the north.</p>
+				<!-- <a href="#0" class="read-more">Read more</a> -->
+				<span class="date">10 Classical Era</span>
+			</div> 
+		</div> 
+		<div class="timeline-block">
+			<div class="timeline-img movie">
+				<!-- <img src="img/icon-movie.svg" alt="Movie"> -->
+			</div>
+			<div class="timeline-content">
+				<h2>End of the 19th House</h2>
+				<p class="first">The God-Queen Twoseret is murdered in her sleep by her own priests closing out the 19th House of Karth. Civil war breaks out between her children. By the end of the year, her bastard Setnack proclaims the begining of the 20th House of Karth.</p>
+				<!-- <a href="#0" class="read-more">Read more</a> -->
+				<span class="date">14 Classical Era</span>
+			</div> 
+		</div> 
+		<div class="timeline-block">
+			<div class="timeline-img location">
+				<!-- <img src="img/icon-location.svg" alt="Location"> -->
+			</div>
+			<div class="timeline-content">
+				<h2>The Fall of Ul'Garit</h2>
+				<p class="first">The desparate letters from the Ul'Garit king Ammur to the God-King of Karth fall on deaf ears and the kingdom is destroyed by a confederation of Sarlecids and other tribes.</p>
+				<!-- <a href="#0" class="read-more">Read more</a> -->
+				<span class="date">17 Classical Era</span>
+			</div> 
+		</div> 
+		<div class="timeline-block">
+			<div class="timeline-img location">
+				<!-- <img src="img/icon-location.svg" alt="Location"> -->
+			</div>
+			<div class="timeline-content">
+				<h2>The Naku War Ends</h2>
+				<p class="first">Naku is razed to the ground and it's people are taken into bondage by the Sarlecids and Hellas. However the long war is costly and the city-states of the Hellane Penninsula suffer from economic collapse.</p>
+				<!-- <a href="#0" class="read-more">Read more</a> -->
+				<span class="date">20 Classical Era</span>
+			</div> 
+		</div> 
+		<div class="timeline-block">
+			<div class="timeline-img location">
+				<!-- <img src="img/icon-location.svg" alt="Location"> -->
+			</div>
+			<div class="timeline-content">
+				<h2>The Battle of the Origem Delta</h2>
+				<p class="first">The God-King of Karth, Maresses III crushes the confederation of Sarlecids and other mortal tribes. The Diaspora is brought to a close and the various peoples settle into pockets of isolated communities.</p>
+				<!-- <a href="#0" class="read-more">Read more</a> -->
+				<span class="date">28 Classical Era</span>
+			</div> 
+		</div> 
+		<div class="timeline-block">
+			<div class="timeline-img location">
+				<!-- <img src="img/icon-location.svg" alt="Location"> -->
+			</div>
+			<div class="timeline-content">
+				<h2>The Abduction of Vojin</h2>
+				<p class="first">The Malemites march across the plains and into Santuvessa, sacking the city and abducting the great statue of Vojin found there.</p>
+				<!-- <a href="#0" class="read-more">Read more</a> -->
+				<span class="date">34 Classical Era</span>
+			</div> 
+		</div> 
+		<div class="timeline-block">
+			<div class="timeline-img location">
+				<!-- <img src="img/icon-location.svg" alt="Location"> -->
+			</div>
+			<div class="timeline-content">
+				<h2>The Independence of Sam</h2>
+				<p class="first">Ancient Sam peacefully regains it's independence from the God-Kings of Karth when a scion of the 20th House negotiates for his own territory.</p>
+				<!-- <a href="#0" class="read-more">Read more</a> -->
+				<span class="date">40 Classical Era</span>
+			</div> 
+		</div> 
+		<div class="timeline-block">
+			<div class="timeline-img location">
+				<!-- <img src="img/icon-location.svg" alt="Location"> -->
+			</div>
+			<div class="timeline-content">
+				<h2>The Rage of Smerte</h2>
+				<p class="first">The ancient temple to Smerte at Heka is destroyed when the very mountain on which it sits erupts in fire and molten rock. Ash spewed into the sky blots out the sun for a month and the land cools for years, leading to a decade of disease and famine.</p>
+				<!-- <a href="#0" class="read-more">Read more</a> -->
+				<span class="date">43 Classical Era</span>
+			</div> 
+		</div> 
+		<div class="timeline-block">
+			<div class="timeline-img location">
+				<!-- <img src="img/icon-location.svg" alt="Location"> -->
+			</div>
+			<div class="timeline-content">
+				<h2>Acension of Nezzarnebukad</h2>
+				<p class="first"></p>
+				<!-- <a href="#0" class="read-more">Read more</a> -->
+				<span class="date">53 Classical Era</span>
+			</div> 
+		</div> 
+		<div class="timeline-block">
+			<div class="timeline-img movie">
+				<!-- <img src="img/icon-movie.svg" alt="Movie"> -->
+			</div>
+			<div class="timeline-content">
+				<h2>The Journey of the Lord of Heavenly Wisdom</h2>
+				<p class="first"></p>
+				<!-- <a href="#0" class="read-more">Read more</a> -->
+				<span class="date">78 Classical Era</span>
+			</div> 
+		</div> 
+		<div class="timeline-block">
+			<div class="timeline-img location">
+				<!-- <img src="img/icon-location.svg" alt="Location"> -->
+			</div>
+			<div class="timeline-content">
+				<h2>The Lord of Abandoned Orphans Returns to Court</h2>
+				<p class="first"></p>
+				<!-- <a href="#0" class="read-more">Read more</a> -->
+				<span class="date">78 Classical Era</span>
+			</div> 
+		</div> 
+		<div class="timeline-block">
+			<div class="timeline-img location">
+				<!-- <img src="img/icon-location.svg" alt="Location"> -->
+			</div>
+			<div class="timeline-content">
+				<h2>Ascension of the Lord " " " "</h2>
+				<p class="first"></p>
+				<!-- <a href="#0" class="read-more">Read more</a> -->
+				<span class="date">85 Classical Era</span>
+			</div> 
+		</div> 
+		<div class="timeline-block">
+			<div class="timeline-img location">
+				<!-- <img src="img/icon-location.svg" alt="Location"> -->
+			</div>
+			<div class="timeline-content">
+				<h2>Lots of Destruction</h2>
+				<p class="first"></p>
+				<!-- <a href="#0" class="read-more">Read more</a> -->
+				<span class="date">100 Classical Era</span>
+			</div> 
+		</div> 
+	</div>
+</section>

@@ -5,78 +5,49 @@
 #masthead {
 	background-color:$white;
 	box-shadow:none;
-	border-bottom:solid 4px $black;
-	border-right:solid 4px $black;
-	border-left:solid 4px $black;
 	position:relative;
 	display:block;
-	transition: all .25s ease-in-out;
+	padding: em(10px) 0 0;
 	z-index:5;
-	&:hover{
-		background:$off-white;
-		border-bottom-color:$highlight;
-	}
 	.logo{
-		margin:0 auto;
+		margin:0;
+		max-width:64px;
+		display:block;		
 	}
-}
-#search-box{
-	display:none;
-	padding:em(10px);
-	background-color:$gray;
-	border-right:solid 4px $black;
-	border-left:solid 4px $black;
-	border-bottom:solid 4px $black;
+	.col{
+		&.span-2 { width: 16.6666666667%; }
+		&.span-10 { width: 83.3333333333%; }		
+	}
 }
 #menu{
 	background:$white;	
-	padding:1em;
-	text-align:center;
-	text-transform:uppercase;
-	font-weight:bold;
-	font-size:.75em;
-	font-family:$tertiary-stack;
-	border-left:none;
-	.span-1 { width: 8.33333333333%; }
-	.span-2 { width: 16.6666666667%; }
-	.nav-item:first-child {
-		margin-left: 0;
+	padding:0 0 em(15px);
+	margin-top:em(10px);
+	@include breakpoint(portrait){
+		margin-top:em(26px);
 	}
-	@include breakpoint(landscape){
-		border-left:solid 4px $black;
-	}
-}
-#hero, .hero{
-	position:relative;
-	background-color:$white;
-	&.article-meta{
-		padding:1em;
-		h2{
-			font-size:2.25em;
-			line-height:1em;
-			margin-bottom:.25em;
+	
+	ul{
+		text-align:center;
+		padding-left:0;
+		float:right;
+		
+		li{
+			display:inline;
 			text-transform:uppercase;
-		}
-		h3{
-			line-height:1em;
-			margin-bottom:.875em;
-			font-size:1.7em;
-			text-indent:0;
-		}
-		p{
-			text-indent:0;
-			&.byline{
-				margin:0;
-				font-size:1.2em;
-				line-height:1.2em;
-				font-weight:800;
-			}
-			&.description{
-				font-size:1.2em;
-				line-height:1.4em;
-				margin:1em 0 0;
-			}
+			font-weight:700;
+			letter-spacing:0.03em;
+			margin-right:em(5px);
+			font-size:em(14px);
+			font-family:$secondary-stack;
 			
-		}		
+			@include breakpoint(portrait){
+				margin-right:em(18px);
+			
+			}
+			a{
+				padding:em(7px) 0;
+			}
+		}
 	}
 }

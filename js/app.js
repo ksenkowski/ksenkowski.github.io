@@ -8,9 +8,7 @@ if (typeof Object.create !== "function") {
 
 (function( shadows, $, undefined ) { 
 	'use strict';
-	var json = $.getJSON('/posts.json', function(){
-//		shadows.autocomplete.home();
-	});
+	var json = $.getJSON('/posts.json');
 	// These are private
 	var masthead = $('#masthead');
 	var container, value, regex, data, content, target, top;
@@ -20,7 +18,7 @@ if (typeof Object.create !== "function") {
 	var t = 0;
 	var o = 0;
 	var currentIndex, temporaryValue, randomIndex;
-	var search = $('.search');
+	var search = $('#search-box');
 	var array = [];
 	
 	// This will be executed at ready event
@@ -34,22 +32,12 @@ if (typeof Object.create !== "function") {
 	function bind() {
 		// Bind jQuery click and page events
 		shadows.util.init();
-		shadows.accordion.init('#toc');
 	};
 	shadows.util = {
 		init: function(){
 			$('#throw-stones').on('change', 'select', function(){
 				value = $(this).val();
 				shadows.runes.throw(value);
-			});
-			search.on('keyup', function(e){
-				value = $(this).val();
-				shadows.autocomplete.search(value);
-			});
-			search.on('focus', function(){
-				setTimeout(function(){
-			//		shadows.articles.close();					
-				}, 250);
 			});
 			$("img").unveil(200, function() {
 			  $(this).load(function() {
@@ -61,14 +49,6 @@ if (typeof Object.create !== "function") {
 				data = $(this).attr('data-font');
 				target = $(this).attr('data-target');
 					shadows.util.toggleFont(data, target);
-			});
-			$('#menu').on('click', '.open-search', function(e){
-				e.preventDefault();
-				e.stopPropagation();
-				console.log(this);
-				$('#search-box').slideToggle(500, function(){
-					search.focus();
-				});
 			});
 		},
 		isEmpty: function(item){
@@ -88,49 +68,6 @@ if (typeof Object.create !== "function") {
 				array[randomIndex] = temporaryValue;
 			}
 			return array;
-		}
-	};
-	shadows.accordion = {
-		init: function(element){
-			$('.toc').on('click', 'a', function(e){
-				e.preventDefault();
-				container = $(this).attr('href');
-				top = $(container).offset().top - 48;
-				$('html,body').animate({scrollTop: top});
-				element = $(this).parent('li');
-				shadows.accordion.open(element);
-				if(!$(this).parent().hasClass('parent')){
-					$('#toc h4').trigger('click');					
-				}
-			});
-			tocTitle = $('.parent');
-			tocChild = $('.child');
-			tocTitle.each(function(){
-				i++;
-				$(this).addClass('element-'+i);
-			});
-			tocChild.each(function(){
-				o++;
-				$(this).addClass('element-'+o);
-			});
-			$('.parent.element-1').addClass('open');
-			$('#toc').on('click', 'h4', function(){
-				var toc = $('.toc');
-				if(toc.hasClass('is-visible')){
-					$('.toc').removeClass('is-visible');					
-					$(this).children('.toggle').removeClass('close').addClass('open');
-				}else{
-					$('.toc').addClass('is-visible');					
-					$(this).children('.toggle').removeClass('open').addClass('close');					
-				}
-			});
-		},
-		open: function(element){
-			tocChild = element.children('.child');			
-			if(tocChild.is(':hidden')){
-				$('.parent').removeClass('open');
-				element.addClass('open');			
-			}
 		}
 	};
 	shadows.runes = {
@@ -160,44 +97,6 @@ if (typeof Object.create !== "function") {
 					}
 				}
 			}
-		}
-	};
-	shadows.autocomplete = {
-		search: function(value){
-			container = $('#results ul');
-			data = json.responseJSON;
-			container.empty();
-				$.each(data, function(k,v){
-					regex = new RegExp(value, 'i');
-					if(v.tag.search(regex) != -1){
-						content = '<li><a class="" href="'
-						+v.href+
-						'"><h3>'
-						+v.title+
-						'</h3><p>'
-						+v.excerpt+
-						'</p><p class="text-uppercase small"><strong>Categories:</strong> '
-						+v.tag+
-						'</p></a></li>';
-						container.append(content);				
-					}
-				});
-				if(value.length >= 1){
-					container.parent().addClass('show');
-				}else{
-					container.parent().removeClass('show');
-				}
-		},
-		home: function(){
-			container = $('.archive section');
-			data = json.responseJSON;
-			data = shadows.util.shuffle(data);
-			$.each(data, function(k,v){
-				if(v.title != null || typeof v.title != 'undefined'){
-					array += '<li class="tags" data-tags="'+v.tag+'"><h3><a href="'+v.href+'">'+v.title+'</a></h3></li> ';
-				}
-			});
-			container.append('<ul id="all-titles" class="unstyled inline text-center">'+array+'</ul>');
 		}
 	};
 }( window.shadows = window.shadows || {}, jQuery ));

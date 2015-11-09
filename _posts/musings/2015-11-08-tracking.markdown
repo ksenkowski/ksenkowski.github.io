@@ -1,0 +1,38 @@
+---
+layout: article
+title:  "Tracking to Letter Spacing"
+date:   2015-11-08
+category: musings
+tag: "css letter-spacing photoshop tracking"
+excerpt: "How to convert the Photoshop tracking values to the appropriate letter-spacing value in CSS."
+class: "CSS"
+---
+<section class="header">
+	<div class="content">
+	<div class="span-3 col empty"></div>
+	<div class="span-6 col">
+		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
+		<h1>{{ page.title }}</h1>
+		<p>It makes me said when I see designers treating tracking as kerning. For the most part, Typography is a lost art on the web, even though it should be treated as a first class citizen. The good news is tracking, unlike kerning, is something we can easily translate into the CSS attribute letterspacing.</p>
+	</div>
+	<div class="span-3 col empty"></div>	
+	</div>
+</section>
+<section class="code continued">
+	<div class="content gutters">
+	<div class="span-1 col empty"></div>
+	<div class="span-6 col">
+		<p>For the uninitiated, <strong><em>tracking</em></strong> is the adjustment of the spacing of characters throughout an entire word. When used for evil it can severly impact the legibility of the type. So use it for good people.</p>
+		<p>On the right you can see where to find the tracking value of type in Photoshop. Once you have it, use it in the following calculation:</p>
+		<code>
+			letter-spacing = tracking / 1000<br/>
+			letter-spacing:0.2px;
+		</code>
+	</div>
+	<aside class="span-4 col">
+		<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/musings/tracking.png" alt="Photoshop Tracking"/>
+	</aside>	
+	<div class="span-1 col empty"></div>	
+	</div>
+		<div class="divider"></div>	
+</section>

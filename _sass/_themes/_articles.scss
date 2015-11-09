@@ -1,23 +1,6 @@
 /* ==========================================================================
    ARTICLES
    ========================================================================== */
-.homepage, .about, .single, .archive, .show{
-	padding-bottom:20px;
-	background:$white;
-}
-.legible{
-	padding:em(20px) em(16px);
-	border-right:solid 4px $black;
-	border-left:solid 4px $black;
-}
-.head-image{
-	border-bottom:solid 4px $black;	
-}
-.masthead{
-	max-width:1024px;
-	display:block;
-	margin:0 auto;
-}
 .divider{
 	display:block;
 	margin:50px auto;
@@ -25,148 +8,105 @@
 	height:50px;
 	background:url('../img/articles/divider.png') no-repeat;
 	background-size:100% 100%;
+	@include clearfix;	
 }
-.button{
-	min-width:100px;
-	height:50px;
-	padding:0 1%;
-	line-height:50px;
-	text-align:center;
-	background:$gray;
-	border:$highlight 3px solid;
-	color:$highlight;
-	display:block;
-	box-shadow: 1px 1px 5px $dark-gray;
-	&:focus, &:hover{
-		background:$off-white;
-		color:$dark-gray;
-	}
-}
-.gutenberg{
-	font-family:$gutenberg !important;
-}
-.futhark{
-	font-family:$futhark;
-	color: $highlight; 	
-	font-size:em(32px);	
-}
-.courier{
-	font-family:$courier;
-}
-nav{
-	padding:0% 5%;
-}
-#throw-stones{
-	padding:5% 0%;
-}
-#rune-stone-results{
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-	li{
-		float:left;
-		font-size:300%;
-		border-radius:100%;
-		display:inline-block;
-		height:70px;
-		width:70px;
-		margin:10px;
-		background:url('../img/articles/apprentice/stones.jpg') no-repeat;
-		&.tails{
-			span{
-				color:$black;
-				opacity:.2;
-				filter: alpha(opacity=20);
+.single{
+	.header{
+		padding:4% 2% 2%;
+		.post-meta{
+			font-family:$secondary-stack;
+			margin:0;
+			font-weight:400;
+		}
+		h1{
+			font-family:$secondary-stack;
+			margin:0 0 50px;
+			line-height:105%;
+		}
+		p{
+			margin:0 0 20px;
+			strong{
+				font-family:$secondary-stack;			
 			}
 		}
-		&.blackstone{
-			background:$black !important;
-		}
-		span{
-			display:block;
-			width:100%;
-			height:100%;
-			text-align:center;
-			margin-top:12px;
-		}
-	}	
-}
-.to-the-top{
-	position:fixed;
-	bottom:5%;
-	right:5%;
-	display:none;
-	cursor:pointer;
-	z-index:500;
+	}
+	.continued{
+		p{
+			margin:0 0 20px;
+			strong{
+				font-family:$secondary-stack;
+			}		
+		}	
+	}
 }
 
-#toc{
-	cursor: pointer;
-	position:fixed;
-	display:block;
-	bottom:0;
-	left:0px;
-	background:$off-white;
-	width:100%;
-	min-height:40px;
-	padding:1% 5%;
-	z-index:10;
-	border-top:3px solid $black;
-	h4{
-		margin:0;
-		text-align:center;
-		color:$highlight;		
+#futhark{
+	.header{
+		background:$primary-light url('../img/articles/futhark.jpg') no-repeat;
+		background-size:cover;
+		color:$white;
 	}
-	
+}
+#CSS{
+	.header{
+		background:$tertiary-light url('../img/musings/css.jpg') no-repeat;
+		background-size:cover;
+		color:$white;		
+	}
+	.code{
+		padding:4% 2% 2%;
+		code{
+			border:1px dashed $tertiary-dark;
+			background:$tertiary-light;
+			color:white;
+			margin:0 0 20px;
+		}
+		p{
+			strong{
+				color:$tertiary-color;			
+			}
+			
+		}
+	}
 }
 
-.toc{
-    /* by default it's hidden - on top of the viewport */
-    position: fixed;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 9;
-	padding:0px 0px 60px 30px;
-	background:$gray;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-	font-size:.75em;
-    overflow: auto;
-    /* this fixes the buggy scrolling on webkit browsers - mobile devices only - when overflow property is applied */
-    -webkit-overflow-scrolling: touch;
-    -webkit-transform: translateY(-100%);
-    -moz-transform: translateY(-100%);
-    -ms-transform: translateY(-100%);
-    -o-transform: translateY(-100%);
-    transform: translateY(-100%);
-    -webkit-transition-property: -webkit-transform;
-    -moz-transition-property: -moz-transform;
-    transition-property: transform;
-    -webkit-transition-duration: 0.4s;
-    -moz-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-	&.is-visible{
-	    -webkit-transform: translateY(0);
-	    -moz-transform: translateY(0);
-	    -ms-transform: translateY(0);
-	    -o-transform: translateY(0);
-	    transform: translateY(0);
+#strategic-review{
+	.header{
+		background:$primary-light url('../img/articles/dragon/generic.jpg') no-repeat;
+		background-size:cover;
+		color:$white;		
 	}
-	.child{
-		display:none;
+	.review{
+		padding:4% 2% 2%;
+		p{
+			strong{
+				color:$primary-light;			
+			}		
+		}	
 	}
-	.open{
-		.child{
-			display:block;
+	h2{
+		font-family:$secondary-stack;
+		margin:0 0 50px;
+		color:$primary-dark;			
+		line-height:105%;
+	}
+}
+#dragon-002{
+	.header{
+		background:$primary-light url('../img/articles/dragon/002/cover.jpg') no-repeat;
+		background-size:cover;
+		color:$white;		
+	}
+	.review{
+		padding:4% 2% 2%;
+		p{
+			strong{
+				color:$secondary-light;			
+			}			
 		}
 	}
 	
 }
-
-
-
 article{
 	table{
 		border:3px solid $dark-gray;
@@ -234,13 +174,6 @@ article{
 	.block{
 		margin:1.8em 0;
 	}
-	hr{
-		height:3px;
-		border:0;
-		background:$black;
-		background-image:-webkit-linear-gradient(left, $white, $black, $white);
-		margin:1em 0;
-	}
 	h3{
 		text-transform:uppercase;
 		margin:0 0 1em;
@@ -260,87 +193,4 @@ article{
 #all-titles{
 	margin:20px auto;
 }
-#results{
-	border-top:solid 4px $black;
-	opacity:0;
-	background:transparent;
-	transition:all .5s;
-	position:absolute;
-	top: 65px;
-	left:0;
-	right:0;
-	width: 100%;
-	height:0;
-	&.show{
-		height:auto;
-		z-index:10;
-		opacity:1;
-		transition:all .5s;
-		background:$white;
-	}
-	li{
-		border-bottom:2px solid $highlight;
-		padding:0 1% 0 1%;
-		&:last-of-type{
-			border-bottom:none;
-			padding-bottom:1%;
-		}
-		&:first-of-type{
-			padding-top:1%;
-		}
-	}
-	a{
-		display:block;
-		padding:2% 1%;
-		h3{
-			color:$dark-gray;
-			margin:.25em 0;
-		}
-		p{
-			color:$black;
-			margin:0 0 .75em;
-		}
-	}
-}
-#articles{
-	width:100%;
-	height:100%;
-	z-index:10;
-	background:$white;
-	overflow:hidden;
-	transition:all .5s;
-	overflow-y:scroll;
-	&.in{
-		transition:all .5s;
-		right:0;
-	}
-}
-/* ==========================================================================
-   MEDIA QUERIES
-   ========================================================================== */
-@media only screen and (min-width: 78.125em) {
-	article{
-		#toc{
-			display:block;
-			h4{
-				.toggle{
-					display:none;
-				}
-			}
-			.toc{
-				display:block;
-			}
-			&.fixed{
-				h4{
-					.toggle{
-						display:block;
-					}
-				}
-				
-				.toc{	
-					display:none;
-				}
-			}
-		}
-	}
-}
+

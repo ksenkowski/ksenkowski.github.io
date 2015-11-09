@@ -11,23 +11,19 @@ body{
     font-weight: 300;
 	color:$black;
 	position:relative;
-	background:$off-white;
+	background:$white;
 }
 main{
 	margin:0 auto;
 	width:100%;
 }
 /* ==========================================================================
-   BUTTONS
-   ========================================================================== */
-
-/* ==========================================================================
    IMAGES
    ========================================================================== */
 
 img {
     vertical-align: middle;
-/*	width:100%;*/
+	width:100%;
 	height:auto;
 }
 
@@ -35,21 +31,9 @@ img {
    TYPOGRAPHY - My preference is for percentages when working with fonts. Everyone has their own thing.
    ========================================================================== */
 p{
-	margin-bottom:0;
-	text-indent:1.25em;
-	line-height:1.60;
-	font-size:1.2em;
-	&.first{
-		text-indent:0;
-		&:first-child:first-letter{
-			float: left; 
-			color: $highlight; 
-			font-size: 4.688em; 
-			line-height: .75em; 
-			padding: 4px 8px 0px 3px; 
-			font-family: Georgia;
-		}
-	}
+	margin:0;
+	line-height:160%;
+	font-size:em(18px);
 }
 .small{
 	font-size:.875em;
@@ -81,6 +65,16 @@ p{
 .success-text{
 	color:$success-green;
 }
+hr{
+	height:2px;
+	border-top:1px solid $white;
+}
+code{
+	padding:em(16px);
+	line-height:125%;
+	display:block;
+	font-size:em(17px);
+}
 blockquote {
 	padding: 0px;
 	margin: 1em 0;
@@ -90,7 +84,7 @@ blockquote {
 		font-weight: 700;
 		line-height: 1.6em;
 		text-indent:0;
-		color:$highlight;
+		color:$primary-color;
 		text-align:center;
 		font-family:$tertiary-stack;
 	}
@@ -119,28 +113,28 @@ h6 {
 	margin:0;
 }
 h1{
-	font-size:2.250em;
-	line-height:1em;
+	font-size:em(46px);
+	line-height:125%;
 }
 h2{
-	font-size:1.875em;
-	line-height:1em;
+	font-size:em(38px);
+	line-height:100%;
 }
 h3{
-	font-size:1.750em;
-	line-height:1em;
+	font-size:em(30px);
+	line-height:100%;
 }
 h4{
-	font-size:1.6em;
-	line-height:1em;
+	font-size:em(25px);
+	line-height:100%;
 }
 h5{
-	font-size:1.4em;
-	line-height:1em;
+	font-size:em(22px);
+	line-height:100%;
 }
 h6{
-	font-size:1.3em;
-	line-height:1em;
+	font-size:em(20px);
+	line-height:100%;
 }
 /* ==========================================================================
    LIST STYLES
@@ -191,107 +185,15 @@ ol.lower-roman{
 	list-style-type:lower-roman;
 }
 /* ==========================================================================
-   STYLED DEFINITION LIST - Create number designs using definition lists.
-   ========================================================================== */
-
-#journey-numbers{
-	counter-reset:journey;
-}
-#map-numbers{
-	counter-reset:map;
-}
-#arc-numbers{
-	counter-reset:arc;
-}
-#journey-numbers dt:before{
-	content: counter(journey);
-	counter-increment:journey;
-}
-#arc-numbers dt:before{
-	content: counter(arc);
-	counter-increment:arc;
-}
-#map-numbers dt:before{
-	content: counter(map);
-	counter-increment:map;
-}
-#conflict dt:before{
-	display:none;
-}
-
-.styled-numbers {
-	dt{
-		position:relative;
-		font-weight:bold;
-		font-size:em(16px);
-		padding:4px 0px 10px 50px;
-	}
-	dt:before{
-		position:absolute;
-		left:0;
-		top:75%;
-		font-weight:bold;
-		font-size:em(50px);
-		line-height:em(1px);
-	}
-	&.nested{
-		margin-top:30px;
-		dt:before{
-			font-size:em(30px);
-			top:75%;
-		}
-		dt{
-			padding:0px 0px 0px 50px;
-		}
-		dd{
-			margin:0px 0px 20px 0px;
-		}
-	}
-	dd{
-		margin:0 0 50px 0;
-		font-size:.875em;
-		padding-left:50px;
-	}
-}
-
-.styled-numberless{
-	dt{
-		position:relative;
-		font-weight:bold;
-		font-size:em(16px);
-		padding:4px 0px 10px 0px;
-	}
-	&.nested{
-		margin-top:30px;
-		dt:before{
-			font-size:em(30px);
-			top:75%;
-		}
-		dt{
-			padding:0px 0px 0px 50px;
-		}
-		dd{
-			margin:0px 0px 20px 50px;
-			ul{
-				margin-left:25px;
-			}
-		}
-	}
-	dd{
-		margin:0;
-		font-size:.875em;
-	}
-	
-}
-/* ==========================================================================
    LINKS - My broad preference is to have no text decoration on links and apply a dotted border on hover.
    ========================================================================== */
 
 a {
-    color:$highlight;
+    color:$primary-color;
 	text-decoration:none;
 }
 a:hover{
+    color:$primary-light;
 }
 
 /* ==========================================================================
@@ -332,7 +234,6 @@ fieldset{
 		background: transparent;
 		font-size: 1.2em;
 		padding: 15px 0px 5px 0px;
-		text-shadow: 0 1px $white;
 		line-height: 20px;
 		width: 100%;
 		transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
@@ -343,41 +244,16 @@ fieldset{
 	}
 	select{
 		padding:15px 0px 15px 10px;
-		background:transparent url(../img/common/toss.png) no-repeat 95% 47%;
-		background-size:8%;
+		background:$white url('../img/common/down-arrow.png') no-repeat 95% 47%;
+		background-size:5%;
 	}
 	input{
 		color:$black;	
 	}
 	input:focus, select:focus{
-		border-bottom:2px solid $highlight;	
+		border-bottom:2px solid $primary-color;	
 	}
 	
-}
-/* ==========================================================================
-   CLEARFIX
-   ========================================================================== */
-
-.clearfix:before,
-.clearfix:after {
-    content: "";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-.clearfix {
-    *zoom: 1;
-}
-/* ==========================================================================
-   ARTICLE ARCHIVE
-   ========================================================================== */
-#archive{
-	padding:1em;
-	position:absolute;
-	bottom:5%;
-	right:5%;
 }
 
 /* ==========================================================================
@@ -387,16 +263,41 @@ fieldset{
 		display: block;
 		position: relative;
 		width: 100%;
+		
+		@include breakpoint(portrait){
+			display: table;
+			position: static;
+		}
 		caption{
 			display:block;
+			@include breakpoint(portrait){
+				display:table-caption;
+			}
 		}
 		thead{
 			display:block;
 			float:left;
 			border-bottom:none;
-			tr,th{
+			@include breakpoint(portrait){
+				display: table-header-group;
+				vertical-align: middle;
+				float:none;
+				border-bottom:3px solid $dark-gray;
+			}
+			tr{
 				display:block;
 				width:100%;
+				@include breakpoint(portrait){
+					display:table-row;
+				}
+				
+			}
+			th{
+				display:block;
+				width:100%;
+				@include breakpoint(portrait){
+					display:table-cell;
+				}
 			}
 		}
 		tbody{
@@ -405,11 +306,23 @@ fieldset{
 			position:relative;
 			overflow-x:auto;
 			white-space:nowrap;
+			@include breakpoint(portrait){
+				display: table-row-group;
+				position: static;
+				vertical-align: middle;
+				white-space:normal;
+			}
 			tr{
 				display:inline-block;
 				vertical-align:top;
+				@include breakpoint(portrait){
+					display:table-row;
+				}
 				td{
 					display:block;
+					@include breakpoint(portrait){
+						display:table-cell;
+					}
 				}
 			}
 		}
@@ -455,48 +368,4 @@ td,th{
 }
 td.top, th.top{
 	vertical-align:top;
-}
-/* ==========================================================================
-   MEDIA QUERIES
-   ========================================================================== */
-
-@media only screen and (min-width: 31.250em) {
-
-}
-@media only screen and (min-width: 48.000em) {
-	.table-scroll{
-		display: table;
-		position: static;
-		caption{
-			display:table-caption;
-		}
-		thead{
-			display: table-header-group;
-			vertical-align: middle;
-			float:none;
-			border-bottom:3px solid $dark-gray;
-			tr{
-				display:table-row;
-			}
-			th{
-				display:table-cell;
-			}
-		}
-		tbody{
-			display: table-row-group;
-			position: static;
-			vertical-align: middle;
-			white-space:normal;
-			tr{
-				display:table-row;
-				td{
-					display:table-cell;
-				}
-			}
-		}
-	}
-	
-}
-@media only screen and (min-width: 65.000em) {
-	
 }
