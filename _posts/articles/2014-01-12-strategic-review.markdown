@@ -6,7 +6,8 @@ date:   2014-01-12
 category: article
 tag: "role playing game rpg dragon magazine reviews"
 excerpt: "A brief analysis of the Strategic Review, the magazine that came before Dragon Magazine. This is the first in the series."
-class: "strategic-review"
+class: "generic-games"
+theme: "primary"
 ---
 <section class="header">
 	<div class="content">

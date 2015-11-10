@@ -1,0 +1,120 @@
+---
+layout: article
+title:  "The Dragon in Review, Issue Eight"
+author: "Keith Senkowski"
+date:   2014-02-01
+category: article
+tag: "role playing game rpg dragon magazine reviews"
+excerpt: "A brief dive into the eighth issue of The Dragon, or Dragon Magazine as I came to know it as a teenager."
+class: "dragon-issue008"
+theme: "tertiary"
+---
+<section class="header">
+	<div class="content">
+	<aside class="span-3 col empty"></aside>
+	<div class="span-6 col">
+		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
+		<h1>{{ page.title }}</h1>
+		<p>When TSR moved on from <strong><em>The Strategic Review</em></strong> to <strong><em>The Dragon</em></strong> for the most part is was just a title change. It took some time for the writing and layout to improve. However, in these early years we get to see some interesting firsts, such as the <strong><em>Creature Features</em></strong> and the Remorhaz.</p>
+	</div>
+	<aside class="span-3 col empty"></aside>	
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<h2>My God! My Eyes!</h2>
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<aside class="span-5 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/dragon/008/full-cover.jpg" alt="Full Cover by "/>
+				<figcaption>I don't know who this is, but I do know he is watching me.</figcaption>
+			</figure>
+		</aside>	
+		<div class="span-5 col">
+			<p></p>
+			<p></p>
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+	<div class="divider"></div>	
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<h2>I Don't Know What This Is, But I Want It</h2>
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-5 col">
+			<p></p>
+			<p></p>
+		</div>
+		<aside class="span-5 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/dragon/008/advert.png" alt="Nomad Gods Advert"/>
+				<figcaption>How are some of the advertisements of a better quality than the magazine?</figcaption>
+			</figure>
+		</aside>	
+		<div class="span-1 col empty"></div>
+	</div>
+	<div class="divider"></div>	
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<h2>No. I Do Not Want Realism in D&amp;D</h2>
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<aside class="span-5 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/dragon/008/brianBlume.png" alt="So, You Want Realism in D&D?"/>
+				<figcaption>Brian Blume gives us some fuzzy math before G.W. Bush made it popular.</figcaption>
+			</figure>
+		</aside>	
+		<div class="span-5 col">
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+	<div class="divider"></div>	
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<h2>Just Let Erol Design Everything</h2>
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-5 col">
+			<p></p>
+			<p></p>
+		</div>
+		<aside class="span-5 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/dragon/008/featureCreature.png" alt="Erol Otus Makes a Monster"/>
+				<figcaption>I Want Erol Otus to design all of my nightmares for me</figcaption>
+			</figure>
+		</aside>	
+		<div class="span-1 col empty"></div>
+	</div>
+	<div class="divider"></div>	
+</section>

@@ -6,6 +6,7 @@ category: musings
 tag: "css font weight photoshop bold typography"
 excerpt: "Did you know that the font-weight attribute corresponds with the font style control in Photoshop? Font weight isn't just a way to bold things."
 class: "CSS"
+theme: "tertiary"
 ---
 <section class="header">
 	<div class="content">

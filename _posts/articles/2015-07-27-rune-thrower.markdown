@@ -7,6 +7,7 @@ category: article
 tag: "role playing game rpg mechanics rules conspiracy of shadows core rune caster dice futhark"
 excerpt: "An online way to cast your runes for Conspiracy of Shadows and Conspiracy of Shadows: Apprentice"
 class: "futhark"
+theme: "primary"
 ---
 <section class="header">
 	<div class="content">
@@ -15,7 +16,6 @@ class: "futhark"
 		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
 		<h1>{{ page.title }}</h1>
 		<p>When I wrote <strong><em>Conspiracy of Shadows: Apprentice</em></strong> I knew I wanted a thematically relevant way to resolve conflicts. As the game was inspired by the movie <strong><em>The 13th Warrior</em></strong>, using Futhark stones seemed a natural fit. It scratched the thematic itch and gave me an excuse to make a set for my Kickstarter supporters.</p>
-		<p>This small little tool is for when you don't have a set of stones lying about. Simply select the number of stones you want to "toss" to get results. The runes in red are face up successes and the faded runes are face down failures.</p>
 	</div>
 	<aside class="span-3 col empty"></aside>	
 	</div>
@@ -24,6 +24,7 @@ class: "futhark"
 	<div class="content">
 	<aside class="span-3 col empty"></aside>
 	<div class="span-6 col">
+		<p>This small little tool is for when you don't have a set of stones lying about. Simply select the number of stones you want to "toss" to get results. The runes in red are face up successes and the faded runes are face down failures.</p>
 	<div id="throw-stones">
 		<fieldset>
 			<select class="text-center">

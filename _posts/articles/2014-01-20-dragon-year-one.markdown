@@ -7,6 +7,7 @@ category: article
 tag: "role playing game rpg dragon magazine reviews"
 excerpt: "A brief dive into the first year in the life of The Dragon, or Dragon Magazine as I came to know it as a teenager."
 class: "dragon-year-one"
+theme: "secondary"
 ---
 <section class="header">
 	<div class="content">

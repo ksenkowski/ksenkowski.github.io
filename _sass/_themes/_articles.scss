@@ -1,5 +1,5 @@
 /* ==========================================================================
-   ARTICLES
+   ARTICLE AND MUSINGS GLOBAL STYLES
    ========================================================================== */
 .divider{
 	display:block;
@@ -51,21 +51,80 @@
 		}
 	}
 }
-
-#futhark{
-	.header{
-		background:$primary-light url('../img/articles/futhark.jpg') no-repeat;
-		background-size:cover;
-		color:$white;
-	}
+/* ==========================================================================
+   PRIMARY COLOR SCHEME
+   ========================================================================== */
+.primary{
+	.review, .continued{
+		padding:4% 2% 2%;
+		code{
+			border:1px dashed $primary-dark;
+			background:$primary-light;
+			color:white;
+			margin:0 0 20px;
+		}
+		h2{
+			margin:0 0 em(20px);
+			color:$primary-dark;
+		}
+		p{
+			strong{
+				color:$primary-light;			
+			}			
+		}
+		figure{
+			border-left:2px solid $primary-dark;
+			border-right:2px solid $primary-dark;
+			border-top:2px solid $primary-dark;
+			figcaption{
+				border-bottom:2px solid $primary-dark;
+				background:$primary-light;
+				color:$white;
+			}
+		}	
+	}	
 }
-#CSS{
-	.header{
-		background:$tertiary-light url('../img/musings/css.jpg') no-repeat;
-		background-size:cover;
-		color:$white;		
+
+/* ==========================================================================
+   SECONDARY COLOR SCHEME
+   ========================================================================== */
+.secondary{
+	.review{
+		padding:4% 2% 2%;
+		code{
+			border:1px dashed $secondary-dark;
+			background:$secondary-light;
+			color:white;
+			margin:0 0 20px;
+		}
+		p{
+			strong{
+				color:$primary-light;			
+			}		
+		}	
+		figure{
+			border-left:2px solid $secondary-dark;
+			border-right:2px solid $secondary-dark;
+			border-top:2px solid $secondary-dark;
+			figcaption{
+				border-bottom:2px solid $secondary-dark;
+				background:$secondary-light;
+			}
+		}
 	}
-	.code{
+	h2{
+		font-family:$secondary-stack;
+		margin:0 0 50px;
+		color:$primary-dark;			
+		line-height:105%;
+	}
+	
+}
+/* ==========================================================================
+   TERTIARY COLOR SCHEME
+   ========================================================================== */
+.tertiary{
+	.code, .review{
 		padding:4% 2% 2%;
 		code{
 			border:1px dashed $tertiary-dark;
@@ -89,31 +148,6 @@
 		}
 		
 	}
-}
-
-#strategic-review{
-	.header{
-		background:$primary-light url('../img/articles/dragon/generic.jpg') no-repeat;
-		background-size:cover;
-		color:$white;		
-	}
-	.review{
-		padding:4% 2% 2%;
-		p{
-			strong{
-				color:$primary-light;			
-			}		
-		}	
-		figure{
-			border-left:2px solid $secondary-dark;
-			border-right:2px solid $secondary-dark;
-			border-top:2px solid $secondary-dark;
-			figcaption{
-				border-bottom:2px solid $secondary-dark;
-				background:$secondary-light;
-			}
-		}
-	}
 	h2{
 		font-family:$secondary-stack;
 		margin:0 0 50px;
@@ -121,38 +155,55 @@
 		line-height:105%;
 	}
 }
-#dragon-year-one{
+
+/* ==========================================================================
+   ARTICLES AND MUSINGS HEADERS
+   ========================================================================== */
+#futhark{
 	.header{
-		background:$primary-light url('../img/articles/dragon/year-one/cover.jpg') no-repeat;
+		background:$primary-light url('../img/articles/futhark.jpg') no-repeat;
+		background-size:cover;
+		color:$white;
+	}
+}
+#CSS{
+	.header{
+		background:$tertiary-light url('../img/musings/css.jpg') no-repeat;
 		background-size:cover;
 		color:$white;		
 	}
-	.review{
-		padding:4% 2% 2%;
-		
-		h2{
-			margin:0 0 em(20px);
-			color:$secondary-dark;
-		}
-		p{
-			strong{
-				color:$secondary-light;			
-			}			
-		}
-		figure{
-			border-left:2px solid $secondary-dark;
-			border-right:2px solid $secondary-dark;
-			border-top:2px solid $secondary-dark;
-			figcaption{
-				border-bottom:2px solid $secondary-dark;
-				background:$secondary-light;
-				color:$white;
-			}
-		}
-		
-	}
-	
 }
+#generic-games{
+	.header{
+		background:$primary-light url('../img/articles/dragon/generic.jpg') no-repeat;
+		background-size:cover;
+		color:$white;		
+	}
+}
+#dragon-year-one{
+	.header{
+		background:$secondary-light url('../img/articles/dragon/year-one/cover.jpg') no-repeat;
+		background-size:cover;
+		color:$white;		
+	}
+}
+#dragon-issue007{
+	.header{
+		background:$primary-light url('../img/articles/dragon/007/cover.jpg') no-repeat;
+		background-size:cover;
+		color:$white;		
+	}	
+}
+#dragon-issue008{
+	.header{
+		background:$tertiary-light url('../img/articles/dragon/008/cover.jpg') no-repeat;
+		background-size:cover;
+		color:$white;		
+	}	
+}
+/* ==========================================================================
+   SOON TO BE REPLACED
+   ========================================================================== */
 article{
 	table{
 		border:3px solid $dark-gray;
@@ -231,7 +282,3 @@ article{
 		margin:1% 0;
 	}
 }
-#all-titles{
-	margin:20px auto;
-}
-

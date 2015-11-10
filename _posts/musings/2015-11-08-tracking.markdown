@@ -6,6 +6,7 @@ category: musings
 tag: "css letter-spacing photoshop tracking typography"
 excerpt: "How to convert the Photoshop tracking values to the appropriate letter-spacing value in CSS."
 class: "CSS"
+theme: "tertiary"
 ---
 <section class="header">
 	<div class="content">
