@@ -15,7 +15,7 @@ theme: "tertiary"
 	<div class="span-6 col">
 		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
 		<h1>{{ page.title }}</h1>
-		<p>When TSR moved on from <strong><em>The Strategic Review</em></strong> to <strong><em>The Dragon</em></strong> for the most part is was just a title change. It took some time for the writing and layout to improve. However, in these early years we get to see some interesting firsts, such as the <strong><em>Creature Features</em></strong> and the Remorhaz.</p>
+		<p></p>
 	</div>
 	<aside class="span-3 col empty"></aside>	
 	</div>
