@@ -3,9 +3,9 @@ layout: article
 title:  "Rune Caster"
 author: "Keith Senkowski"
 date:   2015-07-28 15:21:23
-category: article
+category: game
 tag: "role playing game rpg mechanics rules conspiracy of shadows core rune caster dice futhark"
-excerpt: "An online way to cast your runes for Conspiracy of Shadows and Conspiracy of Shadows: Apprentice"
+excerpt: "An online way to cast your runes for the Conspiracy of Shadows role-playing game."
 class: "futhark"
 theme: "primary"
 ---
