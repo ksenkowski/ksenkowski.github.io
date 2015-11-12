@@ -15,7 +15,7 @@ theme: "tertiary"
 	<div class="span-6 col">
 		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
 		<h1>{{ page.title }}</h1>
-		<p></p>
+		<p>For every issue that is interesting and exciting there are plenty that make you wonder how they published so many issues. This issue is not one of the former, though it does have some fantastic Erol Otus artwork.</p>
 	</div>
 	<aside class="span-3 col empty"></aside>	
 	</div>
@@ -37,8 +37,8 @@ theme: "tertiary"
 			</figure>
 		</aside>	
 		<div class="span-5 col">
-			<p></p>
-			<p></p>
+			<p>To be clear, this is not the Erol Otus artwork I was talking about. It is pretty rough on th eyes. I think it is meant to be a character for the very long bit of fiction that dominated this issue.</p>
+			<p>Speaking of fiction, <strong><em>The Dragon</em></strong> has this odd history with short and/or serial fiction. It seems like in the early days they were just looking for things to fill the magazine with and dumped it in the issues without giving much thought to the make up of the issues.</p>
 		</div>
 		<div class="span-1 col empty"></div>
 	</div>
@@ -55,8 +55,7 @@ theme: "tertiary"
 	<div class="content gutters">
 		<div class="span-1 col empty"></div>
 		<div class="span-5 col">
-			<p></p>
-			<p></p>
+			<p>Seriously. No clue what this is. Some sort of board game that Chaosium put out. It could be good. It could be terrible. Could have the most weirdly compelling ad I have seen in the magazine.</p>
 		</div>
 		<aside class="span-5 col">
 			<figure>
@@ -85,10 +84,8 @@ theme: "tertiary"
 			</figure>
 		</aside>	
 		<div class="span-5 col">
-			<p></p>
-			<p></p>
-			<p></p>
-			<p></p>
+			<p>I blame the wargaming roots of the hobby for this nonsense. No, I do not want "realism" in <strong><em>D&amp;D</em></strong>. That is just bonkers to me. Why would anyone want that?</p>
+			<p>I mean, nothing about the system that makes up the game simulates reality. It simulates medieval warfare as well as <strong><em>Monopoly</em></strong> simulates the <strong><em>Great Depression</em></strong>.</p>
 		</div>
 		<div class="span-1 col empty"></div>
 	</div>
@@ -105,8 +102,8 @@ theme: "tertiary"
 	<div class="content gutters">
 		<div class="span-1 col empty"></div>
 		<div class="span-5 col">
-			<p></p>
-			<p></p>
+			<p>Can we just agree that Erol Otus should have been the art director for all <strong><em>TSR</em></strong> products? Yes? I thought so. So let's discuss this actual <strong><em>Featured Creature</em></strong> article.</p>
+			<p>It is a contest to create stats for this bad boy illustration. It is the first contest I have seen in the magazine, and I will say that it was poorly handled. Nothing appeared in the magazine for several issues regarding it, then suddenly a small call out with results.</p>
 		</div>
 		<aside class="span-5 col">
 			<figure>
