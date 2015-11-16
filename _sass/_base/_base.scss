@@ -121,7 +121,7 @@ h2{
 	line-height:100%;
 }
 h3{
-	font-size:em(30px);
+	font-size:em(28px);
 	line-height:100%;
 }
 h4{
@@ -282,7 +282,6 @@ fieldset{
 				display: table-header-group;
 				vertical-align: middle;
 				float:none;
-				border-bottom:3px solid $dark-gray;
 			}
 			tr{
 				display:block;
@@ -332,13 +331,6 @@ table{
 	width:100%;
 	border-collapse:collapse;
 	border-spacing: 0;
-}
-tr:nth-of-type(odd){
-	background:$gray;
-}
-th{
-	background:$off-white;
-	font-weight:bold;
 }
 th.twelve, td.twelve{
 	width:12%;

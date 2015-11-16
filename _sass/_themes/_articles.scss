@@ -25,7 +25,7 @@
 		}
 		p{
 			margin:0 0 20px;
-			strong{
+			strong, em{
 				font-family:$secondary-stack;			
 			}
 		}
@@ -33,10 +33,16 @@
 	.continued{
 		p{
 			margin:0 0 20px;
-			strong{
-				font-family:$secondary-stack;
-			}		
+			strong, em{
+				font-family:$secondary-stack;			
+			}
 		}	
+		ul{
+			strong, em{
+				font-family:$secondary-stack;			
+			}
+			
+		}
 	}
 	figure{
 		figcaption{
@@ -50,6 +56,41 @@
 			}
 		}
 	}
+	table{
+		border:3px solid $dark-gray;
+		width:100%;
+		margin-bottom:em(30px);
+		caption{
+			font-size:1.6em;
+			font-family:$secondary-stack;
+			line-height:1.7em;
+			text-align:center;
+			margin:.8em 0;
+		}
+		thead{
+			background:$off-white;
+			font-family:$secondary-stack;
+			text-transform:uppercase;
+			border-bottom:3px solid $dark-gray;
+			tr{
+				th{
+					font-weight:800;
+					padding:12px 30px;
+					color:$dark-gray;
+					text-align:left;
+				}
+			}
+		}
+		tbody{
+			tr{
+				td{
+					padding:12px 30px;
+					color:$dark-gray;
+				}
+			}
+		}
+	}
+	
 }
 /* ==========================================================================
    PRIMARY COLOR SCHEME
@@ -57,6 +98,33 @@
 .primary{
 	.review, .continued{
 		padding:4% 2% 2%;
+		table{
+			border:3px solid $primary-dark;
+			thead{
+				background:$white;
+				border-bottom:3px solid $primary-dark;
+				tr{
+					th{
+						color:$primary-dark;
+					}
+				}
+			}
+			tbody{
+				tr{
+					td{
+						color:$primary-dark;
+					}
+				}
+				tr:nth-of-type(odd){
+					background:$primary-light;
+					td{
+						color:$white;
+					}
+				}
+				
+			}
+		}
+		
 		code{
 			border:1px dashed $primary-dark;
 			background:$primary-light;
@@ -67,8 +135,11 @@
 			margin:0 0 em(20px);
 			color:$primary-dark;
 		}
-		p{
-			strong{
+		h3{
+			color:$primary-dark;
+		}
+		p,ul{
+			em, strong{
 				color:$primary-light;			
 			}			
 		}
@@ -98,7 +169,7 @@
 			margin:0 0 20px;
 		}
 		p{
-			strong{
+			em, strong{
 				color:$primary-light;			
 			}		
 		}	
@@ -133,7 +204,7 @@
 			margin:0 0 20px;
 		}
 		p{
-			strong{
+			em, strong{
 				color:$tertiary-color;			
 			}			
 		}
@@ -201,41 +272,18 @@
 		color:$white;		
 	}	
 }
+#core-rules{
+	.header{
+		background:$primary-light url('../img/articles/core/cover.jpg') no-repeat;
+		background-size:cover;
+		color:$white;		
+	}	
+	
+}
 /* ==========================================================================
    SOON TO BE REPLACED
    ========================================================================== */
 article{
-	table{
-		border:3px solid $dark-gray;
-		width:100%;
-		caption{
-			font-size:1.6em;
-			font-family:$secondary-stack;
-			line-height:1.7em;
-			text-align:center;
-			margin:.8em 0;
-		}
-		thead{
-			background:$off-white;
-			border-bottom:3px solid $dark-gray;
-			tr{
-				th{
-					font-weight:800;
-					padding:12px 30px;
-					color:$dark-gray;
-					text-align:left;
-				}
-			}
-		}
-		tbody{
-			tr{
-				td{
-					padding:12px 30px;
-					color:$dark-gray;
-				}
-			}
-		}
-	}
 	.dream{
 		figcaption{
 			border-top:3px solid $gray;
@@ -265,11 +313,6 @@ article{
 	}
 	.block{
 		margin:1.8em 0;
-	}
-	h3{
-		text-transform:uppercase;
-		margin:0 0 1em;
-		font-size:2em;
 	}
 	h3 + p.first{
 		margin-top:-1.25em;
