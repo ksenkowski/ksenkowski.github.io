@@ -13,6 +13,8 @@
 .single{
 	.header{
 		padding:4% 2% 2%;
+		color:$white;	
+		background-size:cover;	
 		.post-meta{
 			font-family:$secondary-stack;
 			margin:0;
@@ -233,50 +235,41 @@
 #futhark{
 	.header{
 		background:$primary-light url('../img/articles/futhark.jpg') no-repeat;
-		background-size:cover;
-		color:$white;
 	}
 }
 #CSS{
 	.header{
 		background:$tertiary-light url('../img/musings/css.jpg') no-repeat;
-		background-size:cover;
-		color:$white;		
 	}
 }
 #generic-games{
 	.header{
 		background:$primary-light url('../img/articles/dragon/generic.jpg') no-repeat;
-		background-size:cover;
-		color:$white;		
 	}
 }
 #dragon-year-one{
 	.header{
 		background:$secondary-light url('../img/articles/dragon/year-one/cover.jpg') no-repeat;
-		background-size:cover;
-		color:$white;		
 	}
 }
 #dragon-issue007{
 	.header{
 		background:$primary-light url('../img/articles/dragon/007/cover.jpg') no-repeat;
-		background-size:cover;
-		color:$white;		
 	}	
 }
 #dragon-issue008{
 	.header{
 		background:$tertiary-light url('../img/articles/dragon/008/cover.jpg') no-repeat;
-		background-size:cover;
-		color:$white;		
+	}	
+}
+#dragon-issue044{
+	.header{
+		background:$tertiary-light url('../img/articles/dragon/044/cover.jpg') no-repeat;
 	}	
 }
 #core-rules{
 	.header{
 		background:$primary-light url('../img/articles/core/cover.jpg') no-repeat;
-		background-size:cover;
-		color:$white;		
 	}	
 	
 }
