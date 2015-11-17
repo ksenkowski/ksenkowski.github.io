@@ -264,13 +264,13 @@ fieldset{
 		position: relative;
 		width: 100%;
 		
-		@include breakpoint(portrait){
+		@include breakpoint(landscape){
 			display: table;
 			position: static;
 		}
 		caption{
 			display:block;
-			@include breakpoint(portrait){
+			@include breakpoint(landscape){
 				display:table-caption;
 			}
 		}
@@ -278,7 +278,7 @@ fieldset{
 			display:block;
 			float:left;
 			border-bottom:none;
-			@include breakpoint(portrait){
+			@include breakpoint(landscape){
 				display: table-header-group;
 				vertical-align: middle;
 				float:none;
@@ -286,15 +286,14 @@ fieldset{
 			tr{
 				display:block;
 				width:100%;
-				@include breakpoint(portrait){
+				@include breakpoint(landscape){
 					display:table-row;
 				}
 				
 			}
 			th{
 				display:block;
-				width:100%;
-				@include breakpoint(portrait){
+				@include breakpoint(landscape){
 					display:table-cell;
 				}
 			}
@@ -305,7 +304,7 @@ fieldset{
 			position:relative;
 			overflow-x:auto;
 			white-space:nowrap;
-			@include breakpoint(portrait){
+			@include breakpoint(landscape){
 				display: table-row-group;
 				position: static;
 				vertical-align: middle;
@@ -314,12 +313,12 @@ fieldset{
 			tr{
 				display:inline-block;
 				vertical-align:top;
-				@include breakpoint(portrait){
+				@include breakpoint(landscape){
 					display:table-row;
 				}
 				td{
 					display:block;
-					@include breakpoint(portrait){
+					@include breakpoint(landscape){
 						display:table-cell;
 					}
 				}
@@ -332,28 +331,6 @@ table{
 	border-collapse:collapse;
 	border-spacing: 0;
 }
-th.twelve, td.twelve{
-	width:12%;
-}
-th.twenty, td.twenty{
-	width:20%;
-}
-th.thirty-three, td.thirty-three{
-	width:33%;
-}
-th.sixty-six, td.sixty-six{
-	width:66%;
-}
-th.forty, td.forty{
-	width:40%;
-}
-th.five, td.five{
-	width:5%;
-}
-th.ten, td.ten{
-	width:10%;
-}
-
 td,th{
 	padding:6px;
 	text-align:left;

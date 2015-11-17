@@ -1,17 +1,44 @@
-<article class="item" data-nav="The Things You Carry">
-<section class="clearfix gutters block" id="gear">
-	<aside class="span-3 col empty">
-	&nbsp;
-	</aside>
+---
+layout: article
+title:  "Gear"
+author: "Keith Senkowski"
+date:   2015-11-13 
+category: game
+tag: "role playing game rpg mechanics rules conspiracy of shadows core basics rules gear futhark"
+excerpt: "A lot of games have moved away from the importance of the gear a character has on them. I've never been one to buy into that idea. I see gear as another tool to help define who your character is."
+class: "traits-talents"
+theme: "primary"
+---
+<section class="header">
+	<div class="content">
+	<aside class="span-3 col empty"></aside>
 	<div class="span-6 col">
-		<h3>The Things You Carry</h3>
-		<p class="first">The people in the Empire trade in a variety of currencies. That being said, Imperial coin is always welcome for it's high gold and silver content. The following table outlines the types of coinage and their relations to one another.</p>
-		<p>When creating a new character, multiply the total number of your character's Influence Pool value by their Vocation's Annual Earnings number. This is the amount of Decanidi you have to spend on your character's initial gear. When done purchasing gear toss twelve rune stones and multiply the total number of successes by your character's Influence Pool value and add to that any remaining Decanidi. This is the amount of liquid assets your character has available to them at the start of play.</p>
+		<h1>the things you carry</h1>
+		<p>Together we understood what terror was: you're not human anymore. You're a shadow. You slip out of your own skin, like molting, shedding your own history and your own future, leaving behind everything you ever were or wanted to believed in. You know you're about to die. And it's not a movie and you aren't a hero and all you can do is whimper and wait.</p>
+		<p class="text-right"><em>~ The Things They Carried</em></p>
 	</div>
-	<aside class="span-3 col empty">
-	&nbsp;
-	</aside>
+	<aside class="span-3 col empty"></aside>	
+	</div>
 </section>
+<section class="continued">
+	<div class="content">
+		<div class="span-3 col empty"></div>
+		<div class="span-6 col">
+			<h2>Gear</h2>
+		</div>
+		<div class="span-3 col empty"></div>
+	</div>
+	<div class="content">
+	<div class="span-3 col empty"></div>
+	<div class="span-6 col">
+		<p>The people in the Empire trade in a variety of currencies. That being said, Imperial coin is always welcome for it's high gold and silver content. The following table outlines the types of coinage and their relations to one another.</p>
+	</div>
+	<div class="span-3 col empty"></div>	
+	</div>
+</section>
+<section class="continued">
+	<div class="content">
+		<div class="span-12 col">
 <table class="table-scroll">
 	<caption>Rates of Exchange</caption>
 	<thead>
@@ -82,13 +109,29 @@
 		</tr>
 	</tbody>
 </table>
-<div class="clearfix gutters block">
-	<aside class="span-3 col empty">
-	&nbsp;
-	</aside>
+	</div>
+</div>
+</section>
+<section class="continued">
+	<div class="content">
+		<div class="span-3 col empty"></div>
+		<div class="span-6 col">
+			<h2>Solidi and Influence</h2>
+		</div>
+		<div class="span-3 col empty"></div>
+	</div>
+	<div class="content">
+	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
-		<h4>Solidi and Influence</h4>
-		<p>The Solidi to Influence Table shows how a character can expand their Influence Pool temporarily by spending coin. The exchange rate is both ways, so a character can also spend Influence to get access to temporary cash. Role-play how this works within the context of a Scene.</p>
+		<p>The <em>Solidi to Influence Table</em> shows how a character can expand their <em>Influence Pool</em> temporarily by spending coin. The exchange rate is both ways, so a character can also spend <em>Influence</em> to get access to temporary cash. Role-play how this works within the context of a <em>Scene</em>.</p>
+	</div>
+	<div class="span-3 col empty"></div>	
+	</div>
+</section>
+<section class="continued">
+	<div class="content">
+		<div class="span-2 col empty"></div>
+		<div class="span-8 col">
 		<table class="table-scroll">
 			<caption>Solidi to Influence Conversion</caption>
 			<thead>
@@ -140,12 +183,20 @@
 				</tr>
 			</tbody>
 		</table>
+	</div>
+		<div class="span-2 col empty"></div>
+</div>
+</section>
+<section class="continued">
+	<div class="content">
+		<div class="span-2 col empty"></div>
+		<div class="span-8 col">
 		<table class="table-scroll">
 			<caption>Animal &amp; Animal Care Table</caption>
 			<thead>
 				<tr>
-					<th class="twenty">Type</th>
-					<th class="ten">Cost</th>
+					<th>Type</th>
+					<th>Cost</th>
 					<th>Notes</th>
 				</tr>
 			</thead>
@@ -572,11 +623,14 @@
 				</tr>
 			</tbody>
 		</table>
+		
 	</div>
-	<aside class="span-3 col empty">
-	&nbsp;
-	</aside>
+		<div class="span-2 col empty"></div>
 </div>
+</section>
+<section class="continued">
+	<div class="content">
+		<div class="span-12 col">
 <table class="table-scroll">
 	<caption>Weapon Table</caption>
 	<thead>
@@ -799,5 +853,7 @@
 		</tr>
 	</tbody>
 </table>
-	
-</article>
+<div class="divider"></div>
+	</div>
+</div>
+</section>

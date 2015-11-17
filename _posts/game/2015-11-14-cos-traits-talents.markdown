@@ -72,15 +72,15 @@ theme: "primary"
 		<h3>Example Talents</h3>
 		<div class="clearfix">
 		<ul class="spaced-list">
-			<li>Confuse the minds of others with words and gestures</li>
-			<li>Trained to utilize agility and flexibility to move quietly</li>
-			<li>Jumps and maintains balance like a cat</li>
-			<li>Can tap into the Wyrding to manipulate the dead</li>
-			<li>Purified and sanctified against Taint</li>
-			<li>Has a seemingly endless reservoir of physical endurance</li>
-			<li>Can kill the feeble minded with a word</li>
-			<li>Can transfer Incantations onto scrolls for others to use</li>
-			<li>Has studied the ways of the Alfar and knows their weaknesses</li>
+			<li><span class="futhark">A</span> Confuse the minds of others with words and gestures</li>
+			<li><span class="futhark">B</span> Trained to utilize agility and flexibility to move quietly</li>
+			<li><span class="futhark">C</span> Jumps and maintains balance like a cat</li>
+			<li><span class="futhark">D</span> Can tap into the Wyrding to manipulate the dead</li>
+			<li><span class="futhark">E</span> Purified and sanctified against Taint</li>
+			<li><span class="futhark">F</span> Has a seemingly endless reservoir of physical endurance</li>
+			<li><span class="futhark">Q</span> Can kill the feeble minded with a word</li>
+			<li><span class="futhark">R</span> Can transfer Incantations onto scrolls for others to use</li>
+			<li><span class="futhark">S</span> Has studied the ways of the Alfar and knows their weaknesses</li>
 		</ul>
 	</div>
 	<div class="span-3 col empty"></div>	
