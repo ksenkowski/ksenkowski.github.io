@@ -270,8 +270,18 @@
 #core-rules{
 	.header{
 		background:$primary-light url('../img/articles/core/cover.jpg') no-repeat;
-	}	
-	
+	}		
+}
+#traits-talents{
+	.header{
+		background:$primary-light url('../img/articles/core/traits-talents.jpg') no-repeat;
+	}
+	ul{
+		margin-bottom:em(40px);
+		.futhark{
+			font-size:em(20px);
+		}
+	}
 }
 /* ==========================================================================
    SOON TO BE REPLACED
@@ -289,23 +299,6 @@ article{
 			text-transform:uppercase;
 			color:$dark-gray;
 		}
-	}
-	ul{
-		.futhark{
-			float: left; 
-			font-size: 2.688em; 
-			line-height: .75em; 
-			padding: 4px 8px 0px 3px; 
-			width:50px;
-			display:block;
-		}
-	}
-	.toc{
-		text-transform:uppercase;
-		font-weight:bold;
-	}
-	.block{
-		margin:1.8em 0;
 	}
 	h3 + p.first{
 		margin-top:-1.25em;

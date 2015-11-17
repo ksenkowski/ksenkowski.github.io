@@ -13,7 +13,7 @@ theme: "primary"
 	<div class="content">
 	<aside class="span-3 col empty"></aside>
 	<div class="span-6 col">
-		<h1>{{ page.title }}</h1>
+		<h1>the basic rules</h1>
 		<p>For some reason, you will no longer be the person you believed you once were. You'll detect slow and subtle shifts going on all around you, more importantly shifts in you. Worse, you'll realize it's always been shifting, like a shimmer of sorts, a vast shimmer, only dark like a room. But you won't understand why or how.</p>
 		<p class="text-right"><em>~ House of Leaves</em></p>
 	</div>
