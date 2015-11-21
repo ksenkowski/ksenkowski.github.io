@@ -6,7 +6,7 @@ date:   2015-11-12
 category: game
 tag: "role playing game rpg mechanics rules conspiracy of shadows core basics rules journey running gm futhark"
 excerpt: "Running a game of Conspiracy of Shadows is both similar to and different than many role-playing games. It embraces the randomness of OSR games within the confines of procedures familiar to board game enthusiasts."
-class: "playing-the-game"
+class: "running-the-game"
 theme: "primary"
 ---
 <section class="header">

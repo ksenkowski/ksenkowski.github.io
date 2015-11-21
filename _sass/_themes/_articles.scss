@@ -293,7 +293,7 @@
 }
 #playing-the-game{
 	.header{
-		background:$primary-light url('../img/articles/core/traits-talents.jpg') no-repeat;
+		background:$primary-light url('../img/articles/core/playing-game.jpg') no-repeat;
 		background-size:cover;	
 	}
 	ul{
@@ -301,10 +301,26 @@
 	}
 	.futhark{
 		font-size:em(40px);
-	}
-	
+	}	
 }
-
+#running-the-game{
+	.header{
+		background:$primary-light url('../img/articles/core/running-game.jpg') no-repeat;
+		background-size:cover;	
+	}
+	ul{
+		margin-bottom:em(40px);
+	}
+	.futhark{
+		font-size:em(40px);
+	}	
+}
+#skirmishes{
+	.header{
+		background:$primary-light url('../img/articles/core/skirmishes.jpg') no-repeat;
+		background-size:cover;	
+	}
+}
 /* ==========================================================================
    SOON TO BE REPLACED
    ========================================================================== */
