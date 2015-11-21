@@ -143,11 +143,8 @@ ul,
 ol {
   	padding: 0;
   	margin: 0px 0 10px 25px;
-	line-height:1.6;
-	font-size:1.2em;
-	ul,ol{
-		font-size:1em;
-	}
+	line-height:160%;
+	font-size:em(16px);
 }
 ul ul,
 ul ol,
@@ -161,7 +158,7 @@ ul.spaced-list, ol.spaced-list {
 	li{
 		margin:8px 0px;
 		small{
-			line-height:1.4em;
+			line-height:140%;
 			display:block;
 			margin:-5px 0px 10px;
 		}

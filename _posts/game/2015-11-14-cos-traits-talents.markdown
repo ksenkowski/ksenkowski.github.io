@@ -82,6 +82,7 @@ theme: "primary"
 			<li><span class="futhark">R</span> Can transfer Incantations onto scrolls for others to use</li>
 			<li><span class="futhark">S</span> Has studied the ways of the Alfar and knows their weaknesses</li>
 		</ul>
+		<div class="divider"></div>	
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
