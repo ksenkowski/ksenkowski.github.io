@@ -24,6 +24,24 @@ theme: "primary"
 	<div class="content">
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
+			<h2>Friends and Foes</h2>
+		</div>
+		<div class="span-3 col empty"></div>
+	</div>
+	<div class="content">
+	<div class="span-3 col empty"></div>
+	<div class="span-6 col">
+			<p>In <em>Conspiracy of Shadows</em>, creating playable characters, friends and foes, all follow the same pattern. A <strong>Culture</strong> is combined with a <strong>Vocation</strong> and is then customized with a <strong>Template</strong> and/or a <strong>Litany</strong>. Finally, the character is given two Talents of your choosing and Gear with a value equal to the following formula:</p>
+			<p class="text-center"><em>Influence Pool x Influence Recovery = Initial Decanidi</em></p>
+			<p>The <strong>GM</strong> is the final arbiter as to what <strong>Cultures</strong> and <strong>Templates</strong> are available for players to build from, but otherwise any varation is acceptable. The game is about how your <strong>Cell</strong> fights your <strong>Conspiracy</strong>, not about mine.</p>
+	</div>
+	<div class="span-3 col empty"></div>	
+	</div>
+</section>
+<section class="continued">
+	<div class="content">
+		<div class="span-3 col empty"></div>
+		<div class="span-6 col">
 			<h2>The Litany of Heroes</h2>
 		</div>
 		<div class="span-3 col empty"></div>

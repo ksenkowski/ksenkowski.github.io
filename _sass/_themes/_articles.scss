@@ -291,6 +291,12 @@
 		}
 	}
 }
+#gear{
+	.header{
+		background:$primary-light url('../img/articles/core/gear.jpg') no-repeat;
+		background-size:cover;	
+	}
+}
 #playing-the-game{
 	.header{
 		background:$primary-light url('../img/articles/core/playing-game.jpg') no-repeat;
@@ -318,6 +324,12 @@
 #skirmishes{
 	.header{
 		background:$primary-light url('../img/articles/core/skirmishes.jpg') no-repeat;
+		background-size:cover;	
+	}
+}
+#culture{
+	.header{
+		background:$primary-light url('../img/articles/core/culture.jpg') no-repeat;
 		background-size:cover;	
 	}
 }

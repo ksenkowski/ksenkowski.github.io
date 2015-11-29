@@ -51,6 +51,24 @@ theme: "primary"
 	<div class="content">
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
+			<h2>The Conspiracy</h2>
+		</div>
+		<div class="span-3 col empty"></div>
+	</div>
+	<div class="content">
+	<div class="span-3 col empty"></div>
+	<div class="span-6 col">
+		<p></p>
+		<p></p>
+		<p></p>		
+	</div>
+	<div class="span-3 col empty"></div>	
+	</div>
+</section>
+<section class="continued">
+	<div class="content">
+		<div class="span-3 col empty"></div>
+		<div class="span-6 col">
 			<h2>The Journey</h2>
 		</div>
 		<div class="span-3 col empty"></div>

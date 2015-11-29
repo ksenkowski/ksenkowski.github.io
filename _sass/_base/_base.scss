@@ -143,7 +143,7 @@ ul,
 ol {
   	padding: 0;
   	margin: 0px 0 10px 25px;
-	line-height:160%;
+	line-height:125%;
 	font-size:em(16px);
 }
 ul ul,
@@ -155,6 +155,14 @@ ol ul {
 ul.spaced-list, ol.spaced-list {
 	margin-bottom:15px;
 	margin-top:15px;
+	ul.unspaced-list{
+		margin-top:em(20px);
+		margin-bottom:em(20px);
+		li{
+				margin-bottom:0;
+				margin-top:0;
+			}
+	}
 	li{
 		margin:8px 0px;
 		small{
