@@ -174,14 +174,13 @@ theme: "primary"
 			</table>
 			<h3>Definitions</h3>
 			<ul class="spaced-list">
-				<li><strong>Advantages (+1R, +2R)</strong> An <em>Advantage</em> adds the number of <em>Runestones</em> to the toss as indicated by the number.</li>
-				<li><strong>Disadvantages (-1R, -2R)</strong> A <em>Disadvantage</em> subtracts the number of <em>Runestones</em> to the toss as indicated by the number.</li>
+				<li><strong>Toss Modifier (+1R, -1R)</strong> Before a toss is made, add or subtract the number of Runes you get to toss as indicated by the number.</li>
 				<li><strong>Success Modifier (+1s, -1s)</strong> After a toss is made, add or subtract a number of <em>Successes</em> as indicated by the number.</li>
 				<li><strong>Successes</strong> The number of <em>Runestones</em> that show their <em>Rune</em> faceup in a toss</li>
 				<li><strong>Failures</strong> The number of face down <em>Runestones</em> in a toss.</li>
 				<li><strong>The Black Stone</strong> The one <em>Runestone</em> with no markings. When it appears in a toss, the <em>Player</em> is granted a <em>Destiny Token</em></li>
 				<li><strong>Twists</strong> A change in the narrative that adds a new obstacle to overcome. They can be immediate, like <em>an ambush</em>, or a more long term issue, like the <em>loss of a primary source of income</em>.</li>
-				<li><strong>Conditions</strong> A <em>Disadvantage</em> that applies to a specific set of circumstances for a specific set of time. The time is lasts a number of <em>Turns</em> equal to the margin of failure and the circumstances are based on the context of the situation as interpreted by the <em>GM</em>.</li>
+				<li><strong>Conditions</strong> Are an effect that applies to a specific set of circumstances for a specific set of time. They can provide an advantage or disadvantage and can be permanent or temporary. A temporary condition lasts a number of <em>Turns</em> equal to the margin of failure and the circumstances are based on the context of the situation as interpreted by the <em>GM</em>.</li>
 				<li><strong>Margin of Victory</strong> The value you get when subtracting the <em>Difficulty</em> or an opponenet's <em>Successes</em> from your own when you have won a toss.</li>
 				<li><strong>Margin of Failure</strong> The value you get when subtracting your successes from the Difficulty or an opponenet's <em>Successes</em> when you have lost a toss.</li>
 				<li><strong>Traits</strong> They define the capabilities of characters in the game and are each related to a Rune. Each trait has a number associated with it to indicate the base number of dice rolled in a Challenge. If anything you characters wish to try does not fall under one of the traits, the GM chooses the closest approximation.</li>

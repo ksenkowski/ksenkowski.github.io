@@ -91,11 +91,11 @@ theme: "primary"
 				<p>The first round of a Skirmish does not have a Recovery Phase. All other rounds start with the recovery Phase. The Recovery Phase is broken into two segments.</p>
 				<ul class="spaced-list unstyled">
 					<li><small><strong>Vitality Recovery:</strong> Units recover Vitality equal to their Vitality Recovery.</small></li>
-					<li><small><strong>Morale Challenge</strong> - Each Broken unit gets the chance to make a Leadership Challenge roll to try and return to the fight. Roll the unit's Temperament against a Difficulty equal 7 minus the your commander's Leadership Trait. If a unit is within 2 squares/inches of their Commander, they gain a +1R Advantage to their roll.</small></li>
+					<li><small><strong>Morale Challenge</strong> - Each Broken unit gets the chance to make a Leadership Challenge roll to try and return to the fight. Roll the unit's Temperament against a Difficulty equal 7 minus the your commander's Leadership Trait. If a unit is within 2 squares/inches of their Commander, they gain a +1R Toss Modifier to their roll.</small></li>
 				</ul>
 			</li>
 			<li><strong>Determine Tempo</strong>
-				<p>The first round of a Skirmish, Tempo is determined by either the narration leading up to the Skirmish or through a Leadership Versus Challenge. In the rounds that follow, Tempo is determined by a Leadership Versus Challenge with each side counting up their total number of units. The side with more units gets the difference as an Advantage to this roll.</p>
+				<p>The first round of a Skirmish, Tempo is determined by either the narration leading up to the Skirmish or through a Leadership Versus Challenge. In the rounds that follow, Tempo is determined by a Leadership Versus Challenge with each side counting up their total number of units. The side with more units gets the difference as a Toss Modifier to this roll.</p>
 			</li>
 			<li><strong>Movement</strong>
 				<p>During the Movement phase, the side with Tempo moves their units first or defers to the other side. Deferring movement automatically gives that side Tempo for the rest of the Round. If the unit is a mounted unit, the movement value of the mount is the only value used in the Skirmish.</p></li>
@@ -141,7 +141,7 @@ theme: "primary"
 		<p>To shoot a target, a unit must have line of sight in a 180 degree arc from the front of the unit. A unit may turn freely during this Phase to change direction, such as shooting a target behind.</p>
 		<p>A target that is partially obscured from the attacker has cover. Cover provides a +1R for the unit's defense roll. The terrain and other units dictate if a unit has cover or not.</p>
 		<p>The range of a unit's attack during this phase is dictated by the weapon. See the Gear section for details on different weapon ranges.</p>
-		<p>A Range Attack is resolved by the rolling a units Fighting Trait versus the Target's Fighting Trait, taking into account any Talents, Advantages or Disadvantages. It costs 1 Vitality to attack with crossbows and 2 Vitality for all other ranged weapons.</p>
+		<p>A Range Attack is resolved by the rolling a units Fighting Trait versus the Target's Fighting Trait, taking into account any Talents and Conditions. It costs 1 Vitality to attack with crossbows and 2 Vitality for all other ranged weapons.</p>
 		<p>The amount of damage is determined by the total number of successes resolved from the  formula <em>(Attacker Successes + Weapon) - (Target Successes + Armor) = Damage</em>.</p>
 		</ul>
 	</div>
@@ -159,7 +159,7 @@ theme: "primary"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
-		<p>A <em>Melee Attack</em> is resolved by rolling a unit's <em>Fighting Trait</em> versus the target's <em>Fighting Trait</em>, taking into account any <em>Advantages</em> or <em>Disadvantages</em>. It costs 1 <em>Vitality</em> to attack with one handed weapons and 2 <em>Vitality</em> for a two handed weapon. The amount of damage is determined by the total number of successes resolved from the formula <em>(Attacker Successes + Weapon) - (Target Successes + Armor) = Damage</em>.</p>
+		<p>A <em>Melee Attack</em> is resolved by rolling a unit's <em>Fighting Trait</em> versus the target's <em>Fighting Trait</em>, taking into account any <em>Conditions</em>. It costs 1 <em>Vitality</em> to attack with one handed weapons and 2 <em>Vitality</em> for a two handed weapon. The amount of damage is determined by the total number of successes resolved from the formula <em>(Attacker Successes + Weapon) - (Target Successes + Armor) = Damage</em>.</p>
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
@@ -214,10 +214,10 @@ theme: "primary"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
-		<p>A unit may be required to engage in a <em>Morale Challenge</em> to avoid being Broken and fleeing the scene of a fight. Roll for a unit their <em>Temperament</em> against a <em>Difficulty</em> of 7 minus their <em>Commander's Leadership Trait</em> (taking into account any <em>Advantages</em> or <em>Disadvantages</em>) if the unit meets any of these conditions:</p>
+		<p>A unit may be required to engage in a <em>Morale Challenge</em> to avoid being Broken and fleeing the scene of a fight. Roll for a unit their <em>Temperament</em> against a <em>Difficulty</em> of 7 minus their <em>Commander's Leadership Trait</em> (taking into account any Conditions) if the unit meets any of these conditions:</p>
 		<ul class="spaced-list unstyled">
 			<li><strong>All Alone: </strong>The unit is facing 2 or more enemies with no allies within 6 squares/inches.</li>
-			<li><strong>Fear:</strong>  The unit faced has the Feared Advantage.</li>
+			<li><strong>Fear:</strong>  The unit faced has the Feared Condition.</li>
 			<li><strong>Wyrding:</strong> The unit had a <em>Wyrding</em> used against them.</li>
 		</ul>
 	</div>
@@ -228,14 +228,14 @@ theme: "primary"
 	<div class="content">
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
-			<h2>Skirmish Advantages &amp; Disadvantages</h2>
+			<h2>Skirmish Conditions</h2>
 		</div>
 		<div class="span-3 col empty"></div>
 	</div>
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
-		<p>The following list contains common <em>Advantages</em> and <em>Disadvantages</em> in a <em>Skirmish</em>:</p>
+		<p>The following list contains common Conditions in a <em>Skirmish</em>:</p>
 		<ul class="spaced-list unstyled">
 			<li><strong>Cover: </strong>+1R to the target in ranged attacks</li>
 			<li><strong>Long Range:</strong>  +1R to the target in ranged attacks</li>
@@ -336,7 +336,7 @@ theme: "primary"
 						5 - 6
 					</td>
 					<td>
-						Lost Eye<br/><small>If this is the first eye lost, the character suffers a permanent -1R to all sight based rolls. If it is the second eye to go the character is blind and fails all sight based rolls. All other rolls in which sight is a key component suffer a -4R Disadvantage.</small>
+						Lost Eye<br/><small>If this is the first eye lost, the character suffers a permanent -1R to all sight based rolls. If it is the second eye to go the character is blind and fails all sight based rolls. All other rolls in which sight is a key component suffer a -4R Toss Modifier.</small>
 					</td>
 				</tr>
 				<tr>
@@ -418,7 +418,7 @@ theme: "primary"
 						22
 					</td>
 					<td>
-						Scarred<br/><small>The character suffered superficial wounds that left horrible scars, leaving the character with a Permanent Advantage of Feared.</small>
+						Scarred<br/><small>The character suffered superficial wounds that left horrible scars, leaving the character with a Permanent Condition of Feared.</small>
 					</td>
 				</tr>
 				<tr>

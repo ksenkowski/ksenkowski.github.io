@@ -463,7 +463,7 @@ theme: "primary"
 						<td><span class="futhark">E</span> Trenger Face Down</td>
 						<td>The Savior ascended by sacrificing so many here.</td>
 						<td>Snakes in vast numbers have made this place their home.</td>
-						<td><strong>Aura of Fear</strong><br/><small>In the Sinkhole you are always considered to have the Feared Advantage.</small></td>
+						<td><strong>Aura of Fear</strong><br/><small>In the Sinkhole you are always considered to have the Feared Condition.</small></td>
 					</tr>
 					<tr>
 						<td><span class="futhark">W</span> Uthold Face Up</td>
@@ -1297,16 +1297,16 @@ theme: "primary"
 	<div class="content">
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
-			<h3>Twists &amp; Conditions</h3>
+			<h3>Twists &amp; Negative Conditions</h3>
 		</div>
 		<div class="span-3 col empty"></div>
 	</div>
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
-		<p>As with any role-playing game, Conspiracy of Shadows requires the Game Master to be able to think fast and introduce new complications on the fly. These complications are called Twists and Conditions. Twists take the game in a new direction while Conditions hinder a character in some way.</p>
+		<p>As with any role-playing game, Conspiracy of Shadows requires the Game Master to be able to think fast and introduce new complications on the fly. These complications are called Twists and Conditions. Twists take the game in a new direction while Negative Conditions hinder a character in some way.</p>
 		<table class="table-scroll">
-			<caption>Conditions Table</caption>
+			<caption>Negative Conditions Table</caption>
 			<thead>
 				<tr>
 					<td>Toss 24 Rune Stones</td>
@@ -1316,11 +1316,11 @@ theme: "primary"
 			<tbody>
 				<tr>
 					<td>1 - 4</td>
-					<td>Blindness</td>
+					<td>Blindness<br/> -4s to actions the rely primarily upon vision. -2s to actions in which vision is a secondary concern.</td>
 				</tr>
 				<tr>
 					<td>5 - 8</td>
-					<td>Confused</td>
+					<td>Confused<br/> Being confused means you hesitate in all actions, suffering a -1R.</td>
 				</tr>
 				<tr>
 					<td>9 - 11</td>
