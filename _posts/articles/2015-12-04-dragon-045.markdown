@@ -2,7 +2,7 @@
 layout: article
 title:  "The Dragon in Review, Issue Forty-Five"
 author: "Keith Senkowski"
-date:   2015-12-01
+date:   2015-12-04
 category: article
 tag: "role playing game rpg dragon magazine reviews"
 excerpt: "Paper Dungeons! Do I really need to say much more than that?"
