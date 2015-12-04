@@ -6,19 +6,11 @@ if (typeof Object.create !== "function") {
     };
 }
 
-(function( shadows, $, undefined ) { 
+(function (shadows, $, undefined) { 
 	'use strict';
-	var json = $.getJSON('/posts.json');
 	// These are private
-	var masthead = $('#masthead');
-	var container, value, regex, data, content, target, top;
-	var currentArticle, id, nxt, prv, tocTitle, tocChild;
-	var i = 0;
-	var h = 0;
-	var t = 0;
-	var o = 0;
-	var currentIndex, temporaryValue, randomIndex;
-	var search = $('#search-box');
+	var container, value, data, content, target, currentIndex, temporaryValue, randomIndex;
+	var h = 0, i = 0, t = 0;
 	var array = [];
 	
 	// This will be executed at ready event

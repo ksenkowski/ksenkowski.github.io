@@ -181,13 +181,14 @@
 			figcaption{
 				border-bottom:2px solid $secondary-dark;
 				background:$secondary-light;
+				color:$white;
 			}
 		}
 	}
 	h2{
 		font-family:$secondary-stack;
 		margin:0 0 50px;
-		color:$primary-dark;			
+		color:$secondary-dark;			
 		line-height:105%;
 	}
 	
@@ -223,7 +224,7 @@
 	h2{
 		font-family:$secondary-stack;
 		margin:0 0 50px;
-		color:$primary-dark;			
+		color:$tertiary-dark;			
 		line-height:105%;
 	}
 }
@@ -270,6 +271,12 @@
 #dragon-issue044{
 	.header{
 		background:$tertiary-light url('../img/articles/dragon/044/cover.jpg') no-repeat;
+		background-size:cover;	
+	}	
+}
+#dragon-issue045{
+	.header{
+		background:$tertiary-light url('../img/articles/dragon/045/cover.jpg') no-repeat;
 		background-size:cover;	
 	}	
 }
