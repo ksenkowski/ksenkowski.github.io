@@ -664,6 +664,15 @@ theme: "primary"
 			<td>0</td>
 		</tr>
 		<tr>
+			<td>Fist</td>
+			<td>-</td>
+			<td>0</td>
+			<td>0</td>
+			<td>2</td>
+			<td>1</td>
+			<td>0</td>
+		</tr>
+		<tr>
 			<td>Hatchet</td>
 			<td>10d</td>
 			<td>5</td>

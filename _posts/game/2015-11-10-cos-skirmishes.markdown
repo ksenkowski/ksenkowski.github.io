@@ -175,7 +175,9 @@ theme: "primary"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
-		<p>When a unit suffers damage in a missile or melee attack consult the injury table below. Each time a character suffers a wound, they need to make a shock toss. A shock toss requires a unit to toss <em>Athletics</em> with a <em>Difficulty</em> equal to the total number of wounds a unit has suffered. If a unit fails a shock toss they become stunned. If they are already stunned, the are knocked down.</p>
+		<p>When a unit suffers damage in a missile or melee attack consult the injury table below. Each time a character suffers a wound, they need to make a shock toss. A shock toss requires a unit to toss <em>Athletics</em> with a <em>Difficulty</em> equal to the total number of wounds a unit has suffered.</p>
+		<p>If a unit fails a shock toss they become stunned or knocked down. Determine this by tossing a single rune stone. If a success they are stunned. If it is a failure they are knocked down.</p>
+		<p>When a unit is stunned or knocked down, they are particularly vulnerable. When they are struck in this state, they are knocked out of the fight entirely and add two wounds to their total.</p>
 		<table>
 			<caption>Injury Table</caption>
 			<thead>

@@ -148,6 +148,7 @@
 			border-left:2px solid $primary-dark;
 			border-right:2px solid $primary-dark;
 			border-top:2px solid $primary-dark;
+			margin-bottom:3%;
 			figcaption{
 				border-bottom:2px solid $primary-dark;
 				background:$primary-light;
@@ -178,6 +179,7 @@
 			border-left:2px solid $secondary-dark;
 			border-right:2px solid $secondary-dark;
 			border-top:2px solid $secondary-dark;
+			margin-bottom:3%;
 			figcaption{
 				border-bottom:2px solid $secondary-dark;
 				background:$secondary-light;
@@ -214,6 +216,7 @@
 			border-top:2px solid $tertiary-dark;
 			border-left:2px solid $tertiary-dark;
 			border-right:2px solid $tertiary-dark;
+			margin-bottom:3%;
 			figcaption{
 				border-bottom:2px solid $tertiary-dark;
 				background:$tertiary-light;
@@ -340,6 +343,19 @@
 		background-size:cover;	
 	}
 }
+#templates{
+	.header{
+		background:$primary-light url('../img/articles/core/templates.jpg') no-repeat;
+		background-size:cover;	
+	}
+}
+#something-new{
+	.header{
+		background:$tertiary-light url('../img/articles/adventure/it-begins/cover.jpg') no-repeat;
+		background-size:cover;	
+	}
+}
+
 /* ==========================================================================
    SOON TO BE REPLACED
    ========================================================================== */

@@ -122,7 +122,7 @@ theme: "primary"
 			<p>To spend a <em>Destiny</em>, a player simply picks up the token used to represent it, place it on the table, and introduce a <em>Descriptor</em>. More than one <em>Destiny</em> token can be spent at any given time and can be used to agument each other.</p>
 			<p>For example, when introducing a new character by declaring <em>Urik the Cup Knight is in the Inn before us</em> would cost two <em>Destiny Tokens</em>. In doing so the player has introduced a new character and placed that character in a location. If the player wanted to add them to their <em>Network</em>, they might spend another token to modify the Descriptors by saying <em>My friend, Urik the Cup Knight, is in the Inn before us.</em></p>
 			<h3>The Network</h3>
-			<p>A character's <em>Network</em> consists of friends, enemies, and business associates that they can be leveraged in their war with the <em>Conspiracy</em>. The more a character has, the more <em>Influence</em> they recover in play. However, the <em>GM</em> may spend a <em>Destiny Token</em> at any time to turn one of those character's into a pawn of the <em>Conspiracy</em>. When they do so, the character is removed from the <em>Network</em> and can be used by the GM as they please.</p>
+			<p>A character's <em>Network</em> consists of friends, enemies, and business associates that they can be leveraged in their war with the <em>Conspiracy</em>. The more a character has, the more <em>Influence</em> they recover in play. However, the <em>GM</em> use the <em>Sovereign</em> and their <em>Power</em> to turn one of those character's into a pawn of the <em>Conspiracy</em>. When they do so, the character is removed from the <em>Network</em> and can be used by the GM as they please.</p>
 			
 		</div>
 		<aside class="span-5 col">
@@ -180,6 +180,7 @@ theme: "primary"
 				<li><strong>Failures</strong> The number of face down <em>Runestones</em> in a toss.</li>
 				<li><strong>The Black Stone</strong> The one <em>Runestone</em> with no markings. When it appears in a toss, the <em>Player</em> is granted a <em>Destiny Token</em></li>
 				<li><strong>Twists</strong> A change in the narrative that adds a new obstacle to overcome. They can be immediate, like <em>an ambush</em>, or a more long term issue, like the <em>loss of a primary source of income</em>.</li>
+				<li><strong>Powers</strong> Powers are special abilities a character can use by spending their Destiny Tokens. These Powers are only available through <em>Templates</em>.</li>
 				<li><strong>Conditions</strong> Are an effect that applies to a specific set of circumstances for a specific set of time. They can provide an advantage or disadvantage and can be permanent or temporary. A temporary condition lasts a number of <em>Turns</em> equal to the margin of failure and the circumstances are based on the context of the situation as interpreted by the <em>GM</em>.</li>
 				<li><strong>Margin of Victory</strong> The value you get when subtracting the <em>Difficulty</em> or an opponenet's <em>Successes</em> from your own when you have won a toss.</li>
 				<li><strong>Margin of Failure</strong> The value you get when subtracting your successes from the Difficulty or an opponenet's <em>Successes</em> when you have lost a toss.</li>

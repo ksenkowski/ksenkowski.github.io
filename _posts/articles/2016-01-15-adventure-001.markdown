@@ -1,0 +1,128 @@
+---
+layout: article
+title:  "Something New"
+author: "Keith Senkowski"
+date:   2016-01-15
+category: article
+tag: "adventure san francisco cupertino sunnyvale apple relocation california technology"
+excerpt: "In relocating to Sunnyvale for six months without my family for work, I am taking on a new challenge and dramatically changing my life. Here it all begins."
+class: "something-new"
+theme: "tertiary"
+---
+<section class="header">
+	<div class="content">
+	<aside class="span-3 col empty"></aside>
+	<div class="span-6 col">
+		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
+		<h1>{{ page.title }}</h1>
+		<p>So I did it. I said yes after a month of wrangling and now I write this from a one bedroom apartment in <em>Sunnyvale California</em>. It still isn't real to me, feeling more like a business trip than a relocation. This going to take some getting used to.</p>
+		<p>Of course I don't just mean living across the country from my wife and kids. From my friends and family. The work itself is surreal in many respects because I can't talk about any of it. Not a bit. But I am getting ahead of myself.</p>
+	</div>
+	<aside class="span-3 col empty"></aside>	
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<h2>How We Got Here</h2>
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-5 col">
+			<p>So how did we get here (using the royal <em>we</em> sports fans)? Why am I out here? Well, in a word, <strong>opportunity</strong>. See, some time ago, my company won <strong>Apple</strong> as a client, and at the time I thought it was good to get the work of a high profile client, but that was all it was. I've worked for sexy brands before. I've been doing this a while and have seen how the sausage is made and in my mind, it really had no bearing on me.</p>
+			<p>Then in November, things took a twist, like they do in any story worth reading. Suddenly the question was asked, <em>Would you relocated to Sunnyvale California to lead the technology team out there for CM?</em> That shit was a thunderbolt. I mean, it's Apple, which despite my cynicism about <em>sexy clients</em> is exciting. More importantly though is the opportunity to shape how we do technology for the account, not as Sancho Panza, but as Don Quixote (which might not be the best analogy).</p>
+			<p>The questions of course were, <em>Do we uproot the family for 2 years and move to one of the most expensive places in the country with no community around us?</em> or <em>Do I go out alone for 6 months and try to do something?</em>. I won't go into the private details of how we got to the six month decision, but it was more stressful than it should have been. I can tell you that.</p>
+		</div>
+		<aside class="span-5 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/it-begins/coffee.jpg" alt="First Cup of Coffee"/>
+				<figcaption>After quickly making my way through security, I grabbed my first of many cups of coffee I would drink on this trip.</figcaption>
+			</figure>
+		</aside>	
+		<div class="span-1 col empty"></div>
+	</div>		
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<h2>Wait, What Do You Do?</h2>
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<aside class="span-5 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/it-begins/heavy.jpg" alt="Heavy Tag"/>
+				<figcaption>Packing for six months makes one big ass bag.</figcaption>
+			</figure>
+		</aside>
+		<div class="span-5 col">
+			<p>This question gets asked a lot, even from people I've known a long time, so I might as well get it out of the way. I'm a <strong>Technology Director</strong> at a user experience design agency called <a href="http://criticalmass.com" target="_blank">Critical Mass</a>. We make websites, apps, and tech that bridges the physical/digital divide for our clients. Think <strong>Mad Men</strong> but focused on positive user experience.</p>
+			<p>Personally I steer the ship from the technology side of things on the accounts I am responsible for (used to be a lot, now just Apple). I don't develop much for production these days, but I work to ensure that anything we dream up is possible, set the way in which we will achieve these technical marvels, and help my team get it done with the smallest amount of stress possible. I write decks and documentation, work with the client's tech leadership and tinker with technology more than I write code for production basically.</p>
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<h2>I Don't Care About You. What About Apple?!?</h2>
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-5 col">
+			<p>The first rule about working with Apple is you don't talk about working with Apple. It seems like a cute joke, but it isn't. They take their secrecy very, very seriously. It is the first thing you learn here, and despite my natural tendency towards transparency, I understand why. Mystery is how you capture the imagination, and I am all about that.</p>
+			<p>So don't ask me what I am doing. I can't say. I can talk in broad generalities, like I am working with Apple for my company, but that is about it. I can't say what I am working, how I am solving problems (or not), or what the new hotness is. I won't cross that line.</p>
+			<p>Ask me anything else though. I'm kinda bored.</p>
+		</div>
+		<aside class="span-5 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/it-begins/early-morning.jpg" alt="Early Morning"/>
+				<figcaption>Early morning flights are kind of lonely.</figcaption>
+			</figure>
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/it-begins/san-fran.jpg" alt="San Fran"/>
+				<figcaption>The San Francisco airport is not remotely close to Sunnyvale.</figcaption>
+			</figure>
+		</aside>	
+		<div class="span-1 col empty"></div>
+	</div>		
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<h2>How the Hell Are You Bored?!?!?</h2>
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-5 col">
+			<p>Ever start a new job? That first week or orientation is brutal. Lots of meetings on security, no projects on your plate, and just trying to get the lay of the land. I'm a pretty smart guy and grasp things quickly, so boredom sets in fast. I'm used to a much more hectic life.</p>
+			<p>Think about it. I have three kids and back in Chicago I had multiple accounts. Add to that a social life and actively working on art projects, you can imagine how a week with little going on in a new place with no kids could be pretty mind-numbing.</p>
+			<p>There is also California itself. The weather is mild and the people here have a certain lack of urgency in how they do things. It's jarring coming from Chicago, where things are hectic and the weather is often extreme. It's nice, but I couldn't ever live here forever.</p>
+			<p>Any way, my intention is to post a regular blog again. It has been years since I have done that, but I have the time in the evenings and I might as well make myself productive and document my little adventure. Until next time.</p>
+		</div>
+		<aside class="span-5 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/it-begins/apple-store.jpg" alt="Andrew, Joyce, Peter and Dan Entering the Apple Store"/>
+				<figcaption>We went to the Apple Store on campus at 1 Infinite Loop. It was like any other Apple Store.</figcaption>
+			</figure>
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/it-begins/ui-example.jpg" alt="Apple Watch Display"/>
+				<figcaption>The display for the Apple Watch is pretty clever, syncing with what you do when you play with the watch.</figcaption>
+			</figure>
+		</aside>	
+		<div class="span-1 col empty"></div>
+	</div>		
+</section>

@@ -24,7 +24,7 @@ theme: "primary"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
-		<p>When starting <em>Conspiracy of Shadows</em>, the game always begins <em>in media res</em> with the characters fleeing enemies on their way towards their destination. The destination could be any of the points on the map and even move as play goes on. The important thing is that they do have a destination and a purpose that when reached will lead to a conclusion. Defining that destination and purpose is either done by the <em>Preamble</em> (a book providing a situation and characters to get you started) you are using or by the <em>GM</em>.</p>
+		<p>When starting <em>Conspiracy of Shadows</em>, the game always begins <em>in media res</em> with the characters fleeing enemies on their way towards their destination. The destination could be any of the points on the map and even move as play goes on. The important thing is that they do have a destination and a purpose that when reached will lead to a conclusion. Defining that destination and purpose is either done by the <strong>Preamble</strong> (a book providing a situation and characters to get you started) you are using or by the <strong>GM</strong>.</p>
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
@@ -40,8 +40,8 @@ theme: "primary"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
-		<p>Taking on the role of the <em>Game Master</em> is taking on the lionshare of the responsibility in the game. The <em>GM</em> guides the flow of play, inhabits the roll of allies, enemies and everyone inbetween as well as arbitrates the rules. They lead the way through vivid descriptions of the environment and the <em>NPC</em> reactions to the <em>Cell's</em> actions.</p>
-		<p>Think of the <em>GM</em> as a person leading a conversation and setting the tone of play through the Socratic method. The players will ask questions like, <em>Can Rodrigo jump to the next building?</em> or <em>Where did that bastard sneak off to?</em> It is your job to ask back, <em>How is your character trying to make that leap?</em> or <em>Where are you looking for him?</em> You continue back and forth in this manner until you get to a point of conflict where dice are rolled.</p>
+		<p>Taking on the role of the <strong>Game Master</strong> is taking on the lionshare of the responsibility in the game. The <strong>GM</strong> guides the flow of play, inhabits the roll of allies, enemies and everyone inbetween as well as arbitrates the rules. They lead the way through vivid descriptions of the environment and the <strong>>NPC</strong> reactions to the <strong>Cell's</strong> actions.</p>
+		<p>Think of the <strong>GM</strong> as a person leading a conversation and setting the tone of play through the Socratic method. The players will ask questions like, <em>Can Rodrigo jump to the next building?</em> or <em>Where did that bastard sneak off to?</em> It is your job to ask back, <em>How is your character trying to make that leap?</em> or <em>Where are you looking for him?</em> You continue back and forth in this manner until you get to a point of conflict where dice are rolled.</p>
 		<p>The only effective way of making this conversation fruitful is to build atmosphere, mood and tone. Utilize small concise details to solidfy imagery in the minds of eveyrone at the table. Leverage all the senses in your descriptions and your game will come to life.</p>		
 	</div>
 	<div class="span-3 col empty"></div>	
@@ -58,9 +58,11 @@ theme: "primary"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
-		<p></p>
-		<p></p>
-		<p></p>		
+		<p>While the players construct the <strong>Cell</strong>, the <strong>GM</strong> must either create a conspiracy for them to strive against or used one provided in a <strong>Preamble</strong>. If you are creating a conspiracy from scratch, use the following steps to create your own.</p>
+		<h3>The Court of Shadows</h3>
+		<p>The <strong>Court of Shadows</strong> is heart of the sinister organization the <strong>Cell</strong> with strive against. They are the villians of the story. To construct these villians, the <strong>GM</strong> creates four characters using the same <strong>Friends &amp; Foes</strong> rules as the players. The four characters they create are the <strong>Sovereign</strong>, the <strong>Savior</strong>, the <strong>Pawn</strong> and the <strong>Purifier</strong>. These four initial characters are the foundation of the <strong>Conspiracy</strong>.</p>
+		<h3>Sinister Agendas</h3>
+		<p>The next	
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
@@ -76,8 +78,8 @@ theme: "primary"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
-		<p><em>Conspiracy of Shadows</em> is more about the journey of the <em>Cell</em> than the final confrontation at the end of the game. The travel from their starting point to their ultimate destination is both what helps shape the narrative of their story as well as what mechanically breaks up time in the game.</p>
-		<p>Each leg of the journey of the <em>Cell</em> is broken into distinct segments which are always initiated by the players, broken up in the following way</p>		
+		<p><em>Conspiracy of Shadows</em> is more about the journey of the <strong>Cell</strong> than the final confrontation at the end of the game. The travel from their starting point to their ultimate destination is both what helps shape the narrative of their story as well as what mechanically breaks up time in the game.</p>
+		<p>Each leg of the journey of the <strong>Cell</strong> is broken into distinct segments which are always initiated by the players, broken up in the following way</p>		
 		<ol class="spaced-list">
 			<li><strong>Set Destination and Route</strong><br/><small>The Cell chooses a destination and outlines to the Game Master the route they will take to that destination. The Game Master decides based on the distance and terrain if the proposed leg of the journey needs to be broken up into multiple legs.</small></li>
 			<li><strong>Measure Distance</strong><br/><small>Using the hex map, count the number of hexes along the route the players have defined. Each hex represents 20 miles. Each hex in the journey marks the number of Challenges the Cell will have to make.</small></li>
@@ -184,7 +186,7 @@ theme: "primary"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
-		<p><em>Arcs</em> are a series of events that occur at a single location on the <em>Journey Map</em> that explore a central idea. Each <em>Arc</em> is constructed by combining a location, a conflict and the <em>Conspiracy</em>. This is done by either tossing rune stones and using the results to map out the situation with the following tables or by taking your favorite adventure, using one from a <em>Preamble</em>, or <em>one page dungeon</em> and retrofitting it to the game. </p>
+		<p><em>Arcs</em> are a series of events that occur at a single location on the <strong>Journey Map</strong> that explore a central idea. Each <strong>Arc</strong> is constructed by combining a location, a conflict and the <strong>Conspiracy</strong>. This is done by either tossing rune stones and using the results to map out the situation with the following tables or by taking your favorite adventure, using one from a <strong>Preamble</strong>, or <a href="http://www.onepagedungeon.info/" target="_blank">one page dungeon</a> and retrofitting it to the game. </p>
 		<ol class="spaced-list">
 			<li><strong>Determine Location Type</strong><br/><small>There are two types of locations, Urban and Rural. Urban locations are either towns (1,000 to 10,000 residents) or cities (10,000 to a milion people). Rural locations are centered villages, manors, ruins or fortresses. The type is determined by where the Cell ends up on any particular leg of the journey.</small></li>
 			<li><strong>Make The Map</strong><br/>
