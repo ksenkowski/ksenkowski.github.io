@@ -1,19 +1,19 @@
 ---
 layout: article
-title:  "Templates"
+title:  "Archetypes"
 author: "Keith Senkowski"
 date:   2015-11-09 
 category: game
-tag: "role playing game rpg mechanics rules conspiracy of shadows core basics rules templates futhark"
+tag: "role playing game rpg mechanics rules conspiracy of shadows core basics rules archetypes futhark"
 excerpt: "Cultures and the Vocations tied to those cultures are the first half of creating a friend or foe in Conspiracy of Shadows. Here you will find samples to use in play for the Alfar, Constructs, Humanity, and Skalfar."
-class: "templates"
+class: "archetypes"
 theme: "primary"
 ---
 <section class="header">
 	<div class="content">
 	<aside class="span-3 col empty"></aside>
 	<div class="span-6 col">
-		<h1>templates</h1>
+		<h1>archetypes</h1>
 		<p>Before we do any-thing, let me tell you this. It is out of the lore and experience of the ancients and of all those who have studied the powers of the UnDead. When they become such, there comes with the change the curse of immortality. They cannot die, but must go on age after age adding new victims and multiply-ing the evils of the world. For all that die from the preying of the Undead become themselves Undead, and prey on their kind. And so the circle goes on ever widening, like as the ripples from a stone thrown in the water... But of the most blessed of all, when this now UnDead be made to rest as true dead, then the soul of the poor lady whom we love shall again be free. Instead of working wickedness by night and growing more debased in the assimilating of it by day, she shall take her place with the other Angels. So that, my friend, it will be a blessed hand for her that shall strike the blow that sets her free.</p>
 		<p class="text-right"><em>~ Dracula</em></p>
 	</div>
@@ -24,7 +24,7 @@ theme: "primary"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
-			<p><strong>Templates</strong> are a set of <strong>Conditions</strong> and <strong>Powers</strong> that you apply to a character to either make them unique or transform them into another type of creature. Some <strong>Templates</strong> are themematic, reflecting a world view that drives the character. Other <strong>Templates</strong> reflect a physical state of being, transforming the mundane into the supernatural.</p>
+			<p><strong>Archetypes</strong> are a set of <strong>Conditions</strong> and <strong>Powers</strong> that you apply to a character to either make them unique or transform them into another type of creature. Some <strong>Archetypes</strong> are themematic, reflecting a world view that drives the character. Other <strong>Archetypes</strong> reflect a physical state of being, transforming the mundane into the supernatural.</p>
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
@@ -40,7 +40,7 @@ theme: "primary"
 	<div class="content">
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
-				<p>he Avenger is a character who has been horribly wronged by someone acting on the behalf of the Conspiracy. The character may have been beaten, raped and left for dead, seen their parents murdered before their eyes at a young age, witnessed their spouse slaughtered in a gruesome fashion or any of a myriad of other horrific experiences. Instead of succumbing to the despair of survivor's guilt, they have nurtured their emotions into a weapon to motivate their every action.</p>
+				<p>The Avenger is a character who has been horribly wronged by someone acting on the behalf of the Conspiracy. The character may have been beaten, raped and left for dead, seen their parents murdered before their eyes at a young age, witnessed their spouse slaughtered in a gruesome fashion or any of a myriad of other horrific experiences. Instead of succumbing to the despair of survivor's guilt, they have nurtured their emotions into a weapon to motivate their every action.</p>
 				<h5>Conditions</h5>
 				<ul class="spaced-list unstyled">
 					<li><strong>Name:</strong> Description</li>
@@ -284,7 +284,7 @@ theme: "primary"
 				</ul>
 				<h5>Powers</h5>
 				<ul class="spaced-list unstyled">
-					<li><strong>Geas:</strong> After they murder someone, they may spend a Destiny to bind their soul to a task of their choosing. Apply the Ghost template to their victim.</li>
+					<li><strong>Geas:</strong> After they murder someone, they may spend a Destiny to bind their soul to a task of their choosing. Apply the Ghost archetype to their victim.</li>
 					<li><strong>Symbiosis:</strong> When the Destroyer inflicts a wound, spend a Destiny to add five Willpower to your Willpower Pool.</li>
 					<li><strong>Bring Forth the Destroyer:</strong> If there is no Destroyer currently in play, they may spend a Desinty to transform a Pawn into the Destroyer.</li>
 				</ul>

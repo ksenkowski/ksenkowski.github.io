@@ -209,7 +209,7 @@
 		}
 		p, ul, ol{
 			em, strong{
-				color:$tertiary-color;			
+				color:$tertiary-light;			
 			}			
 		}
 		figure{
@@ -352,6 +352,12 @@
 #something-new{
 	.header{
 		background:$tertiary-light url('../img/articles/adventure/it-begins/cover.jpg') no-repeat;
+		background-size:cover;	
+	}
+}
+#blood-opera{
+	.header{
+		background:$tertiary-light url('../img/articles/blood-opera/cover.jpg') no-repeat;
 		background-size:cover;	
 	}
 }
