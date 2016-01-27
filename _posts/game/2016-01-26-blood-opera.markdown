@@ -5,7 +5,7 @@ author: "Keith Senkowski"
 date:   2016-01-26 
 category: game
 tag: "role playing game rpg mechanics rules conspiracy of shadows core basics rules traits talents futhark"
-excerpt: "Traits and Talents are a core aspect of play in Conspiracy of Shadows. They provide the building blocks for bringing your characters to life."
+excerpt: "Blood Opera is a narrative role-playing game that combines the tarot card deck I created with the rules of Euchre."
 class: "blood-opera"
 theme: "tertiary"
 ---
