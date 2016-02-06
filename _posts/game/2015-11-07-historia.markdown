@@ -1,0 +1,288 @@
+---
+layout: article
+title:  "Historia"
+author: "Keith Senkowski"
+date:   2015-11-07 
+category: game
+tag: "role playing game rpg mechanics rules conspiracy of shadows core wyrding"
+excerpt: "The Wyrd is the way in which individuals tap into supernatural powers to change the world around them."
+class: "futhark"
+theme: "primary"
+image: "background-image:url('../img/articles/core/wyrding.jpg');"
+---
+<section class="header" style="{{page.image}}">
+	<div class="content">
+	<aside class="span-3 col empty"></aside>
+	<div class="span-6 col">
+		<h1>historia</h1>
+		<p>Damn it, Bones, you're a doctor. You know that pain and guilt can't be taken away with a wave of a magic wand. They're the things we carry with us, the things that make us who we are. If we lose them, we lose ourselves. I don't want my pain taken away! I need my pain!</p>
+		<p class="text-right"><em>~ William Shatner</em></p>
+	</div>
+	<aside class="span-3 col empty"></aside>	
+	</div>
+</section>
+<section class="continued">
+	<div class="content">
+	<aside class="span-3 col empty"></aside>
+	<div class="span-6 col">
+		<p>The Historia is the way in which you further define out your character by the use of some random charts. Before doing this you must first decide how old your character is as this deterimes how many times you toss against the Life Events Table. For each full decade of life, you toss once to determine a defining moment in your character's life.</p>
+	</div>
+	<aside class="span-3 col empty"></aside>	
+	</div>
+		<div class="divider"></div>	
+</section>
+<section class="continued">
+	<div class="content">
+	<div class="span-3 col empty"></div>
+	<div class="span-6 col">
+		<p>Toss 24 rune stones and compare against the following table. Toss once for each decade of life your character has had. Then toss on each of the respective tables.</p>		
+		<table>
+			<caption>Life Events Table</caption>
+			<thead>
+				<tr>
+					<th># of Successes</th>
+					<th>Event Type</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1 - 4</td>
+					<td>Minor Ill Fortune</td>
+				</tr>
+				<tr>
+					<td>5 - 8</td>
+					<td>Minor Good Fortune</td>
+				</tr>
+				<tr>
+					<td>9 - 12</td>
+					<td>Major Ill Fortune</td>
+				</tr>
+				<tr>
+					<td>13 - 18</td>
+					<td>Major Good Fortune</td>
+				</tr>
+				<tr>
+					<td>19 - 23</td>
+					<td>Romance</td>
+				</tr>
+				<tr>
+					<td>24</td>
+					<td>A Grand Adventure</td>
+				</tr>
+			</tbody>
+		</table>
+		<table>
+			<caption>Minor Ill Fortune Table</caption>
+			<thead>
+				<tr>
+					<th># of Successes</th>
+					<th>Event Type</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1 - 4</td>
+					<td>Financial Hardship</td>
+				</tr>
+				<tr>
+					<td>5 - 8</td>
+					<td>Victim</td>
+				</tr>
+				<tr>
+					<td>9 - 12</td>
+					<td>Illness</td>
+				</tr>
+				<tr>
+					<td>13 - 18</td>
+					<td>Injury</td>
+				</tr>
+				<tr>
+					<td>19 - 23</td>
+					<td>Loss</td>
+				</tr>
+				<tr>
+					<td>24</td>
+					<td>Misunderstanding</td>
+				</tr>
+			</tbody>
+		</table>
+		<table>
+			<caption>Minor Good Fortune Table</caption>
+			<thead>
+				<tr>
+					<th># of Successes</th>
+					<th>Event Type</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1 - 4</td>
+					<td>Small Windfall</td>
+				</tr>
+				<tr>
+					<td>5 - 8</td>
+					<td>Merchant</td>
+				</tr>
+				<tr>
+					<td>9 - 12</td>
+					<td>Criminal</td>
+				</tr>
+				<tr>
+					<td>13 - 18</td>
+					<td>Teacher</td>
+				</tr>
+				<tr>
+					<td>19 - 23</td>
+					<td>Favor</td>
+				</tr>
+				<tr>
+					<td>24</td>
+					<td>Occupation</td>
+				</tr>
+			</tbody>
+		</table>
+		<table>
+			<caption>Major Ill Fortune Table</caption>
+			<thead>
+				<tr>
+					<th># of Successes</th>
+					<th>Event Type</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1 - 4</td>
+					<td>Bankrupcy</td>
+				</tr>
+				<tr>
+					<td>5 - 8</td>
+					<td>Addiction</td>
+				</tr>
+				<tr>
+					<td>9 - 12</td>
+					<td>Prison</td>
+				</tr>
+				<tr>
+					<td>13 - 18</td>
+					<td>Loss</td>
+				</tr>
+				<tr>
+					<td>19 - 23</td>
+					<td>Betrayal</td>
+				</tr>
+				<tr>
+					<td>24</td>
+					<td>Ostrasized</td>
+				</tr>
+			</tbody>
+		</table>
+		<table>
+			<caption>Major Good Fortune Table</caption>
+			<thead>
+				<tr>
+					<th># of Successes</th>
+					<th>Event Type</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1 - 4</td>
+					<td>Major Windfall</td>
+				</tr>
+				<tr>
+					<td>5 - 8</td>
+					<td>Mentor</td>
+				</tr>
+				<tr>
+					<td>9 - 12</td>
+					<td>Companion</td>
+				</tr>
+				<tr>
+					<td>13 - 18</td>
+					<td>Noble</td>
+				</tr>
+				<tr>
+					<td>19 - 23</td>
+					<td>Church</td>
+				</tr>
+				<tr>
+					<td>24</td>
+					<td>Reputation</td>
+				</tr>
+			</tbody>
+		</table>
+		<table>
+			<caption>Romance Table</caption>
+			<thead>
+				<tr>
+					<th># of Successes</th>
+					<th>Event Type</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1 - 4</td>
+					<td>Quiet Affair</td>
+				</tr>
+				<tr>
+					<td>5 - 8</td>
+					<td>Love Triangle</td>
+				</tr>
+				<tr>
+					<td>9 - 12</td>
+					<td>Enduring Romance</td>
+				</tr>
+				<tr>
+					<td>13 - 18</td>
+					<td>Children</td>
+				</tr>
+				<tr>
+					<td>19 - 23</td>
+					<td>Loss</td>
+				</tr>
+				<tr>
+					<td>24</td>
+					<td>Tragic Affair</td>
+				</tr>
+			</tbody>
+		</table>
+		<table>
+			<caption>A Grand Adventure Table</caption>
+			<thead>
+				<tr>
+					<th># of Successes</th>
+					<th>Event Type</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1 - 4</td>
+					<td>War</td>
+				</tr>
+				<tr>
+					<td>5 - 8</td>
+					<td>Travel</td>
+				</tr>
+				<tr>
+					<td>9 - 12</td>
+					<td>Outlaw</td>
+				</tr>
+				<tr>
+					<td>13 - 18</td>
+					<td>Blood Feud</td>
+				</tr>
+				<tr>
+					<td>19 - 23</td>
+					<td>Discovery</td>
+				</tr>
+				<tr>
+					<td>24</td>
+					<td>Supernatural</td>
+				</tr>
+			</tbody>
+		</table>
+		
+	</div>
+	<div class="span-3 col empty"></div>	
+	</div>
+</section>

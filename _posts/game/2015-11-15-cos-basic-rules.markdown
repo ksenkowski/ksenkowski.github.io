@@ -8,8 +8,9 @@ tag: "role playing game rpg mechanics rules conspiracy of shadows core basics ru
 excerpt: "An introduction to the basic rules of the Conspiracy of Shadows RPG. In this article I outline what the game is about, the mechanics, and the structure of play."
 class: "core-rules"
 theme: "primary"
+image: "background-image:url('../img/articles/core/cover.jpg');"
 ---
-<section class="header">
+<section class="header" style="{{page.image}}">
 	<div class="content">
 	<aside class="span-3 col empty"></aside>
 	<div class="span-6 col">
@@ -118,9 +119,7 @@ theme: "primary"
 			<h3>Twists &amp; Conditions</h3>
 			<p>When a player fails the toss, the <em>GM</em> has two options they can pursue. They can either deny the character what they want (boring), give the character what they want and assign them a <em>Condition</em> or give the character what they want and add a <em>Twist</em> to their plan.</p>
 			<h3>Destiny</h3>
-			<p><em>Destiny</em> is a limited resource used by players to influence the direction of the game. A pool of 24 <em>Destiny Tokens</em> are placed in the middle of the table. When a player makes a toss that results with the <em>Black Stone</em>, they take a token from the pool, which they may now spend at any time.</p>
-			<p>To spend a <em>Destiny</em>, a player simply picks up the token used to represent it, place it on the table, and introduce a <em>Descriptor</em>. More than one <em>Destiny</em> token can be spent at any given time and can be used to agument each other.</p>
-			<p>For example, when introducing a new character by declaring <em>Urik the Cup Knight is in the Inn before us</em> would cost two <em>Destiny Tokens</em>. In doing so the player has introduced a new character and placed that character in a location. If the player wanted to add them to their <em>Network</em>, they might spend another token to modify the Descriptors by saying <em>My friend, Urik the Cup Knight, is in the Inn before us.</em></p>
+			<p><em>Destiny</em> is a limited resource used by players to influence the direction of the game through their Archetype powers. A pool of 24 <em>Destiny Tokens</em> are placed in the middle of the table. When a player makes a toss that results with the <em>Black Stone</em>, they take a token from the pool, which they may now spend as their power's dictate.</p>
 			<h3>The Network</h3>
 			<p>A character's <em>Network</em> consists of friends, enemies, and business associates that they can be leveraged in their war with the <em>Conspiracy</em>. The more a character has, the more <em>Influence</em> they recover in play. However, the <em>GM</em> use the <em>Sovereign</em> and their <em>Power</em> to turn one of those character's into a pawn of the <em>Conspiracy</em>. When they do so, the character is removed from the <em>Network</em> and can be used by the GM as they please.</p>
 			

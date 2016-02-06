@@ -7,8 +7,9 @@ tag: "css line height leading photoshop typography"
 excerpt: "No Zepplin here. Today we unravel converting Photoshop's leading attribute and how it relates to line height."
 class: "CSS"
 theme: "tertiary"
+image: "url('../img/musings/css.jpg');"
 ---
-<section class="header">
+<section class="header" style="{{page.image}}">
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">

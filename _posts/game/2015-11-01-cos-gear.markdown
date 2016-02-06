@@ -8,8 +8,9 @@ tag: "role playing game rpg mechanics rules conspiracy of shadows core basics ru
 excerpt: "A lot of games have moved away from the importance of the gear a character has on them. I've never been one to buy into that idea. I see gear as another tool to help define who your character is."
 class: "gear"
 theme: "primary"
+image: "background-image:url('../img/articles/core/gear.jpg');"
 ---
-<section class="header">
+<section class="header" style="{{page.image}}">
 	<div class="content">
 	<aside class="span-3 col empty"></aside>
 	<div class="span-6 col">
@@ -876,7 +877,7 @@ theme: "primary"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
-		<p>In <em>Conspiracy of Shadows</em>, <em>Loot</em> is the genearic term used to describe anything of value that characters can get out of a <em>Challenge</em> or <em>Skirmish</em>. It isn't just tangible objects like gear or artifacts, but can easily be knowlege about the <em>Cell's</em> enemies, having the powerful owe you a favor, or even a new ally.</p>
+		<p>In <em>Conspiracy of Shadows</em>, <em>Loot</em> is the generic term used to describe anything of value that characters can get out of a <em>Challenge</em> or <em>Skirmish</em>. It isn't just tangible objects like gear or artifacts, but can easily be knowlege about the <em>Cell's</em> enemies, having the powerful owe you a favor, or even a new ally.</p>
 		<p>Typically, <em>Loot</em> is something planned by the <em>GM</em> as the reward or <em>Twist</em> the character's receive at the end of an encounter. However, it can be just as fun to embrace a random toss of the rune stones. When doing so, compare your toss against the <em>Loot Type Table</em> then use that result to toss against the appropriate follow up table.</p>
 		<table>
 			<caption>Loot Type Table</caption>
@@ -1250,7 +1251,7 @@ theme: "primary"
 		</tbody>
 	</table>
 	<h3>Artifacts</h3>
-	<p>Artifacts are created using the rules found in the Book of Wyrds. Once you generate the Artifact with those rules, toss 24 rune stones twice and consult the <em>Artifact Details Table</em>.</p>
+	<p>Artifacts are created using the Artifact Ritual. Once you generate the Artifact with those rules, toss 24 rune stones twice and consult the <em>Artifact Details Table</em>.</p>
 	<table class="table-scroll">
 		<caption>Artifact Details Table</caption>
 		<thead>

@@ -10,6 +10,12 @@
 	background-size:100% 100%;
 	@include clearfix;	
 }
+.primary, .secondary, .tertiary{
+	.header{
+		background-repeat:no-repeat;
+		background-size:cover;			
+	}
+}
 .single{
 	.header{
 		padding:4% 2% 2%;
@@ -97,6 +103,9 @@
    PRIMARY COLOR SCHEME
    ========================================================================== */
 .primary{
+	.header{
+		background-color:$primary-light;
+	}
 	.review, .continued{
 		padding:4% 2% 2%;
 		table{
@@ -162,6 +171,9 @@
    SECONDARY COLOR SCHEME
    ========================================================================== */
 .secondary{
+	.header{
+		background-color:$secondary-light;
+	}
 	.review{
 		padding:4% 2% 2%;
 		code{
@@ -199,6 +211,9 @@
    TERTIARY COLOR SCHEME
    ========================================================================== */
 .tertiary{
+	.header{
+		background-color:$tertiary-light;
+	}
 	.code, .review{
 		padding:4% 2% 2%;
 		code{
@@ -233,73 +248,9 @@
 }
 
 /* ==========================================================================
-   ARTICLES AND MUSINGS HEADERS
+   ARTICLES SPECIFIC STYLES
    ========================================================================== */
-#futhark{
-	.header{
-		background:$primary-light url('../img/articles/futhark.jpg') no-repeat;
-		background-size:cover;	
-	}
-}
-#best-enemies{
-	.header{
-		background:$tertiary-light url('../img/musings/best-of-enemies.jpg') no-repeat;
-		background-size:cover;	
-	}
-}
-#CSS{
-	.header{
-		background:$tertiary-light url('../img/musings/css.jpg') no-repeat;
-		background-size:cover;	
-	}
-}
-#generic-games{
-	.header{
-		background:$primary-light url('../img/articles/dragon/generic.jpg') no-repeat;
-		background-size:cover;	
-	}
-}
-#dragon-year-one{
-	.header{
-		background:$secondary-light url('../img/articles/dragon/year-one/cover.jpg') no-repeat;
-		background-size:cover;	
-	}
-}
-#dragon-issue007{
-	.header{
-		background:$primary-light url('../img/articles/dragon/007/cover.jpg') no-repeat;
-		background-size:cover;	
-	}	
-}
-#dragon-issue008{
-	.header{
-		background:$tertiary-light url('../img/articles/dragon/008/cover.jpg') no-repeat;
-		background-size:cover;	
-	}	
-}
-#dragon-issue044{
-	.header{
-		background:$tertiary-light url('../img/articles/dragon/044/cover.jpg') no-repeat;
-		background-size:cover;	
-	}	
-}
-#dragon-issue045{
-	.header{
-		background:$tertiary-light url('../img/articles/dragon/045/cover.jpg') no-repeat;
-		background-size:cover;	
-	}	
-}
-#core-rules{
-	.header{
-		background:$primary-light url('../img/articles/core/cover.jpg') no-repeat;
-		background-size:cover;	
-	}		
-}
 #traits-talents{
-	.header{
-		background:$primary-light url('../img/articles/core/traits-talents.jpg') no-repeat;
-		background-size:cover;	
-	}
 	ul{
 		margin-bottom:em(40px);
 		.futhark{
@@ -307,17 +258,7 @@
 		}
 	}
 }
-#gear{
-	.header{
-		background:$primary-light url('../img/articles/core/gear.jpg') no-repeat;
-		background-size:cover;	
-	}
-}
-#playing-the-game{
-	.header{
-		background:$primary-light url('../img/articles/core/playing-game.jpg') no-repeat;
-		background-size:cover;	
-	}
+#playing-the-game, #running-the-game{
 	ul{
 		margin-bottom:em(40px);
 	}
@@ -325,49 +266,6 @@
 		font-size:em(40px);
 	}	
 }
-#running-the-game{
-	.header{
-		background:$primary-light url('../img/articles/core/running-game.jpg') no-repeat;
-		background-size:cover;	
-	}
-	ul{
-		margin-bottom:em(40px);
-	}
-	.futhark{
-		font-size:em(40px);
-	}	
-}
-#skirmishes{
-	.header{
-		background:$primary-light url('../img/articles/core/skirmishes.jpg') no-repeat;
-		background-size:cover;	
-	}
-}
-#culture{
-	.header{
-		background:$primary-light url('../img/articles/core/culture.jpg') no-repeat;
-		background-size:cover;	
-	}
-}
-#templates{
-	.header{
-		background:$primary-light url('../img/articles/core/templates.jpg') no-repeat;
-		background-size:cover;	
-	}
-}
-#something-new{
-	.header{
-		background:$tertiary-light url('../img/articles/adventure/it-begins/cover.jpg') no-repeat;
-		background-size:cover;	
-	}
-}
-#blood-opera{
-	.header{
-		background:$tertiary-light url('../img/articles/blood-opera/cover.jpg') no-repeat;
-		background-size:cover;	
-	}
-}
-
 /* ==========================================================================
    SOON TO BE REPLACED
    ========================================================================== */

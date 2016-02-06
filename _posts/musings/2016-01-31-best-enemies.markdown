@@ -7,8 +7,10 @@ tag: "william buckley gore vidal documentary"
 excerpt: "This movie highlights a moment in time that it could be argued changed the very nature of how we engage in politics in the United States."
 class: "best-enemies"
 theme: "tertiary"
+image: "background-image:url('../img/musings/best-of-enemies.jpg');"
 ---
-<section class="header">
+<section class="header" style="{{page.image}}"image: "background-image:url('../img/articles/futhark.jpg');"
+>
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">

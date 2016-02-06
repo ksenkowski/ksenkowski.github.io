@@ -8,8 +8,9 @@ tag: "role playing game rpg mechanics rules conspiracy of shadows core basics ru
 excerpt: "Running a game of Conspiracy of Shadows is both similar to and different than many role-playing games. It embraces the randomness of OSR games within the confines of procedures familiar to board game enthusiasts."
 class: "running-the-game"
 theme: "primary"
+image: "background-image:url('../img/articles/core/running-game.jpg');"
 ---
-<section class="header">
+<section class="header" style="{{page.image}}">
 	<div class="content">
 	<aside class="span-3 col empty"></aside>
 	<div class="span-6 col">
@@ -62,7 +63,7 @@ theme: "primary"
 		<h3>The Court of Shadows</h3>
 		<p>The <strong>Court of Shadows</strong> is heart of the sinister organization the <strong>Cell</strong> with strive against. They are the villians of the story. To construct these villians, the <strong>GM</strong> creates four characters using the same <strong>Friends &amp; Foes</strong> rules as the players. The four characters they create are the <strong>Sovereign</strong>, the <strong>Savior</strong>, the <strong>Pawn</strong> and the <strong>Purifier</strong>. These four initial characters are the foundation of the <strong>Conspiracy</strong>.</p>
 		<h3>Sinister Agendas</h3>
-		<p>The next	
+		<p>The next	</p>
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
@@ -549,261 +550,271 @@ theme: "primary"
 	<div class="span-6 col">
 		<p>Rural locations are any region outside the urban areas. Around 90% of the population lives in rural locations, making them the most common location type. It is for that reason it is important to make each area in a location unique by instilling it descriptive details.</p>
 		<p>With each result on the table below you can choose between two options when populating your location.</p>
-		<table class="table-scroll">
-			<caption>Rural Locations Table</caption>
-			<thead>
-				<tr>
-					<th>Toss</th>
-					<th class="twenty">Option One</th>
-					<th class="twenty">Option Two </th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td><span class="futhark">J</span> Astrild Face Down</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Sawmill</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">J</span> Astrild Face Up</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Smithy</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">A</span> Atridr Face Up</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Woodcrafter</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">A</span> Atridr Face Down</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Salter</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">L</span> Avling Face Down</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Tanner</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">L</span> Avling Face Up</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Timberwright</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">M</span> Beli Face Down</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Shipwright</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">M</span> Beli Face Up</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Inn or Tavern</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">Y</span> Bragi Face Down</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Chapel or Shrine</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">Y</span> Bragi Face Up</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Manor or Monastery</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">K</span> Cheru Face Up</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Fortress</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">K</span> Cheru Face Down</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Pond, Oasis or Lake</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">V</span> Dod Face Up</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Alfar, Skarian, Jinn or Jutun Ruins</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">V</span> Dod Face Down</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>River or Stream Source</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">B</span> Fiollnir Face Down</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Masoleum</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">B</span> Fiollnir Face Up</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Notable Woods or Rock Formation</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">S</span> Fiolsvid Face Down</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Cemetary</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">S</span> Fiolsvid Face Up</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Notable Swamp, Marsh or Sand Dunes</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">Q</span> Fiorgyn Face Up</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Mortal Ruins</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">Q</span> Fiorgyn Face Down</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Crossroads</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">I</span> Glede Face Down</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Commons or Green</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">I</span> Glede Face Up</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Docks or Charcoaler Camp</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">Z</span> Mot Face Down</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Halted Caravan</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">Z</span> Mot Face Up</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Ancient Battlefield</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">O</span> Modi Face Down</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Hermit's Hovel</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">O</span> Modi Face Up</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Natural Caves or Caverns</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">R</span> Reise Face Up</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Sacred Grove</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">R</span> Reise Face Down</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Ancient Wall</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">U</span> Rikdom Face Up</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Herd Pen</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">U</span> Rikdom Face Down</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Well or Fountain</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">P</span> Sannhet Face Down</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Campsite</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">P</span> Sannhet Face Up</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Notable Hill</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">D</span> Skadi Face Down</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Shipwreck or Burnt Ruin</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">D</span> Skadi Face Up</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Ancient Tower</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">X</span> Smerte Face Up</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Drover Camp</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">X</span> Smerte Face Down</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Hidden Cove or Hideaway</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">E</span> Trenger Face Up</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Hunting Lodge</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">E</span> Trenger Face Down</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Invaders Campsite</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">W</span> Uthold Face Up</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Mine</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">W</span> Uthold Face Down</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Abandoned House</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">F</span> Vajir Face Up</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Vineyard or Orchard</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">F</span> Vajir Face Down</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Barrens</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">N</span> Velded Face Down</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Wild Herd</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">N</span> Velded Face Up</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Ancient Barrow</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">T</span> Vijir Face Down</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Predator's Den</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">T</span> Vijir Face Up</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>A Large Crater</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">H</span> Vojin Face Down</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Caravansary</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">H</span> Vojin Face Up</td>
-					<td>Farmhouse, Yurt or Fisherman's Cottage</td>
-					<td>Strange Rock Formation</td>
-				</tr>
-			</tbody>
-		</table>
 				
 	</div>
 	<div class="span-3 col empty"></div>	
+	</div>
+</section>
+<section class="continued">
+	<div class="content">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<table class="table-scroll">
+				<caption>Rural Locations Table</caption>
+				<thead>
+					<tr>
+						<th>Toss</th>
+						<th class="twenty">Option One</th>
+						<th class="twenty">Option Two </th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><span class="futhark">J</span> Astrild Face Down</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Sawmill</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">J</span> Astrild Face Up</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Smithy</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">A</span> Atridr Face Up</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Woodcrafter</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">A</span> Atridr Face Down</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Salter</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">L</span> Avling Face Down</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Tanner</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">L</span> Avling Face Up</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Timberwright</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">M</span> Beli Face Down</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Shipwright</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">M</span> Beli Face Up</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Inn or Tavern</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">Y</span> Bragi Face Down</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Chapel or Shrine</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">Y</span> Bragi Face Up</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Manor or Monastery</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">K</span> Cheru Face Up</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Fortress</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">K</span> Cheru Face Down</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Pond, Oasis or Lake</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">V</span> Dod Face Up</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Alfar, Skarian, Jinn or Jutun Ruins</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">V</span> Dod Face Down</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>River or Stream Source</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">B</span> Fiollnir Face Down</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Masoleum</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">B</span> Fiollnir Face Up</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Notable Woods or Rock Formation</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">S</span> Fiolsvid Face Down</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Cemetary</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">S</span> Fiolsvid Face Up</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Notable Swamp, Marsh or Sand Dunes</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">Q</span> Fiorgyn Face Up</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Mortal Ruins</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">Q</span> Fiorgyn Face Down</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Crossroads</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">I</span> Glede Face Down</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Commons or Green</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">I</span> Glede Face Up</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Docks or Charcoaler Camp</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">Z</span> Mot Face Down</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Halted Caravan</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">Z</span> Mot Face Up</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Ancient Battlefield</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">O</span> Modi Face Down</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Hermit's Hovel</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">O</span> Modi Face Up</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Natural Caves or Caverns</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">R</span> Reise Face Up</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Sacred Grove</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">R</span> Reise Face Down</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Ancient Wall</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">U</span> Rikdom Face Up</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Herd Pen</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">U</span> Rikdom Face Down</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Well or Fountain</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">P</span> Sannhet Face Down</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Campsite</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">P</span> Sannhet Face Up</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Notable Hill</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">D</span> Skadi Face Down</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Shipwreck or Burnt Ruin</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">D</span> Skadi Face Up</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Ancient Tower</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">X</span> Smerte Face Up</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Drover Camp</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">X</span> Smerte Face Down</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Hidden Cove or Hideaway</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">E</span> Trenger Face Up</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Hunting Lodge</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">E</span> Trenger Face Down</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Invaders Campsite</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">W</span> Uthold Face Up</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Mine</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">W</span> Uthold Face Down</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Abandoned House</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">F</span> Vajir Face Up</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Vineyard or Orchard</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">F</span> Vajir Face Down</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Barrens</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">N</span> Velded Face Down</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Wild Herd</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">N</span> Velded Face Up</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Ancient Barrow</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">T</span> Vijir Face Down</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Predator's Den</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">T</span> Vijir Face Up</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>A Large Crater</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">H</span> Vojin Face Down</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Caravansary</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">H</span> Vojin Face Up</td>
+						<td>Farmhouse, Yurt or Fisherman's Cottage</td>
+						<td>Strange Rock Formation</td>
+					</tr>
+				</tbody>
+			</table>
+			
+			
+		</div>
+		<div class="span-1 col empty">
 	</div>
 </section>
 <section class="continued">
@@ -819,6 +830,14 @@ theme: "primary"
 	<div class="span-6 col">
 		<p>Urban locations are any place in the world with a population ranging from 1,000 to a million people. When creating a town or city this table simply provides you the framework, not the color. Give each location a characteristic that stands out, be it a physical description, an occupant, a smell or a sound. Make it your own.</p>
 		<p>With each result on the table below you can choose between two options when populating your location.</p>
+	</div>
+	<div class="span-3 col empty"></div>	
+	</div>
+</section>
+<section class="continued">
+	<div class="content">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
 		<table class="table-scroll">
 			<caption>Urban Locations Table</caption>
 			<thead>
@@ -836,7 +855,7 @@ theme: "primary"
 				</tr>
 				<tr>
 					<td><span class="futhark">J</span> Astrild Face Up</td>
-					<td>Tenement</td>
+					<td>Public Park</td>
 					<td>Warf</td>
 				</tr>
 				<tr>
@@ -1071,9 +1090,9 @@ theme: "primary"
 				</tr>
 			</tbody>
 		</table>				
-	</div>
-	<div class="span-3 col empty"></div>	
-	</div>
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>	
 </section>
 <section class="continued">
 	<div class="content">
@@ -1307,250 +1326,259 @@ theme: "primary"
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
 		<p>As with any role-playing game, Conspiracy of Shadows requires the Game Master to be able to think fast and introduce new complications on the fly. These complications are called Twists and Conditions. Twists take the game in a new direction while Negative Conditions hinder a character in some way.</p>
-		<table class="table-scroll">
-			<caption>Negative Conditions Table</caption>
-			<thead>
-				<tr>
-					<td>Toss 24 Rune Stones</td>
-					<td>Condition</td>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>1 - 4</td>
-					<td>Blindness<br/> -4s to actions the rely primarily upon vision. -2s to actions in which vision is a secondary concern.</td>
-				</tr>
-				<tr>
-					<td>5 - 8</td>
-					<td>Confused<br/> Being confused means you hesitate in all actions, suffering a -1R.</td>
-				</tr>
-				<tr>
-					<td>9 - 11</td>
-					<td>Exhausted</td>
-				</tr>
-				<tr>
-					<td>12 - 15</td>
-					<td>Hungry</td>
-				</tr>
-				<tr>
-					<td>16 - 18</td>
-					<td>Illness</td>
-				</tr>
-				<tr>
-					<td>19 - 21</td>
-					<td>Minor Injury</td>
-				</tr>
-				<tr>
-					<td>22 - 24</td>
-					<td>Uncontrollable Anger</td>
-				</tr>
-			</tbody>
-		</table>
-		<table class="table-scroll">
-			<caption>Twists Table</caption>
-			<thead>
-				<tr>
-					<th class="twenty">Pull a Random Rune Stone and Toss It</th>
-					<th>Twist</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td><span class="futhark">J</span> Astrild Face Down</td>
-					<td>That sounds big and angry</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">J</span> Astrild Face Up</td>
-					<td>Where did everyone go?</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">A</span> Atridr Face Up</td>
-					<td>A meteor crashes down from the sky</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">A</span> Atridr Face Down</td>
-					<td>Did something just fall off?</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">L</span> Avling Face Down</td>
-					<td>Possessed by a demon</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">L</span> Avling Face Up</td>
-					<td>Is that a baby crying</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">M</span> Beli Face Down</td>
-					<td>What is that crawling under your skin</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">M</span> Beli Face Up</td>
-					<td>The wind blows</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">Y</span> Bragi Face Down</td>
-					<td>They are a shapechanger</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">Y</span> Bragi Face Up</td>
-					<td>Earthquake</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">K</span> Cheru Face Up</td>
-					<td>Why is it suddenly so cold?</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">K</span> Cheru Face Down</td>
-					<td>Is that poison?</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">V</span> Dod Face Up</td>
-					<td>Their family swears revenge</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">V</span> Dod Face Down</td>
-					<td>You've awoken a dead Jutun</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">B</span> Fiollnir Face Down</td>
-					<td>You've been framed</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">B</span> Fiollnir Face Up</td>
-					<td>The watch has been called</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">S</span> Fiolsvid Face Down</td>
-					<td>The dead rise</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">S</span> Fiolsvid Face Up</td>
-					<td>Oh Gods, a fire</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">Q</span> Fiorgyn Face Up</td>
-					<td>That translation was wrong</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">Q</span> Fiorgyn Face Down</td>
-					<td>You are now betrothed</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">I</span> Glede Face Down</td>
-					<td>You fall into a crevace</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">I</span> Glede Face Up</td>
-					<td>You cast the wrong Wyrd</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">Z</span> Mot Face Down</td>
-					<td>A surge of energy explodes in your face</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">Z</span> Mot Face Up</td>
-					<td>They get away</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">O</span> Modi Face Down</td>
-					<td>Your information is out of date</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">O</span> Modi Face Up</td>
-					<td>Something of value is stolen</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">R</span> Reise Face Up</td>
-					<td>Your weapon breaks</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">R</span> Reise Face Down</td>
-					<td>You lose the contents of your pack</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">U</span> Rikdom Face Up</td>
-					<td>They are not who you thought they were</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">U</span> Rikdom Face Down</td>
-					<td>You are overheard</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">P</span> Sannhet Face Down</td>
-					<td>They demand all your possessions</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">P</span> Sannhet Face Up</td>
-					<td>You don't know what to say</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">D</span> Skadi Face Down</td>
-					<td>That was the wrong thing to say</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">D</span> Skadi Face Up</td>
-					<td>There is no clean air left</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">X</span> Smerte Face Up</td>
-					<td>This is a dead end</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">X</span> Smerte Face Down</td>
-					<td>Is that a stampede or a flood</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">E</span> Trenger Face Up</td>
-					<td>There is a rock slide</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">E</span> Trenger Face Down</td>
-					<td>It starts to snow</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">W</span> Uthold Face Up</td>
-					<td>Are those bandits on the horizon</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">W</span> Uthold Face Down</td>
-					<td>A torrential downpour starts</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">F</span> Vajir Face Up</td>
-					<td>This place looks familiar, but something isn't right</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">F</span> Vajir Face Down</td>
-					<td>You're totally lost</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">N</span> Velded Face Down</td>
-					<td>That water sure is deep</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">N</span> Velded Face Up</td>
-					<td>Whatever you were hunting is being hunted by something much worse</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">T</span> Vijir Face Down</td>
-					<td>Something ate your supplies, animals or hirelings</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">T</span> Vijir Face Up</td>
-					<td>Something ate your supplies, animals or servants</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">H</span> Vojin Face Down</td>
-					<td>Something unholy awakens</td>
-				</tr>
-				<tr>
-					<td><span class="futhark">H</span> Vojin Face Up</td>
-					<td>You attrack the attention of something nearby</td>
-				</tr>
-			</tbody>
-		</table>
 		<div class="divider"></div>	
 	</div>
 	<div class="span-3 col empty"></div>	
+	</div>
+</section>
+<section class="continued">
+	<div class="content">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<table class="table-scroll">
+				<caption>Negative Conditions Table</caption>
+				<thead>
+					<tr>
+						<td>Toss 24 Rune Stones</td>
+						<td>Condition</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1 - 4</td>
+						<td>Blindness<br/> -4s to actions the rely primarily upon vision. -2s to actions in which vision is a secondary concern.</td>
+					</tr>
+					<tr>
+						<td>5 - 8</td>
+						<td>Confused<br/> Being confused means you hesitate in all actions, suffering a -1R.</td>
+					</tr>
+					<tr>
+						<td>9 - 11</td>
+						<td>Exhausted</td>
+					</tr>
+					<tr>
+						<td>12 - 15</td>
+						<td>Hungry</td>
+					</tr>
+					<tr>
+						<td>16 - 18</td>
+						<td>Illness</td>
+					</tr>
+					<tr>
+						<td>19 - 21</td>
+						<td>Minor Injury</td>
+					</tr>
+					<tr>
+						<td>22 - 24</td>
+						<td>Uncontrollable Anger</td>
+					</tr>
+				</tbody>
+			</table>
+			<table class="table-scroll">
+				<caption>Twists Table</caption>
+				<thead>
+					<tr>
+						<th class="twenty">Pull a Random Rune Stone and Toss It</th>
+						<th>Twist</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><span class="futhark">J</span> Astrild Face Down</td>
+						<td>That sounds big and angry</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">J</span> Astrild Face Up</td>
+						<td>Where did everyone go?</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">A</span> Atridr Face Up</td>
+						<td>A meteor crashes down from the sky</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">A</span> Atridr Face Down</td>
+						<td>Did something just fall off?</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">L</span> Avling Face Down</td>
+						<td>Possessed by a demon</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">L</span> Avling Face Up</td>
+						<td>Is that a baby crying</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">M</span> Beli Face Down</td>
+						<td>What is that crawling under your skin</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">M</span> Beli Face Up</td>
+						<td>The wind blows</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">Y</span> Bragi Face Down</td>
+						<td>They are a shapechanger</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">Y</span> Bragi Face Up</td>
+						<td>Earthquake</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">K</span> Cheru Face Up</td>
+						<td>Why is it suddenly so cold?</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">K</span> Cheru Face Down</td>
+						<td>Is that poison?</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">V</span> Dod Face Up</td>
+						<td>Their family swears revenge</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">V</span> Dod Face Down</td>
+						<td>You've awoken a dead Jutun</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">B</span> Fiollnir Face Down</td>
+						<td>You've been framed</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">B</span> Fiollnir Face Up</td>
+						<td>The watch has been called</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">S</span> Fiolsvid Face Down</td>
+						<td>The dead rise</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">S</span> Fiolsvid Face Up</td>
+						<td>Oh Gods, a fire</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">Q</span> Fiorgyn Face Up</td>
+						<td>That translation was wrong</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">Q</span> Fiorgyn Face Down</td>
+						<td>You are now betrothed</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">I</span> Glede Face Down</td>
+						<td>You fall into a crevace</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">I</span> Glede Face Up</td>
+						<td>You cast the wrong Wyrd</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">Z</span> Mot Face Down</td>
+						<td>A surge of energy explodes in your face</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">Z</span> Mot Face Up</td>
+						<td>They get away</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">O</span> Modi Face Down</td>
+						<td>Your information is out of date</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">O</span> Modi Face Up</td>
+						<td>Something of value is stolen</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">R</span> Reise Face Up</td>
+						<td>Your weapon breaks</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">R</span> Reise Face Down</td>
+						<td>You lose the contents of your pack</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">U</span> Rikdom Face Up</td>
+						<td>They are not who you thought they were</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">U</span> Rikdom Face Down</td>
+						<td>You are overheard</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">P</span> Sannhet Face Down</td>
+						<td>They demand all your possessions</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">P</span> Sannhet Face Up</td>
+						<td>You don't know what to say</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">D</span> Skadi Face Down</td>
+						<td>That was the wrong thing to say</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">D</span> Skadi Face Up</td>
+						<td>There is no clean air left</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">X</span> Smerte Face Up</td>
+						<td>This is a dead end</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">X</span> Smerte Face Down</td>
+						<td>Is that a stampede or a flood</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">E</span> Trenger Face Up</td>
+						<td>There is a rock slide</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">E</span> Trenger Face Down</td>
+						<td>It starts to snow</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">W</span> Uthold Face Up</td>
+						<td>Are those bandits on the horizon</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">W</span> Uthold Face Down</td>
+						<td>A torrential downpour starts</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">F</span> Vajir Face Up</td>
+						<td>This place looks familiar, but something isn't right</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">F</span> Vajir Face Down</td>
+						<td>You're totally lost</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">N</span> Velded Face Down</td>
+						<td>That water sure is deep</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">N</span> Velded Face Up</td>
+						<td>Whatever you were hunting is being hunted by something much worse</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">T</span> Vijir Face Down</td>
+						<td>Something ate your supplies, animals or hirelings</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">T</span> Vijir Face Up</td>
+						<td>Something ate your supplies, animals or servants</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">H</span> Vojin Face Down</td>
+						<td>Something unholy awakens</td>
+					</tr>
+					<tr>
+						<td><span class="futhark">H</span> Vojin Face Up</td>
+						<td>You attrack the attention of something nearby</td>
+					</tr>
+				</tbody>
+			</table>
+			
+		</div>
+		<div class="span-1 col empty"></div>
 	</div>
 </section>

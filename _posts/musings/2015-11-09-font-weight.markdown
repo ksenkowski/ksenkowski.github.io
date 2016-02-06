@@ -7,8 +7,9 @@ tag: "css font weight photoshop bold typography"
 excerpt: "Did you know that the font-weight attribute corresponds with the font style control in Photoshop? Font weight isn't just a way to bold things."
 class: "CSS"
 theme: "tertiary"
+image: "url('../img/musings/css.jpg');"
 ---
-<section class="header">
+<section class="header" style="{{page.image}}">
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">

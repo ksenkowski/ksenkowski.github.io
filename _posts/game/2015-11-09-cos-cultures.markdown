@@ -8,8 +8,9 @@ tag: "role playing game rpg mechanics rules conspiracy of shadows core basics ru
 excerpt: "Cultures and the Vocations tied to those cultures are the first half of creating a friend or foe in Conspiracy of Shadows. Here you will find samples to use in play for the Alfar, Constructs, Humanity, and Skalfar."
 class: "culture"
 theme: "primary"
+image: "background-image:url('../img/articles/core/culture.jpg');"
 ---
-<section class="header">
+<section class="header" style="{{page.image}}">
 	<div class="content">
 	<aside class="span-3 col empty"></aside>
 	<div class="span-6 col">
@@ -42,7 +43,8 @@ theme: "primary"
 	<div class="span-6 col">
 			<p>The Alfar are descended from Nymed, the king of a people that sailed to the world from a distant land far to the west during the First Era. They brought darkness over the world for three days and three nights, where no star shined on the world. This brought them into conflict with the Jutun, with whom they fought until the gods defeated the Jutun and banished the Alfar to the Gloom.</p>
 			<p>The Gloom is said to be a sad dream of what the world will one day be. It sits on and perhaps next to the world, a gray and muted green mirror that relfects an endless melancholy. There the Alfar dwell, singing tragic dirges, laughing saddly, and trying to bring some light to their world by raising human children they have stolen. These children are treated like royalty, for they hope that one day these children raised as Alfar will break the curse of the gods and bring hope and happiness to their home.</p>
-			<p>The melancholy the Alfar have long elicited both fear and sympathy from humanity. Banished to the Gloom they live side-by-side with Humanity, crossing over only to forward their alien plans. Pale skinned with solid black eyes, when they do so they can almost pass as human. Almost.</p>
+			<p>The melancholy of the Alfar has long elicited both fear and sympathy from humanity. Banished to the Gloom they live side-by-side with Humanity, crossing over only to forward their alien plans. Pale skinned with solid black eyes, when they walk among people they can almost pass as human...</p> 
+			<p>Almost.</p>
 			<h5>Names</h5>
 			<p>Naming Conventions</p>
 			<ul class="spaced-list unstyled">
@@ -64,7 +66,7 @@ theme: "primary"
 			<h5>Vocations</h5>
 			<p>A character's Vocation is a Talent that reflects the nature of their cultural background. Social standing, job training, and life experience all determine what capabilities the characters has. Read through the following descriptions and select the Vocation that is most interesting to you.</p>
 			<h6>The People</h6>
-			<p>Unlike most human cultures, Alfar culture is not extremely stratified. If there is any human culture they most resemble it is that of the Zeher, who are rumored to have intermarried with the Alfar during the Second Era. Like the Zehar, each Aldar finds their own calling, choosing to live out eternity as they see fit.</p>
+			<p>Unlike most human cultures, Alfar culture is not extremely stratified. If there is any human culture they most resemble it is that of the Zeher, who are rumored to have intermarried with the Alfar during the Second Era. Like the Zeher, each Alfar finds their own calling, choosing to live out eternity as they see fit.</p>
 			<ul class="spaced-list unstyled">
 				<li><strong>The Craftsmen</strong> Using wood and metal that holds the sad memory of better days, Alfar craftsmen create wonders. Nothing they make is not without some touch of the Wyrd, imbuing in any who touch them a fond sadness, like a memory of a lost loved one.
 					<ul class="unspaced-list">
@@ -147,18 +149,18 @@ theme: "primary"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
-			<p>Constructs are found in every part of the world, hiding among humanity pursuing their own ambitions. Created in the mythic First Era when the Jutun ruled the land, warred with the gods, and tamed three dragons, they have survived to the present day. With the destruction of their enemies, the Jutun, and the scattering of their masters, the WItches, they were left to fend for themselves. Over time they formed their own societies and philisophical systems alien to our own. </p>
+			<p>Constructs are found in every part of the world, hiding among humanity pursuing their own ambitions. Created in the mythic First Era when the Jutun ruled the land, warred with the gods, and tamed three dragons, they have survived to the present day. With the destruction of their enemies, the Jutun, and the scattering of their masters, the Witches, they were left to fend for themselves. Over time they formed their own societies and philisophical systems alien to our own. </p>
 			<h4>Gargoyles</h4>
 			<p>At the dawn of the of the First Era, the Jutun prince Mochgre hacked off chunks of the Sacred Mountain and breathed into them life. While they thrummed with life he shaped them into a myriad of forms, each different from the last. Their only similarity being the type of stone from which they came. Once completed, he sent them forth into the world to guard over that which he thought precious.</p>
 			<p>After the destruction of their master, the Gargoyles became divided on what they should do next. Some vowed to continue their charge, guarding that which Mochgre held dear. Others, unable to resist their purpose, chose other things to stand guard over, spreading out into the world, some going so far as to hind amongst humanity.</p>
 			<p>Today Gargoyles can be found anywhere in the world that there is statuary or Jutun ruins. Their structure and physical characteristics vary dramatically but they are bound together by their common compulsion to guard and protect their charge. Often they hold silent vigil over their charges, never sleeping or needing sustinence.</p>
 			<h5>Names</h5>
-			<p>The naming practice of Gargoyles is corruption of those used by the Jutun thousands of years ago. All Gargoyles took a Jutun name and made it their own. They couple it with a description of that identifies how they guard their charge (<em>Mats the All Seeing, Sebulon the Destroyer</em>)</p>
+			<p>The naming practice of Gargoyles is corruption of those used by the Jutun thousands of years ago. All Gargoyles took a Jutun name and made it their own. They couple it with a description that identifies how they guard their charge (<em>Mats the All Seeing, Sebulon the Destroyer</em>)</p>
 			<ul class="spaced-list unstyled">
 				<li><strong>Names:</strong> Aake, Agar, Baard, Bilha, Charis, Cresten, Daan, Dordi, Egil, Ele, Faje, Fryd, Gerty, Gudfast, Harto, Hela, Ib, Igva, Jaak, Jhudit, Kennet, Kia, Lif, Luden, Mats, Mejt, Nanni, Nicomedes, Ora, Orri, Pau, Pia, Radi, Risa, Sebulon, Sela, Tia, Tolv, Veste, Vilda, Ygge, Ywon, and Zwi</li>
 			</ul>
 			<h5>Language</h5>
-			<p>Gargoyles speak a form of Jutuni, the root language of the north. Because of this they having a passing understanding of all the child languages of Jutuni, Eskari, Isoli, Navari, Omeroni, and Tarathan.</p>
+			<p>Gargoyles speak a form of Jutuni, the root language of the north. Because of this they having a passing understanding of all the child languages of Jutuni; Eskari, Isoli, Navari, Omeroni, and Tarathan.</p>
 			<h5>Base Traits</h5>
 			<ul class="spaced-list unstyled">
 				<li><strong>Athletics (4)</strong></li>

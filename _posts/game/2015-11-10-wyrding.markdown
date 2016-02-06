@@ -1,0 +1,297 @@
+---
+layout: article
+title:  "Wyrding"
+author: "Keith Senkowski"
+date:   2015-11-10 
+category: game
+tag: "role playing game rpg mechanics rules conspiracy of shadows core wyrding"
+excerpt: "The Wyrd is the way in which individuals tap into supernatural powers to change the world around them."
+class: "futhark"
+theme: "primary"
+image: "background-image:url('../img/articles/core/wyrding.jpg');"
+---
+<section class="header" style="{{page.image}}">
+	<div class="content">
+	<aside class="span-3 col empty"></aside>
+	<div class="span-6 col">
+		<h1>wyrding</h1>
+		<p>It is no secret. All power is one in source and end, I think. Years and distances, stars and candles, water and wind and wizardry, the craft in a man's hand and the wisdom in a tree's root: they all arise together. My name, and yours, and the true name of the sun, or a spring of water, or an unborn child, all are syllables of the great word that is very slowly spoken by the shining of the stars. There is no other power. No other name.</p>
+		<p class="text-right"><em>~ Ursula K. LeGuin</em></p>
+	</div>
+	<aside class="span-3 col empty"></aside>	
+	</div>
+</section>
+<section class="continued">
+	<div class="content">
+	<aside class="span-3 col empty"></aside>
+	<div class="span-6 col">
+		<p>The Wyrd is the way in which individuals tap into supernatural powers to change the world around them. It takes on two forms, the Incantations and Rituals. If a character has a supernatural Talent (e.g. <em>Sees through the eyes of ravens</em>) they can perform Incantations. Rituals are esoteric processes that anyone can participate in so long as the ritual has been discovered in some written or verbal form during play.</p>
+	</div>
+	<aside class="span-3 col empty"></aside>	
+	</div>
+		<div class="divider"></div>	
+</section>
+<section class="continued">
+	<div class="content">
+		<div class="span-3 col empty"></div>
+		<div class="span-6 col">
+			<h2>Incantations</h2>
+		</div>
+		<div class="span-3 col empty"></div>
+	</div>
+	<div class="content">
+	<div class="span-3 col empty"></div>
+	<div class="span-6 col">
+		<p>Incantations are Wyrds that unleash magical energies quickly through simple hand movements and spoken words. Incantations of all types have four basic components; an effect, a duration, a scope, and the cost. Incantations that do not prompt an Opposed Challenge have a base Difficulty of 4, though the GM can modify this as they see fit.</p>
+	</div>
+	<div class="span-3 col empty"></div>	
+	</div>
+</section>
+<section class="continued">
+	<div class="content">
+		<div class="span-3 col empty"></div>
+		<div class="span-6 col">
+			<h2>Effects</h2>
+		</div>
+		<div class="span-3 col empty"></div>
+	</div>
+	<div class="content">
+	<div class="span-3 col empty"></div>
+	<div class="span-6 col">
+		<p>Incantations can have one of the following five effects. It may confuse, hinder, help, harm or manipulate.</p>
+		<p>A character can create illusions that Confuse others. When using a Confuse Incantation, enter an Opposed Challenge between the character's Wyrd and the target's Temperament Trait. If successful, the target believes the illusion to be true.</p>
+		<p>A character may use Incantations to Hinder a target's abilities. When doing this, the ability or abilities must be named. The Margin of Victory provides the negative Toss Modifier applied to the target.</p>
+		<p>A character may use Incantations to Help themself or another. When doing this, the ability or abilities that you wish the help must be named. The Margin of Victory provides the positive Toss Modifier applied to the target.</p>
+		<p>Additionally a Help Incantation can also be used to remove Conditions or Taint from a character. The Margin of Victory determines the number of Conditions or Taint that are removed.</p>
+		<p>A character may use Incantations to unleash raw energy to Harm an opponent. The form in which this takes is up to the player and can have additional effects approved by the GM. For example, if it takes the form of a firey lash, it might also start nearby straw on fire.</p>
+		<p>A character may Manipulate the world around them. They can move things around, knockdown opponents, lock doors and any other mundane task with the force of their will. When doing so they declare how they are trying to manipulate their target (e.g. <em>push, pull, knock down, stun, immobilize</em>).</p>
+	</div>
+	<div class="span-3 col empty"></div>	
+	</div>
+</section>
+<section class="continued">
+	<div class="content">
+		<div class="span-3 col empty"></div>
+		<div class="span-6 col">
+			<h2>Duration</h2>
+		</div>
+		<div class="span-3 col empty"></div>
+	</div>
+	<div class="content">
+	<div class="span-3 col empty"></div>
+	<div class="span-6 col">
+		<p>Duration describes how long the effect of an Incantation lasts; Instant, one Scene, one Turn or one Arc.</p>
+		<table>
+			<caption>Duration Table</caption>
+			<thead>
+				<tr>
+					<th>Duration</th>
+					<th>Success Modifier</th>
+					<th>Cost Modifier</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						Instant
+					</td>
+					<td>
+						No Modifier
+					</td>
+					<td>
+						+1 Willpower
+					</td>
+				</tr>
+				<tr>
+					<td>
+						One Scene
+					</td>
+					<td>
+						-2s
+					</td>
+					<td>
+						+2 Willpower
+					</td>
+				</tr>
+				<tr>
+					<td>
+						One Turn
+					</td>
+					<td>
+						-4s
+					</td>
+					<td>
+						+3 Willpower
+					</td>
+				</tr>
+				<tr>
+					<td>
+						One Arc
+					</td>
+					<td>
+						-6s
+					</td>
+					<td>
+						+3 Willpower
+					</td>
+				</tr>
+			</tbody>
+		</table>	
+	</div>
+	<div class="span-3 col empty"></div>	
+	</div>
+</section>
+<section class="continued">
+	<div class="content">
+		<div class="span-3 col empty"></div>
+		<div class="span-6 col">
+			<h2>Scope</h2>
+		</div>
+		<div class="span-3 col empty"></div>
+	</div>
+	<div class="content">
+	<div class="span-3 col empty"></div>
+	<div class="span-6 col">
+		<p>Scope describes how much area or how many targets the Incantation impacts. </p>
+		<table>
+			<caption>Scope Table</caption>
+			<thead>
+				<tr>
+					<th>Scope</th>
+					<th>Toss Modifier</th>
+					<th>Cost Modifier</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						Self
+					</td>
+					<td>
+						No Modifier
+					</td>
+					<td>
+						+1 Willpower
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Single Target or Ability
+					</td>
+					<td>
+						-1s
+					</td>
+					<td>
+						+2 Willpower
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Several Targets, Two Abilities
+					</td>
+					<td>
+						-2s
+					</td>
+					<td>
+						+3 Willpower
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Crowd of Targets, Three Abilities
+					</td>
+					<td>
+						-3s
+					</td>
+					<td>
+						+4 Willpower
+					</td>
+				</tr>
+				<tr>
+					<td>
+						A Building, Four Abilities
+					</td>
+					<td>
+						-4s
+					</td>
+					<td>
+						+5 Willpower
+					</td>
+				</tr>
+				<tr>
+					<td>
+						A Neighborhood or Village, Five Abilities
+					</td>
+					<td>
+						-5s
+					</td>
+					<td>
+						+6 Willpower
+					</td>
+				</tr>
+				<tr>
+					<td>
+						A City, Six Abilities
+					</td>
+					<td>
+						-6s
+					</td>
+					<td>
+						+7 Willpower
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="span-3 col empty"></div>	
+	</div>
+</section>
+<section class="continued">
+	<div class="content">
+		<div class="span-3 col empty"></div>
+		<div class="span-6 col">
+			<h2>Cost</h2>
+		</div>
+		<div class="span-3 col empty"></div>
+	</div>
+	<div class="content">
+	<div class="span-3 col empty"></div>
+	<div class="span-6 col">
+		<p>The Willpower cost of an Incantation is calculated by adding up all of the cost modifiers presented in the previous charts and adding 1 to the total.</p>
+	</div>
+	<div class="span-3 col empty"></div>	
+	</div>
+</section>
+<section class="continued">
+	<div class="content">
+		<div class="span-3 col empty"></div>
+		<div class="span-6 col">
+			<h2>Naming and Sharing Incantations</h2>
+		</div>
+		<div class="span-3 col empty"></div>
+	</div>
+	<div class="content">
+	<div class="span-3 col empty"></div>
+	<div class="span-6 col">
+		<p>After an Incantation is used for the first time, a player may name it (recording it on their character sheet). Going forward, this Incantation provides a +1s bonus for that character. It can also be shared by the character with another by spending the time copying it down in written form.</p>
+		<p><strong>Surge of Malevolence</strong><br/><strong>Effect:</strong> Improve Fighting Trait<br/> <strong>Scope:</strong> Self <br/> <strong>Duration:</strong> One Scene<br/> <strong>Willpower:</strong> 3</p>
+	</div>
+	<div class="span-3 col empty"></div>	
+	</div>
+</section>
+<section class="continued">
+	<div class="content">
+		<div class="span-3 col empty"></div>
+		<div class="span-6 col">
+			<h2>Rituals</h2>
+		</div>
+		<div class="span-3 col empty"></div>
+	</div>
+	<div class="content">
+	<div class="span-3 col empty"></div>
+	<div class="span-6 col">
+		<p>Rituals are the means by which anyone with the right information can manipulate the Wryd to get what they want. They are acts of great power and even greater danger with very specific requirements to be successful. Each Ritual requires an Unopposed Challenge against a Difficulty defined by the Ritual itself.</p>
+	</div>
+	<div class="span-3 col empty"></div>	
+	</div>
+</section>

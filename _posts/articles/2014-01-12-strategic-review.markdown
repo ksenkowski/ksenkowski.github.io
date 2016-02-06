@@ -8,8 +8,9 @@ tag: "role playing game rpg dragon magazine reviews"
 excerpt: "A brief analysis of the Strategic Review, the magazine that came before Dragon Magazine. This is the first in the series."
 class: "generic-games"
 theme: "primary"
+image: "background-image:url('../img/articles/dragon/generic.jpg');"
 ---
-<section class="header">
+<section class="header" style="{{page.image}}">
 	<div class="content">
 	<aside class="span-3 col empty"></aside>
 	<div class="span-6 col">

@@ -8,8 +8,9 @@ tag: "role playing game rpg mechanics rules conspiracy of shadows core rune cast
 excerpt: "An online way to cast your runes for the Conspiracy of Shadows role-playing game."
 class: "futhark"
 theme: "primary"
+image: "background-image:url('../img/articles/futhark.jpg');"
 ---
-<section class="header">
+<section class="header" style="{{page.image}}">
 	<div class="content">
 	<aside class="span-3 col empty"></aside>
 	<div class="span-6 col">

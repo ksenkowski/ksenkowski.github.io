@@ -8,8 +8,9 @@ tag: "adventure san francisco cupertino sunnyvale apple relocation california te
 excerpt: "In relocating to Sunnyvale for six months without my family for work, I am taking on a new challenge and dramatically changing my life. Here it all begins."
 class: "something-new"
 theme: "tertiary"
+image: "background-image:url('../img/articles/adventure/it-begins/cover.jpg');"
 ---
-<section class="header">
+<section class="header" style="{{page.image}}">
 	<div class="content">
 	<aside class="span-3 col empty"></aside>
 	<div class="span-6 col">
