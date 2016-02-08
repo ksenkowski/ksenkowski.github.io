@@ -1,0 +1,434 @@
+---
+layout: article
+title:  "Into the Mountains"
+author: "Keith Senkowski"
+date:   2016-01-15
+category: article
+tag: "adventure pacifica mcnee ranch state park gray whale cove state beach"
+excerpt: "Six of us went to face the mountain. Did six of us return?"
+class: "something-new"
+theme: "tertiary"
+image: "background-image:url('../../img/articles/adventure/into-mountains/cover.jpg');"
+---
+<section class="header" style="{{page.image}}">
+	<div class="content">
+	<aside class="span-3 col empty"></aside>
+	<div class="span-6 col">
+		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
+		<h1>{{ page.title }}</h1>
+		<p><em>I could not help feeling that they were evil things -- mountains of madness whose farther slopes looked out over some accursed ultimate abyss.</em></p>
+		<p>Ok so maybe not. As much as I would love to spin a tale of Lovecraftian adventure, the beauty of the coast and mountains of California work against that. Instead I can only present a photo diary of the day.</p> 
+		<p>This is a long page with lazy loading images to not cripple your bandwidth so just keep scrolling. I think carousels and sliders are responsible for some of the worst UX on the internet. They are the result of awful internal compromises at organizations and should go away.</p>
+	</div>
+	<aside class="span-3 col empty"></aside>	
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/articles/adventure/into-mountains/01-parking.jpg" alt="Where are we?"/>
+				<figcaption>The hike began with Dan and Peter unsure if where we parked was the right place.</figcaption>
+			</figure>
+			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/02-gwc.jpg" alt="Gray Whale Cove State Beach"/>
+				<figcaption>Before heading into the mountains we decided to check out the beach at <a href="http://www.parks.ca.gov/?page_id=528" target="_blank">Gray Whale Cover State Beach</a>, just across Highway 1.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/02-gwc.jpg" alt="Gray Whale Cove State Beach"/>
+				<figcaption>Before heading into the mountains we decided to check out the beach at <a href="http://www.parks.ca.gov/?page_id=528" target="_blank">Gray Whale Cover State Beach</a>, just across Highway 1.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-5 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/03v-pack-in.jpg" alt="Pack In, Pack Out Sign"/>
+				<figcaption>I have a fascination with signage. Always have. I love the typography and even how people tag them.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-5 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/03v-rip-current.jpg" alt="Rip Current Sign"/>
+				<figcaption>Do not go swimming here. We could hear the waves thunder even when we got up in the mountain.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/04-tsunami.jpg" alt="Tsunami Sign"/>
+				<figcaption>Just in case you were wondering, don't stay on the beach when the tsunami is on it's way.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/05-gwc.jpg" alt="Gray Whale Cove to the South"/>
+				<figcaption>Looking south along the coast above the beach. It just hints at how hard those waves crashed at times while we were there.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/06-shadowy.jpg" alt="Andrew and Joyce in the Trees"/>
+				<figcaption>I loved how the sunshine was filtering through here above the beach. Makes Andrew and Joyce look like zombies.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/07-creepy.jpg" alt="Creepy Spot"/>
+				<figcaption>Speaking of zombies, this creepy little spot was just off the stairs down to the beach. Very post apocalyptic feel to the little secluded spot.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/08-going-down.jpg" alt="Stairs to the Beach"/>
+				<figcaption>I think I hate climbing stairs at spots like this more than climbing. It always seems harder.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/09-drainage-art.jpg" alt="Drainage Art"/>
+				<figcaption>The graffiti is pretty solid here. Folks really took their time.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/10-stairs-out.jpg" alt="Stairs Out"/>
+				<figcaption>I hate stairs with the fiery passion of a thousand suns.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/11-up-beach.jpg" alt="Southern View on the Beach"/>
+				<figcaption>It's not a huge beach, but it is wonderfully secluded.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/12-down-beach.jpg" alt="Northern View on the Beach"/>
+				<figcaption>For a bit here I thought I was safe from the waves as I took these pictures.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/13-wet.jpg" alt="My Wet Feet"/>
+				<figcaption>Alas it was not meant to be. There is no way to outrun the ocean.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/14-splendor.jpg" alt="Clowns on Tech Toys"/>
+				<figcaption>All this beauty and these three clowns are playing with <s>themselves</s> their devices.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/the-trail.jpg" alt="The Trail"/>
+				<figcaption>Enough of the beach. Let's move onto the hike. Here is our trail minus a small bit at the bottom. The top right is the trail that would have taken us to the top of the big mountain in this park, but Andrew vetoed it with a hearty, "Fuck that" when we got there.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/15-trail-head.jpg" alt="The Trail Head"/>
+				<figcaption>Joyce and Peter leading us out at the trail head, or at least after the initial climb. All told we did 111 stories of climbing that day.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/16-highway.jpg" alt="Highway 1"/>
+				<figcaption>Highway 1 is dangerous. Not because of it's route through the mountains here, but because the scenery is beautiful and easy to get lost in.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/17-down-coast.jpg" alt="Waves Crashing In"/>
+				<figcaption>I was shocked at how loud the waves crashed here. The walls of the cover amplify it to the point it sounds like monstrous drums.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/18-up-coast.jpg" alt="More Waves Crashing In"/>
+				<figcaption>More waves... What? I can't come up with something to say for all of these pictures can I? Soak it in you cynics.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/19-oscar-felix.jpg" alt="Dan and Andrew as Oscar and Felix"/>
+				<figcaption>The first thought that came to my mind as I took this picture of Andrew and Dan, was "here comes Oscar and Felix." I will not apologize for that thought.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/21-sun-beam.jpg" alt="Sun on the Trail"/>
+				<figcaption>We had the perfect day for a hike. Warm but not hot with sun the entire time.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/22-three-amigos.jpg" alt="The Party Splits"/>
+				<figcaption>I know you are never supposed to split the party, but Joyce, Jordan and Peter (the three specs up there) went their own way up the mountain. Dan, Andrew and I found a different path we thought would be easier. We were very wrong.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/23-mountains.jpg" alt="The Mountains"/>
+				<figcaption>I am committed to going back and climbing those peaks too.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/24-1929.jpg" alt="Triangulation Marker"/>
+				<figcaption>We found this at the top of the one peak where we stopped to have a snack. It is an orientation marker set up the U.S. Coast and Geodetic Survey.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/25-into-the-woods.jpg" alt="Into the Woods"/>
+				<figcaption>After Andrew's veto of going further up into the mountains, we started down into these woods. This leg eventually took us back to the trail head and moved on to check out <a href="http://parks.smcgov.org/devils-slide-trail" target="_blank">Devil's Slide Trail</a>.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-5 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/25v-lonely-tree.jpg" alt="Lonely Tree Over the Water"/>
+				<figcaption>Devil's Slide Trail used to be part of Highway 1, but had so many landslides that closed the roads, they blasted a tunnel into the mountain and converted the road into a bike/hiking path.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-5 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/25v-rocks-falling.jpg" alt="Rocks Falling Sign"/>
+				<figcaption>This seems like a bad idea since now the rocks will fall on hikers and bikers and not cars. Hence this sign.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/27-into-devil-slide.jpg" alt="We Enter the Maw"/>
+				<figcaption>We enter the maw of the trail. Not very scary, but maw is a fun word to say.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/28-egg-island.jpg" alt="Egg Island"/>
+				<figcaption>Egg Island is one of those repopulation success stories. It goes a little like this. Once there were birds. Then there were none. Then humans did some crazy stuff like put up mirrors and plant decoys to attract the birds. Now the colony is saved. The sign I didn't take a picture of says it way better than I do.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/29-stay-back.jpg" alt="Steep Cliff Sign"/>
+				<figcaption>Of course I take a picture of this sign instead... Some days I am not so bright.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/31-steep-cliff.jpg" alt="Steep Cliff View"/>
+				<figcaption>However, this is the cliff it warned me about. I stayed back. I like to jump off of high things.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/32-the-bunker.jpg" alt="The Bunker"/>
+				<figcaption>This bunker, mostly crewed by women, served as coastal protection during World War II. Now it is a sealed landmark whose base is slowly erroding away. One day it is going to slide down into the ocean. This marked the end of the hike, but not the day.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/adventure/into-mountains/33-the-end.jpg" alt="El Toro Loco"/>
+				<figcaption>Lunch + Dinner = Linner. This is where our day ended, at <a href="https://www.google.com/maps/place/El+Toro+Loco/@37.6366116,-122.4933297,16.48z/data=!4m2!3m1!1s0x808f7baac91fd861:0xb8d029107b9c0a3" target="blank">El Toro Loco</a> where we ate Mexican/Peruvian food and drank sangria. All in all a good day.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
