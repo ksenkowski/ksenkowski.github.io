@@ -3,7 +3,7 @@ layout: article
 title:  "The Dragon in Review, Issue One Hundred Fourteen"
 author: "Keith Senkowski"
 date:   2015-10-11
-category: article
+category: articles
 tag: "role playing game rpg dragon magazine reviews"
 excerpt: "Dragon has been hit and miss with it's holiday issues. This issue is in the middle."
 class: "dragon-issue114"

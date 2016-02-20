@@ -3,7 +3,7 @@ layout: article
 title:  "The Dragon in Review, Issue Forty-Six"
 author: "Keith Senkowski"
 date:   2016-02-16
-category: article
+category: articles
 tag: "role playing game rpg dragon magazine reviews"
 excerpt: "New layout, weird cover, adventure supplement and DIVINE RIGHT! This issue has it all."
 class: "dragon-issue046"

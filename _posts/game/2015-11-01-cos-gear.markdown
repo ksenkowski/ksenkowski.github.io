@@ -3,7 +3,7 @@ layout: article
 title:  "Gear and Loot"
 author: "Keith Senkowski"
 date:   2015-11-01 
-category: game
+category: games
 tag: "role playing game rpg mechanics rules conspiracy of shadows core basics rules gear loot futhark"
 excerpt: "A lot of games have moved away from the importance of the gear a character has on them. I've never been one to buy into that idea. I see gear as another tool to help define who your character is."
 class: "gear"

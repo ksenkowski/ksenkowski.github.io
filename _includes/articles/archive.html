@@ -12,7 +12,7 @@
 	</section>
 	{% for post in site.posts %}
 	  {% for cat in post.categories %}
-	    {% if cat == 'article' %}
+	    {% if cat == 'articles' %}
 		{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
 		{% if thecycle == 'odd' %}
 <section class="archive-article odd">

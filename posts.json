@@ -12,6 +12,7 @@
 		"tag" : "{{post.tag}}",
 		"id": "{{count}}",
 		"excerpt" : "{{post.excerpt}}",
+		"category" : "{{post.category}}",
 		"date"     : {
 			"day"   : "{{ post.date | date: "%d" }}",
 			"month" : "{{ post.date | date: "%B" }}",

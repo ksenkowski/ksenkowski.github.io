@@ -3,7 +3,7 @@ layout: article
 title:  "Playing the Game"
 author: "Keith Senkowski"
 date:   2015-11-13 
-category: game
+category: games
 tag: "role playing game rpg mechanics rules conspiracy of shadows core basics rules journey playing futhark"
 excerpt: "Conspiracy of Shadows is a role-playing game with the beating heart of a board game. Here you will find the details regarding the procedures of play and the responsibilities of the GM."
 class: "playing-the-game"

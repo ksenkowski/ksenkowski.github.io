@@ -22,6 +22,8 @@ if (typeof Object.create !== "function") {
 	var next = $('.next');
 	var prev = $('.prev');
 	var pageNav = $('.page-nav');
+	var jsonProd = 'http://conspiracyofshadows.com/posts.json';
+	var jsonLocal = 'posts.json';
 	
 	
 	// This will be executed at ready event
@@ -75,14 +77,25 @@ if (typeof Object.create !== "function") {
 		},
 		sitemap: function(){
 			$.ajax({
-				url: 'http://conspiracyofshadows.com/posts.json',
+				url: jsonProd,
 				data: data
 			}).done(function(data){
 				content = data.sitemap.posts;
 				$.each(content, function(k,v){
-					array += "<li><h5><a href="+v.href+">"+v.title+"</a></h5><small>"+v.excerpt+"</small></li>";
+					array += '<li><h5><a href="'+
+								v.href+'">"'+v.title
+								+'</a></h5><small>'+
+								v.excerpt
+								+'<br/><strong>Category:</strong> <em><a href="/'+
+								v.category
+								+'.html">'+
+								v.category
+								+'</a></em></small></li>';
 				});
+				console.log(data.sitemap.posts);
 				$('#sitemap').append(array);
+			}).error(function(error){
+				console.log(error);
 			});
 		}
 	};

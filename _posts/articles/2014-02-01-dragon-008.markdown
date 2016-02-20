@@ -3,7 +3,7 @@ layout: article
 title:  "The Dragon in Review, Issue Eight"
 author: "Keith Senkowski"
 date:   2014-02-01
-category: article
+category: articles
 tag: "role playing game rpg dragon magazine reviews"
 excerpt: "Some issues are good and some issues are bad. This is not one of those good issues."
 class: "dragon-issue008"

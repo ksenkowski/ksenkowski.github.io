@@ -3,7 +3,7 @@ layout: article
 title:  "The Dragon in Review, Issue Seven"
 author: "Keith Senkowski"
 date:   2014-01-31
-category: article
+category: articles
 tag: "role playing game rpg dragon magazine reviews"
 excerpt: "A brief dive into the seventh issue of The Dragon, or Dragon Magazine as I came to know it as a teenager."
 class: "dragon-issue007"

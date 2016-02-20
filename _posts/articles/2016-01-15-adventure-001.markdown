@@ -3,7 +3,7 @@ layout: article
 title:  "Something New"
 author: "Keith Senkowski"
 date:   2016-01-15
-category: article
+category: articles
 tag: "adventure san francisco cupertino sunnyvale apple relocation california technology"
 excerpt: "In relocating to Sunnyvale for six months without my family for work, I am taking on a new challenge and dramatically changing my life. Here it all begins."
 class: "something-new"

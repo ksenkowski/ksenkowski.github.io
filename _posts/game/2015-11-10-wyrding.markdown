@@ -3,7 +3,7 @@ layout: article
 title:  "Wyrding"
 author: "Keith Senkowski"
 date:   2015-11-10 
-category: game
+category: games
 tag: "role playing game rpg mechanics rules conspiracy of shadows core wyrding"
 excerpt: "The Wyrd is the way in which individuals tap into supernatural powers to change the world around them."
 class: "futhark"

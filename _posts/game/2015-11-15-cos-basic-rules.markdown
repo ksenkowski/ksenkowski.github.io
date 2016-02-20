@@ -3,7 +3,7 @@ layout: article
 title:  "The Basic Rules"
 author: "Keith Senkowski"
 date:   2015-11-15 
-category: game
+category: games
 tag: "role playing game rpg mechanics rules conspiracy of shadows core basics rules futhark"
 excerpt: "An introduction to the basic rules of the Conspiracy of Shadows RPG. In this article I outline what the game is about, the mechanics, and the structure of play."
 class: "core-rules"

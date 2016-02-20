@@ -3,7 +3,7 @@ layout: article
 title:  "Into the Mountains"
 author: "Keith Senkowski"
 date:   2016-01-15
-category: article
+category: articles
 tag: "adventure pacifica mcnee ranch state park gray whale cove state beach"
 excerpt: "Six of us went to face the mountain. Did six of us return?"
 class: "something-new"

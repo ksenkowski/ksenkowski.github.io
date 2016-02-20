@@ -3,7 +3,7 @@ layout: article
 title:  "Traits and Talents"
 author: "Keith Senkowski"
 date:   2015-11-14 
-category: game
+category: games
 tag: "role playing game rpg mechanics rules conspiracy of shadows core basics rules traits talents futhark"
 excerpt: "Traits and Talents are a core aspect of play in Conspiracy of Shadows. They provide the building blocks for bringing your characters to life."
 class: "traits-talents"

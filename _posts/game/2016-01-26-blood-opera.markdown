@@ -3,7 +3,7 @@ layout: article
 title:  "Blood Opera"
 author: "Keith Senkowski"
 date:   2016-01-26 
-category: game
+category: games
 tag: "role playing game rpg mechanics rules conspiracy of shadows core basics rules traits talents futhark"
 excerpt: "Blood Opera is a narrative role-playing game that combines the tarot card deck I created with the rules of Euchre."
 class: "blood-opera"

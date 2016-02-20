@@ -3,7 +3,7 @@ layout: article
 title:  "The Dragon in Review, Issue Forty-Four"
 author: "Keith Senkowski"
 date:   2015-11-17
-category: article
+category: articles
 tag: "role playing game rpg dragon magazine reviews"
 excerpt: "Food Fight! Phil Foglio! Santa Clause?!?! Dwarves! Wait, dwarves? Well dwarve beard arguments and genetics!"
 class: "dragon-issue044"

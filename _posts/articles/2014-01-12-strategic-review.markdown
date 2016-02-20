@@ -3,7 +3,7 @@ layout: article
 title:  "The Strategic Review"
 author: "Keith Senkowski"
 date:   2014-01-12
-category: article
+category: articles
 tag: "role playing game rpg dragon magazine reviews"
 excerpt: "A brief analysis of the Strategic Review, the magazine that came before Dragon Magazine. This is the first in the series."
 class: "generic-games"
