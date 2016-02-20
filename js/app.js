@@ -22,7 +22,7 @@ if (typeof Object.create !== "function") {
 	var next = $('.next');
 	var prev = $('.prev');
 	var pageNav = $('.page-nav');
-	var jsonProd = 'http://conspiracyofshadows.com/posts.json';
+	var jsonProd = '/posts.json';
 	var jsonLocal = 'posts.json';
 	
 	
