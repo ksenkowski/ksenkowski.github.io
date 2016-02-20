@@ -1,8 +1,9 @@
 ---
 ---
-{% assign count = '0' %}
-{% assign idx = '0' %}
-[
+{
+	"sitemap": {
+		"posts":
+{% assign count = '0' %}{% assign idx = '0' %}[
 	{% for post in site.posts %}
 		{% capture count %}{{count | plus: '1'}}{% endcapture %}
 		{
@@ -16,7 +17,7 @@
 			"month" : "{{ post.date | date: "%B" }}",
 			"year"  : "{{ post.date | date: "%Y" }}"
 		}
-		}
-	{% unless forloop.last %},{% endunless %}
-	{% endfor %}
-]
+		}{% unless forloop.last %},{% endunless %}{% endfor %}
+	]
+}
+}

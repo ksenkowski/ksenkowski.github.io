@@ -42,6 +42,7 @@ if (typeof Object.create !== "function") {
 				target = $(this).attr('data-target');
 					shadows.util.toggleFont(data, target);
 			});
+			shadows.util.sitemap();
 		},
 		isEmpty: function(item){
 			return !$.trim(item.html());
@@ -60,6 +61,20 @@ if (typeof Object.create !== "function") {
 				array[randomIndex] = temporaryValue;
 			}
 			return array;
+		},
+		sitemap: function(){
+			$.ajax({
+				url: 'posts.json',
+				data: data
+			}).done(function(data){
+				content = data.sitemap.posts;
+				console.log(data.sitemap.posts[0]);
+				$.each(content, function(k,v){
+					console.log(array);
+					array += "<li><h5><a href="+v.href+">"+v.title+"</a></h5><small>"+v.excerpt+"</small></li>";
+				});
+				$('#sitemap').append(array);
+			});
 		}
 	};
 	shadows.runes = {
