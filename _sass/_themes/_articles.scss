@@ -167,6 +167,12 @@
 				background:$primary-light;
 				color:$white;
 			}
+			.scale{
+				transition: all 0.3s;
+				&:hover{
+					transform: scale(1.5);
+				}
+			}
 		}	
 	}	
 }
