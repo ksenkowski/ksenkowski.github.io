@@ -9,9 +9,20 @@ if (typeof Object.create !== "function") {
 (function (shadows, $, undefined) { 
 	'use strict';
 	// These are private
-	var container, value, data, content, target, currentIndex, temporaryValue, randomIndex;
+	var container, value, data, content, page, target, currentIndex, temporaryValue, randomIndex, list, listItems;
 	var h = 0, i = 0, t = 0;
 	var array = [];
+	var minValue = 0;
+	var maxValue = 10;
+	var prototcol = '//';
+	var host = window.location.host;
+	var pathname = window.location.pathname;
+	var search = window.location.search;
+	var counter = $('.counter');
+	var next = $('.next');
+	var prev = $('.prev');
+	var pageNav = $('.page-nav');
+	
 	
 	// This will be executed at ready event
 	$(document).ready(function() {
@@ -64,17 +75,78 @@ if (typeof Object.create !== "function") {
 		},
 		sitemap: function(){
 			$.ajax({
-				url: 'posts.json',
+				url: 'http://conspiracyofshadows.com/posts.json',
 				data: data
 			}).done(function(data){
 				content = data.sitemap.posts;
-				console.log(data.sitemap.posts[0]);
 				$.each(content, function(k,v){
-					console.log(array);
 					array += "<li><h5><a href="+v.href+">"+v.title+"</a></h5><small>"+v.excerpt+"</small></li>";
 				});
 				$('#sitemap').append(array);
 			});
+		}
+	};
+	shadows.pagination = {
+		init: function(){			
+		
+		},
+		goGet: function(){
+			return i;
+		},
+		goSet: function(val){
+			i = val;
+		},
+		setBorders: function(min, max){
+			minValue = min;
+			maxValue = max;
+		},
+		plus: function(){
+			page = (i < maxValue) ? ++i : i = minValue;
+			counter.html(page);
+			setHash(page);
+			show(page);
+			activeState(page);
+		},
+		minus: function(){
+			page = (i < minValue) ? --i : i = maxValue;
+			counter.html(page);
+			setHash(page);
+			show(page);
+			activeState(page);
+		},
+		setHash: function(hash){
+			window.location = protocol + host + pathname + search + '#' + hash;
+		},
+		getHash: function(){
+			return window.location.hash.replace('#', '');
+		},
+		nav: function(){
+			list = '#pager';
+			listItems = '';
+			
+			for(i = 1; i <= maxValue; i +=1){
+				listItems += '<li><a href="#"' + i + '">' + i + '</a></li>';
+			}
+			$(listItems).appendTo($(list).appendTo(counter));
+		},
+		show: function(page){
+			
+		},
+		initialPage: function(){
+			var h = getHash();
+			return (h === '') ? initValue : h;
+		},
+		activeState: function(p){
+			
+		},
+		pageEvent: function(e){
+			e.preventDefault();
+			page = this.hash.replace('#', '');
+			setHash(page);
+			gotSet(page);
+			counter.html(page);
+			show(page);
+			activeState(page);
 		}
 	};
 	shadows.runes = {
