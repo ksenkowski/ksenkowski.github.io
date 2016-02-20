@@ -8,7 +8,7 @@ tag: "role playing game rpg mechanics rules conspiracy of shadows core historia 
 excerpt: "The Historia is the way in which you further define out your character by the use of some random charts."
 class: "futhark"
 theme: "primary"
-image: "background-image:url('../img/articles/core/historia.jpg');"
+image: "background-image:url('../../img/articles/core/historia.jpg');"
 ---
 <section class="header" style="{{page.image}}">
 	<div class="content">
@@ -73,64 +73,66 @@ image: "background-image:url('../img/articles/core/historia.jpg');"
 			</thead>
 			<tbody>
 				<tr>
-					<td>1 - 2</td>
+					<td>1 - 3</td>
 					<td>
 						<strong>Financial Hardship</strong><small>
 						You have suffered a financial setback by gambling, carelessness or robbery. Toss 10 x 10 to determine how much you owe the individual that owns your marker. Name that person and place them in your Network.</small>
 					</td>
 				</tr>
 				<tr>
-					<td>3 - 4</td>
+					<td>4 - 6</td>
 					<td><strong>Victim</strong><small>
 					You were the victim of a crime, suffering injuries and now wear the scares. Define what happened and name that person and place them in your Network.</small>
 					</td>
 				</tr>
 				<tr>
-					<td>5 - 6</td>
+					<td>7 - 9</td>
 					<td><strong>Illness</strong><small>
 					You were overcome by a powerful illness. Subtract a point from your Athletics trait. Name the person who cared for you and place them in your Network.</small>
 					</td>
 				</tr>
 				<tr>
-					<td>7 - 8</td>
+					<td>10 - 12</td>
 					<td><strong>Injury</strong><small>
 					You were injured in some way that forced you to recuperate for an extended period of time. Name the person who cared for you or perhaps accidently harmed you and place them in your Network.</small>
 					</td>
 				</tr>
 				<tr>
-					<td>9 - 10</td>
+					<td>13 - 14</td>
 					<td><strong>Loss</strong><small>
 					You lost a friend, family member or lover. Name the person that helped your greive and place them in your Network.</small>
 					</td>
 				</tr>
 				<tr>
-					<td>11 - 12</td>
-					<td><strong>Misunderstanding</strong><small></small>
+					<td>15 - 16</td>
+					<td><strong>Misunderstanding</strong><small>
+						You and a friend got into an argument and now you barely talk. Name that person you are in a tiff with and place them in your Network.
+					</small>
 					</td>
 				</tr>
 				<tr>
-					<td>13 - 14</td>
-					<td><strong>Bankrupcy</strong><small></small></td>
-				</tr>
-				<tr>
-					<td>15 - 16</td>
-					<td><strong>Addiction</strong><small></small></td>
-				</tr>
-				<tr>
 					<td>17 - 18</td>
-					<td><strong>Prison</strong><small></small></td>
+					<td><strong>Bankrupcy</strong><small>
+						You once were wealthy but suffered a Bankrupcy in your past. Name the individual that was a part of your previously afluent state and place them in your Network.
+					</small></td>
 				</tr>
 				<tr>
 					<td>19 - 20</td>
-					<td><strong>Loss</strong><small></small></td>
+					<td><strong>Addiction</strong><small>
+						You were once addicted to alchohol or drug. Name an individual from that part of your life (e.g. other addict, dealer) and place them in your Network.
+					</small></td>
 				</tr>
 				<tr>
 					<td>21 - 22</td>
-					<td><strong>Betrayal</strong><small></small></td>
+					<td><strong>Prison</strong><small>
+						You were caught committing a crime and spent time in prison. Name a person you did time with (e.g. prisoner, guard, magistrate that sent you there) and place them in your Network.
+					</small></td>
 				</tr>
 				<tr>
 					<td>23 - 24</td>
-					<td><strong>Ostrasized</strong><small></small></td>
+					<td><strong>Betrayal</strong><small>
+						You were betrayed or betrayed someone you were close with. Name that person and place them in your Network.
+					</small></td>
 				</tr>
 			</tbody>
 		</table>
@@ -144,52 +146,52 @@ image: "background-image:url('../img/articles/core/historia.jpg');"
 			</thead>
 			<tbody>
 				<tr>
-					<td>1 - 2</td>
-					<td><strong>Small Windfall</strong><small></small></td>
+					<td>1 - 4</td>
+					<td><strong>Small Windfall</strong><small>
+					You gained a small financial windfall by gambling, business dealings or criminal activity. Toss 10 x 10 to determine how much you gained. Name the person that was a part of this windfall and place them in your Network.
+					</small></td>
 				</tr>
 				<tr>
-					<td>3 - 4</td>
-					<td><strong>Merchant</strong><small></small></td>
+					<td>5 - 8</td>
+					<td><strong>Merchant</strong><small>
+						You had positive dealings with a powerful and successful merchant. Name this person, define what they deal in and place them in your Network.
+					</small></td>
 				</tr>
 				<tr>
-					<td>5 - 6</td>
-					<td><strong>Criminal</strong><small></small></td>
+					<td>9 - 12</td>
+					<td><strong>Criminal</strong><small>
+						You had positive dealings with a career criminal. Name that person, define what kind of criminal they are and place them in your Network.
+					</small></td>
 				</tr>
 				<tr>
-					<td>7 - 8</td>
-					<td><strong>Teacher</strong></td>
-				</tr>
-				<tr>
-					<td>9 - 10</td>
-					<td><strong>Favor</strong></td>
-				</tr>
-				<tr>
-					<td>11 - 12</td>
-					<td><strong>Occupation</strong></td>
-				</tr>
-				<tr>
-					<td>13 - 14</td>
-					<td><strong>Major Windfall</strong></td>
-				</tr>
-				<tr>
-					<td>15 - 16</td>
-					<td><strong>Mentor</strong></td>
+					<td>13 - 16</td>
+					<td><strong>Teacher</strong><small>
+						You were lucky enough to have a great teacher in your life. Name that person, add a Talent to your character that reflects what they taught you, and place them in your Network.
+					</small></td>
 				</tr>
 				<tr>
 					<td>17 - 18</td>
-					<td><strong>Companion</strong></td>
+					<td><strong>Companion</strong><small>
+						You have a loyal companion who travels with you. Name that person, define why they follow you, and place them in your Network.
+					</small></td>
 				</tr>
 				<tr>
 					<td>19 - 20</td>
-					<td><strong>Noble</strong></td>
+					<td><strong>Noble</strong><small>
+						You had positive dealings with a noble of some standing. Name that person, why they look well upon you, and place them in your Network.
+					</small></td>
 				</tr>
 				<tr>
 					<td>21 - 22</td>
-					<td><strong>Church</strong></td>
+					<td><strong>Church</strong><small>
+						You had positive dealings with a powerful member of a church. Name that person, why they look well upon you, and place them in your Network.
+					</small></td>
 				</tr>
 				<tr>
 					<td>23 - 24</td>
-					<td><strong>Reputation</strong></td>
+					<td><strong>Reputation</strong><small>
+						You performed a deed worthy of note, be it infamous or famouse. Name that deed, add a Talent to your character that reflects your reputation, and place them in your Network.
+					</small></td>
 				</tr>
 			</tbody>
 		</table>
@@ -203,28 +205,34 @@ image: "background-image:url('../img/articles/core/historia.jpg');"
 			</thead>
 			<tbody>
 				<tr>
-					<td>1 - 4</td>
-					<td><strong>Quiet Affair</strong></td>
+					<td>1 - 5</td>
+					<td><strong>Quiet Affair</strong><small>
+						You had a quiet affair that changed the way you look at the world. Name that person you still keep in touch with and place them in your Network.
+					</small></td>
 				</tr>
 				<tr>
-					<td>5 - 8</td>
-					<td><strong>Love Triangle</strong></td>
+					<td>6 - 10</td>
+					<td><strong>Love Triangle</strong><small>
+						You had a volatile affair that fell appart. Name the two other people you were involved with and place both in your Network.
+					</small></td>
 				</tr>
 				<tr>
-					<td>9 - 12</td>
-					<td><strong>Enduring Romance</strong></td>
+					<td>11 - 15</td>
+					<td><strong>Enduring Romance</strong><small>
+						You fell in love and have remained in that relationship. Name that person and place them in your Network.
+					</small></td>
 				</tr>
 				<tr>
-					<td>13 - 18</td>
-					<td><strong>Children</strong></td>
+					<td>16 - 20</td>
+					<td><strong>Children</strong><small>
+						You had children, which changed your life. Name your the individual you had the children with, the children themselves and place them in your Network.
+					</small></td>
 				</tr>
 				<tr>
-					<td>19 - 23</td>
-					<td><strong>Loss</strong></td>
-				</tr>
-				<tr>
-					<td>24</td>
-					<td><strong>Tragic Affair</strong></td>
+					<td>21 - 24</td>
+					<td><strong>Tragic Affair</strong><small>
+						You had an affair that ended in tragedy. Define the nature of the tragedy and name someone involved in the affair (e.g. relative of your lover, the person responsible for the tragedy) and place them in your Network.
+					</small></td>
 				</tr>
 			</tbody>
 		</table>
@@ -239,27 +247,33 @@ image: "background-image:url('../img/articles/core/historia.jpg');"
 			<tbody>
 				<tr>
 					<td>1 - 4</td>
-					<td><strong>War</strong></td>
+					<td><strong>War</strong><small>
+						You went to war and faced it's horrors. Add a Talent that reflects your experiences during the war. Name someone you met during the war (e.g. comrade, enemy, civilian lover) and place them in your Network.
+					</small></td>
 				</tr>
 				<tr>
 					<td>5 - 8</td>
-					<td><strong>Travel</strong></td>
+					<td><strong>Travel</strong><small>
+						You went on a journey to someplace outside the norm for your background. Add a Talent that reflects your experiences on your journey. Name someone who you met on your journey (e.g. traveling companion, someone you met on the way) and place them in your Network.
+					</small></td>
 				</tr>
 				<tr>
 					<td>9 - 12</td>
-					<td><strong>Outlaw</strong></td>
+					<td><strong>Outlaw</strong><small>
+						You spent some time outside the law. Define why you went down this path and add a Talent that reflects your experiences. Name someone you met while living outside the law (e.g. other criminal, a victim of your crimes) and place them in your Network.
+					</small></td>
 				</tr>
 				<tr>
 					<td>13 - 18</td>
-					<td><strong>Blood Feud</strong></td>
+					<td><strong>Blood Feud</strong><small>
+						You became embroiled in a blood feud against a hated enemy. Add a Talent that reflects your experiences. Name someone you met during this nasty period (e.g. someone on your side, one of your enemies) and place them in your Network.
+					</small></td>
 				</tr>
 				<tr>
-					<td>19 - 23</td>
-					<td><strong>Discovery</strong></td>
-				</tr>
-				<tr>
-					<td>24</td>
-					<td><strong>Supernatural</strong></td>
+					<td>19 - 24</td>
+					<td><strong>Supernatural</strong><small>
+						You had a life changing experience that resulted in your exposure to the supernatural. Name someone you met during this experience (e.g. a supernatural entity, an exorcist, a monster hunter) and place them in your Network.
+					</small></td>
 				</tr>
 			</tbody>
 		</table>
