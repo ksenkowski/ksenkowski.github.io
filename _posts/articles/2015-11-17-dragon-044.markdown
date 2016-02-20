@@ -8,7 +8,7 @@ tag: "role playing game rpg dragon magazine reviews"
 excerpt: "Food Fight! Phil Foglio! Santa Clause?!?! Dwarves! Wait, dwarves? Well dwarve beard arguments and genetics!"
 class: "dragon-issue044"
 theme: "tertiary"
-image: "background-image:url('../img/articles/dragon/044/cover.jpg');"
+image: "background-image:url('../../img/articles/dragon/044/cover.jpg');"
 ---
 <section class="header" style="{{page.image}}">
 	<div class="content">

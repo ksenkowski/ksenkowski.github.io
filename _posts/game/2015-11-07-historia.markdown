@@ -4,11 +4,11 @@ title:  "Historia"
 author: "Keith Senkowski"
 date:   2015-11-07 
 category: game
-tag: "role playing game rpg mechanics rules conspiracy of shadows core wyrding"
-excerpt: "The Wyrd is the way in which individuals tap into supernatural powers to change the world around them."
+tag: "role playing game rpg mechanics rules conspiracy of shadows core historia history past"
+excerpt: "The Historia is the way in which you further define out your character by the use of some random charts."
 class: "futhark"
 theme: "primary"
-image: "background-image:url('../img/articles/core/wyrding.jpg');"
+image: "background-image:url('../img/articles/core/historia.jpg');"
 ---
 <section class="header" style="{{page.image}}">
 	<div class="content">
@@ -46,20 +46,12 @@ image: "background-image:url('../img/articles/core/wyrding.jpg');"
 			</thead>
 			<tbody>
 				<tr>
-					<td>1 - 4</td>
-					<td>Minor Ill Fortune</td>
+					<td>1 - 8</td>
+					<td>Ill Fortune</td>
 				</tr>
 				<tr>
-					<td>5 - 8</td>
-					<td>Minor Good Fortune</td>
-				</tr>
-				<tr>
-					<td>9 - 12</td>
-					<td>Major Ill Fortune</td>
-				</tr>
-				<tr>
-					<td>13 - 18</td>
-					<td>Major Good Fortune</td>
+					<td>9 - 18</td>
+					<td>Good Fortune</td>
 				</tr>
 				<tr>
 					<td>19 - 23</td>
@@ -72,7 +64,7 @@ image: "background-image:url('../img/articles/core/wyrding.jpg');"
 			</tbody>
 		</table>
 		<table>
-			<caption>Minor Ill Fortune Table</caption>
+			<caption>Ill Fortune Table</caption>
 			<thead>
 				<tr>
 					<th># of Successes</th>
@@ -81,33 +73,69 @@ image: "background-image:url('../img/articles/core/wyrding.jpg');"
 			</thead>
 			<tbody>
 				<tr>
-					<td>1 - 4</td>
-					<td>Financial Hardship</td>
+					<td>1 - 2</td>
+					<td>
+						<strong>Financial Hardship</strong><small>
+						You have suffered a financial setback by gambling, carelessness or robbery. Toss 10 x 10 to determine how much you owe the individual that owns your marker. Name that person and place them in your Network.</small>
+					</td>
 				</tr>
 				<tr>
-					<td>5 - 8</td>
-					<td>Victim</td>
+					<td>3 - 4</td>
+					<td><strong>Victim</strong><small>
+					You were the victim of a crime, suffering injuries and now wear the scares. Define what happened and name that person and place them in your Network.</small>
+					</td>
 				</tr>
 				<tr>
-					<td>9 - 12</td>
-					<td>Illness</td>
+					<td>5 - 6</td>
+					<td><strong>Illness</strong><small>
+					You were overcome by a powerful illness. Subtract a point from your Athletics trait. Name the person who cared for you and place them in your Network.</small>
+					</td>
 				</tr>
 				<tr>
-					<td>13 - 18</td>
-					<td>Injury</td>
+					<td>7 - 8</td>
+					<td><strong>Injury</strong><small>
+					You were injured in some way that forced you to recuperate for an extended period of time. Name the person who cared for you or perhaps accidently harmed you and place them in your Network.</small>
+					</td>
 				</tr>
 				<tr>
-					<td>19 - 23</td>
-					<td>Loss</td>
+					<td>9 - 10</td>
+					<td><strong>Loss</strong><small>
+					You lost a friend, family member or lover. Name the person that helped your greive and place them in your Network.</small>
+					</td>
 				</tr>
 				<tr>
-					<td>24</td>
-					<td>Misunderstanding</td>
+					<td>11 - 12</td>
+					<td><strong>Misunderstanding</strong><small></small>
+					</td>
+				</tr>
+				<tr>
+					<td>13 - 14</td>
+					<td><strong>Bankrupcy</strong><small></small></td>
+				</tr>
+				<tr>
+					<td>15 - 16</td>
+					<td><strong>Addiction</strong><small></small></td>
+				</tr>
+				<tr>
+					<td>17 - 18</td>
+					<td><strong>Prison</strong><small></small></td>
+				</tr>
+				<tr>
+					<td>19 - 20</td>
+					<td><strong>Loss</strong><small></small></td>
+				</tr>
+				<tr>
+					<td>21 - 22</td>
+					<td><strong>Betrayal</strong><small></small></td>
+				</tr>
+				<tr>
+					<td>23 - 24</td>
+					<td><strong>Ostrasized</strong><small></small></td>
 				</tr>
 			</tbody>
 		</table>
 		<table>
-			<caption>Minor Good Fortune Table</caption>
+			<caption>Good Fortune Table</caption>
 			<thead>
 				<tr>
 					<th># of Successes</th>
@@ -116,98 +144,52 @@ image: "background-image:url('../img/articles/core/wyrding.jpg');"
 			</thead>
 			<tbody>
 				<tr>
-					<td>1 - 4</td>
-					<td>Small Windfall</td>
+					<td>1 - 2</td>
+					<td><strong>Small Windfall</strong><small></small></td>
 				</tr>
 				<tr>
-					<td>5 - 8</td>
-					<td>Merchant</td>
+					<td>3 - 4</td>
+					<td><strong>Merchant</strong><small></small></td>
 				</tr>
 				<tr>
-					<td>9 - 12</td>
-					<td>Criminal</td>
+					<td>5 - 6</td>
+					<td><strong>Criminal</strong><small></small></td>
 				</tr>
 				<tr>
-					<td>13 - 18</td>
-					<td>Teacher</td>
+					<td>7 - 8</td>
+					<td><strong>Teacher</strong></td>
 				</tr>
 				<tr>
-					<td>19 - 23</td>
-					<td>Favor</td>
+					<td>9 - 10</td>
+					<td><strong>Favor</strong></td>
 				</tr>
 				<tr>
-					<td>24</td>
-					<td>Occupation</td>
-				</tr>
-			</tbody>
-		</table>
-		<table>
-			<caption>Major Ill Fortune Table</caption>
-			<thead>
-				<tr>
-					<th># of Successes</th>
-					<th>Event Type</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>1 - 4</td>
-					<td>Bankrupcy</td>
+					<td>11 - 12</td>
+					<td><strong>Occupation</strong></td>
 				</tr>
 				<tr>
-					<td>5 - 8</td>
-					<td>Addiction</td>
+					<td>13 - 14</td>
+					<td><strong>Major Windfall</strong></td>
 				</tr>
 				<tr>
-					<td>9 - 12</td>
-					<td>Prison</td>
+					<td>15 - 16</td>
+					<td><strong>Mentor</strong></td>
 				</tr>
 				<tr>
-					<td>13 - 18</td>
-					<td>Loss</td>
+					<td>17 - 18</td>
+					<td><strong>Companion</strong></td>
 				</tr>
 				<tr>
-					<td>19 - 23</td>
-					<td>Betrayal</td>
+					<td>19 - 20</td>
+					<td><strong>Noble</strong></td>
 				</tr>
 				<tr>
-					<td>24</td>
-					<td>Ostrasized</td>
-				</tr>
-			</tbody>
-		</table>
-		<table>
-			<caption>Major Good Fortune Table</caption>
-			<thead>
-				<tr>
-					<th># of Successes</th>
-					<th>Event Type</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>1 - 4</td>
-					<td>Major Windfall</td>
+					<td>21 - 22</td>
+					<td><strong>Church</strong></td>
 				</tr>
 				<tr>
-					<td>5 - 8</td>
-					<td>Mentor</td>
-				</tr>
-				<tr>
-					<td>9 - 12</td>
-					<td>Companion</td>
-				</tr>
-				<tr>
-					<td>13 - 18</td>
-					<td>Noble</td>
-				</tr>
-				<tr>
-					<td>19 - 23</td>
-					<td>Church</td>
-				</tr>
-				<tr>
-					<td>24</td>
-					<td>Reputation</td>
+					<td>23 - 24</td>
+					<td><strong>Reputation</strong></td>
 				</tr>
 			</tbody>
 		</table>
@@ -222,27 +204,27 @@ image: "background-image:url('../img/articles/core/wyrding.jpg');"
 			<tbody>
 				<tr>
 					<td>1 - 4</td>
-					<td>Quiet Affair</td>
+					<td><strong>Quiet Affair</strong></td>
 				</tr>
 				<tr>
 					<td>5 - 8</td>
-					<td>Love Triangle</td>
+					<td><strong>Love Triangle</strong></td>
 				</tr>
 				<tr>
 					<td>9 - 12</td>
-					<td>Enduring Romance</td>
+					<td><strong>Enduring Romance</strong></td>
 				</tr>
 				<tr>
 					<td>13 - 18</td>
-					<td>Children</td>
+					<td><strong>Children</strong></td>
 				</tr>
 				<tr>
 					<td>19 - 23</td>
-					<td>Loss</td>
+					<td><strong>Loss</strong></td>
 				</tr>
 				<tr>
 					<td>24</td>
-					<td>Tragic Affair</td>
+					<td><strong>Tragic Affair</strong></td>
 				</tr>
 			</tbody>
 		</table>
@@ -257,27 +239,27 @@ image: "background-image:url('../img/articles/core/wyrding.jpg');"
 			<tbody>
 				<tr>
 					<td>1 - 4</td>
-					<td>War</td>
+					<td><strong>War</strong></td>
 				</tr>
 				<tr>
 					<td>5 - 8</td>
-					<td>Travel</td>
+					<td><strong>Travel</strong></td>
 				</tr>
 				<tr>
 					<td>9 - 12</td>
-					<td>Outlaw</td>
+					<td><strong>Outlaw</strong></td>
 				</tr>
 				<tr>
 					<td>13 - 18</td>
-					<td>Blood Feud</td>
+					<td><strong>Blood Feud</strong></td>
 				</tr>
 				<tr>
 					<td>19 - 23</td>
-					<td>Discovery</td>
+					<td><strong>Discovery</strong></td>
 				</tr>
 				<tr>
 					<td>24</td>
-					<td>Supernatural</td>
+					<td><strong>Supernatural</strong></td>
 				</tr>
 			</tbody>
 		</table>

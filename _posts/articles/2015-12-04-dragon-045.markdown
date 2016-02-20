@@ -8,7 +8,7 @@ tag: "role playing game rpg dragon magazine reviews"
 excerpt: "Paper Dungeons! Do I really need to say much more than that?"
 class: "dragon-issue045"
 theme: "secondary"
-image: "background-image:url('../img/articles/dragon/045/cover.jpg');"
+image: "background-image:url('../../img/articles/dragon/045/cover.jpg');"
 ---
 <section class="header" style="{{page.image}}">
 	<div class="content">

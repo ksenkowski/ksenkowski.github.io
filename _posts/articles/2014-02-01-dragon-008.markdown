@@ -8,7 +8,7 @@ tag: "role playing game rpg dragon magazine reviews"
 excerpt: "Some issues are good and some issues are bad. This is not one of those good issues."
 class: "dragon-issue008"
 theme: "tertiary"
-image: "background-image:url('../img/articles/dragon/008/cover.jpg');"
+image: "background-image:url('../../img/articles/dragon/008/cover.jpg');"
 ---
 <section class="header" style="{{page.image}}">
 	<div class="content">

@@ -8,7 +8,7 @@ tag: "role playing game rpg dragon magazine reviews"
 excerpt: "A brief dive into the first year in the life of The Dragon, or Dragon Magazine as I came to know it as a teenager."
 class: "dragon-year-one"
 theme: "secondary"
-image: "background-image:url('../img/articles/dragon/year-one/cover.jpg');"
+image: "background-image:url('../../img/articles/dragon/year-one/cover.jpg');"
 ---
 <section class="header" style="{{page.image}}">
 	<div class="content">

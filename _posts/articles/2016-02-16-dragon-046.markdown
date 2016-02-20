@@ -1,0 +1,159 @@
+---
+layout: article
+title:  "The Dragon in Review, Issue Forty-Six"
+author: "Keith Senkowski"
+date:   2016-02-16
+category: article
+tag: "role playing game rpg dragon magazine reviews"
+excerpt: "New layout, weird cover, adventure supplement and DIVINE RIGHT! This issue has it all."
+class: "dragon-issue046"
+theme: "tertiary"
+image: "background-image:url('../../img/articles/dragon/046/cover.jpg');"
+---
+<section class="header" style="{{page.image}}">
+	<div class="content">
+	<aside class="span-3 col empty"></aside>
+	<div class="span-6 col">
+		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
+		<h1>{{ page.title }}</h1>
+		<p>If I had seen this issue on the newstand back in the day I would have kept walking. That would have been a shame cause there is some worthwhile material in here. Luckily we live in the future and I have a mission to review as many of these issues as I can.</p>
+	</div>
+	<aside class="span-3 col empty"></aside>	
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<h2>Pinsom?</h2>
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<aside class="span-5 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/dragon/046/full-cover.jpg" alt="Full Cover by Dean Morrissey"/>
+				<figcaption>The content of this cover is not my bag, but the composition is really strong.</figcaption>
+			</figure>
+		</aside>	
+		<div class="span-5 col">
+			<p>So <strong>Pinsom</strong> is a comic by <a href="http://www.ebay.com/sch/i.html?_from=R40&_trksid=p2141725.m570.l1313.TR0.TRC0.H0.XSteve+Swenston.TRS0&_nkw=Steve+Swenston&_sacat=0" target="_blank">Steve Swenston</a> that is totally not my bag. However, the composition of this cover is really solid. There is some nice symmetry to it, giving it an iconic feel that contrast the oddball characters being illustrated.</p>
+			<p>I got to admit, the content turns me off, but the more I look at it the more appreciate what Mr. Swenston was trying to accomplish. But damn, those ears and the nose. Ugh.</p>
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+		
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<h2>Face Lift is a Go</h2>
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-5 col">
+			<p>So along with the new regular comic, <strong>Pinsom</strong>, this issue unveals a new typeface and a three column layout. The motivation for both of these moves is for legibility. I aplaud their attempt, but disagree with the choices (I'm a bit of a <a href="http://www.conspiracyofshadows.com/musings.html">typography nerd</a>).</p>
+			<p>They unfortunately provide no colophon so I have no idea which typeface they are using. It is a sans-serif font, which is a change from previous issues where they were using a serif font for the body copy. While I do think switching to a sans-serif font has merit for the body copy, the leading is way too small and the kerning looks off.</p>
+			<p>The three column layout is also rough for me. I am a proponent of the 65/70 character per line rule, but that isn't the biggest issue. The three columns could work if they sorted out the leading, but as it is implemented in this issue it causes serious eye strain.</p>
+		</div>
+		<div class="span-5 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/dragon/046/face-lift.png" alt="Face Lift Announcement"/>
+				<figcaption>Ah the advent of the three column format. I have never been a big fan of this layout, finding it rarely meets the 65 to 70 character ideal width.</figcaption>
+			</figure>
+		</div>	
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<h2>Gaming Physics Are Awesome Sometimes</h2>
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-5 col">
+			<p>Only gamers come up with questions like this, but that isn't the best part. The best part is our friends at <strong>TSR</strong> took it seriously and came up with an answer.</p>
+		</div>
+		<aside class="span-5 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/dragon/046/game-physics.png" alt="Game Physics Question"/>
+				<figcaption>God I love gamers.</figcaption>
+			</figure>
+		</aside>	
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<h2>Temple of Poseidon</h2>
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+	<div class="content gutters">
+		<div class="span-3 col empty"></div>
+		<div class="span-6 col">
+			<p>The <strong>Temple of Poseidon</strong> is a pretty interesting adventure insert for <strong>Dragon</strong>. It is also long as hell so here are the highlights as I see them.</p>
+			<ul class="spaced-list">
+				<li>Takes <strong>Clark Ashton Smith</strong> and gamerdoms favorite racist writer, <strong>H.P. Lovecraft</strong> and mixes it up with <strong>Greek Mythology</strong></li>
+				<li>Rules for swimming in armor.</li>
+				<li><strong>SAND SQUID!!!!</strong> Dumb monster, but why the hell not?</li>
+				<li>You can get attacked by <strong>Sea Lions</strong>. Yup. I said it.</li>
+				<li>There are so many random ass inclusions of monsters it is almost the theme of the adventure.</li>
+				<li>Poseidon makes an appearance and drops some knowledge, but doesn't help stop the <em>Elder Things</em>.</li>
+				<li>Timed actions! I love that sort of things in adventures.</li>
+			</ul>
+		</div>
+		<div class="span-3 col empty"></div>
+	</div>
+	<div class="content gutters">
+		<div class="span-2 col empty"></div>
+		<div class="span-8 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/dragon/046/temple-poseidon.png" alt="Temple of Poseidon Adventure"/>
+				<figcaption>Ok, I'll admit it. This amused me.</figcaption>
+			</figure>
+		</div>	
+		<div class="span-2 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<h2>Divine Right Returns</h2>
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-5 col">
+			<p>It is no secret that I have an irrational fascination with this game. Mike Holmes was nice enough to dig out his copy of the game at <a href="https://forgemidwest.wordpress.com/" target="blank">Forge Midwest</a> so I could take it for a spin. It suffers from the same issues games of this type from that time suffer from. However, now I wish I wasn't going to miss it this year so I could make Mike pull this out again to try out these variants:</p>
+			<ul class="spaced-list">
+				<li>Special siege rules</li>
+				<li>Special ambush rules</li>
+				<li>Special treasure rules</li>
+				<li>Tactical leadership simulation rules</li>
+				<li>Forced march and other movement exhaustion rules.</li>
+				<li>Barbarian variations.</li>
+			</ul>
+		</div>
+		<div class="span-5 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/dragon/046/divine-right.png" alt="Divine Right Minarian Variants"/>
+				<figcaption>Who doesn't love rules variants for board and war games?</figcaption>
+			</figure>
+		</div>	
+		<div class="span-1 col empty"></div>
+	</div>
+	<div class="divider"></div>	
+</section>

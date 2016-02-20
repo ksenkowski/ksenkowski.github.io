@@ -67,6 +67,10 @@
 		border:3px solid $dark-gray;
 		width:100%;
 		margin-bottom:em(30px);
+		
+		small{
+			display:block;
+		}
 		caption{
 			font-size:1.6em;
 			font-family:$secondary-stack;
