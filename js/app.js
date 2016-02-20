@@ -12,6 +12,8 @@ if (typeof Object.create !== "function") {
 	var container, value, data, content, page, target, currentIndex, temporaryValue, randomIndex, list, listItems;
 	var h = 0, i = 0, t = 0;
 	var array = [];
+	var games = [];
+	var articles = [];
 	var minValue = 0;
 	var maxValue = 10;
 	var prototcol = '//';
@@ -82,18 +84,29 @@ if (typeof Object.create !== "function") {
 			}).done(function(data){
 				content = data.sitemap.posts;
 				$.each(content, function(k,v){
-					array += '<li><h5><a href="'+
-								v.href+'">"'+v.title
-								+'</a></h5><small>'+
-								v.excerpt
-								+'<br/><strong>Category:</strong> <em><a href="/'+
-								v.category
-								+'.html">'+
-								v.category
-								+'</a></em></small></li>';
+					if(v.category == 'articles'){
+						articles += '<li><h5><a href="'+
+									v.href+'">'+v.title
+									+'</a></h5><small>'+
+									v.excerpt
+									+'</small></li>';			
+					}else if(v.category == 'games'){
+						games += '<li><h5><a href="'+
+									v.href+'">'+v.title
+									+'</a></h5><small>'+
+									v.excerpt
+									+'</small></li>';			
+					}else{
+						array += '<li><h5><a href="'+
+									v.href+'">'+v.title
+									+'</a></h5><small>'+
+									v.excerpt
+									+'</small></li>';									
+					}
 				});
-				console.log(data.sitemap.posts);
-				$('#sitemap').append(array);
+				$('#articles').append(articles);
+				$('#games').append(games);
+				$('#musings').append(array);
 			}).error(function(error){
 				console.log(error);
 			});
