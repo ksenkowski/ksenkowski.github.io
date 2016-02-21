@@ -114,7 +114,17 @@ if (typeof Object.create !== "function") {
 	};
 	shadows.pagination = {
 		init: function(){			
+			
 		
+			next.on('click', function(){
+				plus();
+			});
+			prev.on('click', function(){
+				minus();
+			});
+			$(pageNav).on('click', a, function(){
+				pageEvent();
+			})
 		},
 		goGet: function(){
 			return i;
