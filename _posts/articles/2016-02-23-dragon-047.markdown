@@ -1,0 +1,123 @@
+---
+layout: article
+title:  "The Dragon in Review, Issue Forty-Seven"
+author: "Keith Senkowski"
+date:   2016-02-23
+category: articles
+tag: "role playing game rpg dragon magazine reviews"
+excerpt: "Beautiful cover, Epyx games, Crimefighters and Dick Cheney all make an appearance in this issue of Dragon Magazine."
+class: "dragon-issue047"
+theme: "primary"
+image: "background-image:url('../../img/articles/dragon/047/cover.jpg');"
+---
+<section class="header" style="{{page.image}}">
+	<div class="content">
+	<aside class="span-3 col empty"></aside>
+	<div class="span-6 col">
+		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
+		<h1>{{ page.title }}</h1>
+		<p>This is a really interesting issue of Dragon Magazine. We get the first appearance of a master artist on the cover, an advertisement for one of the most influencial game companies of the time, and a full pulp heroes game called <strong>Crimefighters</strong>. Oh, and <strong>Dick Cheney</strong> sent a question to <strong>Dragon Magazine</strong> that got answered in this issue.</p>
+	</div>
+	<aside class="span-3 col empty"></aside>	
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<h2>First Appearance of a Master</h2>
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<aside class="span-5 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/dragon/047/full-cover.jpg" alt="Full Cover by John Blumen" class="scale"/>
+				<figcaption>John Blumen makes his first appearance in Dragon Magazine and it is beautiful.</figcaption>
+			</figure>
+		</aside>	
+		<div class="span-5 col">
+			<p><a href="http://www.johnblumenillustration.com/" target="_blank">John Blumen</a> is a fantastic artist who's work I have admired for a long time. Here we get the pleasure of seeing some of his early work (also his first for <strong>Dragon</strong>). If you hit his website in the link above you can see both how raw this cover is, but also the places he went over time.</p>
+			<p>Personally I love the use of the color in this piece (mouse over to zoom in). He pulls in the warm and cool spectrum in interesting ways throughout. In particular I am captivated by the lizard mount/thing. It's eyes haunt my dreams.</p>
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+		
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<h2>Epyx</h2>
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-5 col">
+			<p>This advertisement for <strong>Epyx</strong> games is important for two reasons. First, look at it! It is a classic example of the <em>excited guy</em> advertisement (not to be confused with the <em>excited family</em> ad). Just look at him. That dude is super happy to tell you about <strong>Epyx</strong> games.</p>
+			<p>The second reason is that this company is responsible for the creation of some amazingly influencial and important games. The most familiar are probably <strong>California Games</strong>, <strong>Summer Games</strong>, <strong>Winter Games</strong> and <strong>G.I.JOE</strong>. The ones people forget they are responsible are perhaps more important; th wide release and ports of <strong>Rogue</strong> (hence the term roguelike) and the <strong>Dunjonquest</strong> line.</p>
+			<p>Oh, and the company was founded when one of the founders bought a <strong>Commodor PET</strong> to help manage his <strong>D&amp;D</strong> game. You can read about <strong>Dunjonquest</strong> <a href="http://www.hardcoregaming101.net/dunjonquest/dunjonquest.htm" target="_blank">here</a>.</p>
+		</div>
+		<div class="span-5 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/dragon/047/epyx.jpg" alt="Epyx Advertisement"/>
+				<figcaption>The very people you have to thank for the term Roguelike.</figcaption>
+			</figure>
+		</div>	
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<h2>Dick Cheney Played D&amp;D</h2>
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-5 col">
+			<p>I mean I can only assume <strong>Cheney</strong> sent this letter to <strong>Dragon</strong> to get clarification on torture practices. It looks like we have <strong>TSR</strong> to blame for his justification of torture.</p>
+			<p>Yeah. I know. I hate that guy too.</p>
+		</div>
+		<aside class="span-5 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/dragon/047/cheney.png" alt="Dick Cheney Asks a Question"/>
+				<figcaption>D&amp;D may not have led to devil worship, but it certainly led to the devil finding ways to justify torture.</figcaption>
+			</figure>
+		</aside>	
+		<div class="span-1 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-10 col">
+			<h2>Crimefighters</h2>
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+	<div class="content gutters">
+		<div class="span-3 col empty"></div>
+		<div class="span-6 col">
+			<p>A really large section of the magazine is taken up by this article. A pulp fiction game (<strong>Shadow</strong> not <strong>Tarantino</strong>), it takes some interesting approaches to game design. <strong>David Cook</strong> is the author and I can almost see him struggling against accepted system design practices in this piece.</p>
+			<p>The two most interesting bits I saw I added to the image here. The first is a experience point path based on what are essentially pulp archetypes. Instead of killing things and taking your stuff, you need to act according to your archetype to advance.</p>
+			<p>The second interesting bit is the initiative system. It is tied to seconds of time and actions that are declared first. After their declaration you roll a <strong>D4</strong>, which only slightly modifies the results. Interesting stuff that wouldn't take much to extrapolate away from a combat system to a resolution system.</p>
+		</div>
+		<div class="span-3 col empty"></div>
+	</div>
+	<div class="content gutters">
+		<div class="span-2 col empty"></div>
+		<div class="span-8 col">
+			<figure>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/dragon/047/crime-fighters.png" alt="Crimefighters! RPG"/>
+				<figcaption>For the time, this game was pretty novel. Probably why it never took off.</figcaption>
+			</figure>
+		</div>	
+		<div class="span-2 col empty"></div>
+	</div>
+	<div class="divider"></div>	
+</section>

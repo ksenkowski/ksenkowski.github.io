@@ -33,7 +33,7 @@ image: "background-image:url('../../img/articles/dragon/046/cover.jpg');"
 		<div class="span-1 col empty"></div>
 		<aside class="span-5 col">
 			<figure>
-				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/dragon/046/full-cover.jpg" alt="Full Cover by Dean Morrissey"/>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/dragon/046/full-cover.jpg" alt="Full Cover by Steve Swenston"/>
 				<figcaption>The content of this cover is not my bag, but the composition is really strong.</figcaption>
 			</figure>
 		</aside>	
