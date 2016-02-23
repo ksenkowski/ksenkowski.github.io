@@ -8,7 +8,7 @@ tag: "role playing game rpg mechanics rules conspiracy of shadows core basics ru
 excerpt: "Blood Opera is a narrative role-playing game that combines the tarot card deck I created with the rules of Euchre."
 class: "blood-opera"
 theme: "tertiary"
-image: "background-image:url('../img/articles/blood-opera/cover.jpg');"
+image: "background-image:url('../../img/articles/blood-opera/cover.jpg');"
 ---
 <section class="header" style="{{page.image}}">
 	<div class="content">

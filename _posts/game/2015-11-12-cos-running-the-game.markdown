@@ -8,7 +8,7 @@ tag: "role playing game rpg mechanics rules conspiracy of shadows core basics ru
 excerpt: "Running a game of Conspiracy of Shadows is both similar to and different than many role-playing games. It embraces the randomness of OSR games within the confines of procedures familiar to board game enthusiasts."
 class: "running-the-game"
 theme: "primary"
-image: "background-image:url('../img/articles/core/running-game.jpg');"
+image: "background-image:url('../../img/articles/core/running-game.jpg');"
 ---
 <section class="header" style="{{page.image}}">
 	<div class="content">
@@ -63,7 +63,19 @@ image: "background-image:url('../img/articles/core/running-game.jpg');"
 		<h3>The Court of Shadows</h3>
 		<p>The <strong>Court of Shadows</strong> is heart of the sinister organization the <strong>Cell</strong> with strive against. They are the villians of the story. To construct these villians, the <strong>GM</strong> creates four characters using the same <strong>Friends &amp; Foes</strong> rules as the players. The four characters they create are the <strong>Sovereign</strong>, the <strong>Savior</strong>, the <strong>Pawn</strong> and the <strong>Purifier</strong>. These four initial characters are the foundation of the <strong>Conspiracy</strong>.</p>
 		<h3>Sinister Agendas</h3>
-		<p>The next	</p>
+		<p>The next	step in creating your conspiracy is to determine their ultimate goal. This is perhaps the most important part in creating a conspiracy as it informs every action you will take as the GM during play. Create this agenda by answering the following questions:</p>
+		<ul class="unstyled spaced-list">
+			<li>What motivates the Conspiracy?</li>
+			<li>Is the Conspiracy trying to take over the world?</li>
+			<li>Does the Conspiracy want to control criminal activity?</li>
+			<li>Is the Conspiracy trying to remake humanity or destroy it?</li>
+			<li>Is the Conspiracy working against another clandestine organization?</li>
+			<li>How does the Conspiracy operate? Is it overt in it's actions, covert or something inbetween?</li>
+		</ul>
+		<h3>Conspiracy Map</h3>
+		<p>The <strong>Conspiracy Map</strong> is the GM's primary tool for generating ideas and keeping the Conspiracy interesting. Like the <strong>Litany of Heroes</strong>, it is a living, breathing document that will change over time. It is also the absolute record of truth in regards to the Conspiracy.</p>
+		<p>Creating the <strong>Conspiracy Map</strong> begins with a blank piece of paper of a good size (e.g. 11x17, roll of butcher paper, a white board). In the center of that paper write down the names of the <strong>Sovereign</strong>, the <strong>Savior</strong>, the <strong>Pawn</strong> and the <strong>Purifier</strong>. Look at the character's created so far and start to write names of people, places and organizations that reflect connection points with the Cell. Draw lines, make notes, add portraits, pictures and maps. Keep creating until you feel like you are done.</p>
+		<p>Once you put your pencil down, stop gluing pictures, or pinning spots on a map and connecting them with string you have your starting <strong>Conspiracy Map</strong>. As you play, the map will change and evolved, both from the actions of the players, but also by you adding and removing things in service of your own interests. The game is meant to be fun for everyone.</p>
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
@@ -88,7 +100,7 @@ image: "background-image:url('../img/articles/core/running-game.jpg');"
 			<li><strong>Journey Speed</strong><br/><small>Consult the Journey Speed Table. The nature of the Cell's mode of travel will modify the cost of each Challenge the characters have to toss for. Multiply the modifier by the Vitality cost of the terrain of each Challenge and round down.</small></li>
 			<li><strong>Athletics Challenges</strong><br/><small>With each hex, each member of the Cell must make an Athletics Challenge. If successful, they pass through that portion of their journey uneventfully. If one player fails, future Challenges in this part of the journey suffer a cumulative +1R or the Game Master can choose to bring this leg of the journey to a halt, introducing a new Arc and location.</small></li>
 		</ol>
-		<table class="table-scroll">
+		<table>
 			<caption>Terrain Table</caption>
 			<thead>
 				<tr>
@@ -130,7 +142,7 @@ image: "background-image:url('../img/articles/core/running-game.jpg');"
 				</tr>
 			</tbody>
 		</table>
-		<table class="table-scroll">
+		<table>
 			<caption>Journey Speed Table</caption>
 			<thead>
 				<tr>
@@ -1335,7 +1347,7 @@ image: "background-image:url('../img/articles/core/running-game.jpg');"
 	<div class="content">
 		<div class="span-1 col empty"></div>
 		<div class="span-10 col">
-			<table class="table-scroll">
+			<table>
 				<caption>Negative Conditions Table</caption>
 				<thead>
 					<tr>
@@ -1374,7 +1386,7 @@ image: "background-image:url('../img/articles/core/running-game.jpg');"
 					</tr>
 				</tbody>
 			</table>
-			<table class="table-scroll">
+			<table>
 				<caption>Twists Table</caption>
 				<thead>
 					<tr>

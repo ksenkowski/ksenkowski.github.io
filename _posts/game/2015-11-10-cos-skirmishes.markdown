@@ -8,7 +8,7 @@ tag: "role playing game rpg mechanics rules conspiracy of shadows core basics ru
 excerpt: "The Skirmishes rules are designed to resolve marshal conflicts between two or more opposing forces. Each token or miniature you use represents a single participant. Each participant is a named individual with weapons, combat traits and sustain individual wounds."
 class: "skirmishes"
 theme: "primary"
-image: "background-image:url('../img/articles/core/skirmishes.jpg');"
+image: "background-image:url('../../img/articles/core/skirmishes.jpg');"
 ---
 <section class="header" style="{{page.image}}">
 	<div class="content">

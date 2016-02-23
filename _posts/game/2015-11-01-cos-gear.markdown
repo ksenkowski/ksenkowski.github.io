@@ -8,7 +8,7 @@ tag: "role playing game rpg mechanics rules conspiracy of shadows core basics ru
 excerpt: "A lot of games have moved away from the importance of the gear a character has on them. I've never been one to buy into that idea. I see gear as another tool to help define who your character is."
 class: "gear"
 theme: "primary"
-image: "background-image:url('../img/articles/core/gear.jpg');"
+image: "background-image:url('../../img/articles/core/gear.jpg');"
 ---
 <section class="header" style="{{page.image}}">
 	<div class="content">

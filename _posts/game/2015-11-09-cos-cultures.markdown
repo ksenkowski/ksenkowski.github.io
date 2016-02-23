@@ -8,7 +8,7 @@ tag: "role playing game rpg mechanics rules conspiracy of shadows core basics ru
 excerpt: "Cultures and the Vocations tied to those cultures are the first half of creating a friend or foe in Conspiracy of Shadows. Here you will find samples to use in play for the Alfar, Constructs, Humanity, and Skalfar."
 class: "culture"
 theme: "primary"
-image: "background-image:url('../img/articles/core/culture.jpg');"
+image: "background-image:url('../../img/articles/core/culture.jpg');"
 ---
 <section class="header" style="{{page.image}}">
 	<div class="content">

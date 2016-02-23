@@ -8,7 +8,7 @@ tag: "role playing game rpg mechanics rules conspiracy of shadows core basics ru
 excerpt: "Traits and Talents are a core aspect of play in Conspiracy of Shadows. They provide the building blocks for bringing your characters to life."
 class: "traits-talents"
 theme: "primary"
-image: "background-image:url('../img/articles/core/traits-talents.jpg');"
+image: "background-image:url('../../img/articles/core/traits-talents.jpg');"
 ---
 <section class="header" style="{{page.image}}">
 	<div class="content">

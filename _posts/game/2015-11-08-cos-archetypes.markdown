@@ -8,7 +8,7 @@ tag: "role playing game rpg mechanics rules conspiracy of shadows core basics ru
 excerpt: "Archetypes are the second half of creating a friend or foe in Conspiracy of Shadows. Here you will find samples to use in play for the living, the dead and those inbetween."
 class: "archetypes"
 theme: "primary"
-image: "background-image:url('../img/articles/core/templates.jpg');"
+image: "background-image:url('../../img/articles/core/templates.jpg');"
 ---
 <section class="header" style="{{page.image}}">
 	<div class="content">

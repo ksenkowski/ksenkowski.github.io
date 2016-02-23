@@ -82,7 +82,9 @@
 			background:$off-white;
 			font-family:$secondary-stack;
 			text-transform:uppercase;
-			border-bottom:3px solid $dark-gray;
+			@include breakpoint(landscape){
+				border-bottom:3px solid $dark-gray;
+			}
 			tr{
 				th{
 					font-weight:800;
@@ -116,7 +118,10 @@
 			border:3px solid $primary-dark;
 			thead{
 				background:$white;
-				border-bottom:3px solid $primary-dark;
+				@include breakpoint(landscape){
+					border-bottom:3px solid $primary-dark;
+				}
+				
 				tr{
 					th{
 						color:$primary-dark;

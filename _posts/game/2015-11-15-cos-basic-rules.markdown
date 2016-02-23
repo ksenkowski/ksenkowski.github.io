@@ -8,7 +8,7 @@ tag: "role playing game rpg mechanics rules conspiracy of shadows core basics ru
 excerpt: "An introduction to the basic rules of the Conspiracy of Shadows RPG. In this article I outline what the game is about, the mechanics, and the structure of play."
 class: "core-rules"
 theme: "primary"
-image: "background-image:url('../img/articles/core/cover.jpg');"
+image: "background-image:url('../../img/articles/core/cover.jpg');"
 ---
 <section class="header" style="{{page.image}}">
 	<div class="content">
