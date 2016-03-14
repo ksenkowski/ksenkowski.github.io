@@ -43,7 +43,7 @@ image: "background-image:url('../../img/articles/core/templates.jpg');"
 		<div class="span-6 col">
 				<p>The Avenger is a character who has been horribly wronged by someone acting on the behalf of the <strong>Conspiracy</strong>. The character may have been beaten, raped and left for dead, seen their parents murdered before their eyes at a young age, witnessed their spouse slaughtered in a gruesome fashion or any of a myriad of other horrific experiences. Instead of succumbing to the despair of survivor's guilt, they have nurtured their emotions into a weapon to motivate their every action.</p>
 				<p>Name your <strong>Enemy</strong> and how they wronged you. That character is then created by the GM. Should you ultimately get your revenge, you must remove this Archetype and select a new one.</p>
-				<h5>Conditions</h5>
+				<h5>Permanent Conditions</h5>
 				<ul class="spaced-list unstyled">
 					<li><strong>Myopic:</strong> When faced with your <strong>Enemy</strong> in a Skirmish, you must work to attack them until they are defeated but have a +1R to all tosses.</li>
 					<li><strong>Blood Debt:</strong> When overcoming a <strong>Challenge</strong> that you know will harm your <strong>Enemy</strong> in some way you gain a +1s to your toss.</li>
@@ -70,7 +70,7 @@ image: "background-image:url('../../img/articles/core/templates.jpg');"
 		<div class="span-6 col">
 				<p>The Beast is a character who has tapped into their feral nature. They are not so much driven by destruction as the thrill of violence against their enemies, particularly the undead. With this comes extraordinary physical abilities that set them above other humans.</p>
 				<p>When applying this archetype to a character, select only one Totem Condition.</p>
-				<h5>Conditions</h5>
+				<h5>Permanent Conditions</h5>
 				<ul class="spaced-list unstyled">
 					<li><strong>Killer Instinct:</strong> Each time they wound an enemy in a Skirmish, they recover an additional Vitality during the recovery phase.</li>
 					<li><strong>Feral Endurance:</strong> You have five additional Vitality in your Vitality Pool at all times.</li>
@@ -100,7 +100,7 @@ image: "background-image:url('../../img/articles/core/templates.jpg');"
 		<div class="span-6 col">
 				<p>The Dark Master is an individual who has strived to learn the deepest arcane secrets in the quest for immortality. This has required them to master the necromancy of the Jutun, which carries danger beyond the need to delve into places left untouched. The Jutun may no longer rule the world, but they have not left it entirely and they hunt for what is rightfully theirs.</p>
 				<p>Pick a location on the game map for where you hide your Phylactery and keep this information to yourself. Should this location be occupied by the Conspiracy or destroyed in any way, remove this Archetype from your character and apply another.</p>
-				<h5>Conditions</h5>
+				<h5>Permanent Conditions</h5>
 				<ul class="spaced-list unstyled">
 					<li><strong>Dread:</strong> You give off a tangible sense of dread which reflects the horrid place you have gone for your power. In a Skirmish increase the Morale difficulty for your opponents by one.</li>
 					<li><strong>Phylactery:</strong>  Immune to the effects of age, poison, gas, sleep, and disease.</li>
@@ -127,7 +127,7 @@ image: "background-image:url('../../img/articles/core/templates.jpg');"
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
 				<p>The Destroyer is the embodiment of the wrath of the <strong>Conspiracy</strong>. Everything they touch collapses under the weight of their wrath, and no two Destroyers are the same. Some are personifications of power, shattering obstacles in their path with brute force. Others are like wisps that float through the world, spreading rot and ruin.</p>
-				<h5>Conditions</h5>
+				<h5>Permanent Conditions</h5>
 				<ul class="spaced-list unstyled">
 					<li><strong>Wanton Destruction:</strong> When the Destroyer attacks a target, anything that is in an adjacent square other than the Destroyer also suffers the attack. If what is attacked is an inanimate object, it is automatically destroyed (walls, ladders, statues etc.).</li>
 					<li><strong>Opportunist:</strong> When someone gains a Wound from a Skirmish, spend a Destiny to force that player to toss twice against the Skirmish Condition Table. The Destroyer may then choose which result applies.</li>
@@ -171,7 +171,7 @@ image: "background-image:url('../../img/articles/core/templates.jpg');"
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
 				<p>When the soul of a living creature does not pass on to be with the gods, they become an incorporeal undead monster. They are eternally in anguish, tied to the mortal plane and unable to  set things right. For this reason they lash out against the living in their rage every chance they get.</p>
-				<h5>Conditions</h5>
+				<h5>Permanent Conditions</h5>
 				<ul class="spaced-list unstyled">
 					<li><strong>Incorporeal:</strong> Immune to the effects of poison, suffocation, gas, sleep, paralysis, disease and mundane physical attacks. Physical objects of the mundane sort cannot block their way.</li>
 					<li><strong>Invisible:</strong> A Ghost may choose to become invisible at any time for any length of time.</li>
@@ -198,7 +198,7 @@ image: "background-image:url('../../img/articles/core/templates.jpg');"
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
 				<p>There are many Pawns of the <strong>Conspiracy</strong>. Some know who they are being manipulated by, but most do not, thinking they are pushing their own agenda. Anyone can be a pawn and almost anyone can be turned into one in the right situation.</p>
-				<h5>Conditions</h5>
+				<h5>Permanent Conditions</h5>
 				<ul class="spaced-list unstyled">
 					<li><strong>Never Alone:</strong> A pawn is always close to at least three other Pawns. If the Pawn is in trouble or strays from their task, the others arrive either to help or put them down.</li>
 					<li><strong>Handy:</strong> A pawn always has exactly the kind of mundain gear they need for a given task either at hand or nearby.</li>
@@ -223,7 +223,7 @@ image: "background-image:url('../../img/articles/core/templates.jpg');"
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
 				<p>The Purifier is the moral compass of the Conspiracy, driven by the need to scour the world clean of the impure. While they would use a knife to excise the cancer that infests the world, they also will not hesitate to unleash the Destroyer. They will do whatever it takes to make the world pure.</p>
-				<h5>Conditions</h5>
+				<h5>Permanent Conditions</h5>
 				<ul class="spaced-list unstyled">
 					<li><strong>Symbiosis:</strong> When the Destroyer inflicts a wound, add five Willpower to your Willpower Pool.</li>
 					<li><strong>Geas:</strong> After they murder someone, they may choose to bind their soul to a task of their choosing. Apply the Ghost archetype to their victim. This new Ghost must perform one task and will not performing it until the task is complete (guard this tomb, kill Rodrigo, etc.).</li>
@@ -248,7 +248,7 @@ image: "background-image:url('../../img/articles/core/templates.jpg');"
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
 				<p>The Savior is the prophesied one sent by the evil that resides on the Mountain to guide the masses to enlightenment. They are the one the masses will turn to for leadership, enlightenment, and guidance. It does not matter that all they want is to see the world burn.</p>
-				<h5>Conditions</h5>
+				<h5>Permanent Conditions</h5>
 				<ul class="spaced-list unstyled">
 					<li><strong>Rousing Speech:</strong> By speaking before a crowd, they can choose to drive it to take a single action of your choice (e.g. burn down the quarter, hunt and kill a person). They do not stop until they have completed your task.</li>
 					<li><strong>Healing Hand:</strong> You may remove all Wounds from any one character after a Skirmish.</li>
@@ -273,7 +273,7 @@ image: "background-image:url('../../img/articles/core/templates.jpg');"
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
 				<p>The Shepherd is a character who believes in the strength and power of a group working together over the wants and needs of the individual. When they look at the <strong>Conspiracy</strong>, they are not blinded by it's evil, but see the power it wields by working together. Everything they do stems from the core belief that the <strong>Cell</strong> is greater than it's individual parts.</p>
-				<h5>Conditions</h5>
+				<h5>Permanent Conditions</h5>
 				<ul class="spaced-list unstyled">
 					<li><strong>Synergy:</strong> When allies face a Challenge in their presence, the ally gains a +1s to their toss.</li>
 					<li><strong>Companion:</strong> When the Shepherd has a companion, be they a hired gun or a pet bear, that companion gets +2 added to each of their Pools.</li>
@@ -299,7 +299,7 @@ image: "background-image:url('../../img/articles/core/templates.jpg');"
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
 				<p>The Sovereign is the invisible hand that guides the Conspiracy. They  know the true purpose of the evil that lives on the Mountain. They are the one whom manipulate the world like a chess master, moving pieces as they see fit towards an enigmatic goal only they are aware of.</p>
-				<h5>Conditions</h5>
+				<h5>Permanent Conditions</h5>
 				<ul class="spaced-list unstyled">
 					<li><strong>Sacrifice:</strong> Sacrifice a Pawn, adding the value of their Temperament to their Willpower Pool.</li>
 				</ul>
@@ -324,7 +324,7 @@ image: "background-image:url('../../img/articles/core/templates.jpg');"
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
 				<p>When Vampyrs seek to spread their dominance over a place, they capture mortals and transform them into Thralls. This transformation gives them the same skin as their masters, but rather than an ethereal quality, they appear more feral. Working mostly at night, they do their master's bidding without question.</p>
-				<h5>Conditions</h5>
+				<h5>Permanent Conditions</h5>
 				<ul class="spaced-list unstyled">
 					<li><strong>Night Vision:</strong> Unhindered by darkness</li>
 					<li><strong>Fire Bad!:</strong> When successfully attacked with fire, they suffer double the margin of victory in wounds.</li>
@@ -351,7 +351,7 @@ image: "background-image:url('../../img/articles/core/templates.jpg');"
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
 				<p>The Traitor was once a member of the Conspiracy, knowingly doing the bidding of an unstoppable evil force. Eventually they saw the error of their ways, either on their own or with the help of another Cell member. Now they work tirelessly to bring a sharp end to the evil in an effort to atone for their myriad of sins.</p>
-				<h5>Conditions</h5>
+				<h5>Permanent Conditions</h5>
 				<ul class="spaced-list unstyled">
 					<li><strong>Deprogrammed:</strong> You are immune to the Sovereign's Coercion power and the Savior's Ressurection power.</li>
 					<li><strong>I Remember You:</strong> When facing agents of the Conspiracy you gain +1s in all tosses in opposition to them.</li>
@@ -377,7 +377,7 @@ image: "background-image:url('../../img/articles/core/templates.jpg');"
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
 				<p>Of all the restless spirits that stalk the land, none are more terrifying than the Nelapsi. Rising from the grave in service of a pact made with dark powers, they sustain themselves on the blood of mortals. Each is unique in their purpose, though all have an ethereal quality, with alabaster skin as hard and as cool as stone.</p>
-				<h5>Conditions</h5>
+				<h5>Permanent Conditions</h5>
 				<ul class="spaced-list unstyled">
 					<li><strong>Night Vision:</strong> Unhindered by darkness</li>
 					<li><strong>Undead:</strong> Immune to the effects of poison, suffocation, gas, sleep, paralysis and disease.</li>
@@ -408,7 +408,7 @@ image: "background-image:url('../../img/articles/core/templates.jpg');"
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
 				<p>The Warden is a character driven by a need to protect those who cannot protect themselves. They are the guardian angel standing before the <strong>Conspiracy</strong> declaring <em>No harm shall come to you while I watch</em>. It is their all consuming drive to protect the defenseless in any way they can.</p>
-				<h5>Conditions</h5>
+				<h5>Permanent Conditions</h5>
 				<ul class="spaced-list unstyled">
 					<li><strong>Overwatch:</strong> When an ally suffers from two or more injuries you gain +5 Vitality added to your Pool until they are healed.</li>
 					<li><strong>Lean On Me:</strong> Once per Scene you may transfer up to 5 Vitality to an ally.</li>
@@ -434,7 +434,7 @@ image: "background-image:url('../../img/articles/core/templates.jpg');"
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
 				<p>Zombies are the corpses of the recently dead, reanimated through the use of Rituals or Taint powers. They are capable of following simple orders of those who animate them, but not much else. Their entire purpose is to destroy life and create more of their kind.</p>
-				<h5>Conditions</h5>
+				<h5>Permanent Conditions</h5>
 				<ul class="spaced-list unstyled">
 					<li><strong>Night Vision:</strong> They suffer no penalties due to darkness</li>
 					<li><strong>Undead:</strong> Immune to the effects of poison, suffocation, gas, sleep, paralysis and disease.</li>

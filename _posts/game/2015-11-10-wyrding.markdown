@@ -291,6 +291,13 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
 		<p>Rituals are the means by which anyone with the right information can manipulate the Wryd to get what they want. They are acts of great power and even greater danger with very specific requirements to be successful. Each Ritual requires an Unopposed Challenge against a Difficulty defined by the Ritual itself.</p>
+		<p>Rituals always require vast amounts of Willpower to bend and shape the Wyrd. This leaves sorcerers with three options, as no single individual is strong enough to summon the resources necessary. You can join  with others in a Circle to siphon willfully given Willpower, Imbue an object with Willpower over time that can then be release later, or Sacrifice the life of another for a massive rush of energy.</p>
+		<h3>Circle</h3>
+		<p>Using a Circle to gain Willpower for a Ritual requires two to twelve individuals to link hands with the sorcerer leading the ritual, through which they can willfully give up 5 Willpower. They must be a part of the Ritual for the entirety of the Ritual, never breaking the connection. If interrupted, the Ritual automatically fails and the sorcerer is drained of all but 1 Willpower.</p>
+		<h3>Imbue</h3>
+		<p>Imbuing an object with Willpower is a slow method of creating a battery of Willpower that can be used later. Once per Turn a character can take a specific object (traditionally something of esoteric importance like a religious icon) and give it up to 5 Willpower. This Willpower can be pulled back into any individual for any use, be it an Incantation, a Ritual, or to face any sort of Mental Challenge.</p>
+		<h3>Sacrifice</h3>
+		<p>A Sacrifice is the most heinous, but also the most powerful method of gaining Willpower for a Ritual. When doing so, you gain a total of Willpower equal to the sacrificed individual's Willpower, Vitality, and Influence Pools. The area in which it takes place because a Taint Sinkhole and the sorcerer automatically gains Taint.</p>
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
@@ -307,11 +314,12 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
 		<ul class="unstyled spaced-list">
-			<li><strong>Time to Cast:</strong> 1 Scene</li>
+			<li><strong>Time to Cast:</strong> 1 Turn</li>
 			<li><strong>Willpower Cost:</strong> 40</li>
-			<li><strong>Difficulty:</strong> 10</li>
+			<li><strong>Difficulty:</strong> 14</li>
+			<li><strong>Requirements:</strong> Thirteen apple seeds each imbued with 20 Willpower.</li> 
 		</ul>
-		<p></p>
+		<p>By performing this ritual, you can quicken the growth of an area of 13 square miles of plantlife with the ritual performed in the center of this area. The shape of this expansion is dictated by you and the areas of the region that can support the growth. Fruit and vegatables ripen as a result of this, creating a bountiful harvest.</p>
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
@@ -327,7 +335,14 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
-		<p></p>
+		<ul class="unstyled spaced-list">
+			<li><strong>Time to Cast:</strong> 1 Scene</li>
+			<li><strong>Willpower Cost:</strong> 20</li>
+			<li><strong>Difficulty:</strong> 14</li>
+			<li><strong>Requirements:</strong> Oil imbued with Willpower by a person without sin.</li> 
+		</ul>
+		<p>By performing this ritual you heal a single individual completely, removing any non-permanent negative conditions and wounds.</p>
+		
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
@@ -343,7 +358,14 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
+		<ul class="unstyled spaced-list">
+			<li><strong>Time to Cast:</strong> 1 Scene</li>
+			<li><strong>Willpower Cost:</strong> 30</li>
+			<li><strong>Difficulty:</strong> 14</li>
+			<li><strong>Requirements:</strong> A paste made of the blood of the two individuals to be bonded, ash from a branch of the Silver Tree, and the tears of a greaving widow.</li> 
+		</ul>
 		<p></p>
+		
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
@@ -359,7 +381,14 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
+		<ul class="unstyled spaced-list">
+			<li><strong>Time to Cast:</strong> 1 Scene</li>
+			<li><strong>Willpower Cost:</strong> 20</li>
+			<li><strong>Difficulty:</strong> 14</li>
+			<li><strong>Requirements:</strong> A tuft of fur from a living beast that has never been touched by the hands of man.</li> 
+		</ul>
 		<p></p>
+		
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
@@ -375,7 +404,14 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
+		<ul class="unstyled spaced-list">
+			<li><strong>Time to Cast:</strong> 1 Scene</li>
+			<li><strong>Willpower Cost:</strong> 20</li>
+			<li><strong>Difficulty:</strong> 14</li>
+			<li><strong>Requirements:</strong> A crystal vial of water bathed in the light of two successive solar eclipses.</li> 
+		</ul>
 		<p></p>
+		
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
@@ -391,7 +427,14 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
+		<ul class="unstyled spaced-list">
+			<li><strong>Time to Cast:</strong> 1 Turn</li>
+			<li><strong>Willpower Cost:</strong> 40</li>
+			<li><strong>Difficulty:</strong> 14</li>
+			<li><strong>Requirements:</strong> The severed tongue of a worshiper of the demon you wish to bargain with.</li> 
+		</ul>
 		<p></p>
+		
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
@@ -407,7 +450,14 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
+		<ul class="unstyled spaced-list">
+			<li><strong>Time to Cast:</strong> </li>
+			<li><strong>Willpower Cost:</strong> </li>
+			<li><strong>Difficulty:</strong> 14</li>
+			<li><strong>Requirements:</strong> The sacred remains of a holy man or woman.</li> 
+		</ul>
 		<p></p>
+		
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
@@ -423,7 +473,14 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
+		<ul class="unstyled spaced-list">
+			<li><strong>Time to Cast:</strong> </li>
+			<li><strong>Willpower Cost:</strong> </li>
+			<li><strong>Difficulty:</strong> 14</li>
+			<li><strong>Requirements:</strong> The sweat of the brow of a child in the middle of a nightmare.</li> 
+		</ul>
 		<p></p>
+		
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
@@ -432,30 +489,21 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 	<div class="content">
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
-			<h3>Elemental Swarm</h3>
+			<h3>Dominance</h3>
 		</div>
 		<div class="span-3 col empty"></div>
 	</div>
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
-		<p></p>
-	</div>
-	<div class="span-3 col empty"></div>	
-	</div>
-</section>
-<section class="continued">
-	<div class="content">
-		<div class="span-3 col empty"></div>
-		<div class="span-6 col">
-			<h3>Fear</h3>
-		</div>
-		<div class="span-3 col empty"></div>
-	</div>
-	<div class="content">
-	<div class="span-3 col empty"></div>
-	<div class="span-6 col">
-		<p></p>
+		<ul class="unstyled spaced-list">
+			<li><strong>Time to Cast:</strong> 1 Turn</li>
+			<li><strong>Willpower Cost:</strong> 20 +  Strength of Sinkhole</li>
+			<li><strong>Difficulty:</strong> 10 + Taint Strength of Sinkhole</li>
+			<li><strong>Requirements:</strong> The ashes of a victorious general.</li> 
+		</ul>
+		<p>By performing this ritual, you can take control of a Taint Sinkhole allowing you to use it's powers as described. You may also add teh Sinkhole's Strength to your Willpower when performing Rituals within it's confines. This dominance can only be reversed by another utilizing a Dominance ritual on the location.</p>
+		
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
@@ -471,7 +519,14 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
+		<ul class="unstyled spaced-list">
+			<li><strong>Time to Cast:</strong> 1 Turn</li>
+			<li><strong>Willpower Cost:</strong> 40</li>
+			<li><strong>Difficulty:</strong> 14</li>
+			<li><strong>Requirements:</strong> A lock of hair, a drop of blood, and a scrap of clothes worn at least once from the person you wish to apply the Geas to.</li> 
+		</ul>
 		<p></p>
+		
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
@@ -487,7 +542,14 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
+		<ul class="unstyled spaced-list">
+			<li><strong>Time to Cast:</strong> </li>
+			<li><strong>Willpower Cost:</strong> </li>
+			<li><strong>Difficulty:</strong> 14</li>
+			<li><strong>Requirements:</strong> </li> 
+		</ul>
 		<p></p>
+		
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
@@ -503,7 +565,14 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
+		<ul class="unstyled spaced-list">
+			<li><strong>Time to Cast:</strong> </li>
+			<li><strong>Willpower Cost:</strong> </li>
+			<li><strong>Difficulty:</strong> 14</li>
+			<li><strong>Requirements:</strong> </li> 
+		</ul>
 		<p></p>
+		
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
@@ -519,7 +588,14 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
+		<ul class="unstyled spaced-list">
+			<li><strong>Time to Cast:</strong> </li>
+			<li><strong>Willpower Cost:</strong> </li>
+			<li><strong>Difficulty:</strong> 14</li>
+			<li><strong>Requirements:</strong> </li> 
+		</ul>
 		<p></p>
+		
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
@@ -535,7 +611,14 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
+		<ul class="unstyled spaced-list">
+			<li><strong>Time to Cast:</strong> </li>
+			<li><strong>Willpower Cost:</strong> </li>
+			<li><strong>Difficulty:</strong> 14</li>
+			<li><strong>Requirements:</strong> </li> 
+		</ul>
 		<p></p>
+		
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
@@ -551,7 +634,14 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
+		<ul class="unstyled spaced-list">
+			<li><strong>Time to Cast:</strong> </li>
+			<li><strong>Willpower Cost:</strong> </li>
+			<li><strong>Difficulty:</strong> 14</li>
+			<li><strong>Requirements:</strong> A two-headed coin forged of osmium.</li> 
+		</ul>
 		<p></p>
+		
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
@@ -567,7 +657,14 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
+		<ul class="unstyled spaced-list">
+			<li><strong>Time to Cast:</strong> 1 Scene</li>
+			<li><strong>Willpower Cost:</strong>30 </li>
+			<li><strong>Difficulty:</strong> 14</li>
+			<li><strong>Requirements:</strong> A fist-sized piece of meteor.</li> 
+		</ul>
 		<p></p>
+		
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
@@ -583,7 +680,14 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
-		<p></p>
+		<ul class="unstyled spaced-list">
+			<li><strong>Time to Cast:</strong> 1 Arc</li>
+			<li><strong>Willpower Cost:</strong> 40</li>
+			<li><strong>Difficulty:</strong> 14</li>
+			<li><strong>Requirements:</strong> A handful of sand no man, woman or child has ever stepped on.</li> 
+		</ul>
+		<p>By performing this Ritual, you effectively can go back in time to one specific Scene that has occurred during play and attempt to change the outcome. The ramifications are far reaching, effectively erasing everything that has been documented in the <strong>Litany of Heroes</strong> and on the <strong>Conspiracy Map</strong>. It is a do over that has many unintended consequences.</p>
+		
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
@@ -599,7 +703,14 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
+		<ul class="unstyled spaced-list">
+			<li><strong>Time to Cast:</strong> 1 Scene</li>
+			<li><strong>Willpower Cost:</strong> 30</li>
+			<li><strong>Difficulty:</strong> 14</li>
+			<li><strong>Requirements:</strong> A sliver of iron from a lightening rod that was struck more than once.</li> 
+		</ul>
 		<p></p>
+		
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
@@ -615,7 +726,14 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
+		<ul class="unstyled spaced-list">
+			<li><strong>Time to Cast:</strong> 1 Scene</li>
+			<li><strong>Willpower Cost:</strong> 40</li>
+			<li><strong>Difficulty:</strong> 14</li>
+			<li><strong>Requirements:</strong> The ground bone dust of a murderer that was never caught.</li> 
+		</ul>
 		<p></p>
+		
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
@@ -631,7 +749,14 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
+		<ul class="unstyled spaced-list">
+			<li><strong>Time to Cast:</strong> 1 Scene</li>
+			<li><strong>Willpower Cost:</strong> 20</li>
+			<li><strong>Difficulty:</strong> 14</li>
+			<li><strong>Requirements:</strong> A length of chain that bound a chest holding in something precious for a year and enough salt to surround the area with a continuous line.</li> 
+		</ul>
 		<p></p>
+		
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>

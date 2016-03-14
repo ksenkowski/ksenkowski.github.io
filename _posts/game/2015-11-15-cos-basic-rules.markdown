@@ -141,32 +141,32 @@ image: "background-image:url('../../img/articles/core/cover.jpg');"
 				<tbody>
 					<tr>
 						<td>Tough</td>
-						<td>2</td>
+						<td>3 - 5</td>
 						<td>1</td>
 					</tr>
 					<tr>
 						<td>Challenging</td>
-						<td>3</td>
+						<td>6 - 7</td>
 						<td>2</td>
 					</tr>
 					<tr>
 						<td>Formidable</td>
-						<td>4</td>
+						<td>8 - 9</td>
 						<td>3</td>
 					</tr>
 					<tr>
 						<td>Heroic</td>
-						<td>5</td>
+						<td>10 - 11</td>
 						<td>4</td>
 					</tr>
 					<tr>
 						<td>Super Heroic</td>
-						<td>6</td>
+						<td>12 - 13</td>
 						<td>5</td>
 					</tr>
 					<tr>
 						<td>Supernatural</td>
-						<td>7</td>
+						<td>14+</td>
 						<td>6</td>
 					</tr>
 				</tbody>
@@ -179,7 +179,7 @@ image: "background-image:url('../../img/articles/core/cover.jpg');"
 				<li><strong>Failures</strong> The number of face down <em>Runestones</em> in a toss.</li>
 				<li><strong>The Black Stone</strong> The one <em>Runestone</em> with no markings. When it appears in a toss, the <em>Player</em> is granted a <em>Destiny Token</em></li>
 				<li><strong>Twists</strong> A change in the narrative that adds a new obstacle to overcome. They can be immediate, like <em>an ambush</em>, or a more long term issue, like the <em>loss of a primary source of income</em>.</li>
-				<li><strong>Powers</strong> Powers are special abilities a character can use by spending their Destiny Tokens. These Powers are only available through <em>Templates</em>.</li>
+				<li><strong>Powers</strong> Powers are special abilities a character can use by spending their Destiny Tokens. These Powers are only available through <em>Archetypes</em>.</li>
 				<li><strong>Conditions</strong> Are an effect that applies to a specific set of circumstances for a specific set of time. They can provide an advantage or disadvantage and can be permanent or temporary. A temporary condition lasts a number of <em>Turns</em> equal to the margin of failure and the circumstances are based on the context of the situation as interpreted by the <em>GM</em>.</li>
 				<li><strong>Margin of Victory</strong> The value you get when subtracting the <em>Difficulty</em> or an opponenet's <em>Successes</em> from your own when you have won a toss.</li>
 				<li><strong>Margin of Failure</strong> The value you get when subtracting your successes from the Difficulty or an opponenet's <em>Successes</em> when you have lost a toss.</li>

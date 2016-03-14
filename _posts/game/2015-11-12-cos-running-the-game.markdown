@@ -111,22 +111,22 @@ image: "background-image:url('../../img/articles/core/running-game.jpg');"
 			</thead>
 			<tbody>
 				<tr>
-					<td>Open Road</td>
+					<td>Open Road, City Boulevard</td>
 					<td>2</td>
 					<td>3</td>
 				</tr>
 				<tr>
-					<td>Open Terrain, A Navigable River, Well Worn Trails</td>
+					<td>Open Terrain, A Navigable River, Well Worn Trails, City Alleys</td>
 					<td>3</td>
 					<td>4</td>
 				</tr>
 				<tr>
-					<td>Hills, Young Woods, Bogs</td>
+					<td>Hills, Young Woods, Bogs, City Sewers</td>
 					<td>4</td>
 					<td>5</td>
 				</tr>
 				<tr>
-					<td>Marshes, Old Woods</td>
+					<td>Marshes, Old Woods, City Rooftops</td>
 					<td>5</td>
 					<td>6</td>
 				</tr>
@@ -355,7 +355,7 @@ image: "background-image:url('../../img/articles/core/running-game.jpg');"
 						<td><span class="futhark">S</span> Fiolsvid Face Up</td>
 						<td>The great fire started here with a brother lighting his sister on fire for sport.</td>
 						<td>All food turns to ash when it enters.</td>
-						<td><strong>Bane</strong><br/><small>Pick a specific Adversary template. That type of enemy suffers an additional amount of damange from you in a Skirmish equal to the Sinkhole's Strength.</small></td>						
+						<td><strong>Bane</strong><br/><small>Pick a specific Archetype. That type of enemy suffers an additional amount of damange from you in a Skirmish equal to the Sinkhole's Strength.</small></td>						
 					</tr>
 					<tr>
 						<td><span class="futhark">Q</span> Fiorgyn Face Up</td>
