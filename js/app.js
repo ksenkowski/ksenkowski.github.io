@@ -42,6 +42,7 @@ if (typeof Object.create !== "function") {
 	};
 	shadows.util = {
 		init: function(){
+			shadows.progress.checkProgress();
 			$('#throw-stones').on('change', 'select', function(){
 				value = $(this).val();
 				shadows.runes.throw(value);
@@ -112,77 +113,23 @@ if (typeof Object.create !== "function") {
 			});
 		}
 	};
-	shadows.pagination = {
-		init: function(){			
+	shadows.progress = {
+		getMax: function(){
+			return $(document).height() - $(window).height();
+		},
+		getValue: function(){
+			return $(window).scrollTop();
+		},
+		checkProgress: function(){
+			var progressBar = $('progress');
+			progressBar.attr({max: shadows.progress.getMax() });
 			
-		
-			next.on('click', function(){
-				plus();
+			$(document).on('scroll', function(){
+				progressBar.attr({value: shadows.progress.getValue() });
 			});
-			prev.on('click', function(){
-				minus();
-			});
-			$(pageNav).on('click', a, function(){
-				pageEvent();
-			})
-		},
-		goGet: function(){
-			return i;
-		},
-		goSet: function(val){
-			i = val;
-		},
-		setBorders: function(min, max){
-			minValue = min;
-			maxValue = max;
-		},
-		plus: function(){
-			page = (i < maxValue) ? ++i : i = minValue;
-			counter.html(page);
-			setHash(page);
-			show(page);
-			activeState(page);
-		},
-		minus: function(){
-			page = (i < minValue) ? --i : i = maxValue;
-			counter.html(page);
-			setHash(page);
-			show(page);
-			activeState(page);
-		},
-		setHash: function(hash){
-			window.location = protocol + host + pathname + search + '#' + hash;
-		},
-		getHash: function(){
-			return window.location.hash.replace('#', '');
-		},
-		nav: function(){
-			list = '#pager';
-			listItems = '';
-			
-			for(i = 1; i <= maxValue; i +=1){
-				listItems += '<li><a href="#"' + i + '">' + i + '</a></li>';
-			}
-			$(listItems).appendTo($(list).appendTo(counter));
-		},
-		show: function(page){
-			
-		},
-		initialPage: function(){
-			var h = getHash();
-			return (h === '') ? initValue : h;
-		},
-		activeState: function(p){
-			
-		},
-		pageEvent: function(e){
-			e.preventDefault();
-			page = this.hash.replace('#', '');
-			setHash(page);
-			gotSet(page);
-			counter.html(page);
-			show(page);
-			activeState(page);
+			$(window).resize(function(){
+				progressBar.attr({ max: shadows.progress.getMax(), value: shadows.progress.getValue() });
+			}); 
 		}
 	};
 	shadows.runes = {
