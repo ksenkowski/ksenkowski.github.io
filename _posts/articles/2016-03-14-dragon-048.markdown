@@ -39,7 +39,7 @@ image: "background-image:url('../../img/articles/dragon/048/cover.jpg');"
 		</aside>	
 		<div class="span-5 col">
 			<p>A funny thing happens when I see the great <strong>Phil Foglio's</strong> artwork. It is always recognizable, which brings a smile to my face. This is always followed by an internal debate in my head because in my brain I mispronounce his name as <em>Foliogo</em>. I have no idea what my problem is.</p>
-			<p>Anyway, this cover is pleasantly amusing. It isn't by any streach of the imagination his best work, but it does it's job well. Considering how much of a pain in the ass taxes are for the average freelancer, I am doubly amused by the idea of adventurers getting hit by the taz man.</p>
+			<p>Anyway, this cover is pleasantly amusing. It isn't by any streach of the imagination his best work, but it does it's job well. Considering how much of a pain in the ass taxes are for the average freelancer, I am doubly amused by the idea of adventurers getting hit by the tax man.</p>
 		</div>
 		<div class="span-1 col empty"></div>
 	</div>

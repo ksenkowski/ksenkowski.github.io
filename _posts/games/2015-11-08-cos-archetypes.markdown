@@ -190,6 +190,31 @@ image: "background-image:url('../../img/articles/core/templates.jpg');"
 	<div class="content">
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
+			<h3>Nobody</h3>
+		</div>
+		<div class="span-3 col empty"></div>
+	</div>
+	<div class="content">
+		<div class="span-3 col empty"></div>
+		<div class="span-6 col">
+				<p>The Nobody is a character not wrapped up in the war between the Conspiracy and the Cell. They are the common person making a living in the streets of the city, the well meaning watchman, the thief prowling the night, and the noble looking to curry favor at court.</p>
+				<h5>Permanent Conditions</h5>
+				<ul class="spaced-list unstyled">
+					<li><strong>Friends in Need:</strong> They may be a nobody as far as the Cell and Conspiracy is concerned, but they always have friends and allies nearby willing to lend a hand.</li>
+					<li><strong>Who Are You Again:</strong> They never seem to know who is important in the war between the Conspiracy and the Cell and as such are never intimidated or scared by any crazy talk.</li>
+				</ul>
+				<h5>Powers</h5>
+				<ul class="spaced-list unstyled">
+					<li><strong>Lost in the Crowd:</strong> Spend 1 Destiny token to simply faid into the background of any situation. When doing so they get lost in the crush of a battle unscathed, disappear around a corner avoiding danger, or get washed away in the crush of the crowd.</li>
+				</ul>
+		</div>
+		<div class="span-3 col empty"></div>	
+	</div>
+</section>
+<section class="continued">
+	<div class="content">
+		<div class="span-3 col empty"></div>
+		<div class="span-6 col">
 			<h3>Pawn</h3>
 		</div>
 		<div class="span-3 col empty"></div>
