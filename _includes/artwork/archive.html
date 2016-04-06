@@ -13,7 +13,7 @@
 
 {% assign loopindex = 0 %}
 {% for page in site.posts reversed %}
-	{% if page.type == 'artwork' %}
+	{% if page.category == 'artwork' %}
 		{% assign loopindex = loopindex | plus: 1 %}
 		{% assign rowfinder = loopindex | modulo: 4 %}
 		{% if rowfinder == 1 %}
