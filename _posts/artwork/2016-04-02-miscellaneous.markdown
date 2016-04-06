@@ -1,0 +1,45 @@
+---
+layout: artwork
+title:  "Miscellaneous Artwork"
+date:   2016-04-12
+type: artwork
+category: artwork
+tag: "art artwork illustration"
+excerpt: "Miscellaneous artwork that falls under no particular category."
+theme: "tertiary"
+logo: "/img/artwork/miscellaneous/logo.png"
+---
+<div class="image-container">
+	<div class="wrapper">
+		<section class="artwork">
+			<img src="/img/artwork/miscellaneous/not-crazy.gif" alt="Not Crazy"/>		
+		</section>
+		<section class="artwork">
+			<img src="/img/artwork/miscellaneous/apocalypse.jpg" alt="The Apocalypse"/>		
+		</section>
+		<section class="artwork">
+			<img src="/img/artwork/miscellaneous/bridgewater.png" alt="Bridgewater Illustration for Primetime Adventures"/>		
+		</section>
+		<section class="artwork">
+			<img src="/img/artwork/miscellaneous/for-the-queen.png" alt="For the Queen Illustration for Primetime Adventures"/>		
+		</section>
+		<section class="artwork">
+			<img src="/img/artwork/miscellaneous/industrial.jpg" alt="Industrial"/>		
+		</section>
+		<section class="artwork">
+			<img src="/img/artwork/miscellaneous/stalin-goat.png" alt="Stalin Goat"/>		
+		</section>
+		<section class="artwork">
+			<img src="/img/artwork/miscellaneous/stand-alone.jpg" alt="I Stand Alone"/>		
+		</section>
+		<section class="artwork">
+			<img src="/img/artwork/miscellaneous/sun-goddess.jpg" alt="Sun Goddess"/>		
+		</section>
+		<section class="artwork">
+			<img src="/img/artwork/miscellaneous/the-trap.jpg" alt="The Trap"/>		
+		</section>
+		<section class="artwork">
+			<img src="/img/artwork/miscellaneous/victorian.png" alt="Victorian"/>		
+		</section>
+	</div>
+</div>

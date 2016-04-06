@@ -32,6 +32,10 @@ if (typeof Object.create !== "function") {
 	$(document).ready(function() {
 		bind(); 
 	});
+	$(window).on('load', function(){
+		shadows.gallery.changeSize();
+	
+	});
 	
 	// private Method 
 	// (it doesn't need to be public, since the ready 
@@ -111,6 +115,52 @@ if (typeof Object.create !== "function") {
 			}).error(function(error){
 				console.log(error);
 			});
+		}
+	};
+	shadows.gallery = {
+		getHeight: function(){
+			return $(document).height() - $('#masthead').outerHeight() - $('#site-footer').outerHeight();
+		},
+		getTotalWidth: function(){
+			var totalWidth = 0;
+			$('.artwork img').each(function(i){
+				totalWidth += parseInt($(this).width(), 10);
+				i++
+			});
+			i = (i * 5);
+			return totalWidth + (i + 75);
+		},
+		getIndividualWidth: function(){
+			var eachWidth = 0;
+			$('.artwork').each(function(i){
+				eachWidth = parseInt($(this).children('img').width(), 10);
+				$(this).width(eachWidth);
+			});
+			
+		},
+		changeSize: function(){
+			$('.artwork, .image-container').css({
+				'height': shadows.gallery.getHeight(),
+				'width': 'auto'
+			});
+			shadows.gallery.getIndividualWidth();
+			$('.image-container .wrapper').css({
+				'height': 'auto',
+				'width': shadows.gallery.getTotalWidth()
+			});
+			$(window).resize(function(){
+				console.log('resize');
+				$('.artwork, .image-container').css({
+					'height': shadows.gallery.getHeight(),
+					'width': 'auto'
+				});
+				shadows.gallery.getIndividualWidth();
+				$('.image-container .wrapper').css({
+					'height': 'auto',
+					'width': shadows.gallery.getTotalWidth()
+				});
+			}); 
+			
 		}
 	};
 	shadows.progress = {

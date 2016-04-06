@@ -1,0 +1,36 @@
+---
+layout: artwork
+title:  "Blood Red Sands"
+date:   2016-04-12
+type: artwork
+category: artwork
+tag: "blood red sands art artwork illustration"
+excerpt: "Artwork from Blood Red Sands, a role-playing game."
+theme: "tertiary"
+logo: "/img/artwork/brs/logo.png"
+---
+<div class="image-container">
+	<div class="wrapper">
+		<section class="artwork">
+			<img src="/img/artwork/brs/corridor.jpg" alt="Dangerous Corridor"/>		
+		</section>
+		<section class="artwork">
+			<img src="/img/artwork/brs/dragonSlayer.jpg" alt="The Dragon Slayer"/>		
+		</section>
+		<section class="artwork">
+			<img src="/img/artwork/brs/frostGiant.jpg" alt="Frost Giant"/>		
+		</section>
+		<section class="artwork">
+			<img src="/img/artwork/brs/map.jpg" alt="Blood Red Sands Map"/>		
+		</section>
+		<section class="artwork">
+			<img src="/img/artwork/brs/mosque.jpg" alt="Murder in the Mosque"/>		
+		</section>
+		<section class="artwork">
+			<img src="/img/artwork/brs/necromancer.jpg" alt="The Necromancer"/>		
+		</section>
+		<section class="artwork">
+			<img src="/img/artwork/brs/tomb.jpg" alt="Waking in the Tomb"/>		
+		</section>
+	</div>
+</div>

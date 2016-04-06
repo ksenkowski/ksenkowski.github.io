@@ -42,6 +42,25 @@
 			
 		}
 	}
+	.image-container{
+		overflow-y:hidden;
+		overflow-x:scroll;
+		height:auto;
+		.wrapper{
+			overflow-x:scroll;
+			height:500px;
+			section{
+				margin-right:5px;
+				padding:0;
+				float:left;
+				width:auto;
+				img{
+					height:100%;
+					width:auto;
+				}
+			}
+		}
+	}
 	.continued{
 		p{
 			margin:0 0 20px;

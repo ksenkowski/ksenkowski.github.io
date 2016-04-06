@@ -387,7 +387,7 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 			<li><strong>Difficulty:</strong> 14</li>
 			<li><strong>Requirements:</strong> A tuft of fur from a living beast that has never been touched by the hands of man.</li> 
 		</ul>
-		<p></p>
+		<p>This ritual summons a horde of local animals, but to 2 miles away, to collectively take on a single task. These animals will not fight amongst each other, but will rather act on the sorceror's behalf. They can be commanded to any task that falls under the Incantation Effects listing as if the Margin of Victory was 10.</p>
 		
 	</div>
 	<div class="span-3 col empty"></div>	
@@ -406,11 +406,11 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 	<div class="span-6 col">
 		<ul class="unstyled spaced-list">
 			<li><strong>Time to Cast:</strong> 1 Scene</li>
-			<li><strong>Willpower Cost:</strong> 20</li>
+			<li><strong>Willpower Cost:</strong> 24</li>
 			<li><strong>Difficulty:</strong> 14</li>
 			<li><strong>Requirements:</strong> A crystal vial of water bathed in the light of two successive solar eclipses.</li> 
 		</ul>
-		<p></p>
+		<p>This ritual summons a blinding blast of light that eminates out from the sorcerer for 1 mile. Any individual that looks upon it is permanently blinded and all individuals with the undead condition suffer 14 damage.</p>
 		
 	</div>
 	<div class="span-3 col empty"></div>	
@@ -431,9 +431,9 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 			<li><strong>Time to Cast:</strong> 1 Turn</li>
 			<li><strong>Willpower Cost:</strong> 40</li>
 			<li><strong>Difficulty:</strong> 14</li>
-			<li><strong>Requirements:</strong> The severed tongue of a worshiper of the demon you wish to bargain with.</li> 
+			<li><strong>Requirements:</strong> The severed tongue of a worshiper of the demon you wish to command and a locke of hair, some skin or bodily fluid from the target of your ire.</li> 
 		</ul>
-		<p></p>
+		<p>This ritual summons forth a demon from the abyss to hunt down and destroy an individual. The demon will not stop at it's task until it either completes it's task or is destroyed. The Game Master determines when and how the demon attacks it's target.</p>
 		
 	</div>
 	<div class="span-3 col empty"></div>	
@@ -451,12 +451,12 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
 		<ul class="unstyled spaced-list">
-			<li><strong>Time to Cast:</strong> </li>
-			<li><strong>Willpower Cost:</strong> </li>
+			<li><strong>Time to Cast:</strong> 1 Arc</li>
+			<li><strong>Willpower Cost:</strong> 40</li>
 			<li><strong>Difficulty:</strong> 14</li>
 			<li><strong>Requirements:</strong> The sacred remains of a holy man or woman.</li> 
 		</ul>
-		<p></p>
+		<p>This ritual allows the sorceror to summon forth the aspect of one god into the mortal realm. In doing so they may interact directly with the avatar for one scene. The avatar is infintely powerful and cannot be harmed by a mortal, though it can be bargained or reasoned with to grant boons. These boons always have a heavy cost as determined by the GM.</p>
 		
 	</div>
 	<div class="span-3 col empty"></div>	

@@ -12,6 +12,32 @@
 			margin:0 0 em(20px) 0;
 		}
 	}
+	.artwork-gallery{
+		a{
+			display:block;
+		}
+		@include breakpoint(mobile){
+			.span-3 { width: 25%; }
+		}
+		img{
+			margin:0 auto;
+			display:block;
+			transition: all .2s linear;
+			&.primary:hover{
+				background:$primary-light;
+			}
+			&.secondary:hover{
+				background:$secondary-light;
+			}
+			&.tertiary:hover{
+				background:$tertiary-light;
+			}
+			&.quaternary:hover{
+				background:$quaternary-light;
+			}
+			
+		}
+	}
 	.archive-article{
 		padding:em(60px) em(10px);
 		border-bottom:2px solid $white;

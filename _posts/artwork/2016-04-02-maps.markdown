@@ -1,0 +1,43 @@
+---
+layout: artwork
+title:  "Maps"
+date:   2016-04-12
+type: artwork
+category: artwork
+tag: "conspiracy of shadows maps art artwork illustration"
+excerpt: "Assorted Conspiracy of Shadows maps."
+theme: "tertiary"
+logo: "/img/artwork/maps/logo.png"
+---
+<div class="image-container">
+	<div class="wrapper">
+		<section class="artwork">
+			<img src="/img/artwork/maps/500-1E.jpg" alt="Map of the Year 500 First Era"/>		
+		</section>
+		<section class="artwork">
+			<img src="/img/artwork/maps/A1.jpg" alt="Map Section A1"/>		
+		</section>
+		<section class="artwork">
+			<img src="/img/artwork/maps/A2.jpg" alt="Map Section A2"/>		
+		</section>
+		<section class="artwork">
+			<img src="/img/artwork/maps/A3.jpg" alt="Map Section A3"/>		
+		</section>
+		<section class="artwork">
+			<img src="/img/artwork/maps/A4.jpg" alt="Map Section A4"/>		
+		</section>
+		<section class="artwork">
+			<img src="/img/artwork/maps/cidiero.jpg" alt="Map of Cidiero"/>		
+		</section>
+		<section class="artwork">
+			<img src="/img/artwork/maps/B1.jpg" alt="Map Section B1"/>		
+		</section>
+		<section class="artwork">
+			<img src="/img/artwork/maps/B2.jpg" alt="Map Section B2"/>		
+		</section>
+		<section class="artwork">
+			<img src="/img/artwork/maps/B3.jpg" alt="Map Section B3"/>		
+		</section>
+		
+	</div>
+</div>
