@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title:  "It Was a Mutual Decision"
-date:   2016-04-12
+date:   2016-04-06 15:21:23
 type: artwork
 category: artwork
 tag: "mutual decision art artwork illustration"
