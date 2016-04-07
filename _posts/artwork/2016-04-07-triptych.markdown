@@ -6,7 +6,7 @@ type: artwork
 category: artwork
 tag: "triptych patreon art artwork illustration"
 excerpt: "A triptych created for three of my Patreon supporters."
-theme: "tertiary"
+theme: "secondary"
 logo: "/img/artwork/triptych/logo.png"
 ---
 <div class="image-container">

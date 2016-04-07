@@ -6,7 +6,7 @@ type: artwork
 category: artwork
 tag: "conspiracy of shadows tapestry deck suit swords art artwork illustration"
 excerpt: "Artwork from the Conspiracy of Shadows Tapestry Deck Suit of Swords, a themed take on the traditional tarot deck."
-theme: "tertiary"
+theme: "quaternary"
 logo: "/img/artwork/suit-swords/logo.png"
 ---
 <div class="image-container">

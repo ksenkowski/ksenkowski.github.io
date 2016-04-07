@@ -6,7 +6,7 @@ type: artwork
 category: artwork
 tag: "burning wheel art artwork illustration"
 excerpt: "Artwork from the Burning Wheel, a role-playing game."
-theme: "tertiary"
+theme: "secondary"
 logo: "/img/artwork/bw/logo.png"
 ---
 <div class="image-container">

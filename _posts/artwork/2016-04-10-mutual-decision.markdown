@@ -6,7 +6,7 @@ type: artwork
 category: artwork
 tag: "mutual decision art artwork illustration"
 excerpt: "Artwork from It Was a Mutual Decision, a role-playing game."
-theme: "tertiary"
+theme: "primary"
 logo: "/img/artwork/mutual-decision/logo.png"
 ---
 <div class="image-container">

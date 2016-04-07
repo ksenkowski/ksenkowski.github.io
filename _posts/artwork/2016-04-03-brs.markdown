@@ -6,7 +6,7 @@ type: artwork
 category: artwork
 tag: "blood red sands art artwork illustration"
 excerpt: "Artwork from Blood Red Sands, a role-playing game."
-theme: "tertiary"
+theme: "primary"
 logo: "/img/artwork/brs/logo.png"
 ---
 <div class="image-container">

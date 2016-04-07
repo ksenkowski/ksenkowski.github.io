@@ -6,7 +6,7 @@ type: artwork
 category: artwork
 tag: "six bullets for vengeance art artwork illustration"
 excerpt: "Artwork from Six Bullets for Vengeance, a role-playing game."
-theme: "tertiary"
+theme: "primary"
 logo: "/img/artwork/six-bullets/logo.png"
 ---
 <div class="image-container">

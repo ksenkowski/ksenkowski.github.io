@@ -6,7 +6,7 @@ type: artwork
 category: artwork
 tag: "conspiracy of shadows tapestry deck suit coins art artwork illustration"
 excerpt: "Artwork from the Conspiracy of Shadows Tapestry Deck Suit of Coins, a themed take on the traditional tarot deck."
-theme: "tertiary"
+theme: "quaternary"
 logo: "/img/artwork/suit-coins/logo.png"
 ---
 <div class="image-container">
