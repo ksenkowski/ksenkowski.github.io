@@ -13,6 +13,7 @@
 		}
 	}
 	.artwork-gallery{
+		margin-bottom:2px;
 		a{
 			display:block;
 		}
@@ -23,17 +24,22 @@
 			margin:0 auto;
 			display:block;
 			transition: all .2s linear;
+			border:2px solid $white;
 			&.primary:hover{
 				background:$primary-light;
+				border:2px solid $primary-color;
 			}
 			&.secondary:hover{
 				background:$secondary-light;
+				border:2px solid $secondary-color;
 			}
 			&.tertiary:hover{
 				background:$tertiary-light;
+				border:2px solid $tertiary-color;
 			}
 			&.quaternary:hover{
 				background:$quaternary-light;
+				border:2px solid $quaternary-color;
 			}
 			
 		}

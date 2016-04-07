@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title:  "Suit of Swords"
-date:   2016-04-06 15:21:23
+date:   2016-04-05 15:21:23
 type: artwork
 category: artwork
 tag: "conspiracy of shadows tapestry deck suit swords art artwork illustration"
