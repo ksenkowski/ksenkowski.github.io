@@ -46,6 +46,7 @@
 		overflow-y:hidden;
 		overflow-x:scroll;
 		height:auto;
+		-webkit-overflow-scrolling: touch;
 		.wrapper{
 			overflow-x:scroll;
 			height:500px;

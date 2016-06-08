@@ -362,7 +362,7 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 			<li><strong>Time to Cast:</strong> 1 Scene</li>
 			<li><strong>Willpower Cost:</strong> 30</li>
 			<li><strong>Difficulty:</strong> 14</li>
-			<li><strong>Requirements:</strong> A paste made of the blood of the two individuals to be bonded, ash from a branch of the Silver Tree, and the tears of a greaving widow.</li> 
+			<li><strong>Requirements:</strong> A paste made of the blood of the two individuals to be bonded, ash from a branch of the Silver Tree, and the tears of a grieving widow.</li> 
 		</ul>
 		<p></p>
 		
@@ -462,7 +462,7 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 	<div class="span-3 col empty"></div>	
 	</div>
 </section>
-<section class="continued">
+<!-- <section class="continued">
 	<div class="content">
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
@@ -477,14 +477,14 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 			<li><strong>Time to Cast:</strong> </li>
 			<li><strong>Willpower Cost:</strong> </li>
 			<li><strong>Difficulty:</strong> 14</li>
-			<li><strong>Requirements:</strong> The sweat of the brow of a child in the middle of a nightmare.</li> 
+			<li><strong>Requirements:</strong> The sweat of the brow of a child in the middle of a nightmare.</li>
 		</ul>
 		<p></p>
-		
+
 	</div>
-	<div class="span-3 col empty"></div>	
+	<div class="span-3 col empty"></div>
 	</div>
-</section>
+</section> -->
 <section class="continued">
 	<div class="content">
 		<div class="span-3 col empty"></div>
@@ -502,13 +502,13 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 			<li><strong>Difficulty:</strong> 10 + Taint Strength of Sinkhole</li>
 			<li><strong>Requirements:</strong> The ashes of a victorious general.</li> 
 		</ul>
-		<p>By performing this ritual, you can take control of a Taint Sinkhole allowing you to use it's powers as described. You may also add teh Sinkhole's Strength to your Willpower when performing Rituals within it's confines. This dominance can only be reversed by another utilizing a Dominance ritual on the location.</p>
+		<p>By performing this ritual, you can take control of a Taint Sinkhole allowing you to use it's powers as described. You may also add teh Sinkhole's Strength to your Willpower when performing Rituals within it's confines. This dominance can only be reversed by another sorceror utilizing a Dominance ritual on the location.</p>
 		
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
 </section>
-<section class="continued">
+<!-- <section class="continued">
 	<div class="content">
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
@@ -523,15 +523,15 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 			<li><strong>Time to Cast:</strong> 1 Turn</li>
 			<li><strong>Willpower Cost:</strong> 40</li>
 			<li><strong>Difficulty:</strong> 14</li>
-			<li><strong>Requirements:</strong> A lock of hair, a drop of blood, and a scrap of clothes worn at least once from the person you wish to apply the Geas to.</li> 
+			<li><strong>Requirements:</strong> A lock of hair, a drop of blood, and a scrap of clothes worn at least once from the person you wish to apply the Geas to.</li>
 		</ul>
 		<p></p>
-		
+
 	</div>
-	<div class="span-3 col empty"></div>	
+	<div class="span-3 col empty"></div>
 	</div>
-</section>
-<section class="continued">
+</section> -->
+<!-- <section class="continued">
 	<div class="content">
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
@@ -546,15 +546,15 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 			<li><strong>Time to Cast:</strong> </li>
 			<li><strong>Willpower Cost:</strong> </li>
 			<li><strong>Difficulty:</strong> 14</li>
-			<li><strong>Requirements:</strong> </li> 
+			<li><strong>Requirements:</strong> </li>
 		</ul>
 		<p></p>
-		
+
 	</div>
-	<div class="span-3 col empty"></div>	
+	<div class="span-3 col empty"></div>
 	</div>
-</section>
-<section class="continued">
+</section> -->
+<!-- <section class="continued">
 	<div class="content">
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
@@ -569,15 +569,15 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 			<li><strong>Time to Cast:</strong> </li>
 			<li><strong>Willpower Cost:</strong> </li>
 			<li><strong>Difficulty:</strong> 14</li>
-			<li><strong>Requirements:</strong> </li> 
+			<li><strong>Requirements:</strong> </li>
 		</ul>
 		<p></p>
-		
+
 	</div>
-	<div class="span-3 col empty"></div>	
+	<div class="span-3 col empty"></div>
 	</div>
-</section>
-<section class="continued">
+</section> -->
+<!-- <section class="continued">
 	<div class="content">
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
@@ -592,15 +592,15 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 			<li><strong>Time to Cast:</strong> </li>
 			<li><strong>Willpower Cost:</strong> </li>
 			<li><strong>Difficulty:</strong> 14</li>
-			<li><strong>Requirements:</strong> </li> 
+			<li><strong>Requirements:</strong> </li>
 		</ul>
 		<p></p>
-		
+
 	</div>
-	<div class="span-3 col empty"></div>	
+	<div class="span-3 col empty"></div>
 	</div>
-</section>
-<section class="continued">
+</section> -->
+<!-- <section class="continued">
 	<div class="content">
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
@@ -615,15 +615,15 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 			<li><strong>Time to Cast:</strong> </li>
 			<li><strong>Willpower Cost:</strong> </li>
 			<li><strong>Difficulty:</strong> 14</li>
-			<li><strong>Requirements:</strong> </li> 
+			<li><strong>Requirements:</strong> </li>
 		</ul>
 		<p></p>
-		
+
 	</div>
-	<div class="span-3 col empty"></div>	
+	<div class="span-3 col empty"></div>
 	</div>
-</section>
-<section class="continued">
+</section> -->
+<!-- <section class="continued">
 	<div class="content">
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
@@ -638,15 +638,15 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 			<li><strong>Time to Cast:</strong> </li>
 			<li><strong>Willpower Cost:</strong> </li>
 			<li><strong>Difficulty:</strong> 14</li>
-			<li><strong>Requirements:</strong> A two-headed coin forged of osmium.</li> 
+			<li><strong>Requirements:</strong> A two-headed coin forged of osmium.</li>
 		</ul>
 		<p></p>
-		
+
 	</div>
-	<div class="span-3 col empty"></div>	
+	<div class="span-3 col empty"></div>
 	</div>
-</section>
-<section class="continued">
+</section> -->
+<!-- <section class="continued">
 	<div class="content">
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
@@ -661,14 +661,14 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 			<li><strong>Time to Cast:</strong> 1 Scene</li>
 			<li><strong>Willpower Cost:</strong>30 </li>
 			<li><strong>Difficulty:</strong> 14</li>
-			<li><strong>Requirements:</strong> A fist-sized piece of meteor.</li> 
+			<li><strong>Requirements:</strong> A fist-sized piece of meteor.</li>
 		</ul>
 		<p></p>
-		
+
 	</div>
-	<div class="span-3 col empty"></div>	
+	<div class="span-3 col empty"></div>
 	</div>
-</section>
+</section> -->
 <section class="continued">
 	<div class="content">
 		<div class="span-3 col empty"></div>
@@ -692,7 +692,7 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 	<div class="span-3 col empty"></div>	
 	</div>
 </section>
-<section class="continued">
+<!-- <section class="continued">
 	<div class="content">
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
@@ -707,14 +707,14 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 			<li><strong>Time to Cast:</strong> 1 Scene</li>
 			<li><strong>Willpower Cost:</strong> 30</li>
 			<li><strong>Difficulty:</strong> 14</li>
-			<li><strong>Requirements:</strong> A sliver of iron from a lightening rod that was struck more than once.</li> 
+			<li><strong>Requirements:</strong> A sliver of iron from a lightening rod that was struck more than once.</li>
 		</ul>
 		<p></p>
-		
+
 	</div>
-	<div class="span-3 col empty"></div>	
+	<div class="span-3 col empty"></div>
 	</div>
-</section>
+</section> -->
 <section class="continued">
 	<div class="content">
 		<div class="span-3 col empty"></div>
@@ -732,7 +732,7 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 			<li><strong>Difficulty:</strong> 14</li>
 			<li><strong>Requirements:</strong> The ground bone dust of a murderer that was never caught.</li> 
 		</ul>
-		<p></p>
+		<p>By performing this Ritual you summon to your service animated skeletons of the dead within a 1 mile radius. A battlesite will yield 10 skeletons per 100 square feet while all other land will yeild 3 skeletons per 100 square feet.</p>
 		
 	</div>
 	<div class="span-3 col empty"></div>	
@@ -755,7 +755,7 @@ image: "background-image:url('../../img/articles/core/wyrding.jpg');"
 			<li><strong>Difficulty:</strong> 14</li>
 			<li><strong>Requirements:</strong> A length of chain that bound a chest holding in something precious for a year and enough salt to surround the area with a continuous line.</li> 
 		</ul>
-		<p></p>
+		<p>By performing this Ritual, you secure a single location (e.g. a room, a campsite, a building) providing protection for all those within the location. Each individual in the location is granted a +2s to all Tosses while there. Additionally, entries into the location are sealed forcing those outside the location to force there way in with a -2s Modifier.</p>
 		
 	</div>
 	<div class="span-3 col empty"></div>	
