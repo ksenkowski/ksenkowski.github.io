@@ -1,0 +1,56 @@
+<article id="archive">
+	<section class="header">
+		<div class="content">
+			<div class="col span-3 empty"></div>
+			<div class="col span-6">
+				<h1>conspiracy of shadows: core rpg</h1>
+		<p><em>Conspiracy of Shadows</em> is a play on the dark gothic fantasy role-playing games I so enjoyed in the 90's. In it you take on the role of the overwhelmed but determined heroes on an impossible quest to save the world from darkness. In doing so you explore gothic castles, face tainted monstrosities, and strive against the agents of a twisted conspiracy.</p>
+		<p>This is a game about being the hero. It is about drawing a line in the sand and shaking your fist against the night. It isn't about survival, but about ensuring the world's survival.</p>
+			</div>
+			<div class="col span-3 empty"></div>
+	
+		</div>
+	</section>
+	{% for post in site.posts %}
+	  {% for cat in post.categories %}
+	    {% if cat == 'core' %}
+		{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+		{% if thecycle == 'odd' %}
+<section class="archive-article odd">
+	<div class="content">
+		<div class="col span-3 empty"></div>
+		<div class="col span-6">
+		  
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+		  <p class="excerpt">{{ post.excerpt}}</p>
+		</div>
+		<div class="col span-3 empty"></div>
+
+
+	</div>
+
+</section>
+ {% else %}
+ <section class="archive-article even">
+ 	<div class="content">
+ 		<div class="col span-3 empty"></div>
+ 		<div class="col span-6">
+           <h2>
+             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+           </h2>
+ 		  <p class="excerpt">{{ post.excerpt}}</p>
+ 		</div>
+ 		<div class="col span-3 empty"></div>
+
+
+ 	</div>
+
+ </section>
+  {% endif %}
+	    {% endif %}
+	  {% endfor %}
+	{% endfor %}
+	
+</article>

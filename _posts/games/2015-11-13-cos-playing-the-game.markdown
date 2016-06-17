@@ -3,7 +3,7 @@ layout: article
 title:  "Playing the Game"
 author: "Keith Senkowski"
 date:   2015-11-13 
-category: games
+category: core
 tag: "role playing game rpg mechanics rules conspiracy of shadows core basics rules journey playing futhark"
 excerpt: "Conspiracy of Shadows is a role-playing game with the beating heart of a board game. Here you will find the details regarding the procedures of play and the responsibilities of the GM."
 class: "playing-the-game"
@@ -33,7 +33,7 @@ image: "background-image:url('../../img/articles/core/playing-game.jpg');"
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
 			<p>In <em>Conspiracy of Shadows</em>, creating playable characters, friends and foes, all follow the same pattern. A <strong>Culture</strong> is combined with a <strong>Vocation</strong> and is then customized with a <strong>Archetype</strong> and <strong>Historia</strong>. Finally, the character is given two Talents of your choosing and Gear with a value equal to the following formula:</p>
-			<p class="text-center"><em>Influence Pool x Influence Recovery = Initial Decanidi</em></p>
+			<p class="text-center"><em>(Influence Pool x Influence Recovery) x 100 = Initial Decanidi</em></p>
 			<p>The <strong>GM</strong> is the final arbiter as to what <strong>Cultures</strong> and <strong>Archetypes</strong> are available for players to build from, but otherwise any varation is acceptable. The game is about how your <strong>Cell</strong> fights your <strong>Conspiracy</strong>, not about mine.</p>
 			<p>Beasts are an entirely different story. They are the things that live outside a cultured society. They are the animals that provide aid, sustinance and companionship. They are also the monsters that hide in the shadows set on consuming that which the civilized have wrought. When bringing them into play, the <strong>GM</strong> simply selects one from the Beastiary and utilizes them as they see fit.</p>
 	</div>

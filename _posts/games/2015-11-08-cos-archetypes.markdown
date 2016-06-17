@@ -3,7 +3,7 @@ layout: article
 title:  "Archetypes"
 author: "Keith Senkowski"
 date:   2015-11-09 
-category: games
+category: core
 tag: "role playing game rpg mechanics rules conspiracy of shadows core basics rules archetypes futhark"
 excerpt: "Archetypes are the second half of creating a friend or foe in Conspiracy of Shadows. Here you will find samples to use in play for the living, the dead and those inbetween."
 class: "archetypes"

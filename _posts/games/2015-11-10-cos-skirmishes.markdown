@@ -3,7 +3,7 @@ layout: article
 title:  "Skirmishes"
 author: "Keith Senkowski"
 date:   2015-11-10 
-category: games
+category: core
 tag: "role playing game rpg mechanics rules conspiracy of shadows core basics rules skirmishes futhark"
 excerpt: "The Skirmishes rules are designed to resolve marshal conflicts between two or more opposing forces. Each token or miniature you use represents a single participant. Each participant is a named individual with weapons, combat traits and sustain individual wounds."
 class: "skirmishes"

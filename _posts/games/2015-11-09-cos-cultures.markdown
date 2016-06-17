@@ -3,7 +3,7 @@ layout: article
 title:  "Cultures"
 author: "Keith Senkowski"
 date:   2015-11-09 
-category: games
+category: core
 tag: "role playing game rpg mechanics rules conspiracy of shadows core basics rules cultures futhark"
 excerpt: "Cultures and the Vocations tied to those cultures are the first half of creating a friend or foe in Conspiracy of Shadows. Here you will find samples to use in play for the Alfar, Constructs, Humanity, and Skalfar."
 class: "culture"

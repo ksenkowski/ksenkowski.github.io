@@ -1,0 +1,9 @@
+---
+layout: core
+title:  "Conspiracy of Shadows: RPG"
+author: "Keith Senkowski"
+date:   2016-06-14 15:21:23
+category: games
+tag: "role playing game rpg mechanics rules conspiracy of shadows core rune caster dice futhark"
+excerpt: "Conspiracy of Shadows is a role-playing game with the beating heart of a board game."
+---

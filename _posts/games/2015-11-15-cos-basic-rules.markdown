@@ -3,7 +3,7 @@ layout: article
 title:  "The Basic Rules"
 author: "Keith Senkowski"
 date:   2015-11-15 
-category: games
+category: core
 tag: "role playing game rpg mechanics rules conspiracy of shadows core basics rules futhark"
 excerpt: "An introduction to the basic rules of the Conspiracy of Shadows RPG. In this article I outline what the game is about, the mechanics, and the structure of play."
 class: "core-rules"
@@ -25,8 +25,6 @@ image: "background-image:url('../../img/articles/core/cover.jpg');"
 	<div class="content gutters">
 	<div class="span-1 col empty"></div>
 	<div class="span-5 col">
-		<p><em>Conspiracy of Shadows</em> is a play on the dark gothic fantasy role-playing games I so enjoyed in the 90's. In it you take on the role of the overwhelmed but determined heroes on an impossible quest to save the world from darkness. In doing so you explore gothic castles, face tainted monstrosities, and strive against the agents of a twisted conspiracy..</p>
-		<p>This is a game about being the hero. It is about drawing a line in the sand and shaking your fist against the night. It isn't about survival, but about ensuring the world's survival.</p>
 		<p>In this game, one player takes on the responsibility of playing the adversaries and allies, staging the scenes, and keeping track of the flow of the game. This is the <em>Game Master (GM)</em> and it is a tough job.</p>
 		<p>The other players take on the role of the <em>Cell</em> members. They are the heroes fighting against the obstacles the <em>GM</em> puts in their path. There is always at least one hero and no more than five.</p>
 	</div>

@@ -3,7 +3,7 @@ layout: article
 title:  "Historia"
 author: "Keith Senkowski"
 date:   2015-11-07 
-category: games
+category: core
 tag: "role playing game rpg mechanics rules conspiracy of shadows core historia history past"
 excerpt: "The Historia is the way in which you further define out your character by the use of some random charts."
 class: "futhark"
