@@ -71,7 +71,6 @@ image: "background-image:url('../../img/articles/core/traits-talents.jpg');"
 		<p><em>Talents</em> are the method in which we define and differentiate characters, both in what they can do and in what drives them. They are a brief description of something the character is capable and good at doing. It is important that they describe only one capability.</p>
 		<p>Each <em>Talent</em> is also associated with a <em>Rune</em>. When writing down the Talent also include this Rune. If while using this Talent during a toss that Rune appears face-up, the character gets a +1s.</p>		
 		<h3>Example Talents</h3>
-		<div class="clearfix">
 		<ul class="spaced-list">
 			<li><span class="futhark">A</span> Confuse the minds of others with words and gestures</li>
 			<li><span class="futhark">B</span> Trained to utilize agility and flexibility to move quietly</li>
