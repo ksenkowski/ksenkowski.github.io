@@ -823,10 +823,8 @@ image: "background-image:url('../../img/articles/core/running-game.jpg');"
 					</tr>
 				</tbody>
 			</table>
-			
-			
 		</div>
-		<div class="span-1 col empty">
+		<div class="span-1 col empty"></div>
 	</div>
 </section>
 <section class="continued">
