@@ -144,7 +144,6 @@ image: "background-image:url('../../img/articles/core/skirmishes.jpg');"
 		<p>The range of a unit's attack during this phase is dictated by the weapon. See the Gear section for details on different weapon ranges.</p>
 		<p>A Range Attack is resolved by the rolling a units Fighting Trait versus the Target's Fighting Trait, taking into account any Talents and Conditions. It costs 1 Vitality to attack with crossbows and 2 Vitality for all other ranged weapons.</p>
 		<p>The amount of damage is determined by the total number of successes resolved from the  formula <em>(Attacker Successes + Weapon) - (Target Successes + Armor) = Damage</em>.</p>
-		</ul>
 	</div>
 	<div class="span-3 col empty"></div>	
 	</div>
