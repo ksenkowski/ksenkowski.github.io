@@ -21,7 +21,7 @@ image: "background-image:url('../../img/musings/drew-struzan.jpg');"
 	<div class="span-3 col empty"></div>	
 	</div>
 </section>
-<section class="code continued">
+<section class="review continued">
 	<div class="content gutters">
 		<div class="span-3 col empty"></div>
 		<div class="span-6 col">
