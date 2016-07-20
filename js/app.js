@@ -101,7 +101,7 @@ if (typeof Object.create !== "function") {
 									+'</a></h5><small>'+
 									v.excerpt
 									+'</small></li>';			
-					}else{
+					}else if(v.category == 'musings'){
 						array += '<li><h5><a href="'+
 									v.href+'">'+v.title
 									+'</a></h5><small>'+
