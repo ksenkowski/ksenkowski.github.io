@@ -112,14 +112,14 @@ if (typeof Object.create !== "function") {
 				$('#articles').append(articles);
 				$('#games').append(games);
 				$('#musings').append(array);
-			}).error(function(error){
+			}).fail(function(error){
 				console.log(error);
 			});
 		}
 	};
 	shadows.gallery = {
 		getHeight: function(){
-			return $(document).height() - $('#masthead').outerHeight() - $('#site-footer').outerHeight();
+			return $(document).height() - $('#masthead').height() - $('#site-footer').height();
 		},
 		getTotalWidth: function(){
 			var totalWidth = 0;
@@ -211,4 +211,4 @@ if (typeof Object.create !== "function") {
 			}
 		}
 	};
-}( window.shadows = window.shadows || {}, jQuery ));
+}( window.shadows = window.shadows || {}, Zepto ));
