@@ -20,9 +20,14 @@ if (typeof Object.create !== "function") {
 	var host = window.location.host;
 	var pathname = window.location.pathname;
 	var search = window.location.search;
+	var pagesObj = $('.archive-article');
+	var currentPage = 1;
+	var recordsPerPage = 4;
+	var nextButton = $('.next');
+	var prevButton = $('.prev');
+	var list = $('.pagination');
 	var counter = $('.counter');
-	var next = $('.next');
-	var prev = $('.prev');
+	var counterTotal = $('.counter-total');
 	var pageNav = $('.page-nav');
 	var jsonProd = '/posts.json';
 	var jsonLocal = 'posts.json';
@@ -34,7 +39,7 @@ if (typeof Object.create !== "function") {
 	});
 	$(window).on('load', function(){
 		shadows.gallery.changeSize();
-	
+		shadows.pagination.init();
 	});
 	
 	// private Method 
@@ -115,6 +120,58 @@ if (typeof Object.create !== "function") {
 			}).fail(function(error){
 				console.log(error);
 			});
+		}
+	};
+	shadows.pagination = {
+		init: function(){
+			shadows.pagination.changePage(1);
+			$('.page-nav').on('click', '.next', function(e){
+				e.preventDefault();
+				shadows.pagination.nextPage();
+			});
+			$('.page-nav').on('click', '.prev', function(e){
+				e.preventDefault();
+				shadows.pagination.prevPage();
+			});
+			counterTotal.html(shadows.pagination.numberPages());
+		},
+		prevPage: function(){
+			if(currentPage > 1){
+				currentPage--;
+				shadows.pagination.changePage(currentPage);
+			}
+		},
+		nextPage: function(){
+			if(currentPage < shadows.pagination.numberPages()){
+				currentPage++;
+				shadows.pagination.changePage(currentPage);
+			}
+		},
+		changePage: function(page){
+			if(page < 1){
+				page = 1;
+			}
+			if(page > shadows.pagination.numberPages()){
+				page = shadows.pagination.numberPages();
+			}
+			list.html(' ');
+			for(var i = (page-1) * recordsPerPage; i < (page * recordsPerPage); i++){
+				list.append(pagesObj[i]);
+			}
+			counter.html(page);
+			if(page === 1){
+				prevButton.hide();
+			}else{
+				prevButton.show();
+			}
+			if(page === shadows.pagination.numberPages()){
+				nextButton.hide();
+			}else{
+				nextButton.show();
+			}
+		},
+		numberPages: function(){
+			return Math.ceil(pagesObj.length / recordsPerPage);
 		}
 	};
 	shadows.gallery = {
