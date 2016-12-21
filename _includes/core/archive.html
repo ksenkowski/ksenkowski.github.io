@@ -11,46 +11,16 @@
 	
 		</div>
 	</section>
-	{% for post in site.posts %}
-	  {% for cat in post.categories %}
-	    {% if cat == 'core' %}
-		{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-		{% if thecycle == 'odd' %}
-<section class="archive-article odd">
-	<div class="content">
-		<div class="col span-3 empty"></div>
-		<div class="col span-6">
-		  
-          <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h2>
-		  <p class="excerpt">{{ post.excerpt}}</p>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-3 col empty"></div>
+		<div class="span-6 col">
+			<p>After a few years of tinkering and months of writing I finally have a full draft of the core rules. Below is a link to a PDF of the most current draft. It contains all the rules to start play. The draft will be updated as editorial continues. If you are interested in doing some playtesting and providing feedback, let me know over at the <a href="https://www.facebook.com/ConspiracyofShadows/" target="_blank">Conspiracy of Shadows Facebook</a> page and I will send you a printed copy of the most recent draft.</p>
+			<p><a href="/downloads/editorial-draft-1.0.pdf" target="_blank" class="button">Conspiracy of Shadows Core - Draft 1.0</a>
+</p>
 		</div>
-		<div class="col span-3 empty"></div>
-
-
+		<div class="span-3 col empty"></div>	
 	</div>
-
+		<div class="divider"></div>	
 </section>
- {% else %}
- <section class="archive-article even">
- 	<div class="content">
- 		<div class="col span-3 empty"></div>
- 		<div class="col span-6">
-           <h2>
-             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-           </h2>
- 		  <p class="excerpt">{{ post.excerpt}}</p>
- 		</div>
- 		<div class="col span-3 empty"></div>
-
-
- 	</div>
-
- </section>
-  {% endif %}
-	    {% endif %}
-	  {% endfor %}
-	{% endfor %}
-	
 </article>
