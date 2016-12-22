@@ -1,0 +1,44 @@
+---
+layout: article
+title:  "Conspiracy of Shadows Boxed Set"
+date:   2016-12-22
+category: musings
+tag: "conspiracy shadows rpg role-playing boxed0set"
+excerpt: "Finally making the role playing game boxed set I always wanted to make. I really don't care if no one buys it."
+class: "boxed-set"
+theme: "primary"
+image: "background-image:url('../../img/homepage/patreon-background.jpg');"
+---
+<section class="header" style="{{page.image}}">
+	<div class="content">
+	<div class="span-3 col empty"></div>
+	<div class="span-6 col">
+		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
+		<h1>{{ page.title }}</h1>
+		<p>It was 1991 when I was in a Waldenbooks (remember those?) with my dad, browsing through the fantasy novels. I had only recently learned that the books I had been rabidly consuming, like the <em>Dragonlance Chronicles</em>, grew out of a game called <em><strong>Dungeons &amp; Dragons</strong></em>. I was intrigued but had no good understanding of the game, and wouldn't dive into my lifelong obessession for another month or so. Yet still, this gray boxed set caught my eye.</p>
+		<p>Up until this point I had only seen some hard bound books and <em>Dragon</em> magazines and a boxed set was a foreign concept, but for whatever reason I was drawn to this one. I some how convinced my dad that I needed the <em>Forgotten Realms Campaign Set</em> even though I had not yet read a single game book or played a single game. When I opened it I wasn't at all disappointed that it didn't have rules on how to play and stats that made no sense. It was just gloriously intriguing.</p>
+	</div>
+	<div class="span-3 col empty"></div>	
+	</div>
+</section>
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-3 col empty"></div>
+		<div class="span-6 col">
+			<p>As you can clearly see, this crazy thing had a profound impact on me and for years wanted to make my own version of it. When I got into this game, publishing the first version of <em>Conspiracy of Shadows</em> in 2004, it was just too costly. I didn't have the kind of money to invest in getting boxes printed and honestly I wasn't exactly burning the world down with my game design. Over time though, my focus changed from getting games printed and sold on a large scale to handmaking games on a small scale.</p>
+			<p>With the creation of a <a href="http://www.conspiracyofshadows.com/games/cos-core.html">core rule set</a> that is now being edited, I can move on to creating my version of the "gray box" for <em>Forgotten Realms</em>. Right now I am thinking two books and two maps, just like the box that inspired me inside of a wood box. Also on the docket are the core rules, a handful of character sheets, and a rune stone set. Either way, this is my working TOC for the two books:</p>
+			<ul class="spaced-list unstyled">
+				<li>Introduction/About This Thing</li>
+				<li>Time</li>
+				<li>The Written Word</li>
+				<li>Religion in the World</li>
+				<li>Encyclopedia Entries</li>
+				<li>Bunch of smaller maps, royal lineage, etc</li>
+				<li>Recent Events (two years worth, 7260 - 7261)</li>
+				<li>A bunch of one page "dungeons"</li>
+			</ul>
+		</div>
+		<div class="span-3 col empty"></div>	
+	</div>
+		<div class="divider"></div>	
+</section>
