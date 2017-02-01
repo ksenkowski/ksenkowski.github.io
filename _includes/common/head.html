@@ -13,42 +13,46 @@
 	
 	
 	<!-- iPad and iPad mini (with @2× display) iOS ≥ 8 -->
-    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/img/common/touch/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/assets/img/common/touch/apple-touch-icon-180x180.png">
     <!-- iPad 3+ (with @2× display) iOS ≥ 7 -->
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/img/common/touch/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/img/common/touch/apple-touch-icon-152x152.png">
     <!-- iPad (with @2× display) iOS ≤ 6 -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/common/touch/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/common/touch/apple-touch-icon-144x144.png">
     <!-- iPhone (with @2× and @3 display) iOS ≥ 7 -->
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/img/common/touch/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/img/common/touch/apple-touch-icon-120x120.png">
     <!-- iPhone (with @2× display) iOS ≤ 6 -->
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/common/touch/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/common/touch/apple-touch-icon-114x114.png">
     <!-- iPad mini and the first- and second-generation iPad (@1× display) on iOS ≥ 7 -->
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/img/common/touch/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/assets/img/common/touch/apple-touch-icon-76x76.png">
     <!-- iPad mini and the first- and second-generation iPad (@1× display) on iOS ≤ 6 -->
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/common/touch/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/img/common/touch/apple-touch-icon-72x72.png">
     <!-- Android Stock Browser and non-Retina iPhone and iPod Touch -->
-    <link rel="apple-touch-icon-precomposed" href="/img/common/touch/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon-precomposed" href="/assets/img/common/touch/apple-touch-icon-57x57.png">
     <!-- Fallback for everything else -->
-    <link rel="shortcut icon" href="/img/common/touch/apple-touch-icon-precomposed.png">
+    <link rel="shortcut icon" href="/assets/img/common/touch/apple-touch-icon-precomposed.png">
 
     <!--
         Chrome 31+ has home screen icon 192×192 (the recommended size for multiple resolutions).
         If it’s not defined on that size it will take 128×128.
     -->
-    <link rel="icon" sizes="192x192" href="/img/common/touch/android-chrome-192x192.png">
-    <link rel="icon" sizes="128x128" href="/img/common/touch/android-chrome-192x192.png">
+    <link rel="icon" sizes="192x192" href="/assets/img/common/touch/android-chrome-192x192.png">
+    <link rel="icon" sizes="128x128" href="/assets/img/common/touch/android-chrome-192x192.png">
 
     <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="/img/common/touch/apple-touch-icon-152x152.png">
+    <meta name="msapplication-TileImage" content="/assets/img/common/touch/apple-touch-icon-152x152.png">
     <meta name="msapplication-TileColor" content="#b91d47">
 	
-	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,300italic' rel='stylesheet' type='text/css'>
-    <link media="all" rel="stylesheet" type="text/css" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-    <link media="print" rel="stylesheet" type="text/css" href="{{ "/css/print.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
 	<link rel="manifest" href="/manifest.json">
-	<link rel="mask-icon" href="/img/common/touch/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="mask-icon" href="/assets/img/common/touch/safari-pinned-tab.svg" color="#5bbad5">
 
 	<meta name="theme-color" content="#ffffff">
+	
+	<script>
+	    !function(e){"use strict";var t=function(t,n,r){function o(e){return i.body?e():void setTimeout(function(){o(e)})}function l(){d.addEventListener&&d.removeEventListener("load",l),d.media=r||"all"}var a,i=e.document,d=i.createElement("link");if(n)a=n;else{var s=(i.body||i.getElementsByTagName("head")[0]).childNodes;a=s[s.length-1]}var u=i.styleSheets;d.rel="stylesheet",d.href=t,d.media="only x",o(function(){a.parentNode.insertBefore(d,n?a:a.nextSibling)});var f=function(e){for(var t=d.href,n=u.length;n--;)if(u[n].href===t)return e();setTimeout(function(){f(e)})};return d.addEventListener&&d.addEventListener("load",l),d.onloadcssdefined=f,f(l),d};"undefined"!=typeof exports?exports.loadCSS=t:e.loadCSS=t}("undefined"!=typeof global?global:this),function(e){if(e.loadCSS){var t=loadCSS.relpreload={};if(t.support=function(){try{return e.document.createElement("link").relList.supports("preload")}catch(t){}},t.poly=function(){for(var t=e.document.getElementsByTagName("link"),n=0;n<t.length;n++){var r=t[n];"preload"===r.rel&&"style"===r.getAttribute("as")&&(e.loadCSS(r.href,r),r.rel=null)}},!t.support()){t.poly();var n=e.setInterval(t.poly,300);e.addEventListener&&e.addEventListener("load",function(){e.clearInterval(n)})}}}(this);
+	    loadCSS('/assets/css/main.css');
+		loadCSS('http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,300italic');
+	</script>
+	
+	 <style>{% include critical.css %}</style>
 </head>

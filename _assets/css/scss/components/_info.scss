@@ -1,0 +1,55 @@
+#info{
+	.header{
+		padding:4% 2% 2%;
+		background:$secondary-light url('../img/info/info.jpg') no-repeat;
+		background-size:cover;
+		.post-meta{
+			font-family:$secondary-stack;
+			margin:0;
+			font-weight:400;
+			color:$white;
+		}
+		h1{
+			color:$white;
+			font-family:$secondary-stack;
+			margin:0 0 80px;
+			line-height:125%;
+		}
+		p{
+			margin:0 0 20px;
+			color:$white;
+			strong{
+				font-family:$secondary-stack;			
+			}
+		}
+	}
+	.know-more{
+		padding:4% 2% 2%;
+		background:$tertiary-light;
+		.profile{
+			max-width:250px;
+			margin:0 auto 15px;
+			display:block;
+		}
+		h2{
+			margin:0 0 em(10px);
+			color:$tertiary-dark;
+		}
+		ul{
+			li{
+				line-height:125%;
+				margin:0 0 em(10px);
+			}
+		}
+		p{
+			color:$tertiary-dark;
+			font-weight:600;
+		}
+		a{
+			color:$white;
+			&:hover{
+				color:$primary-light;
+			}
+		}
+	}
+}

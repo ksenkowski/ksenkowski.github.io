@@ -1,0 +1,38 @@
+#throw-stones{
+	padding:5% 0%;
+}
+#rune-stone-results{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align:center;
+	zoom:1;
+	overflow:hidden;
+	li{
+		float:left;
+		font-size:300%;
+		border-radius:100%;
+		display:inline-block;
+		height:70px;
+		width:70px;
+		margin:8px;
+		background:url('../img/articles/core/apprentice/stones.jpg') no-repeat;
+		&.tails{
+			span{
+				color:$black;
+				opacity:.2;
+				filter: alpha(opacity=20);
+			}
+		}
+		&.blackstone{
+			background:$black !important;
+		}
+		span{
+			display:block;
+			width:100%;
+			height:100%;
+			text-align:center;
+			margin-top:12px;
+		}
+	}	
+}

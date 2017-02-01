@@ -10,12 +10,20 @@ github_username:  ksenkowski
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title.html
-
-sass:
-  sass_dir: _sass
-  style: :compressed
   
 gems:
 - jekyll-redirect-from
 - jekyll-sitemap
 - jekyll-feed
+
+exclude: ["vendor",
+			"_assets",
+			"Gemfile",
+			"Gem.lock",
+			"gulpfile.js",
+			"node_modules",
+			"package.json"]
+
+gems:
+	- jekyll-sitemap
+	- jekyll-redirect-from

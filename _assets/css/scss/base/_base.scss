@@ -1,0 +1,363 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font-family:$primary-stack;
+	font-weight:normal;
+	font-size: 1em;
+    line-height: 1.25em;
+    font-weight: 300;
+	color:$black;
+	position:relative;
+	background:$white;
+}
+main{
+	margin:0 auto;
+	width:100%;
+}
+/* ==========================================================================
+   IMAGES & VIDEOS
+   ========================================================================== */
+
+img {
+    vertical-align: middle;
+	width:100%;
+	height:auto;
+}
+.youtube{
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+	
+	iframe, object, embed{
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+	}
+}
+/* ==========================================================================
+   TYPOGRAPHY 
+   ========================================================================== */
+p{
+	margin:0;
+	line-height:160%;
+	font-size:em(18px);
+}
+s{
+	text-decoration:line-through;
+}
+.small{
+	font-size:.875em;
+}
+.text-left {
+  text-align: left;
+}
+.text-uppercase{
+	text-transform:uppercase;
+}
+.text-right {
+  text-align: right;
+}
+.hidden{
+	display:none !important;
+}
+.invisible{
+	visibility:hidden !important;
+}
+.text-center {
+  text-align: center;
+}
+.warning-text{
+	color:$warning-gold;
+}
+.error-text{
+	color:$error-red;
+}
+.success-text{
+	color:$success-green;
+}
+hr{
+	height:2px;
+	border-top:1px solid $white;
+}
+code{
+	padding:em(16px);
+	line-height:125%;
+	display:block;
+	font-size:em(17px);
+}
+blockquote {
+	padding: 0px;
+	margin: 1em 0;
+	p {
+		margin-bottom: 0;
+		font-size: 1.2em;
+		font-weight: 700;
+		line-height: 1.6em;
+		text-indent:0;
+		color:$primary-color;
+		text-align:center;
+		font-family:$tertiary-stack;
+	}
+	small {
+		display: block;
+		line-height: 100%;
+	}
+	small:before {
+		content: '\2014 \00A0';
+	}
+}
+sup{
+	text-transform:uppercase;
+	font-size:60%;
+}
+/* ==========================================================================
+   HEADING STYLES
+   ========================================================================== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family:$secondary-stack;
+	font-weight:normal;
+	margin:0;
+}
+h1{
+	font-size:em(46px);
+	line-height:125%;
+}
+h2{
+	font-size:em(38px);
+	line-height:100%;
+}
+h3{
+	font-size:em(28px);
+	line-height:100%;
+}
+h4{
+	font-size:em(25px);
+	line-height:100%;
+}
+h5{
+	font-size:em(22px);
+	line-height:100%;
+}
+h6{
+	font-size:em(20px);
+	line-height:100%;
+}
+/* ==========================================================================
+   LIST STYLES
+   ========================================================================== */
+ul,
+ol {
+  	padding: 0;
+  	margin: 0px 0 10px 25px;
+	line-height:125%;
+	font-size:em(16px);
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin-bottom: 0;
+}
+ul.spaced-list, ol.spaced-list {
+	margin-bottom:15px;
+	margin-top:15px;
+	ul.unspaced-list{
+		margin-top:em(20px);
+		margin-bottom:em(20px);
+		li{
+				margin-bottom:0;
+				margin-top:0;
+			}
+	}
+	li{
+		margin:8px 0px;
+		small{
+			line-height:140%;
+			display:block;
+			margin:-5px 0px 10px;
+		}
+	}
+}
+ul.unstyled, ol.unstyled {
+	margin-left: 0;
+	list-style: none;
+}
+ul.inline, ol.inline {
+	margin-left: 0;
+	list-style: none;
+	li{
+		display:inline-block;
+	}
+}
+ol.upper-roman{
+	list-style-type:upper-roman;
+}
+ol.lower-roman{
+	list-style-type:lower-roman;
+}
+/* ==========================================================================
+   LINKS - My broad preference is to have no text decoration on links and apply a dotted border on hover.
+   ========================================================================== */
+
+a {
+    color:$primary-color;
+	text-decoration:none;
+}
+a:hover{
+    color:$primary-light;
+}
+
+/* ==========================================================================
+   FORMS -
+   ========================================================================== */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+textarea {
+    resize: vertical;
+}
+fieldset{
+	position: relative;
+	display: inline;
+	width:100%;	
+	height:auto;
+	background:transparent;
+	box-shadow: 0 0 8px transparent;
+	background-clip: padding-box;
+	label{
+		width:auto;
+		-webkit-transform:translate(0,0);
+		-webkit-transition:-webkit-transform 150ms, opacity 5s;
+		font-size:.750em;
+		font-family:$secondary-stack;
+		color:$dark-gray;
+		text-transform:uppercase;
+		letter-spacing:.05em;		
+		span{
+			text-transform:none;
+			font-style:italic;
+		}
+	}
+	select, input[type="text"]{
+		background: transparent;
+		font-size: 1.2em;
+		padding: 15px 0px 5px 0px;
+		line-height: 20px;
+		width: 100%;
+		transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+		border:2px solid $gray;
+		font-family:$secondary-stack;
+		-webkit-appearance:none;
+		border-radius:0px;		
+	}
+	select{
+		padding:15px 0px 15px 10px;
+		background:$white url('../img/common/down-arrow.png') no-repeat 95% 47%;
+		background-size:5%;
+	}
+	input{
+		color:$black;	
+	}
+	input:focus, select:focus{
+		border-bottom:2px solid $primary-color;	
+	}
+	
+}
+
+/* ==========================================================================
+   TABLES
+   ========================================================================== */
+	.table-scroll{
+		display: block;
+		position: relative;
+		width: 100%;
+		
+		@include breakpoint(landscape){
+			display: table;
+			position: static;
+		}
+		caption{
+			display:block;
+			@include breakpoint(landscape){
+				display:table-caption;
+			}
+		}
+		thead{
+			display:block;
+			float:left;
+			border-bottom:none;
+			@include breakpoint(landscape){
+				display: table-header-group;
+				vertical-align: middle;
+				float:none;
+			}
+			tr{
+				display:block;
+				width:100%;
+				@include breakpoint(landscape){
+					display:table-row;
+				}
+				
+			}
+			th{
+				display:block;
+				@include breakpoint(landscape){
+					display:table-cell;
+				}
+			}
+		}
+		tbody{
+			display:block;
+			width:auto;
+			position:relative;
+			overflow-x:auto;
+			white-space:nowrap;
+			@include breakpoint(landscape){
+				display: table-row-group;
+				position: static;
+				vertical-align: middle;
+				white-space:normal;
+			}
+			tr{
+				display:inline-block;
+				vertical-align:top;
+				@include breakpoint(landscape){
+					display:table-row;
+				}
+				td{
+					display:block;
+					@include breakpoint(landscape){
+						display:table-cell;
+					}
+				}
+			}
+		}
+	}
+
+table{
+	width:100%;
+	border-collapse:collapse;
+	border-spacing: 0;
+}
+td,th{
+	padding:6px;
+	text-align:left;
+}
+td.top, th.top{
+	vertical-align:top;
+}
