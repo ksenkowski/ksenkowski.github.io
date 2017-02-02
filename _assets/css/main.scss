@@ -1,23 +1,17 @@
----
----
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-@import "_base/_colors",
-		"_base/_fonts",
-		"_base/_mixins",
-		"_base/_normalize",
-		"_base/_base",
-		"_base/_grid",
-		"_components/_siteheader",
-		"_components/_sitefooter",
-		"_components/_buttons",
-		"_components/_progress",
-		"_components/_pagination",
-		"_components/_homepage",
-		"_components/_archive",
-		"_components/_articles",
-		"_components/_timeline",
-		"_components/_runestones",
-		"_components/_info";
+@import "scss/base/_colors",
+		"scss/base/_fonts",
+		"scss/base/_mixins",
+		"scss/base/_normalize",
+		"scss/base/_base",
+		"scss/base/_grid",
+		"scss/components/_siteheader",
+		"scss/components/_sitefooter",
+		"scss/components/_buttons",
+		"scss/components/_progress",
+		"scss/components/_pagination",
+		"scss/components/_homepage",
+		"scss/components/_archive",
+		"scss/components/_articles",
+		"scss/components/_timeline",
+		"scss/components/_runestones",
+		"scss/components/_info";

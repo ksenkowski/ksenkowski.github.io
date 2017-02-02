@@ -1,10 +1,8 @@
 source "https://rubygems.org"
 
 gem 'github-pages'
-gem "jekyll"
-gem 'jekyll-compass'
-gem 'compass'
-gem 'sass', '3.2.19'
+gem 'html-proofer', '~> 3.0.0'
+gem 'scss_lint'
 gem 'jekyll-redirect-from'
 gem 'jekyll-sitemap'
 gem 'jekyll-feed'

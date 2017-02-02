@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'futhark';
-  src: url("fonts/customfuthark-webfont.eot");
-  src: url("fonts/customfuthark-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/customfuthark-webfont.woff") format("woff"), url("fonts/customfuthark-webfont.ttf") format("truetype"), url("fonts/customfuthark-webfont.svg#customfutharkmedium") format("svg");
+  src: url("/assets/fonts/customfuthark-webfont.eot");
+  src: url("/assets/fonts/customfuthark-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/customfuthark-webfont.woff") format("woff"), url("/assets/fonts/customfuthark-webfont.ttf") format("truetype"), url("/assets/fonts/customfuthark-webfont.svg#customfutharkmedium") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
     font-family: 'gutenberg';
-    src: url('fonts/alter_littera_-_alotgutenbergc-webfont.eot');
-    src: url('fonts/alter_littera_-_alotgutenbergc-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/alter_littera_-_alotgutenbergc-webfont.woff2') format('woff2'),
-         url('fonts/alter_littera_-_alotgutenbergc-webfont.woff') format('woff'),
-         url('fonts/alter_littera_-_alotgutenbergc-webfont.ttf') format('truetype'),
-         url('fonts/alter_littera_-_alotgutenbergc-webfont.svg#alot_gutenberg_cregular') format('svg');
+    src: url('/assets/fonts/alter_littera_-_alotgutenbergc-webfont.eot');
+    src: url('/assets/fonts/alter_littera_-_alotgutenbergc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/alter_littera_-_alotgutenbergc-webfont.woff2') format('woff2'),
+         url('/assets/fonts/alter_littera_-_alotgutenbergc-webfont.woff') format('woff'),
+         url('/assets/fonts/alter_littera_-_alotgutenbergc-webfont.ttf') format('truetype'),
+         url('/assets/fonts/alter_littera_-_alotgutenbergc-webfont.svg#alot_gutenberg_cregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
