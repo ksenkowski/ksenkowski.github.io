@@ -56,7 +56,7 @@ gulp.task('clean:styles', function(callback) {
 //Process JS
 gulp.task('build:scripts', function(){
 	return gulp.src([
-		paths.jsFiles + '/lib' + paths.jsPattern,
+		paths.jsFiles + '/libs' + paths.jsPattern,
 		paths.jsFiles + '/*.js'
 	]).pipe(concat('main.js'))
 		.pipe(uglify())
