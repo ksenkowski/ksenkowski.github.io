@@ -101,7 +101,7 @@ blockquote {
 		font-weight: 700;
 		line-height: 1.6em;
 		text-indent:0;
-		color:$primary-color;
+		color:$color-primary-0;
 		text-align:center;
 		font-family:$tertiary-stack;
 	}
@@ -212,11 +212,19 @@ ol.lower-roman{
    ========================================================================== */
 
 a {
-    color:$primary-color;
-	text-decoration:none;
+    color:$color-complement-0;
+//	border-bottom:1px solid $color-complement-0;
+	text-decoration: none;
+	transition:.5s;
+	background:linear-gradient($white, $white),linear-gradient($white, $white), linear-gradient($color-complement-0, $color-complement-0);
+	background-size:.05em 1px, .05em 1px, 1px, 1px;
+	background-repeat:no-repeat, no-repeat, repeat-x;
+	text-shadow: 0.03em 0 #fff, -0.03em 0 #fff, 0 0.03em #fff, 0 -0.03em #fff, 0.06em 0 #fff, -0.06em 0 #fff, 0.09em 0 #fff, -0.09em 0 #fff, 0.12em 0 #fff, -0.12em 0 #fff, 0.15em 0 #fff, -0.15em 0 #fff;
+	background-position: 0 87%,100% 87%,0 87%;
 }
 a:hover{
-    color:$primary-light;
+    color:$color-complement-4;
+	background:linear-gradient($white, $white),linear-gradient($white, $white), linear-gradient($color-complement-0, $color-complement-4);
 }
 
 /* ==========================================================================
@@ -274,7 +282,7 @@ fieldset{
 		color:$black;	
 	}
 	input:focus, select:focus{
-		border-bottom:2px solid $primary-color;	
+		border-bottom:2px solid $color-complement-4;	
 	}
 	
 }

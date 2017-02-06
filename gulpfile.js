@@ -104,7 +104,7 @@ gulp.task('clean:images', function(callback){
 
 //Run Jekyll Build
 gulp.task('build:jekyll', function() {
-    var shellCommand = 'bundle exec jekyll build --config _config.yml';
+    var shellCommand = 'bundle exec jekyll build --lsi --config _config.yml';
 
     return gulp.src('')
         .pipe(run(shellCommand))
@@ -122,7 +122,7 @@ gulp.task('build:jekyll:test', function() {
 
 //Run Jekyll Local Config
 gulp.task('build:jekyll:local', function() {
-    var shellCommand = 'bundle exec jekyll build --config _config.yml,';
+    var shellCommand = 'bundle exec jekyll build --lsi --config _config.yml,';
 
     return gulp.src('')
         .pipe(run(shellCommand))
@@ -197,7 +197,7 @@ gulp.task('serve', ['build:local'], function() {
     gulp.watch(['_config*.yml'], ['build:jekyll:watch']);
 
     // Watch .scss files; changes are piped to browserSync.
-    gulp.watch('_assets/styles/**/*.scss', ['build:styles']);
+    gulp.watch('_assets/css/**/*.scss', ['build:styles']);
 
     // Watch .js files.
     gulp.watch('_assets/js/**/*.js', ['build:scripts:watch']);

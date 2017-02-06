@@ -7,12 +7,12 @@
 }
 @font-face {
     font-family: 'gutenberg';
-    src: url('/assets/fonts/alter_littera_-_alotgutenbergc-webfont.eot');
-    src: url('/assets/fonts/alter_littera_-_alotgutenbergc-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/alter_littera_-_alotgutenbergc-webfont.woff2') format('woff2'),
-         url('/assets/fonts/alter_littera_-_alotgutenbergc-webfont.woff') format('woff'),
-         url('/assets/fonts/alter_littera_-_alotgutenbergc-webfont.ttf') format('truetype'),
-         url('/assets/fonts/alter_littera_-_alotgutenbergc-webfont.svg#alot_gutenberg_cregular') format('svg');
+    src: url('/assets/fonts/gutenbergc.eot');
+    src: url('/assets/fonts/gutenbergc.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/gutenbergc.woff2') format('woff2'),
+         url('/assets/fonts/gutenbergc.woff') format('woff'),
+         url('/assets/fonts/gutenbergc.ttf') format('truetype'),
+         url('/assets/fonts/gutenbergc.svg#alot_gutenberg_cregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -31,7 +31,6 @@ $base-font-size			:16px;
 }
 .futhark{
 	font-family:$futhark;
-	color: $primary-color; 	
 	font-size:32px;	
 }
 .courier{

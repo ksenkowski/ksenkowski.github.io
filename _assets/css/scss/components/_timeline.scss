@@ -83,15 +83,15 @@
 	}
 
 	&.picture {
-		background: $primary-color;
+		background: $color-primary-0;
 	}
 
 	&.movie {
-		background: $primary-color;
+		background: $color-primary-0;
 	}
 
 	&.location {
-		background: $primary-color;
+		background: $color-primary-0;
 	}
 
 	@include breakpoint(desktop) {
@@ -111,7 +111,7 @@
 	@include clearfix;
 
 	h2 {
-		color: $primary-color;
+		color: $color-primary-0;
 	}
 
 	p, .read-more, .date {
@@ -130,11 +130,11 @@
 	.read-more {
 		float: right;
 		padding: .8em 1em;
-		background: $tertiary-color;
-		color: $primary-color;
+		background: $color-primary-0;
+		color: $color-primary-0;
 
 		.no-touch &:hover {
-			background-color: $tertiary-color, 5%;
+			background-color: $color-primary-0, 5%;
 		}
 	}
 

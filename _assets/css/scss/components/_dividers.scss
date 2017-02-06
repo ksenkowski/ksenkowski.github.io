@@ -1,0 +1,18 @@
+.endnote{
+	display:block;
+	margin:em(50px) auto 0;
+	width:300px;
+	height:50px;
+	background:url('../img/articles/endnotes.png') no-repeat;
+	background-size:100% 100%;
+	@include clearfix;	
+}
+.divider{
+	display:block;
+	margin:em(50px) auto;
+	width:300px;
+	height:50px;
+	background:url('../img/articles/endnotes.png') no-repeat;
+	background-size:100% 100%;
+	@include clearfix;	
+}

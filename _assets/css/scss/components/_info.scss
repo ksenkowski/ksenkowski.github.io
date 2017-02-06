@@ -1,7 +1,7 @@
 #info{
 	.header{
 		padding:4% 2% 2%;
-		background:$secondary-light url('../img/info/info.jpg') no-repeat;
+		background:$color-primary-1 url('../img/info/info.jpg') no-repeat;
 		background-size:cover;
 		.post-meta{
 			font-family:$secondary-stack;
@@ -25,7 +25,7 @@
 	}
 	.know-more{
 		padding:4% 2% 2%;
-		background:$tertiary-light;
+		background:$color-primary-1;
 		.profile{
 			max-width:250px;
 			margin:0 auto 15px;
@@ -33,7 +33,7 @@
 		}
 		h2{
 			margin:0 0 em(10px);
-			color:$tertiary-dark;
+			color:$color-primary-1;
 		}
 		ul{
 			li{
@@ -42,13 +42,13 @@
 			}
 		}
 		p{
-			color:$tertiary-dark;
+			color:$color-primary-1;
 			font-weight:600;
 		}
 		a{
 			color:$white;
 			&:hover{
-				color:$primary-light;
+				color:$color-primary-1;
 			}
 		}
 	}

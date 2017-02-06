@@ -1,68 +1,134 @@
 /* ==========================================================================
    ARTICLE AND MUSINGS GLOBAL STYLES
    ========================================================================== */
-.divider{
-	display:block;
-	margin:em(50px) auto 0;
-	width:300px;
-	height:50px;
-	background:url('../img/articles/divider.png') no-repeat;
-	background-size:100% 100%;
-	@include clearfix;	
-}
-.primary, .secondary, .tertiary{
-	.header{
-		background-repeat:no-repeat;
-		background-size:cover;			
-	}
-}
 .single{
 	.header{
-		padding:4% 2% 2%;
-		color:$white;	
-		.post-meta{
-			font-family:$secondary-stack;
-			margin:0;
-			font-weight:400;
-		}
-		h1{
-			font-family:$secondary-stack;
-			margin:0 0 50px;
-			line-height:105%;
-		}
-		p{
-			margin:0 0 20px;
-			strong, em{
-				font-family:$secondary-stack;			
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-color:$black;			
+		background-color:$color-primary-2;
+		padding:180px 2% 1%;
+		margin:0 0 em(30px);
+		color:$white;
+		.hgroup{
+			max-width:330px;
+			.post-meta{
+				font-family:$secondary-stack;
+				margin:0;
+				font-weight:400;
 			}
-			a{
-				color:$off-white;
-				text-decoration:underline;
+			h1{
+				font-family:$secondary-stack;
+				margin:0 0 30px;
+				line-height:105%;
 			}
+			.icons{
+				padding:0 0 em(15px);
+				margin-top:em(10px);
+				padding-left:0;
+				text-align:center;
+				li{
+					display:inline;
+					text-transform:uppercase;
+					font-weight:700;
+					letter-spacing:0.03em;
+					margin-right:em(18px);
+					font-size:rem(54px);
+					font-family:$futhark;
 			
-		}
-	}
-	.image-container{
-		overflow-y:hidden;
-		overflow-x:scroll;
-		height:auto;
-		-webkit-overflow-scrolling: touch;
-		.wrapper{
-			overflow-x:scroll;
-			height:500px;
-			section{
-				margin-right:5px;
-				padding:0;
-				float:left;
-				width:auto;
-				img{
-					height:100%;
-					width:auto;
+					
 				}
 			}
-		}
+			
+		}	
 	}
 	.continued{
+		padding:4% 2% 2%;
+		.related-posts{
+			max-width:400px;
+			margin:0 auto;
+		}
+		
+		.first-letter-box{
+			background:$color-primary-2;
+		  	float: left;
+			max-width:50px;
+			max-height:50px;
+			height:50px;
+			width:50px;
+			margin:10px 20px 5px 15px;
+		    border: 6px solid $color-primary-4;
+		    font-weight: bold;
+		    transform: rotate(45deg);
+		    display: inline-block;
+			span{
+			  transform: rotate(-45deg);
+			  display:inline-block;
+			  font-size: em(30px);
+			  text-align:center;
+			  line-height:0;
+			  padding:15px;
+			  max-width:60px;
+			  max-height:60px;
+			  min-height:60px;
+			  min-width:60px;
+			  color:$color-primary-4;
+			}
+		}
+		table{
+			border:3px solid $color-primary-4;
+			thead{
+				background:$white;
+				@include breakpoint(landscape){
+					border-bottom:3px solid $color-primary-4;
+				}
+				
+				tr{
+					th{
+						color:$color-primary-4;
+					}
+				}
+			}
+			tbody{
+				tr{
+					td{
+						color:$color-primary-4;
+					}
+				}
+				tr:nth-of-type(odd){
+					background:$color-primary-2;
+					td{
+						color:$white;
+					}
+				}
+				
+			}
+		}
+		
+		code{
+			border:1px dashed $color-primary-4;
+			background:$color-primary-2;
+			color:white;
+			margin:0 0 20px;
+		}
+		h2{
+			margin:0 0 em(20px);
+			color:$color-primary-4;
+		}
+		h3, h4, h5, h6{
+			color:$color-primary-4;
+		}
+		p,ul, ol{
+			em, strong{
+				color:$color-primary-2;			
+			}			
+		}
+		
+	}
+	
+	
+	.continued{
+		padding:0 em(20px);
 		p{
 			margin:0 0 20px;
 			strong, em{
@@ -77,12 +143,26 @@
 		}
 	}
 	figure{
+		border-left:2px solid $color-primary-4;
+		border-right:2px solid $color-primary-4;
+		border-top:2px solid $color-primary-4;
+		margin:0 auto 3%;
+		max-width:400px;
+		img{
+			display:block;
+			margin:0 auto;
+			padding:4%;
+		}
 		figcaption{
 			margin:0 0 em(20px);
 			padding:em(10px);
 			font-size:em(14px);
 			line-height:120%;
 			font-style:italic;
+			border-bottom:2px solid $color-primary-4;
+			background:$color-primary-2;
+			color:$white;
+			
 			@include breakpoint(portrait){
 				margin:0;
 			}
@@ -130,161 +210,12 @@
 	}
 	
 }
-/* ==========================================================================
-   PRIMARY COLOR SCHEME
-   ========================================================================== */
 .primary{
 	.header{
-		background-color:$primary-light;
 	}
 	.review, .continued{
-		padding:4% 2% 2%;
-		table{
-			border:3px solid $primary-dark;
-			thead{
-				background:$white;
-				@include breakpoint(landscape){
-					border-bottom:3px solid $primary-dark;
-				}
-				
-				tr{
-					th{
-						color:$primary-dark;
-					}
-				}
-			}
-			tbody{
-				tr{
-					td{
-						color:$primary-dark;
-					}
-				}
-				tr:nth-of-type(odd){
-					background:$primary-light;
-					td{
-						color:$white;
-					}
-				}
-				
-			}
-		}
 		
-		code{
-			border:1px dashed $primary-dark;
-			background:$primary-light;
-			color:white;
-			margin:0 0 20px;
-		}
-		h2{
-			margin:0 0 em(20px);
-			color:$primary-dark;
-		}
-		h3, h4, h5, h6{
-			color:$primary-dark;
-		}
-		p,ul, ol{
-			em, strong{
-				color:$primary-light;			
-			}			
-		}
-		figure{
-			border-left:2px solid $primary-dark;
-			border-right:2px solid $primary-dark;
-			border-top:2px solid $primary-dark;
-			margin-bottom:3%;
-			figcaption{
-				border-bottom:2px solid $primary-dark;
-				background:$primary-light;
-				color:$white;
-			}
-			.scale{
-				transition: all 0.3s;
-				&:hover{
-					transform: scale(1.5);
-				}
-			}
-		}	
 	}	
-}
-
-/* ==========================================================================
-   SECONDARY COLOR SCHEME
-   ========================================================================== */
-.secondary{
-	.header{
-		background-color:$secondary-light;
-	}
-	.review{
-		padding:4% 2% 2%;
-		code{
-			border:1px dashed $secondary-dark;
-			background:$secondary-light;
-			color:white;
-			margin:0 0 20px;
-		}
-		p,ul, ol{
-			em, strong{
-				color:$primary-light;			
-			}		
-		}	
-		figure{
-			border-left:2px solid $secondary-dark;
-			border-right:2px solid $secondary-dark;
-			border-top:2px solid $secondary-dark;
-			margin-bottom:3%;
-			figcaption{
-				border-bottom:2px solid $secondary-dark;
-				background:$secondary-light;
-				color:$white;
-			}
-		}
-	}
-	h2{
-		font-family:$secondary-stack;
-		margin:0 0 50px;
-		color:$secondary-dark;			
-		line-height:105%;
-	}
-	
-}
-/* ==========================================================================
-   TERTIARY COLOR SCHEME
-   ========================================================================== */
-.tertiary{
-	.header{
-		background-color:$tertiary-light;
-	}
-	.code, .review{
-		padding:4% 2% 2%;
-		code{
-			border:1px dashed $tertiary-dark;
-			background:$tertiary-light;
-			color:white;
-			margin:0 0 20px;
-		}
-		p, ul, ol{
-			em, strong{
-				color:$tertiary-light;			
-			}			
-		}
-		figure{
-			border-top:2px solid $tertiary-dark;
-			border-left:2px solid $tertiary-dark;
-			border-right:2px solid $tertiary-dark;
-			margin-bottom:3%;
-			figcaption{
-				border-bottom:2px solid $tertiary-dark;
-				background:$tertiary-light;
-			}
-		}
-		
-	}
-	h2{
-		font-family:$secondary-stack;
-		margin:0 0 50px;
-		color:$tertiary-dark;			
-		line-height:105%;
-	}
 }
 
 /* ==========================================================================

@@ -5,7 +5,7 @@
 	margin:0 auto;
 	min-width:19em;
 	position:relative;
-	overflow:auto;
+//	overflow:auto;
 	@include clearfix;
 	@include breakpoint(mobile){
 		min-width:31.250em;
