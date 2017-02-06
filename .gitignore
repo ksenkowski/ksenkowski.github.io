@@ -2,6 +2,6 @@ _site
 .DS_Store
 node_modules
 assets
-.sass-cache
+.sass-cache/
 npm-debug.log
 .jekyll-metadata
