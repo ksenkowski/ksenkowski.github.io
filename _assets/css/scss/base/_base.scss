@@ -16,6 +16,10 @@ body{
 main{
 	margin:0 auto;
 	width:100%;
+	padding:0 2%;
+}
+article{
+	
 }
 /* ==========================================================================
    IMAGES & VIDEOS
@@ -47,7 +51,7 @@ img {
 p{
 	margin:0;
 	line-height:160%;
-	font-size:em(18px);
+	font-size:em(20px);
 }
 s{
 	text-decoration:line-through;
@@ -159,10 +163,11 @@ h6{
    ========================================================================== */
 ul,
 ol {
-  	padding: 0;
   	margin: 0px 0 10px 25px;
 	line-height:125%;
-	font-size:em(16px);
+	margin:0;
+	line-height:160%;
+	font-size:em(20px);
 }
 ul ul,
 ul ol,
@@ -215,16 +220,19 @@ a {
     color:$color-complement-0;
 //	border-bottom:1px solid $color-complement-0;
 	text-decoration: none;
-	transition:.5s;
 	background:linear-gradient($white, $white),linear-gradient($white, $white), linear-gradient($color-complement-0, $color-complement-0);
 	background-size:.05em 1px, .05em 1px, 1px, 1px;
 	background-repeat:no-repeat, no-repeat, repeat-x;
-	text-shadow: 0.03em 0 #fff, -0.03em 0 #fff, 0 0.03em #fff, 0 -0.03em #fff, 0.06em 0 #fff, -0.06em 0 #fff, 0.09em 0 #fff, -0.09em 0 #fff, 0.12em 0 #fff, -0.12em 0 #fff, 0.15em 0 #fff, -0.15em 0 #fff;
+	text-shadow: 0.03em 0 $white, -0.03em 0 $white, 0 0.03em $white, 0 -0.03em $white, 0.06em 0 $white, -0.06em 0 $white, 0.09em 0 $white, -0.09em 0 $white, 0.12em 0 $white, -0.12em 0 $white, 0.15em 0 $white, -0.15em 0 $white;
 	background-position: 0 87%,100% 87%,0 87%;
 }
 a:hover{
-    color:$color-complement-4;
-	background:linear-gradient($white, $white),linear-gradient($white, $white), linear-gradient($color-complement-0, $color-complement-4);
+    color:$color-complement-1;
+	background:linear-gradient($white, $white),linear-gradient($white, $white), linear-gradient($color-complement-1, $color-complement-1);
+	background-size:.05em 1px, .05em 1px, 1px, 1px;
+	background-repeat:no-repeat, no-repeat, repeat-x;
+	text-shadow: 0.03em 0 $white, -0.03em 0 $white, 0 0.03em $white, 0 -0.03em $white, 0.06em 0 $white, -0.06em 0 $white, 0.09em 0 $white, -0.09em 0 $white, 0.12em 0 $white, -0.12em 0 $white, 0.15em 0 $white, -0.15em 0 $white;
+	background-position: 0 87%,100% 87%,0 87%;
 }
 
 /* ==========================================================================

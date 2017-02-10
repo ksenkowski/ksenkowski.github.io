@@ -1,13 +1,13 @@
 ---
 layout: artwork
-title:  "Miscellaneous Artwork"
+title:  "The Grab Bag"
 date:   2016-04-06 15:21:23
 type: artwork
 category: artwork
 tag: "art artwork illustration"
 excerpt: "Miscellaneous artwork that falls under no particular category."
 theme: "tertiary"
-logo: "/img/artwork/miscellaneous/logo.png"
+logo: "/assets/img/artwork/miscellaneous/logo.png"
 ---
 <div class="image-container">
 	<div class="wrapper">

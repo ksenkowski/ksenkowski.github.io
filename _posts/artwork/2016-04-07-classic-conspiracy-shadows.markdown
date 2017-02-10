@@ -1,13 +1,13 @@
 ---
 layout: artwork
-title:  "Conspiracy of Shadows RPG"
+title:  "Classic Conspiracy of Shadows"
 date:   2016-04-07 15:21:23
 type: artwork
 category: artwork
 tag: "conspiracy of shadows roleplaying game rpg art artwork illustration"
 excerpt: "Artwork from the various versions of the Conspiracy of Shadows roleplaying game."
 theme: "tertiary"
-logo: "/img/artwork/conspiracy-shadows/logo.png"
+logo: "/assets/img/artwork/conspiracy-shadows/logo.png"
 ---
 <div class="image-container">
 	<div class="wrapper">

@@ -1,6 +1,4 @@
 .page-nav{
-	background:$white;
-	border-top:2px solid $off-white;	
 	padding:em(20px) 0 em(15px);
 	ul{
 		text-align:center;
@@ -15,7 +13,6 @@
 			letter-spacing:0.03em;
 			margin-right:em(5px);
 			font-size:em(14px);
-			padding:1px;
 			font-family:$secondary-stack;
 			
 			@include breakpoint(portrait){
@@ -25,4 +22,40 @@
 			
 		}
 	}
+}
+.archive-article{
+	a{
+		padding:5% 2%;
+		display:block;
+		background:none;
+		text-shadow:none;
+		border-top:4px solid $color-complement-2;
+	}
+	a:hover{
+		background:$off-white;
+		text-shadow:none;
+	}
+	.post-meta{
+		font-family:$secondary-stack;
+		margin:0;
+		line-height:50%;
+		font-weight:400;
+		color:$color-primary-1;
+		font-size:em(12px);
+	}
+	h2{
+		font-family:$secondary-stack;
+		margin:0 0 em(10px);
+		line-height:105%;
+		color:$black;
+		font-size:em(24px);
+		color:$color-complement-2;
+	}	
+	p{
+		font-size:em(14px);
+		color:black;
+	}
+}
+.archive-article:last-of-type a{
+		border-bottom:4px solid $color-complement-2;		
 }

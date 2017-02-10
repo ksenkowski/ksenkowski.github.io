@@ -7,7 +7,7 @@ category: artwork
 tag: "conspiracy of shadows maps art artwork illustration"
 excerpt: "Assorted Conspiracy of Shadows maps."
 theme: "secondary"
-logo: "/img/artwork/maps/logo.png"
+logo: "/assets/img/artwork/maps/logo.png"
 ---
 <div class="image-container">
 	<div class="wrapper">

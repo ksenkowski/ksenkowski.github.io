@@ -7,7 +7,7 @@ category: artwork
 tag: "conspiracy of shadows betrayal comic book art artwork illustration"
 excerpt: "Artwork from Conspiracy of Shadows: Betrayal, a comic book."
 theme: "primary"
-logo: "/img/artwork/betrayal/logo.png"
+logo: "/assets/img/artwork/betrayal/logo.png"
 ---
 <div class="image-container">
 	<div class="wrapper">

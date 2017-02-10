@@ -7,7 +7,7 @@ category: artwork
 tag: "character sheet explorations art artwork illustration"
 excerpt: "Explorations of character sheets for Conspiracy of Shadows Core."
 theme: "tertiary"
-logo: "/img/artwork/cs-exploration/logo.png"
+logo: "/assets/img/artwork/cs-exploration/logo.png"
 ---
 <div class="image-container">
 	<div class="wrapper">

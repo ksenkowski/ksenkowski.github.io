@@ -3,76 +3,57 @@
    ========================================================================== */
 .single{
 	.header{
-		background-repeat:no-repeat;
-		background-size:cover;
-		background-color:$black;			
-		background-color:$color-primary-2;
-		padding:180px 2% 1%;
-		margin:0 0 em(30px);
-		color:$white;
 		.hgroup{
-			max-width:330px;
+			min-width:300px;
+			margin:0 auto;
+			text-align:center;
+			padding:5% 0 3%;
+			
 			.post-meta{
 				font-family:$secondary-stack;
 				margin:0;
+				line-height:50%;
 				font-weight:400;
+				color:$color-primary-1;
 			}
 			h1{
 				font-family:$secondary-stack;
-				margin:0 0 30px;
+				margin:0;
 				line-height:105%;
-			}
-			.icons{
-				padding:0 0 em(15px);
-				margin-top:em(10px);
-				padding-left:0;
-				text-align:center;
-				li{
-					display:inline;
-					text-transform:uppercase;
-					font-weight:700;
-					letter-spacing:0.03em;
-					margin-right:em(18px);
-					font-size:rem(54px);
-					font-family:$futhark;
-			
-					
-				}
-			}
-			
+				color:$black;
+				font-size:em(70px);
+			}	
 		}	
+		img{
+			border-bottom:6px solid $color-primary-1;
+			border-top:6px solid $color-primary-1;
+			
+		}
 	}
 	.continued{
 		padding:4% 2% 2%;
 		.related-posts{
-			max-width:400px;
 			margin:0 auto;
+			text-align:center;
 		}
 		
 		.first-letter-box{
-			background:$color-primary-2;
+			background:$color-primary-1;
 		  	float: left;
-			max-width:50px;
-			max-height:50px;
-			height:50px;
-			width:50px;
-			margin:10px 20px 5px 15px;
+			height:80px;
+			width:80px;
+			margin:7px 15px 5px 0px;
 		    border: 6px solid $color-primary-4;
 		    font-weight: bold;
-		    transform: rotate(45deg);
 		    display: inline-block;
 			span{
-			  transform: rotate(-45deg);
-			  display:inline-block;
+			  display:block;
 			  font-size: em(30px);
 			  text-align:center;
-			  line-height:0;
+			  line-height:80px;
 			  padding:15px;
-			  max-width:60px;
-			  max-height:60px;
-			  min-height:60px;
-			  min-width:60px;
-			  color:$color-primary-4;
+			  color:$white;
+			  margin-top:-18px;
 			}
 		}
 		table{
@@ -112,55 +93,43 @@
 			margin:0 0 20px;
 		}
 		h2{
-			margin:0 0 em(20px);
-			color:$color-primary-4;
+			color:$color-primary-2;
+			font-size:em(28px);
+			margin:em(24px) 0 em(8px);
 		}
-		h3, h4, h5, h6{
-			color:$color-primary-4;
+		h3{
+			color:$color-primary-2;
+			font-size:em(24px);
+			margin:em(24px) 0 em(8px);
 		}
 		p,ul, ol{
+			hyphens:auto;
 			em, strong{
-				color:$color-primary-2;			
+				color:$color-primary-1;			
 			}			
 		}
-		
+		p + p{
+			margin:0;
+			text-indent:em(24px);
+		}			
 	}
 	
 	
-	.continued{
-		padding:0 em(20px);
-		p{
-			margin:0 0 20px;
-			strong, em{
-				font-family:$secondary-stack;			
-			}
-		}	
-		ul{
-			strong, em{
-				font-family:$secondary-stack;			
-			}
-			
-		}
-	}
 	figure{
-		border-left:2px solid $color-primary-4;
-		border-right:2px solid $color-primary-4;
-		border-top:2px solid $color-primary-4;
-		margin:0 auto 3%;
-		max-width:400px;
+		margin:em(50px) auto;
+	    border-top:6px solid $color-complement-1;
+	    border-bottom:6px solid $color-complement-1;
+		padding:1%;
 		img{
 			display:block;
 			margin:0 auto;
-			padding:4%;
 		}
 		figcaption{
 			margin:0 0 em(20px);
 			padding:em(10px);
 			font-size:em(14px);
 			line-height:120%;
-			font-style:italic;
-			border-bottom:2px solid $color-primary-4;
-			background:$color-primary-2;
+			background:$color-primary-1;
 			color:$white;
 			
 			@include breakpoint(portrait){
@@ -210,14 +179,6 @@
 	}
 	
 }
-.primary{
-	.header{
-	}
-	.review, .continued{
-		
-	}	
-}
-
 /* ==========================================================================
    ARTICLES SPECIFIC STYLES
    ========================================================================== */

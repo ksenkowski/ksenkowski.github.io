@@ -7,7 +7,7 @@ category: artwork
 tag: "conspiracy of shadows apprentice art artwork illustration"
 excerpt: "Artwork from Conspiracy of Shadows: Apprentice, a role-playing game."
 theme: "primary"
-logo: "/img/artwork/apprentice/logo.png"
+logo: "/assets/img/artwork/apprentice/logo.png"
 ---
 <div class="image-container">
 	<div class="wrapper">

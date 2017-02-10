@@ -1,32 +1,36 @@
-#info{
+.info{
 	.header{
-		padding:4% 2% 2%;
-		background:$color-primary-1 url('../img/info/info.jpg') no-repeat;
-		background-size:cover;
+		padding:4% 0 2%;
 		.post-meta{
 			font-family:$secondary-stack;
 			margin:0;
 			font-weight:400;
 			color:$white;
 		}
+		img{
+			border-bottom:6px solid $color-primary-1;
+			border-top:6px solid $color-primary-1;
+			margin:0 auto em(25px);
+		}
 		h1{
-			color:$white;
+			color:$black;
 			font-family:$secondary-stack;
-			margin:0 0 80px;
+			margin:0 0 em(10px);
 			line-height:125%;
 		}
 		p{
-			margin:0 0 20px;
-			color:$white;
-			strong{
-				font-family:$secondary-stack;			
-			}
+			color:$black;
 		}
+		p + p{
+			margin:0;
+			text-indent:em(24px);
+		}			
 	}
 	.know-more{
-		padding:4% 2% 2%;
-		background:$color-primary-1;
+		padding:0 0 2%;
 		.profile{
+			border-bottom:6px solid $color-primary-1;
+			border-top:6px solid $color-primary-1;
 			max-width:250px;
 			margin:0 auto 15px;
 			display:block;
@@ -42,14 +46,9 @@
 			}
 		}
 		p{
-			color:$color-primary-1;
+			color:$color-complement-1;
 			font-weight:600;
-		}
-		a{
-			color:$white;
-			&:hover{
-				color:$color-primary-1;
-			}
+			margin-bottom:em(20px);
 		}
 	}
 }

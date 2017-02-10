@@ -9,7 +9,7 @@ progress {
           appearance: none;
   border: none;
   background-color: transparent;
-  color: $color-primary-4;
+  color: $color-primary-3;
   z-index:9999;
 }
 progress::-webkit-progress-bar {
@@ -17,9 +17,9 @@ progress::-webkit-progress-bar {
 }
 
 progress::-webkit-progress-value {
-  background-color: $color-primary-4;
+  background-color: $color-primary-3;
 }
 
 progress::-moz-progress-bar {
-  background-color: $color-primary-4;
+  background-color: $color-primary-3;
 }

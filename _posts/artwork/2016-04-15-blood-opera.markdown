@@ -7,7 +7,7 @@ category: artwork
 tag: "conspiracy of shadows blood opera art artwork illustration"
 excerpt: "Artwork from Conspiracy of Shadows: Blood Opera, a role-playing/card game hybrid."
 theme: "tertiary"
-logo: "/img/artwork/blood-opera/logo.png"
+logo: "/assets/img/artwork/blood-opera/logo.png"
 ---
 <div class="image-container">
 	<div class="wrapper">

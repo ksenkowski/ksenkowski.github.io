@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .masthead {
-	background-color:$white;
+	background-color:$off-white;
 	box-shadow:none;
 	position:relative;
 	display:block;
@@ -16,7 +16,7 @@
 	}
 }
 .menu{
-	background:$white;	
+	background:$off-white;	
 	padding:0 0 em(15px);
 	margin-top:em(10px);
 	@include breakpoint(portrait){
@@ -45,6 +45,8 @@
 			}
 			a{
 				padding:em(7px) 0;
+				background:none;
+				text-shadow: none;
 			}
 		}
 	}

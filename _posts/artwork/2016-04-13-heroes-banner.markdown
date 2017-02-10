@@ -7,7 +7,7 @@ category: artwork
 tag: "heroes banner art artwork illustration"
 excerpt: "Artwork from The Heroes Banner, a role-playing game."
 theme: "primary"
-logo: "/img/artwork/heroes-banner/logo.png"
+logo: "/assets/img/artwork/heroes-banner/logo.png"
 ---
 <div class="image-container">
 	<div class="wrapper">

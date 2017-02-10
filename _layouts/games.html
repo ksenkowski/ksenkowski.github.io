@@ -7,7 +7,7 @@
 		  <![endif]-->
 		{% include common/header.html %}
 		<main>
-			<article id="archive">
+			<article class="archive">
 				<section class="header">
 					<div class="content">
 						<div class="col span-3 empty"></div>
@@ -16,52 +16,34 @@
 							<p class="subtitle">Twelve years ago I published my first table top role-playing game, <strong><em>Conspiracy of Shadows</em></strong>. I had been working on it for years prior and it has morphed and changed over time with a second release, a companion book, and then in 2012 I ran a Kickstarter for <strong><em>Conspiracy of Shadows: Apprentice</em></strong>.</p>
 							<p>Since that time I have been tinkering with a new version of the game, taking what I learned from the writing of a non-standard role-playing game and mixing it with my love for traditional games. In 2016 I will be creating hand-made boxed sets for the game as a part of my Patreon, but in the mean time you can find a preview of the rules here.</p>
 						</div>
-						<div class="col span-3 empty"></div>
-	
+						<div class="col span-3 empty"></div>	
 					</div>
 				</section>
 				{% for post in site.posts %}
 				  {% for cat in post.categories %}
 				    {% if cat == 'games' %}
-					{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-					{% if thecycle == 'odd' %}
-			<section class="archive-article odd">
+			<section class="archive-article">
 				<div class="content">
 					<div class="col span-3 empty"></div>
 					<div class="col span-6">
-		  
-			          <h2>
-			            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-			          </h2>
-					  <p class="excerpt">{{ post.excerpt}}</p>
+		  			  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+				          <h2>{{ post.title }}</h2>
+						  <p class="excerpt">{{ post.excerpt}}</p>
+					  </a>
 					</div>
 					<div class="col span-3 empty"></div>
-
-
 				</div>
-
 			</section>
-			 {% else %}
-			 <section class="archive-article even">
-			 	<div class="content">
-			 		<div class="col span-3 empty"></div>
-			 		<div class="col span-6">
-			           <h2>
-			             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-			           </h2>
-			 		  <p class="excerpt">{{ post.excerpt}}</p>
-			 		</div>
-			 		<div class="col span-3 empty"></div>
-
-
-			 	</div>
-
-			 </section>
-			  {% endif %}
 				    {% endif %}
 				  {% endfor %}
 				{% endfor %}
-	
+			<section>
+				<div class="content">
+					<div class="span-12 col">
+						<div class="endnote"></div>	
+					</div>
+				</div>
+			</section>	
 			</article>
 		</main>
 		{% include common/footer.html %}

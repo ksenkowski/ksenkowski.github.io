@@ -1,15 +1,34 @@
-#archive{
+.archive{
 	.header{
 		padding:em(60px) em(10px);
 		h1{
 			margin:0 0 em(10px);
+			color:$black;
 		}
-		strong{
-			color:$color-primary-0;
-			font-family:$secondary-stack;
-		}
-		p{
-			margin:0 0 em(20px) 0;
+		p + p{
+			margin:0;
+			text-indent:em(24px);
+		}			
+	}
+	.artwork-gallery{
+		a{
+			display:block;
+			padding:20%;
+			background:none;
+			text-shadow:none;
+			border:4px solid $color-complement-1;
+			margin:em(30px) auto;
+			
+			h2{
+				font-size:em(20px);
+				text-align:center;
+				line-height:105%;
+				margin:em(10px) 0 em(20px);
+			}
 		}
 	}
+	.endnote{
+		margin:3% auto;
+	}
+
 }

@@ -4,10 +4,14 @@
 .site-footer{
 	padding:35px 10px 15px;
 	min-height:200px;
-	background:$color-primary-4 url('/assets/img/common/footer.png') right center no-repeat;
+	background:$off-white;
 	width:100%;
 	z-index:500;
 	border-top:2px solid $white;
+	@include breakpoint(portrait){
+		background:$off-white url('/assets/img/common/footer.png') right center no-repeat;
+
+	}
 	
 	nav{
 		padding:0 0 rem(15px);
@@ -34,7 +38,8 @@
 				}
 				a{
 					padding:rem(7px) 0;
-					color:$color-complement-0;
+					background:none;
+					text-shadow: none;
 				}
 			}
 		}

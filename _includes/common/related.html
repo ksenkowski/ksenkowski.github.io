@@ -1,7 +1,7 @@
 {% if site.related_posts != empty %}
 <div class="related-posts">
- <h2 class="related">Related</h2>
-  <ul class="spaced-list">
+ <h2>Related Articles</h2>
+  <ul class="spaced-list unstyled">
 	{% for post in site.related_posts limit:5 %}
 	  {% assign match = false %}
 	  {% for category in post.categories %}

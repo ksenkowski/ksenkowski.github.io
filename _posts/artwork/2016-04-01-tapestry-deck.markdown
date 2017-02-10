@@ -1,13 +1,13 @@
 ---
 layout: artwork
-title:  "The Dooms"
+title:  "The Tapestry Deck"
 date:   2016-04-01 15:21:23
 type: artwork
 category: artwork
 tag: "conspiracy of shadows tapestry deck dooms art artwork illustration"
 excerpt: "Artwork from the Conspiracy of Shadows Tapestry Deck Dooms, a themed take on the traditional tarot deck."
 theme: "quaternary"
-logo: "/img/artwork/suit-dooms/logo.png"
+logo: "/assets/img/artwork/suit-dooms/logo.png"
 ---
 <div class="image-container">
 	<div class="wrapper">

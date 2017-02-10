@@ -22,7 +22,7 @@ if (typeof Object.create !== "function") {
 	var search = window.location.search;
 	var pagesObj = $('.archive-article');
 	var currentPage = 1;
-	var recordsPerPage = 4;
+	var recordsPerPage = 6;
 	var nextButton = $('.next');
 	var prevButton = $('.prev');
 	var list = $('.pagination');

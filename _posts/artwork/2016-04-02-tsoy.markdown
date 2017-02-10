@@ -7,7 +7,7 @@ category: artwork
 tag: "the shadow of yesterday art artwork illustration"
 excerpt: "Artwork from The Shadow of Yesterday, a role-playing game."
 theme: "tertiary"
-logo: "/img/artwork/tsoy/logo.png"
+logo: "/assets/img/artwork/tsoy/logo.png"
 ---
 <div class="image-container">
 	<div class="wrapper">
