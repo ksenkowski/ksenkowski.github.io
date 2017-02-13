@@ -13,20 +13,37 @@
 	.artwork-gallery{
 		a{
 			display:block;
-			padding:20%;
+			padding:5% 0%;
 			background:none;
 			text-shadow:none;
-			border:4px solid $color-complement-1;
-			margin:em(30px) auto;
+			border-top:4px solid $color-complement-2;
 			
 			h2{
 				font-size:em(20px);
 				text-align:center;
 				line-height:105%;
-				margin:em(10px) 0 em(20px);
+				margin:em(10px) 0 em(10px);
+			}
+			p{
+				font-size:em(14px);
+				text-align:center;
+			}
+			img{
+				max-width:200px;
+				margin:0 auto;
+				display:block;
 			}
 		}
+		a:hover{
+			background:$off-white;
+			text-shadow:none;
+		}
+		
 	}
+	.artwork-gallery a:last-of-type{
+			border-bottom:4px solid $color-complement-2;		
+	}
+	
 	.endnote{
 		margin:3% auto;
 	}

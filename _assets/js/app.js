@@ -38,7 +38,6 @@ if (typeof Object.create !== "function") {
 		bind(); 
 	});
 	$(window).on('load', function(){
-		shadows.gallery.changeSize();
 		shadows.pagination.init();
 	});
 	
