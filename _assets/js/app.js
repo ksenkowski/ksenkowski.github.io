@@ -51,11 +51,11 @@ if (typeof Object.create !== "function") {
 	shadows.util = {
 		init: function(){
 			shadows.progress.checkProgress();
-			$('#throw-stones').on('change', 'select', function(){
+			$('.throw-stones').on('change', 'select', function(){
 				value = $(this).val();
 				shadows.runes.throw(value);
 			});
-			$("img").unveil(200, function() {
+			$("img").unveil(400, function() {
 			  $(this).load(function() {
 			    this.style.opacity = 1;
 			  });
@@ -240,7 +240,7 @@ if (typeof Object.create !== "function") {
 	};
 	shadows.runes = {
 		throw: function(value){
-			container = $('#rune-stone-results');
+			container = $('.rune-stone-results');
 			container.empty();
 			array = ["F", "U", "W", "A", "R", "K", "X", "V", "H", "N", "I", "J", "Y", "P", "Z", "S", "T", "B", "E", "M", "L", "Q", "O", "D", "The Black Stone"];
 			array = shadows.util.shuffle(array)

@@ -1,9 +1,10 @@
-#throw-stones{
+.throw-stones{
 	padding:5% 0%;
+	margin:em(10px) 0;
 }
-#rune-stone-results{
+.rune-stone-results{
 	margin: 0;
-	padding: 0;
+	padding: 2% 0%;
 	list-style-type: none;
 	text-align:center;
 	zoom:1;
@@ -16,7 +17,7 @@
 		height:70px;
 		width:70px;
 		margin:8px;
-		background:url('../img/articles/core/apprentice/stones.jpg') no-repeat;
+		background:url('/assets/img/articles/core/apprentice/stones.jpg') no-repeat;
 		&.tails{
 			span{
 				color:$black;

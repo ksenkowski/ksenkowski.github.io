@@ -1,7 +1,7 @@
 .button{
 	display:block;
-	background: $color-complement-0;
-	color:$white;
+	background: $color-complement-1;
+	color:$off-white;
 	font-size: em(18px);
 	font-weight:700;
 	padding: 15px 8px 15px 4px;
@@ -12,4 +12,13 @@
 	text-transform:uppercase;
 	text-align:center;
 	margin:10px auto;
+	text-shadow:none;
+	border:6px solid $color-complement-3;
+}
+.button:hover{
+	background:$color-complement-2;
+	text-shadow:none;
+	color:$white;
+	border:6px solid $color-complement-0;
+	
 }

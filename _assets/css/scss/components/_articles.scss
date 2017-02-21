@@ -119,19 +119,20 @@
 		margin:em(50px) auto;
 	    border-top:6px solid $color-complement-1;
 	    border-bottom:6px solid $color-complement-1;
-		padding:1%;
+		padding:1% 0;
 		img{
 			display:block;
 			margin:0 auto;
 		}
 		figcaption{
-			margin:0 0 em(20px);
-			padding:em(10px);
-			font-size:em(14px);
-			line-height:120%;
-			background:$color-primary-1;
-			color:$white;
-			
+		    border-top:6px solid $color-complement-1;
+			margin:0;
+			padding:em(10px) em(10px) em(4px);
+			font-size:em(16px);
+			line-height:100%;
+			background:$white;
+			color:$color-complement-0;
+			font-weight:800;
 			@include breakpoint(portrait){
 				margin:0;
 			}

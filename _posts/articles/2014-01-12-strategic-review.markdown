@@ -32,7 +32,7 @@ image: "/assets/img/articles/dragon/generic.jpg"
 			<p>I think the <strong>Mind Flayer</strong> found in this issue may be the first appearance in print of the beast. However I found this solo dungeon adventure for <strong>Dungeons &amp; Dragons</strong> much, much more interesting bit of history.</p>
 			<p>Following this gem, there are two full tables for random room generation. The interesting part though is in the text presented here. Basically a GM/DM-less game, I like to imagine people anxiously waiting for encounter envelopes from people across the country so they can add some spice to their solo game.</p>
 			<figure>
-				<img src="{{ site.loading }}" data-src="{{ site.baseurl }}/assets/img/articles/dragon/strategic-review/s0101.png" class="diamond" data-action="zoom"/>
+				<img src="{{ site.loading }}" data-src="{{ site.baseurl }}/assets/img/articles/dragon/strategic-review/s0101.png" data-action="zoom"/>
 			</figure>
 			<h2>Volume 1, Issue 2</h2>
 			<p>This tidbit is pretty interesting as it is a sort of FAQ section for the space between the publishing of <strong>Dungeons &amp; Dragons</strong> and <strong>Greyhawk</strong> (which in case you didn't know was the first suplement). It turns out that their idea of an FAQ and mine are very different things. What we see here is really an explanation of stuff people found to be vague or inccorect.</p>

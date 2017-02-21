@@ -1,10 +1,42 @@
 ---
-layout: core
+layout: article
 title:  "Conspiracy of Shadows: RPG"
 author: "Keith Senkowski"
 date:   2016-06-14 15:21:23
 category: games
-theme: "primary"
 tag: "role playing game rpg mechanics rules conspiracy of shadows core rune caster dice futhark"
 excerpt: "Conspiracy of Shadows is a role-playing game with the beating heart of a board game."
+image: /assets/img/articles/css.jpg
 ---
+<section class="header">
+	<div class="content">
+		<div class="span-3 col empty"></div>
+		<div class="span-6 col">
+		<div class="hgroup">
+			<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
+			<h1>{{ page.title }}</h1>
+		</div>
+			<img src="{{page.image}}"/>
+		</div>
+		<div class="span-3 col empty"></div>
+	</div>
+</section>
+<section class="review continued">
+	<div class="content">
+		<div class="span-3 col empty"></div>
+		<div class="span-6 col">
+			<p><span class="first-letter-box"><span>C</span></span>
+				<strong><em>onspiracy of Shadows</em></strong> is a play on the dark gothic fantasy role-playing games I so enjoyed in the 90's. In it you take on the role of the overwhelmed but determined heroes on an impossible quest to save the world from darkness. In doing so you explore gothic castles, face tainted monstrosities, and strive against the agents of a twisted conspiracy.</p>
+			<p>This is a game about being the hero. It is about drawing a line in the sand and shaking your fist against the night. It isn't about survival, but about ensuring the world's survival.</p>
+			<p>After a few years of tinkering and months of writing I finally have a full draft of the core rules. Below is a link to a PDF of the most current draft. It contains all the rules to start play. The draft will be updated as editorial continues. If you are interested in doing some playtesting and providing feedback, let me know over at the <a href="https://www.facebook.com/ConspiracyofShadows/">Conspiracy of Shadows Facebook page</a> and I will send you a printed copy of the most recent draft.</p>
+			<p><a href="/downloads/editorial-draft-1.0.pdf" target="_blank" class="button">Conspiracy of Shadows Core<br/> Draft 1.0</a></p>
+		</div>
+		<div class="span-3 col empty"></div>
+	</div>
+	<div class="content">
+		<div class="span-12 col">
+			<div class="endnote"></div>	
+			{% include common/related.html %}
+		</div>
+	</div>
+</section>
