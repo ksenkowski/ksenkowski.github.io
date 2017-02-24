@@ -1,0 +1,33 @@
+---
+layout: article
+title:  "Shadow Rising"
+date:   2015-11-11
+category: articles
+tag: "css drop shadows box-shadow photoshop text-shadow typography musings"
+excerpt: "How to convert the Photoshop shadow values to the appropriate text-shadow and box-shadow values in CSS."
+image: "/assets/img/musings/css.jpg');"
+---
+{% include articles/article-head.html %}
+<section class="code continued">
+	<div class="content gutters">
+		<div class="span-3 col empty"></div>
+		<div class="span-6 col">
+			<p>Drop shadows are a crime that modern design will never, ever live down. Unfortunately for developers we have to create these stupid things in <strong><em>CSS</em></strong>. God have mercy on your souls my friends.</p>
+			<p>The good news is we can create these damn things with math. If we open up the fx dialogue to get the values for the drop shadow we can use the following formulas to calculate it.</p>
+			<code>
+				Horizontal Shadow = cos(angle) * distance<br/>
+				Vertical Shadow = sin(angle) * distance<br/>
+				Spread = size * (spread / 100)<br/>
+				Blur = size - spread<br/>
+				box-shadow = h-shadow v-shadow blur spread color<br/>
+				text-shadow: h-shadow v-shadow blur color
+			</code>
+			<figure>
+				<img src="{{ site.loading }}" data-src="{{ site.baseurl }}/assets/img/musings/shadows.png" alt="Photoshop Shadows"/>
+				<figcaption>This is where you can find the shadow values in the Photoshop fx dialogue</figcaption>
+			</figure>
+		</div>
+		<div class="span-3 col empty"></div>	
+	</div>
+{% include articles/article-footer.html %}
+</section>

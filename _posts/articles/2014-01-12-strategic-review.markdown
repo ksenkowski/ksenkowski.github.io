@@ -8,19 +8,7 @@ tag: "role playing game rpg dragon magazine reviews"
 excerpt: "A brief analysis of the Strategic Review, the magazine that came before Dragon Magazine. This is the first in the series."
 image: "/assets/img/articles/dragon/generic.jpg"
 ---
-<section class="header">
-	<div class="content">
-		<div class="span-3 col empty"></div>
-		<div class="span-6 col">
-		<div class="hgroup">
-			<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
-			<h1>{{ page.title }}</h1>
-		</div>
-			<img src="{{page.image}}"/>
-		</div>
-		<div class="span-3 col empty"></div>
-	</div>
-</section>
+{% include articles/article-head.html %}
 <section class="review continued">
 	<div class="content">
 		<div class="span-3 col empty"></div>
@@ -55,10 +43,5 @@ image: "/assets/img/articles/dragon/generic.jpg"
 		</div>
 		<div class="span-3 col empty"></div>
 	</div>
-	<div class="content">
-		<div class="span-12 col">
-			<div class="endnote"></div>	
-			{% include common/related.html %}
-		</div>
-	</div>
+{% include articles/article-footer.html %}
 </section>

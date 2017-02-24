@@ -2,42 +2,29 @@
 layout: article
 title:  "Tracking to Letter Spacing"
 date:   2015-11-08
-category: musings
-tag: "css letter-spacing photoshop tracking typography"
+category: articles
+tag: "css letter-spacing photoshop tracking typography musings"
 excerpt: "How to convert the Photoshop tracking values to the appropriate letter-spacing value in CSS."
-class: "CSS"
-theme: "tertiary"
-image: "url('../img/musings/css.jpg');"
+image: "/assets/img/musings/css.jpg"
 ---
-<section class="header" style="{{page.image}}">
+{% include articles/article-head.html %}
+<section class="code continued">
 	<div class="content">
 	<div class="span-3 col empty"></div>
 	<div class="span-6 col">
-		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
-		<h1>{{ page.title }}</h1>
 		<p>It makes me said when I see designers treating tracking as kerning. For the most part, Typography is a lost art on the web, even though it should be treated as a first class citizen. The good news is tracking, unlike kerning, is something we can easily translate into the CSS attribute letterspacing.</p>
-	</div>
-	<div class="span-3 col empty"></div>	
-	</div>
-</section>
-<section class="code continued">
-	<div class="content gutters">
-	<div class="span-1 col empty"></div>
-	<div class="span-6 col">
 		<p>For the uninitiated, <strong><em>tracking</em></strong> is the adjustment of the spacing of characters throughout an entire word. When used for evil it can severly impact the legibility of the type. So use it for good people.</p>
 		<code>
 			letter-spacing = tracking / 1000<br/>
 			0.2 = 200 / 1000<br/>
 			letter-spacing:0.2px;
 		</code>
+			<figure>
+			<img src="{{ site.loading }}" data-src="{{ site.baseurl }}/assets/img/musings/tracking.png" alt="Photoshop Tracking"/>
+			<figcaption>This is where you can find the tracking value in the Photoshop character dialogue</figcaption>
+		</figure>
 	</div>
-	<aside class="span-4 col">
-		<figure>
-		<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/musings/tracking.png" alt="Photoshop Tracking"/>
-		<figcaption>This is where you can find the tracking value in the Photoshop character dialogue</figcaption>
-	</figure>
-	</aside>	
-	<div class="span-1 col empty"></div>	
+	<div class="span-3 col empty"></div>	
 	</div>
-		<div class="divider"></div>	
+{% include articles/article-footer.html %}
 </section>

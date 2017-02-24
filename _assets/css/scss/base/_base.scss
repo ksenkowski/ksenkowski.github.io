@@ -198,6 +198,11 @@ ul.spaced-list, ol.spaced-list {
 ul.unstyled, ol.unstyled {
 	margin-left: 0;
 	list-style: none;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
 }
 ul.inline, ol.inline {
 	margin-left: 0;

@@ -87,10 +87,9 @@
 		}
 		
 		code{
-			border:1px dashed $color-primary-4;
-			background:$color-primary-2;
-			color:white;
-			margin:0 0 20px;
+			border:4px dashed $color-primary-2;
+			color:$color-primary-1;
+			margin:em(20px) 0;
 		}
 		h2{
 			color:$color-primary-2;
