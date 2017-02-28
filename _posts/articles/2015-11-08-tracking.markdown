@@ -20,7 +20,7 @@ image: "/assets/img/musings/css.jpg"
 			letter-spacing:0.2px;
 		</code>
 			<figure>
-			<img src="{{ site.loading }}" data-src="{{ site.baseurl }}/assets/img/musings/tracking.png" alt="Photoshop Tracking"/>
+			<img src="{{ site.loading }}" data-action="zoom" data-src="{{ site.baseurl }}/assets/img/musings/tracking.png" alt="Photoshop Tracking"/>
 			<figcaption>This is where you can find the tracking value in the Photoshop character dialogue</figcaption>
 		</figure>
 	</div>

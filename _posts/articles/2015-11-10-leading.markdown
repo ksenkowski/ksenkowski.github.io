@@ -20,7 +20,7 @@ image: "/assets/img/musings/css.jpg"
 			line-height:276.93%;
 		</code>
 		<figure>
-			<img src="{{ site.loading }}" data-src="{{ site.baseurl }}/assets/img/musings/leading.png" alt="Photoshop Leading"/>
+			<img src="{{ site.loading }}" data-action="zoom" data-src="{{ site.baseurl }}/assets/img/musings/leading.png" alt="Photoshop Leading"/>
 			<figcaption>The Photoshop Leading Style toggle is where you go to map to line-height.</figcaption>
 		</figure>
 	</div>

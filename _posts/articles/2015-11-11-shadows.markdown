@@ -23,7 +23,7 @@ image: "/assets/img/musings/css.jpg');"
 				text-shadow: h-shadow v-shadow blur color
 			</code>
 			<figure>
-				<img src="{{ site.loading }}" data-src="{{ site.baseurl }}/assets/img/musings/shadows.png" alt="Photoshop Shadows"/>
+				<img src="{{ site.loading }}" data-action="zoom" data-src="{{ site.baseurl }}/assets/img/musings/shadows.png" alt="Photoshop Shadows"/>
 				<figcaption>This is where you can find the shadow values in the Photoshop fx dialogue</figcaption>
 			</figure>
 		</div>

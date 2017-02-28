@@ -6,90 +6,34 @@ date:   2016-07-27
 category: articles
 tag: "role playing game rpg dragon magazine reviews"
 excerpt: "Dragons! There are Dragons everywhere, because of course they are. How else doe you celebrate both the 5th anniversary and 50th issue of a magazine named The Dragon?"
-class: "dragon-issue050"
-theme: "tertiary"
-image: "background-image:url('../../img/articles/dragon/050/cover.jpg');"
+image: "/assets/img/articles/dragon/050/cover.jpg"
 ---
-<section class="header" style="{{page.image}}">
-	<div class="content">
-	<aside class="span-3 col empty"></aside>
-	<div class="span-6 col">
-		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
-		<h1>{{ page.title }}</h1>
-		<p>Dragons! There are Dragons everywhere, because of course they are. How else do you celebrate both the 5<sup>th</sup> anniversary and 50<sup>th</sup> issue of a magazine named <em>The Dragon</em>? By filling it with Dragons of course!</p>
-	</div>
-	<aside class="span-3 col empty"></aside>	
-	</div>
-</section>
+{% include articles/article-head.html %}
 <section class="review continued">
 	<div class="content gutters">
-		<div class="span-1 col empty"></div>
-		<div class="span-10 col">
+		<div class="span-3 col empty"></div>
+		<div class="span-6 col">
+			<p>Dragons! There are Dragons everywhere, because of course they are. How else do you celebrate both the 5<sup>th</sup> anniversary and 50<sup>th</sup> issue of a magazine named <em>The Dragon</em>? By filling it with Dragons of course!</p>
 			<h2>A 5<sup>th</sup> Anniversary Cover Must Have a Dragon</h2>
-		</div>
-		<div class="span-1 col empty"></div>
-	</div>
-	<div class="content gutters">
-		<div class="span-1 col empty"></div>
-		<aside class="span-5 col">
+			<p>I gotta say, I am a big fan of this piece of artwork. It does strike me as odd that the 50<sup>th</sup> issue and 5<sup>th</sup> anniversary issue went back to the brand they have established for the covers. I thought that they might continue the full page artwork for this cover that they had in the previous issue, but alas the border is back.</p>
 			<figure>
-				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/dragon/050/full-cover.jpg" alt="Cover by Carl Lundgren" class="scale"/>
+				<img src="{{ site.loading }}" data-action="zoom" data-src="{{ site.baseurl }}/assets/img/articles/dragon/050/full-cover.jpg" alt="Cover by Carl Lundgren" class="scale"/>
 				<figcaption>A return to the brand guidelines with a cover by Carl Lundgren.</figcaption>
 			</figure>
-		</aside>	
-		<div class="span-5 col">
-			<p>I gotta say, I am a big fan of this piece of artwork. It does strike me as odd that the 50<sup>th</sup> issue and 5<sup>th</sup> anniversary issue went back to the brand they have established for the covers. I thought that they might continue the full page artwork for this cover that they had in the previous issue, but alas the border is back.</p>
 			<p>This doesn't at all deter from the work though. <a href="http://www.carllundgren.com/" target="_blank">Carl Lundgren's</a> style remminds me of Richard Corben in the rounded look to his <em><strong>dragon</strong></em>, which is wonderful. The rest of the piece is strong, but pretty standard fantasy, but that <em><strong>dragon</strong></em> is just weird enough to make me super happy.</p>
 			<p>I encourage you to go to <a href="http://www.carllundgren.com/" target="_blank">his site</a> and take a look at his artwork. He isn't by any means the typical fantasy artist, having worked in the 60's as a concert poster artist and Underground Comix publisher.</p>
-		</div>
-		<div class="span-1 col empty"></div>
-	</div>
-		
-</section>
-<section class="review continued">
-	<div class="content gutters">
-		<div class="span-1 col empty"></div>
-		<div class="span-10 col">
 			<h2>Dragon Articles</h2>
-		</div>
-		<div class="span-1 col empty"></div>
-	</div>
-	<div class="content gutters">
-		<div class="span-1 col empty"></div>
-		<div class="span-5 col">
 			<p>This issue opens with three straight <em><strong>dragon</strong></em> themed. Each one is fun and interesting in it's own way.</p>
 			<ul class="spaced-list">
 				<li><em>Self Defense for Dragons</em> takes the stance that <em><strong>dragons</strong></em> are an endangered species, being pushed out by rapidly reproducing humans. Gregory Rihn, the author of the article, explores ways in which the creatures can survive encounters with adventurers.</li>
 				<li><em>True Dragons</em>, by Lewis Pulsipher, revamps how <em><strong>dragons</strong></em> are used in play, exploring all of their abilities, and if I recall their old stat bock correctly, adding a whole lot of extra edge.</li>
 				<li><em>Hatching is Only the Beginning...</em>, by Colleen A. Bishop, explores the hatching and development of <em><strong>baby dragons</strong></em>. That was one thing we never explored when I played a lot of D&amp;D, encountering baby dragons. Now I want to use them some how.</li>
 			</ul>
-		</div>
-		<div class="span-5 col">
 			<figure>
-				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/dragon/050/dragons.jpg" alt="Dragon illustration by Corinna Taylor"/>
+				<img src="{{ site.loading }}" data-action="zoom" data-src="{{ site.baseurl }}/assets/img/articles/dragon/050/dragons.jpg" alt="Dragon illustration by Corinna Taylor"/>
 				<figcaption>A wonderful color illustration by Corinna Taylor.</figcaption>
 			</figure>
-		</div>	
-		<div class="span-1 col empty"></div>
-	</div>
-</section>
-<section class="review continued">
-	<div class="content gutters">
-		<div class="span-1 col empty"></div>
-		<div class="span-10 col">
 			<h2>Zines</h2>
-		</div>
-		<div class="span-1 col empty"></div>
-	</div>
-	<div class="content gutters">
-		<div class="span-1 col empty"></div>
-		<aside class="span-5 col">
-			<figure>
-				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/dragon/050/zines.png" alt="Zines!"/>
-				<figcaption>The more things change, the more they stay the same.</figcaption>
-			</figure>
-		</aside>	
-		<div class="span-5 col">
 			<p>I thought this was pretty interesting in light of the resurgence of zines in the OSR community. This article, by David F. Nalle, rates and reviews a bunch from the time, which makes me kinda want to do the same thing. The Zines he looks at are:</p>
 			<ul class="spaced-list">
 				<li><em>Abyss</em>, a magazine</li>
@@ -104,51 +48,23 @@ image: "background-image:url('../../img/articles/dragon/050/cover.jpg');"
 				<li><em>The Wild Hunt</em>, an Amateur Press Association</li>
 				<li><em>Zeppelin</em>, a magazine</li>
 			</ul>
-		</div>
-		<div class="span-1 col empty"></div>
-	</div>
-</section>
-<section class="review continued">
-	<div class="content gutters">
-		<div class="span-1 col empty"></div>
-		<div class="span-10 col">
-			<h2>The Chapel of Silence</h2>
-		</div>
-		<div class="span-1 col empty"></div>
-	</div>
-	<div class="content gutters">
-		<div class="span-1 col empty"></div>
-		<div class="span-5 col">
-			<p>It couldn't be an anniversary issue if there wasn't an adventure included. This issue gifts us with Mollie Plants' <em>The Chapel of Silence</em>. It is listed as "First Place, Basic Division IDDC II" which means nothing to me. I assume it is from some sort of tournament, but that was never my thing.</p>
-			<p>The adventure is designed for a <em>balanced</em> party of six second to third level characters. It begins with some prophetic dreams and has some basic room descriptions but no maps included. It reads like it would be a lot of fun, and has some nice twists and turns.</p>
-		</div>
-		<aside class="span-5 col">
 			<figure>
-				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/dragon/050/chapel.png" alt="The Chapel of Silence"/>
+				<img src="{{ site.loading }}" data-action="zoom" data-src="{{ site.baseurl }}/assets/img/articles/dragon/050/zines.png" alt="Zines!"/>
+				<figcaption>The more things change, the more they stay the same.</figcaption>
+			</figure>
+			<h2>The Chapel of Silence</h2>
+			<p>It couldn't be an anniversary issue if there wasn't an adventure included. This issue gifts us with Mollie Plants' <em>The Chapel of Silence</em>. It is listed as "First Place, Basic Division IDDC II" which means nothing to me. I assume it is from some sort of tournament, but that was never my thing.</p>
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom" data-src="{{ site.baseurl }}/assets/img/articles/dragon/050/chapel.png" alt="The Chapel of Silence"/>
 				<figcaption>I love the title of this adventure.</figcaption>
 			</figure>
-		</aside>	
-		<div class="span-1 col empty"></div>
-	</div>
-</section>
-<section class="review continued">
-	<div class="content gutters">
-		<div class="span-1 col empty"></div>
-		<div class="span-10 col">
+			<p>The adventure is designed for a <em>balanced</em> party of six second to third level characters. It begins with some prophetic dreams and has some basic room descriptions but no maps included. It reads like it would be a lot of fun, and has some nice twists and turns.</p>
 			<h2>Giant Vampire Frog</h2>
-		</div>
-		<div class="span-1 col empty"></div>
-	</div>
-	<div class="content gutters">
-		<div class="span-1 col empty"></div>
-		<aside class="span-5 col">
+			<p>This picture and stat block... I am with out words how awesome this critter, created by Alan Fomorin, is. Well done Alan. Well done.</p>
 			<figure>
-				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/dragon/050/frog.png" alt="Giant Vampire Frog"/>
+				<img src="{{ site.loading }}" data-action="zoom" data-src="{{ site.baseurl }}/assets/img/articles/dragon/050/frog.png" alt="Giant Vampire Frog"/>
 				<figcaption>This is the best thing ever</figcaption>
 			</figure>
-		</aside>	
-		<div class="span-5 col">
-			<p>This picture and stat block... I am with out words how awesome this critter, created by Alan Fomorin, is. Well done Alan. Well done.</p>
 			<ul class="spaced-list unstyled">
 				<li><strong class="text-uppercase">Frequency:</strong> <em>Uncommon</em></li>
 				<li><strong class="text-uppercase">No. Appearing:</strong> <em>3-18</em></li>
@@ -169,8 +85,7 @@ image: "background-image:url('../../img/articles/dragon/050/cover.jpg');"
 				<li><strong class="text-uppercase">Attack/Defense Modes:</strong> <em>Nil</em></li>
 			</ul>
 		</div>
-		<div class="span-1 col empty"></div>
+		<div class="span-3 col empty"></div>
 	</div>
-	<div class="divider"></div>	
+{% include articles/article-footer.html %}
 </section>
-

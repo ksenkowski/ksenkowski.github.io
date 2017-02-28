@@ -6,25 +6,14 @@ date:   2016-02-23
 category: articles
 tag: "role playing game rpg dragon magazine reviews"
 excerpt: "Beautiful cover, Epyx games, Crimefighters and Dick Cheney all make an appearance in this issue of Dragon Magazine."
-class: "dragon-issue047"
-theme: "primary"
-image: "background-image:url('../../img/articles/dragon/047/cover.jpg');"
+image: "/assets/img/articles/dragon/047/cover.jpg"
 ---
-<section class="header" style="{{page.image}}">
-	<div class="content">
-	<aside class="span-3 col empty"></aside>
-	<div class="span-6 col">
-		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
-		<h1>{{ page.title }}</h1>
-		<p>This is a really interesting issue of Dragon Magazine. We get the first appearance of a master artist on the cover, an advertisement for one of the most influencial game companies of the time, and a full pulp heroes game called <strong>Crimefighters</strong>. Oh, and <strong>Dick Cheney</strong> sent a question to <strong>Dragon Magazine</strong> that got answered in this issue.</p>
-	</div>
-	<aside class="span-3 col empty"></aside>	
-	</div>
-</section>
+{% include articles/article-head.html %}
 <section class="review continued">
 	<div class="content gutters">
 		<div class="span-1 col empty"></div>
 		<div class="span-10 col">
+			<p>This is a really interesting issue of Dragon Magazine. We get the first appearance of a master artist on the cover, an advertisement for one of the most influencial game companies of the time, and a full pulp heroes game called <strong>Crimefighters</strong>. Oh, and <strong>Dick Cheney</strong> sent a question to <strong>Dragon Magazine</strong> that got answered in this issue.</p>
 			<h2>First Appearance of a Master</h2>
 		</div>
 		<div class="span-1 col empty"></div>
@@ -33,7 +22,7 @@ image: "background-image:url('../../img/articles/dragon/047/cover.jpg');"
 		<div class="span-1 col empty"></div>
 		<aside class="span-5 col">
 			<figure>
-				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/dragon/047/full-cover.jpg" alt="Full Cover by John Blumen" class="scale"/>
+				<img src="{{ site.loading }}" data-action="zoom" data-src="{{ site.baseurl }}/assets/img/articles/dragon/047/full-cover.jpg" alt="Full Cover by John Blumen" class="scale"/>
 				<figcaption>John Blumen makes his first appearance in Dragon Magazine and it is beautiful.</figcaption>
 			</figure>
 		</aside>	
@@ -43,7 +32,7 @@ image: "background-image:url('../../img/articles/dragon/047/cover.jpg');"
 		</div>
 		<div class="span-1 col empty"></div>
 	</div>
-		
+{% include articles/article-footer.html %}
 </section>
 <section class="review continued">
 	<div class="content gutters">
@@ -62,7 +51,7 @@ image: "background-image:url('../../img/articles/dragon/047/cover.jpg');"
 		</div>
 		<div class="span-5 col">
 			<figure>
-				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/dragon/047/epyx.jpg" alt="Epyx Advertisement"/>
+				<img src="{{ site.loading }}" data-action="zoom" data-src="{{ site.baseurl }}/assets/img/articles/dragon/047/epyx.jpg" alt="Epyx Advertisement"/>
 				<figcaption>The very people you have to thank for the term Roguelike.</figcaption>
 			</figure>
 		</div>	
@@ -85,7 +74,7 @@ image: "background-image:url('../../img/articles/dragon/047/cover.jpg');"
 		</div>
 		<aside class="span-5 col">
 			<figure>
-				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/dragon/047/cheney.png" alt="Dick Cheney Asks a Question"/>
+				<img src="{{ site.loading }}" data-action="zoom" data-src="{{ site.baseurl }}/assets/img/articles/dragon/047/cheney.png" alt="Dick Cheney Asks a Question"/>
 				<figcaption>D&amp;D may not have led to devil worship, but it certainly led to the devil finding ways to justify torture.</figcaption>
 			</figure>
 		</aside>	
@@ -113,7 +102,7 @@ image: "background-image:url('../../img/articles/dragon/047/cover.jpg');"
 		<div class="span-2 col empty"></div>
 		<div class="span-8 col">
 			<figure>
-				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ site.baseurl }}/img/articles/dragon/047/crime-fighters.png" alt="Crimefighters! RPG"/>
+				<img src="{{ site.loading }}" data-action="zoom" data-src="{{ site.baseurl }}/assets/img/articles/dragon/047/crime-fighters.png" alt="Crimefighters! RPG"/>
 				<figcaption>For the time, this game was pretty novel. Probably why it never took off.</figcaption>
 			</figure>
 		</div>	

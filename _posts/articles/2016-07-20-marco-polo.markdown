@@ -5,7 +5,7 @@ date:   2016-07-20
 category: articles
 tag: "marco polo netflix tv musings"
 excerpt: "If you gave it a try with the first season and weren't thrilled, I think you should give it one more go."
-image: "/assets/img/musings/marco-polo.jpg;"
+image: "/assets/img/musings/marco-polo.jpg"
 ---
 {% include articles/article-head.html %}
 <section class="review continued">

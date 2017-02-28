@@ -1,0 +1,74 @@
+---
+layout: article
+title:  "The Dragon in Review, Issue Forty-Five"
+author: "Keith Senkowski"
+date:   2015-12-04
+category: articles
+tag: "role playing game rpg dragon magazine reviews"
+excerpt: "Paper Dungeons! Do I really need to say much more than that?"
+image: "/assets/img/articles/dragon/045/cover.jpg"
+---
+{% include articles/article-head.html %}
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-3 col empty"></div>
+		<div class="span-6 col">
+			<p>At first glance, this issue looks uterly useless. You have articles about using astologers in campaigns, the archer subclass (that is a thing?), and details on calculating how far your character can jump... in... exhasutive... detail.</p>
+			<p>So the issue looks like a wash. We have been here before. There are many such issues of <em>The Dragon</em> until you get to the middle of the issue and find PAPER DUNGEONS! Sorry. That shit gets me excited.</p>
+			<h2>I Have No Idea What Is Going On Here</h2>
+			<figure>
+				<img src="{{ site.loading }}" data-src="{{ site.baseurl }}/assets/img/articles/dragon/045/full-cover.jpg" alt="Full Cover by Dean Morrissey"/>
+				<figcaption>This is a technically proficient work, but I have no idea what the point of the composition is.</figcaption>
+			</figure>
+			<p>Um, what the hell is this supposed to be? I mean don't get me wrong, <strong>Dean Morrissey</strong> is a sound and proficient artist who made some nice contributions to the visual storytelling of gaming over the years, but this piece. What is going on?</p>
+			<p>Are these guys in a swamp, on a bridge, on a bridge in a swamp? Are they arguing? Does the begger guy owe the wizard(?) a debt that he is collecting... in a swamp? Bueller?</p>
+			<p>Maybe it is the other way around. Maybe the begger isn't a begger at all but a silver dragon in disguise and they are going to fall in love and run off to make dragon-wizard babies... Well probably not, but that just goes to show you how this cover is in the words of <strong>Keith Senkowski</strong>, "not so good".</p>
+			<h2>New Blood</h2>
+			<p>This issue holds an interesting milestone in the history of <strong>The Dragon</strong>, <strong>TSR</strong> and the hobby as a whole. Ed Greenwood and Roger Moore become contributing editors at <strong>The Dragon</strong> in this issue, giving them free reign to begin <em>The Transition</em>.</p>
+			<figure>
+				<img src="{{ site.loading }}" data-src="{{ site.baseurl }}/assets/img/articles/dragon/045/new-blood.png" alt="Ed Greenwood and Roger Moore take the Stage"/>
+				<figcaption>Two men who shaped the nature of TSR throughout the 80s and into the 90s.</figcaption>
+			</figure>
+			<p> Wait, wha? Did you just make that up? Why yes, yes I did. <em>The Transition</em> is what I like to describe the shift in <strong>TSR</strong> content from a mechanically focused collection of parts towards a narrative focused collection of settings. These two guys I see as instrumental in this as they are the primary drivers behind <strong>D&amp;D's</strong> <em>World of Darkness before there was such a thing</em>, <strong>The Forgotten Realms</strong>.</p>
+			<p>So this is the starting point. This is where it begain. One guy stationed in Europe, another going to jounalism school in Canada together reshaped not only this magazine, but the way in which we look at game products... even today.</p>
+			<p>Bold statement, I know, but this is my series. If you want to disagree start your own.</p>
+			<h2>Evil Games, Evil Characters</h2>
+			<p>Evil games... As if being tomb raiding murder hobos with delusions of rightiousness wasn't bad enough, folks want to play bad guys. So of course we have an article on the theory of evil games. Nothing new and exciting here other than Roger's playful tone of voice used to convey a subject that is often taken a little too seriously.</p>
+			<figure>
+				<img src="{{ site.loading }}" data-src="{{ site.baseurl }}/assets/img/articles/dragon/045/evil.png" alt="Evil! SO EVIL!!!"/>
+				<figcaption>Mum, don't touch it!</figcaption>
+			</figure>
+			<p>In my own experience, <em>evil games</em> never last longer than a session or two. They always end in death for everyone, sometimes in funny ways and sometimes frustratingly so. Playing an <em>evil game</em> in my mind is a lot like trying to play through the PC game <strong>Baldur's Gate</strong> as an evil party. You can do it, but so much of the game is cut off from you, why would you want to?</p>
+			<h2>Dungeon HVAC is a Thing</h2>
+			<p>I swear, I have no idea why anyone thought this would be a good idea for an article. This is an example of the bad of this issue. It might have been useful if it was coupled with an adventure where you play an HVAC tech coming to service the <strong>Temple of Elemental Evil</strong>. That is something that I would enjoy...</p>
+			<p>Clearly I have problems...</p>
+			<figure>
+				<img src="{{ site.loading }}" data-src="{{ site.baseurl }}/assets/img/articles/dragon/045/vents.png" alt="HVAC in Dungeons"/>
+				<figcaption>My brother-in-law used to work in HVAC and he has never had to service a dungeon.</figcaption>
+			</figure>
+			<h2>Article Critique</h2>
+			<p>So there are pages and pages of the issue dedicated to this example critique. It is pretty amusing, but I think if you read around the humor you get some insight into the vetting process that the editors use for submissions. What I've gleaned from this is:</p>
+			<ul class="spaced-list">
+				<li>Have a strong opening paragraph or we won't continue reading.</li>
+				<li>If you are new, you need to stand out.</li>
+				<li>There is a line between what they will accept for articles and what gets published as letters. Not clear what that line is, but they do have one.</li>
+				<li>Clearly define what your article is about and how you intend on presenting it.</li>
+				<li>At the time of this issue, word processors suck.</li>
+				<li>Don't send them articles filled with bad grammar.</li>
+			</ul>
+			<figure>
+				<img src="{{ site.loading }}" data-src="{{ site.baseurl }}/assets/img/articles/dragon/045/writing.png" alt="Article Submission Critique"/>
+				<figcaption>Ok, I'll admit it. This amused me.</figcaption>
+			</figure>
+			<h2>Paper Dungeons!</h2>
+			<p>So story time. My dad grew up dirt poor, as in when he was little they had a dirt floor at their house on the south side. Being that poor for a good portion of his life meant as a child he had to invent his own fun. There were no toys, but he did have paper.</p>
+			<p>He used to make tanks, cars, trucks and pretty much everything else out of paper when he was a kid. Luckily I grew up when he and my mom had pulled themselves up to the middle class, so I had <strong>G.I. JOE</strong> figures to play with, but he showed me how to make things with paper when I was a kid. So as you can imagine, an insert of black and white dungeon pieces is super exciting for me. It saved this issue in a lot of ways.</p>
+			<figure>
+				<img src="{{ site.loading }}" data-src="{{ site.baseurl }}/assets/img/articles/dragon/045/paper-dungeon.png" alt="Paper Dungeons"/>
+				<figcaption>I love handy crafts. Miniatures and Dwarf Forge crap is cool, but nowhere as cool as making your own toys.</figcaption>
+			</figure>
+		</div>
+		<div class="span-3 col empty"></div>
+	</div>
+{% include articles/article-footer.html %}
+</section>

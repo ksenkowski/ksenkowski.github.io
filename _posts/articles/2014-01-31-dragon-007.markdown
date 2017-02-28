@@ -1,0 +1,40 @@
+---
+layout: article
+title:  "The Dragon in Review, Issue Seven"
+author: "Keith Senkowski"
+date:   2014-01-31
+category: articles
+tag: "role playing game rpg dragon magazine reviews"
+excerpt: "A brief dive into the seventh issue of The Dragon, or Dragon Magazine as I came to know it as a teenager."
+image: "/assets/img/articles/dragon/007/cover.jpg"
+---
+{% include articles/article-head.html %}
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-3 col empty"></div>
+		<div class="span-6 col">
+		<p>This issue's highlight is pretty well timed as I have just begun reading Jon Peterson's history of gaming, <strong><em>Playing at the World</em></strong>. We also just marked the 40th anniversary of the angry old man that is <strong><em>Dungeons &amp; Dragons</em></strong>. In that context, this issue moves from pretty terrible to excellent.</p>
+			<h2>Now This is a Cover!</h2>
+			<p>Oh thank god we are starting to see some real craftsmanship in the covers. This one by Ken Rahman, or <strong><em>Elrohir</em></strong> as he chose to call himself is really wonderful. It takes a typical fantasy trope and adds whimsy to it while also showcasing an artist at the top of his craft.</p>
+			<p>Unfortunately, like many issues of Dragon, the quality of the covers doesn't reflect the quality of the content. This issue is filled with lots of <strong><em>meh fiction</em></strong> and a long ridiculous article by M.A.R Barker on military formations from Tekumel. Yawn.</p>
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom" data-src="{{ site.baseurl }}/assets/img/articles/dragon/007/full-cover.jpg" alt="Full Cover by Elrohir"/>
+				<figcaption>Elrohir? Great work by Ken Rahman despite the elvish pseudonym.</figcaption>
+			</figure>
+			<h2>Uncle Gary Gives a History Lesson</h2>
+			<p>This here is the meat of the issue thought. Uncle Gary, gives us a brief summation of the history of the hobby. It is both filled with positivity, anger, and a shot at Uncle Dave. I never had the pleasure of meeting the man, but I hope that he was this lovable crumugin in person too.</p>
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom" data-src="{{ site.baseurl }}/assets/img/articles/dragon/007/egg-on-dnd.png" alt="Creature Feature Remorhaz"/>
+				<figcaption>Why does Uncle Gary always sound angry in The Dragon?</figcaption>
+			</figure>
+			<h2>The Prowler</h2>
+			<p>Here we have yet another gem by Erol Otus. <strong><em>The Prowler</em></strong> is one of the dumbest monsters I have seen in the magazine so far, but the illustration is wonderful. One thing I would love to see is some enterprising OSR folks take Erol's lovingly created monsters and give them some weight with stats.</p>
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom" data-src="{{ site.baseurl }}/assets/img/articles/dragon/007/prowler.jpg" alt="The Prowler"/>
+				<figcaption>If only Erol had art directed everything for Dungeons and Dragons.</figcaption>
+			</figure>
+		</div>
+		<div class="span-3 col empty"></div>
+	</div>
+{% include articles/article-footer.html %}
+</section>

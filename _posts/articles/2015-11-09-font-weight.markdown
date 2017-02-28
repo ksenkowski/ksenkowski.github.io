@@ -26,7 +26,7 @@ image: "/assets/img/musings/css.jpg"
 			font-weight:900; //Black
 		</code>
 		<figure>
-			<img src="{{ site.loading }}" data-src="{{ site.baseurl }}/assets/img/musings/font-weight.png" alt="Photoshop Font"/>
+			<img src="{{ site.loading }}" data-action="zoom" data-src="{{ site.baseurl }}/assets/img/musings/font-weight.png" alt="Photoshop Font"/>
 			<figcaption>The Photoshop Font Style toggle is where you go to map to font-weight.</figcaption>
 		</figure>
 	</div>
