@@ -4,13 +4,14 @@
 set -e
 
 # Install bundles if needed
-bundle check || bundle install
+# bundle check || bundle install
 
 # NPM install if needed.
-. $HOME/.nvm/nvm.sh && nvm install 6.1 && nvm use 6.1
-npm install
+# . $HOME/.nvm/nvm.sh && nvm install 6.1 && nvm use 6.1
+# npm install
 
 # Build the site.
+gulp clean
 gulp
 
 # Checkout master and remove everything
