@@ -1,0 +1,268 @@
+---
+layout: article
+title:  "Skyline to the Sea"
+author: "Keith Senkowski"
+date:   2016-05-07
+category: articles
+tag: "adventure big basin castle rock mountains state park solo 30 mile skyline-to-the-sea trail"
+excerpt: "Thirty miles to the sea through multiple state parks in the mountains."
+image: "/assets/img/articles/adventure/thirty-miles/cover.jpg"
+---
+{% include articles/article-head.html %}
+<section class="review continued">
+	<div class="content gutters">
+		<div class="span-3 col empty"></div>
+		<div class="span-6 col">
+			<p><span class="first-letter-box"><span>W</span></span>hen I got out to California the first thing I did was look for outdoors things to do. The hiking in the bay area is amazing and it didn't take me too long to find the site, <strong><a href="http://www.redwoodhikes.com/" target="_blank">Redwood Hikes</a></strong>. After my solo quest in Big Basin I knew I wanted to tackle the <a href="http://www.redwoodhikes.com/BigBasin/S-to-S.html" target="_blank">Skyline-to-the-Sea Trail</a>. Of course being me, I wasn't going to take 3 days to do it or take the shorter route.</p>
+			<p>The trick from the beginning was to do this as a one way hike, being dropped off at <em>Castle Rock State Park</em> and picked up at <em>Waddell Beach</em>. I wasn't gonna use Lyft or a cab because that would be insane. Luckily Jason was more than willing to drop me off early in the morning, spend the day golfing and surfing, before ultimately picking up my exhausted ass at the end.</p>
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom" src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/StoSaltprofilepreview.gif" alt="Profile Preview"/>
+				<figcaption>As you can see, it is a downhill slog with a bunch of peaks along the way. Source: <a href="http://www.redwoodhikes.com/BigBasin/S-to-S.html" target="_blank">Redwood Hikes</a></figcaption>
+			</figure>
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom" src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/01-trailhead.jpg" alt="Taken at the Castle Rock Trailhead"/>
+				<figcaption>I didn't want to start with a picture of the Castle Rock parking lot so here is a picture just past the trailhead.</figcaption>
+			</figure>	
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/StoSmap1.jpg" alt="Map of Castle Rock State Park" />
+				<figcaption>I purchased this map and used that as my guide through the entire hike. Source: <a href="http://www.redwoodhikes.com/BigBasin/S-to-S.html" target="_blank">Redwood Hikes</a></figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom" data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/02-firstmarker.jpg" alt="" />
+				<figcaption>I was super excited when I hit my first marker not too far from the trailhead.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/03.jpg" alt="" />
+				<figcaption>The morning was lovely. Nice and cool and look! A babbling brook!</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/04.jpg" alt="" />
+				<figcaption>The trail leading to the waterfall in Castle Rock State Park.</figcaption>
+			</figure>	
+			<div class="youtube">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/BTKtysI4K0E?rel=0" frameborder="0" allowfullscreen=""></iframe>
+			</div>		
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/05.jpg" alt="" />
+				<figcaption>The mountains were covered in this lingering mist for the entire morning and the trail was empty of people at this point.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/06.jpg" alt="" />
+				<figcaption>I had already hiked Castle Rock State Park, doing the Saratoga Gap Loop there, so this was familiar territory. The only difference is I am going in the opposite direction.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/07.jpg" alt="" />
+				<figcaption>The flowers were in full bloom along the trail.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/08.jpg" alt="" />
+				<figcaption>The Patrick Charles Allen memorial grove of readwoods, not too far from the falls.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/09.jpg" alt="" />
+				<figcaption>Later on, I will miss the cool mists as the humidity spikes and the sun comes out on the trail.</figcaption>
+			</figure>			
+			<div class="youtube">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/NecRi7x3DEI?rel=0" frameborder="0" allowfullscreen=""></iframe>
+			</div>		
+			<div class="youtube">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/ybMdPzX-3fg?rel=0" frameborder="0" allowfullscreen=""></iframe>
+			</div>		
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/11.jpg" alt="" />
+				<figcaption>The first time I came to Castle Rock we got lost at these stupid campsites. This time I had a map so didn't happen.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/12.jpg" alt="" />
+				<figcaption>Seeing signs like this made me angry. Not because I wanted to go off the trail, but the fact that I saw signs of people doing exactly that.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/13.jpg" alt="" />
+				<figcaption>The Benjamin Shore, M.D. and Margaret Dawson Shore Memorial Grove was kind of the saddest grove along the trail.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/14.jpg" alt="" />
+				<figcaption>First selfie along the Tavertine Springs Trail. I am still smiling at this point.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/16.jpg" alt="" />
+				<figcaption>This is where I begin to move away from the beautiful ridgeline and into the humidity ridden woods.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/18-jason.jpg" alt="" />
+				<figcaption>Ken's Sunglasses! A running gag the entire time I was in California was Jason stealing Ken's sunglasses and taking pictures of them in different locations.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/19.jpg" alt="" />
+				<figcaption>The mists are burning away!</figcaption>
+			</figure>			
+			<div class="youtube">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/pbwjMFvZweA?rel=0" frameborder="0" allowfullscreen=""></iframe>
+			</div>		
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/21.jpg" alt="" />
+				<figcaption>This grove marks where I finally get on the Skyline-to-the-Sea Trail.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/StoSmap2.jpg" alt="" />
+				<figcaption>I thought getting onto the Skyline-to-the-Sea trail felt like a milestone, but I still had so many miles to go. Look at all of this hiking I have to do just to get to Big Basin. Source: <a href="http://www.redwoodhikes.com/BigBasin/S-to-S.html" target="_blank">Redwood Hikes</a></figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/22.jpg" alt="" />
+				<figcaption>Seriously, I can't get enough of these views.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/23.jpg" alt="" />
+				<figcaption>The first proof of what trail I am on other than being able ot orient myself with the map.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/24.jpg" alt="" />
+				<figcaption>Second selfie. Tired and in front of fire scared redwoods.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/25.jpg" alt="" />
+				<figcaption>At this point, I started making noise as I moved, loosening my pack. I was pretty sure this is a mountain lion paw print.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/26.jpg" alt="" />
+				<figcaption>The trail moves me out of the woods and back to the ridgeline and views like this.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/27.jpg" alt="" />
+				<figcaption>Selfie number three as the sun makes a full on appearance. Soon the heat will come. Soon.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/28.jpg" alt="" />
+				<figcaption>The trail took me a few hundred yards away from the road for a time. This is car number one and it has been here a long time.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/29.jpg" alt="" />
+				<figcaption>Car number two has been here even longer.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/30.jpg" alt="" />
+				<figcaption>These are just the parts of a car that clearly flew apart.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/31.jpg" alt="" />
+				<figcaption>Lots of giant, burned out redwoods along the trail.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/35.jpg" alt="" />
+				<figcaption>I have no idea why I took this picture.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-3 col empty"></div>
+	</div>
+	<div class="content gutters">
+		<div class="span-1 col empty"></div>
+		<div class="span-5 col">
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/32.jpg" alt="" />
+				<figcaption>Sad selfie. Clearly tired. Humidity is kicking in. Also note, I am wearing a San Jose Giants shirt, not an SF Giants shirt.</figcaption>
+			</figure>			
+		</div>			
+		<div class="span-5 col">
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/34.jpg" alt="" />
+				<figcaption>I love these old trail markers. I didn't find many on this hike, but found them all over the place on other hikes.</figcaption>
+			</figure>			
+		</div>
+		<div class="span-1 col empty"></div>
+	</div>
+	<div class="content gutters">
+		<div class="span-3 col empty"></div>
+		<div class="span-6 col">
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/36.jpg" alt="" />
+				<figcaption>And suddenly a happy selfie. I have no recollection what was going through my head, but it was a long time to be alone with your thoughts and no technological distractions.</figcaption>
+			</figure>			
+			<div class="youtube">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/-Q5Jg-HF_0E?rel=0" frameborder="0" allowfullscreen=""></iframe>
+			</div>		
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/38.jpg" alt="" />
+				<figcaption>This is where the prelude to my near death experience began. Odd sandstone formations.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/39.jpg" alt="" />
+				<figcaption>Again, very cool rock formations, but little did I know...</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/40.jpg" alt="" />
+				<figcaption>Here is the trail that would lead to me almost falling off the mountain. See that rock down the trail, that is where it happens. The trail was blocked by rubble so I climbed up the rock to get over it, slipped on the sandstone and would have fallen off the mountain if my heel didn't slam into a very sharp rock.</figcaption>
+			</figure>			
+			<div class="youtube">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/pzvyu-SduKc?rel=0" frameborder="0" allowfullscreen=""></iframe>
+			</div>		
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/42.jpg" alt="" />
+				<figcaption>While I sat shaking after my near death experience I had an amazing view.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/43.jpg" alt="" />
+				<figcaption>Again with the pretty flowers.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/44.jpg" alt="" />
+				<figcaption>Undetered by my very bruised and soon to be covered in a giant blister, I decide to muster on. I didn't know it at the time, but the mesh heel of my hiking boots had broken in my fall and would lead to some serious issues as the hike progressed.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/45.jpg" alt="" />
+				<figcaption>This grove is just north of where I make the turn towards Big Basin.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/StoSmap3.jpg" alt="" />
+				<figcaption>Loving Parents Grove is the LP at the top of the trail. Near one of those beautiful view spots is where I almost went over. Source: <a href="http://www.redwoodhikes.com/BigBasin/S-to-S.html" target="_blank">Redwood Hikes</a></figcaption>
+			</figure>			
+			<div class="youtube">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/rDbpiYzyPvk?rel=0" frameborder="0" allowfullscreen=""></iframe>
+			</div>		
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/47.jpg" alt="" />
+				<figcaption>Trees growing out of rocks are amazing. Serves to remind me that after we destroy ourselves on this planet, eventually all of our capitalist monuments will be consumed by wildlife.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/48.jpg" alt="" />
+				<figcaption>If a tree falls in a forest... Yeah I started to go there but stopped myself.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/49.jpg" alt="" />
+				<figcaption>I just thought this was some fascinating symetry.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/50.jpg" alt="" />
+				<figcaption>LUNCH! At this point I have made it to the headquarters of Big Basin State Park, and it was jam packed with people. Boo!</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/51.jpg" alt="" />
+				<figcaption>This looks familiar. My solo quest took me to Berry Creek Falls, only this time I am taking that 12 mile trip to Waddell Beach.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/52.jpg" alt="" />
+				<figcaption>You are here. Notice that where I am going doesn't even fit in the picture.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/53.jpg" alt="" />
+				<figcaption>I have to step back here so I can get the entire 12 mile trek on film, so to speak.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/54.jpg" alt="" />
+				<figcaption>Clearly I am tired because I didn't take a single picture of anything between the park headquarters and the makeshift, seasonal bridge that leads me to the last leg of my hike.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/55.jpg" alt="" />
+				<figcaption>This is the face of an exhausted man with a bum foot and miles to go.</figcaption>
+			</figure>			
+			<figure>
+				<img src="{{ site.loading }}" data-action="zoom"  data-src="{{ site.baseurl }}/assets/img/articles/adventure/thirty-miles/56.jpg" alt="" />
+				<figcaption>I hate this map. I thought I was close then saw this and realized I had roughly 7 miles to go. I stopped taking pictures cause no way was I up to it anymore. I just wanted to get to the ocean.</figcaption>
+			</figure>			
+			<div class="youtube">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/T4VqRKbWBts?rel=0" frameborder="0" allowfullscreen=""></iframe>
+			</div>		
+		</div>
+		<div class="span-3 col empty"></div>
+	</div>
+{% include articles/article-footer.html %}
+</section>
