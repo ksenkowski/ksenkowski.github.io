@@ -1,7 +1,7 @@
 language: node_js
 sudo: required
-script:
-  - ./_scripts/run-tests.sh
+#script:
+#  - ./_scripts/run-tests.sh
 # Keep Travis from testing `master` branch
 branches:
   except:
