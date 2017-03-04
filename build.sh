@@ -24,14 +24,9 @@ rm -rf *
 # Now the master branch will contain only the contents of the _site directory.
 cp -R ../ksenkowski.github.io/_site/* .
 
-# Make sure we have the updated .travis.yml file so tests won't run on master.
-cp ../ksenkowski.github.io/.travis.yml .
-git config user.email ${GH_EMAIL}
-git config user.name "ksenkowski"
-
 # Commit and push generated content to master branch.
 git status
 git add -A .
 git status
-git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
+git commit -a -m "Initial Build of New Site"
 git push --quiet origin master > /dev/null 2>&1
