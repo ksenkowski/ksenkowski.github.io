@@ -1,24 +1,428 @@
----
----
 {
 	"sitemap": {
 		"posts":
-{% assign count = '0' %}{% assign idx = '0' %}[
-	{% for post in site.posts %}
-		{% capture count %}{{count | plus: '1'}}{% endcapture %}
+[
+	
+		
 		{
-		"title"    : "{{ post.title }}",
-		"href"     : "{{ post.url }}",
-		"tag" : "{{post.tag}}",
-		"id": "{{count}}",
-		"excerpt" : "{{post.excerpt}}",
-		"category" : "{{post.category}}",
+		"title"    : "Conspiracy of Shadows Boxed Set",
+		"href"     : "/articles/boxed-set.html",
+		"tag" : "conspiracy shadows rpg role-playing boxed-set musings",
+		"id": "1",
+		"excerpt" : "Finally making the role playing game boxed set I always wanted to make. I really don't care if no one buys it.",
+		"category" : "articles",
 		"date"     : {
-			"day"   : "{{ post.date | date: "%d" }}",
-			"month" : "{{ post.date | date: "%B" }}",
-			"year"  : "{{ post.date | date: "%Y" }}"
+			"day"   : "22",
+			"month" : "December",
+			"year"  : "2016"
 		}
-		}{% unless forloop.last %},{% endunless %}{% endfor %}
+		},
+		
+		{
+		"title"    : "Blackelk Saga: Out of Retirement",
+		"href"     : "/articles/blackelk-saga-01.html",
+		"tag" : "world of warcraft wow blackelk fiction vinette musings",
+		"id": "2",
+		"excerpt" : "If I knew then what I know now, I never would have retired.",
+		"category" : "articles",
+		"date"     : {
+			"day"   : "17",
+			"month" : "August",
+			"year"  : "2016"
+		}
+		},
+		
+		{
+		"title"    : "The Dragon in Review, Issue Fifty-One",
+		"href"     : "/articles/dragon-051.html",
+		"tag" : "role playing game rpg dragon magazine reviews",
+		"id": "3",
+		"excerpt" : "Any issue that follows the 50th issue is probably going to be a let down. All that energy thrown at a special issue filled with dragon themed goodness, the follow up is bound to be more subdued. However, the 51st issue is more of a mixed bag than a let down.",
+		"category" : "articles",
+		"date"     : {
+			"day"   : "16",
+			"month" : "August",
+			"year"  : "2016"
+		}
+		},
+		
+		{
+		"title"    : "The Dragon in Review, Issue Fifty",
+		"href"     : "/articles/dragon-050.html",
+		"tag" : "role playing game rpg dragon magazine reviews",
+		"id": "4",
+		"excerpt" : "Dragons! There are Dragons everywhere, because of course they are. How else doe you celebrate both the 5th anniversary and 50th issue of a magazine named The Dragon?",
+		"category" : "articles",
+		"date"     : {
+			"day"   : "27",
+			"month" : "July",
+			"year"  : "2016"
+		}
+		},
+		
+		{
+		"title"    : "Marco Polo: Season Two",
+		"href"     : "/articles/marco-polo.html",
+		"tag" : "marco polo netflix tv musings",
+		"id": "5",
+		"excerpt" : "If you gave it a try with the first season and weren't thrilled, I think you should give it one more go.",
+		"category" : "articles",
+		"date"     : {
+			"day"   : "20",
+			"month" : "July",
+			"year"  : "2016"
+		}
+		},
+		
+		{
+		"title"    : "Conspiracy of Shadows: RPG",
+		"href"     : "/games/cos-core.html",
+		"tag" : "role playing game rpg mechanics rules conspiracy of shadows core rune caster dice futhark",
+		"id": "6",
+		"excerpt" : "Conspiracy of Shadows is a role-playing game with the beating heart of a board game.",
+		"category" : "games",
+		"date"     : {
+			"day"   : "14",
+			"month" : "June",
+			"year"  : "2016"
+		}
+		},
+		
+		{
+		"title"    : "Skyline to the Sea",
+		"href"     : "/articles/adventure-003.html",
+		"tag" : "adventure big basin castle rock mountains state park solo 30 mile skyline-to-the-sea trail",
+		"id": "7",
+		"excerpt" : "Thirty miles to the sea through multiple state parks in the mountains.",
+		"category" : "articles",
+		"date"     : {
+			"day"   : "07",
+			"month" : "May",
+			"year"  : "2016"
+		}
+		},
+		
+		{
+		"title"    : "The Tapestry Deck",
+		"href"     : "/artwork/tapestry-deck.html",
+		"tag" : "conspiracy of shadows tapestry deck dooms art artwork illustration",
+		"id": "8",
+		"excerpt" : "Artwork from the Conspiracy of Shadows Tapestry Deck, a themed take on the traditional tarot deck.",
+		"category" : "artwork",
+		"date"     : {
+			"day"   : "01",
+			"month" : "April",
+			"year"  : "2016"
+		}
+		},
+		
+		{
+		"title"    : "The Dragon in Review, Issue Forty-Nine",
+		"href"     : "/articles/dragon-049.html",
+		"tag" : "role playing game rpg dragon magazine reviews",
+		"id": "9",
+		"excerpt" : "This might be the first issue I have reviewed that feels like a real magazine and not a fanzine love letter to TSR.",
+		"category" : "articles",
+		"date"     : {
+			"day"   : "31",
+			"month" : "March",
+			"year"  : "2016"
+		}
+		},
+		
+		{
+		"title"    : "The Dragon in Review, Issue Forty-Eight",
+		"href"     : "/articles/dragon-048.html",
+		"tag" : "role playing game rpg dragon magazine reviews",
+		"id": "10",
+		"excerpt" : "It isn't always the content of the issue of Dragon that was important. Sometimes it is the issue you write in your head as you react to the issue in front of you that was important.",
+		"category" : "articles",
+		"date"     : {
+			"day"   : "14",
+			"month" : "March",
+			"year"  : "2016"
+		}
+		},
+		
+		{
+		"title"    : "The Dragon in Review, Issue Forty-Seven",
+		"href"     : "/articles/dragon-047.html",
+		"tag" : "role playing game rpg dragon magazine reviews",
+		"id": "11",
+		"excerpt" : "Beautiful cover, Epyx games, Crimefighters and Dick Cheney all make an appearance in this issue of Dragon Magazine.",
+		"category" : "articles",
+		"date"     : {
+			"day"   : "23",
+			"month" : "February",
+			"year"  : "2016"
+		}
+		},
+		
+		{
+		"title"    : "Drew: The Man Behind the Poster",
+		"href"     : "/articles/drew-struzan.html",
+		"tag" : "drew struzan documentary musings",
+		"id": "12",
+		"excerpt" : "This movie highlights a moment in time that it could be argued changed the very nature of how we engage in politics in the United States.",
+		"category" : "articles",
+		"date"     : {
+			"day"   : "20",
+			"month" : "February",
+			"year"  : "2016"
+		}
+		},
+		
+		{
+		"title"    : "The Dragon in Review, Issue Forty-Six",
+		"href"     : "/articles/dragon-046.html",
+		"tag" : "role playing game rpg dragon magazine reviews",
+		"id": "13",
+		"excerpt" : "New layout, weird cover, adventure supplement and DIVINE RIGHT! This issue has it all.",
+		"category" : "articles",
+		"date"     : {
+			"day"   : "16",
+			"month" : "February",
+			"year"  : "2016"
+		}
+		},
+		
+		{
+		"title"    : "Into the Mountains",
+		"href"     : "/articles/adventure-002.html",
+		"tag" : "adventure pacifica mcnee ranch state park gray whale cove state beach",
+		"id": "14",
+		"excerpt" : "Six of us went to face the mountain. Did six of us return?",
+		"category" : "articles",
+		"date"     : {
+			"day"   : "08",
+			"month" : "February",
+			"year"  : "2016"
+		}
+		},
+		
+		{
+		"title"    : "Best of Enemies",
+		"href"     : "/articles/best-enemies.html",
+		"tag" : "william buckley gore vidal documentary musings",
+		"id": "15",
+		"excerpt" : "This movie highlights a moment in time that it could be argued changed the very nature of how we engage in politics in the United States.",
+		"category" : "articles",
+		"date"     : {
+			"day"   : "31",
+			"month" : "January",
+			"year"  : "2016"
+		}
+		},
+		
+		{
+		"title"    : "Blood Opera",
+		"href"     : "/games/blood-opera.html",
+		"tag" : "role playing game rpg mechanics rules conspiracy of shadows core basics rules traits talents futhark",
+		"id": "16",
+		"excerpt" : "Blood Opera is a narrative role-playing game that combines the tarot card deck I created with the rules of Euchre.",
+		"category" : "games",
+		"date"     : {
+			"day"   : "26",
+			"month" : "January",
+			"year"  : "2016"
+		}
+		},
+		
+		{
+		"title"    : "Something New",
+		"href"     : "/articles/adventure-001.html",
+		"tag" : "adventure san francisco cupertino sunnyvale apple relocation california technology",
+		"id": "17",
+		"excerpt" : "In relocating to Sunnyvale for six months without my family for work, I am taking on a new challenge and dramatically changing my life. Here it all begins.",
+		"category" : "articles",
+		"date"     : {
+			"day"   : "15",
+			"month" : "January",
+			"year"  : "2016"
+		}
+		},
+		
+		{
+		"title"    : "The Dragon in Review, Issue Forty-Five",
+		"href"     : "/articles/dragon-045.html",
+		"tag" : "role playing game rpg dragon magazine reviews",
+		"id": "18",
+		"excerpt" : "Paper Dungeons! Do I really need to say much more than that?",
+		"category" : "articles",
+		"date"     : {
+			"day"   : "04",
+			"month" : "December",
+			"year"  : "2015"
+		}
+		},
+		
+		{
+		"title"    : "The Dragon in Review, Issue Forty-Four",
+		"href"     : "/articles/dragon-044.html",
+		"tag" : "role playing game rpg dragon magazine reviews",
+		"id": "19",
+		"excerpt" : "Food Fight! Phil Foglio! Santa Clause?!?! Dwarves! Wait, dwarves? Well dwarve beard arguments and genetics!",
+		"category" : "articles",
+		"date"     : {
+			"day"   : "17",
+			"month" : "November",
+			"year"  : "2015"
+		}
+		},
+		
+		{
+		"title"    : "Shadow Rising",
+		"href"     : "/articles/shadows.html",
+		"tag" : "css drop shadows box-shadow photoshop text-shadow typography musings",
+		"id": "20",
+		"excerpt" : "How to convert the Photoshop shadow values to the appropriate text-shadow and box-shadow values in CSS.",
+		"category" : "articles",
+		"date"     : {
+			"day"   : "11",
+			"month" : "November",
+			"year"  : "2015"
+		}
+		},
+		
+		{
+		"title"    : "Get the Lead Out",
+		"href"     : "/articles/leading.html",
+		"tag" : "css line height leading photoshop typography musings",
+		"id": "21",
+		"excerpt" : "No Zepplin here. Today we unravel converting Photoshop's leading attribute and how it relates to line height.",
+		"category" : "articles",
+		"date"     : {
+			"day"   : "10",
+			"month" : "November",
+			"year"  : "2015"
+		}
+		},
+		
+		{
+		"title"    : "Take a Load Off Annie",
+		"href"     : "/articles/font-weight.html",
+		"tag" : "css font weight photoshop bold typography musings",
+		"id": "22",
+		"excerpt" : "Did you know that the font-weight attribute corresponds with the font style control in Photoshop? Font weight isn't just a way to bold things.",
+		"category" : "articles",
+		"date"     : {
+			"day"   : "09",
+			"month" : "November",
+			"year"  : "2015"
+		}
+		},
+		
+		{
+		"title"    : "Tracking to Letter Spacing",
+		"href"     : "/articles/tracking.html",
+		"tag" : "css letter-spacing photoshop tracking typography musings",
+		"id": "23",
+		"excerpt" : "How to convert the Photoshop tracking values to the appropriate letter-spacing value in CSS.",
+		"category" : "articles",
+		"date"     : {
+			"day"   : "08",
+			"month" : "November",
+			"year"  : "2015"
+		}
+		},
+		
+		{
+		"title"    : "The Dragon in Review, Issue One Hundred Fourteen",
+		"href"     : "/articles/dragon-114.html",
+		"tag" : "role playing game rpg dragon magazine reviews",
+		"id": "24",
+		"excerpt" : "Dragon has been hit and miss with it's holiday issues. This issue is in the middle.",
+		"category" : "articles",
+		"date"     : {
+			"day"   : "11",
+			"month" : "October",
+			"year"  : "2015"
+		}
+		},
+		
+		{
+		"title"    : "Rune Caster",
+		"href"     : "/games/rune-thrower.html",
+		"tag" : "role playing game rpg mechanics rules conspiracy of shadows core rune caster dice futhark",
+		"id": "25",
+		"excerpt" : "An online way to cast your runes for the Conspiracy of Shadows role-playing game.",
+		"category" : "games",
+		"date"     : {
+			"day"   : "28",
+			"month" : "July",
+			"year"  : "2015"
+		}
+		},
+		
+		{
+		"title"    : "Apprentice",
+		"href"     : "/games/apprentice.html",
+		"tag" : "role playing game rpg mechanics apprentice rules conspiracy of shadows core rune caster dice futhark",
+		"id": "26",
+		"excerpt" : "Conspiracy of Shadows: Apprentice is a stand alone RPG strongly influenced by Norse mythology that pits two forces against each other, building a narrative over time leveraging rune stones to resolve conflicts.",
+		"category" : "games",
+		"date"     : {
+			"day"   : "14",
+			"month" : "August",
+			"year"  : "2014"
+		}
+		},
+		
+		{
+		"title"    : "The Dragon in Review, Issue Eight",
+		"href"     : "/articles/dragon-008.html",
+		"tag" : "role playing game rpg dragon magazine reviews",
+		"id": "27",
+		"excerpt" : "Some issues are good and some issues are bad. This is not one of those good issues.",
+		"category" : "articles",
+		"date"     : {
+			"day"   : "01",
+			"month" : "February",
+			"year"  : "2014"
+		}
+		},
+		
+		{
+		"title"    : "The Dragon in Review, Issue Seven",
+		"href"     : "/articles/dragon-007.html",
+		"tag" : "role playing game rpg dragon magazine reviews",
+		"id": "28",
+		"excerpt" : "A brief dive into the seventh issue of The Dragon, or Dragon Magazine as I came to know it as a teenager.",
+		"category" : "articles",
+		"date"     : {
+			"day"   : "31",
+			"month" : "January",
+			"year"  : "2014"
+		}
+		},
+		
+		{
+		"title"    : "The Dragon in Review, Year One",
+		"href"     : "/articles/dragon-year-one.html",
+		"tag" : "role playing game rpg dragon magazine reviews",
+		"id": "29",
+		"excerpt" : "A brief dive into the first year in the life of The Dragon, or Dragon Magazine as I came to know it as a teenager.",
+		"category" : "articles",
+		"date"     : {
+			"day"   : "20",
+			"month" : "January",
+			"year"  : "2014"
+		}
+		},
+		
+		{
+		"title"    : "The Strategic Review",
+		"href"     : "/articles/strategic-review.html",
+		"tag" : "role playing game rpg dragon magazine reviews",
+		"id": "30",
+		"excerpt" : "A brief analysis of the Strategic Review, the magazine that came before Dragon Magazine. This is the first in the series.",
+		"category" : "articles",
+		"date"     : {
+			"day"   : "12",
+			"month" : "January",
+			"year"  : "2014"
+		}
+		}
 	]
 }
 }

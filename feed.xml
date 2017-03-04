@@ -1,30 +1,1896 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Conspiracy of Shadows</title>
+    <description></description>
+    <link>http://conspiracyofshadows.com/</link>
+    <atom:link href="http://conspiracyofshadows.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 04 Mar 2017 14:06:49 -0600</pubDate>
+    <lastBuildDate>Sat, 04 Mar 2017 14:06:49 -0600</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Conspiracy of Shadows Boxed Set</title>
+        <description>&lt;section class=&quot;header&quot;&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-6 col&quot;&gt;
+		&lt;div class=&quot;hgroup&quot;&gt;
+			&lt;p class=&quot;post-meta&quot;&gt;Dec 22, 2016&lt;/p&gt;
+			&lt;h1&gt;Conspiracy of Shadows Boxed Set&lt;/h1&gt;
+		&lt;/div&gt;
+			&lt;img src=&quot;/assets/img/homepage/patreon-background.jpg;&quot; /&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;review continued&quot;&gt;
+	&lt;div class=&quot;content gutters&quot;&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-6 col&quot;&gt;
+		&lt;p&gt;It was 1991 when I was in a Waldenbooks (remember those?) with my dad, browsing through the fantasy novels. I had only recently learned that the books I had been rabidly consuming, like the &lt;em&gt;Dragonlance Chronicles&lt;/em&gt;, grew out of a game called &lt;em&gt;&lt;strong&gt;Dungeons &amp;amp; Dragons&lt;/strong&gt;&lt;/em&gt;. I was intrigued but had no good understanding of the game, and wouldn't dive into my lifelong obessession for another month or so. Yet still, this gray boxed set caught my eye.&lt;/p&gt;
+		&lt;p&gt;Up until this point I had only seen some hard bound books and &lt;em&gt;Dragon&lt;/em&gt; magazines and a boxed set was a foreign concept, but for whatever reason I was drawn to this one. I some how convinced my dad that I needed the &lt;em&gt;Forgotten Realms Campaign Set&lt;/em&gt; even though I had not yet read a single game book or played a single game. When I opened it I wasn't at all disappointed that it didn't have rules on how to play and stats that made no sense. It was just gloriously intriguing.&lt;/p&gt;
+			&lt;p&gt;As you can clearly see, this crazy thing had a profound impact on me and for years wanted to make my own version of it. When I got into this game, publishing the first version of &lt;em&gt;Conspiracy of Shadows&lt;/em&gt; in 2004, it was just too costly. I didn't have the kind of money to invest in getting boxes printed and honestly I wasn't exactly burning the world down with my game design. Over time though, my focus changed from getting games printed and sold on a large scale to handmaking games on a small scale.&lt;/p&gt;
+			&lt;p&gt;With the creation of a &lt;a href=&quot;http://www.conspiracyofshadows.com/games/cos-core.html&quot;&gt;core rule set&lt;/a&gt; that is now being edited, I can move on to creating my version of the &quot;gray box&quot; for &lt;em&gt;Forgotten Realms&lt;/em&gt;. Right now I am thinking two books and two maps, just like the box that inspired me inside of a wood box. Also on the docket are the core rules, a handful of character sheets, and a rune stone set. Either way, this is my working TOC for the two books:&lt;/p&gt;
+			&lt;ul class=&quot;spaced-list unstyled&quot;&gt;
+				&lt;li&gt;Introduction/About This Thing&lt;/li&gt;
+				&lt;li&gt;Time&lt;/li&gt;
+				&lt;li&gt;The Written Word&lt;/li&gt;
+				&lt;li&gt;Religion in the World&lt;/li&gt;
+				&lt;li&gt;Encyclopedia Entries&lt;/li&gt;
+				&lt;li&gt;Bunch of smaller maps, royal lineage, etc&lt;/li&gt;
+				&lt;li&gt;Recent Events (two years worth, 7260 - 7261)&lt;/li&gt;
+				&lt;li&gt;A bunch of one page &quot;dungeons&quot;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;	
+	&lt;/div&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;div class=&quot;span-12 col&quot;&gt;
+			&lt;div class=&quot;endnote&quot;&gt;&lt;/div&gt;	
+			
+&lt;div class=&quot;related-posts&quot;&gt;
+ &lt;h2&gt;Related Articles&lt;/h2&gt;
+  &lt;ul class=&quot;spaced-list unstyled&quot;&gt;
+	
+	  
+	  
+	                         
+	
+	  
+	  
+	                         
+	
+	  
+	  
+	  
+	    &lt;li&gt;&lt;a href=&quot;/articles/dragon-048.html&quot;&gt;The Dragon in Review, Issue Forty-Eight&lt;/a&gt;&lt;/li&gt;
+	                         
+	
+	  
+	  
+	  
+	    &lt;li&gt;&lt;a href=&quot;/articles/adventure-003.html&quot;&gt;Skyline to the Sea&lt;/a&gt;&lt;/li&gt;
+	                         
+	
+	  
+	  
+	  
+	    &lt;li&gt;&lt;a href=&quot;/articles/dragon-year-one.html&quot;&gt;The Dragon in Review, Year One&lt;/a&gt;&lt;/li&gt;
+	                         
+	
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Thu, 22 Dec 2016 00:00:00 -0600</pubDate>
+        <link>http://conspiracyofshadows.com/articles/boxed-set.html</link>
+        <guid isPermaLink="true">http://conspiracyofshadows.com/articles/boxed-set.html</guid>
+        
+        <category>conspiracy shadows rpg role-playing boxed-set musings</category>
+        
+        
+        <category>articles</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Blackelk Saga: Out of Retirement</title>
+        <description>&lt;section class=&quot;header&quot;&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-6 col&quot;&gt;
+		&lt;div class=&quot;hgroup&quot;&gt;
+			&lt;p class=&quot;post-meta&quot;&gt;Aug 17, 2016&lt;/p&gt;
+			&lt;h1&gt;Blackelk Saga: Out of Retirement&lt;/h1&gt;
+		&lt;/div&gt;
+			&lt;img src=&quot;/assets/img/musings/nagrand-outlands.jpg&quot; /&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;review continued&quot;&gt;
+	&lt;div class=&quot;content gutters&quot;&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-6 col&quot;&gt;
+			&lt;p&gt;World of Warcraft is back in my life. I started playing it at launch in 2004 with a Night Elf Rogue named Ming (as in Ming the Merciless) and eventually rolled a Tauren Hunter named Blackelk to play with my friends. And to be clear, these friends are people I know in my day-to-day life, so I had a lot of fun, and look foundly on those days of going to the gym at 6 am, then firing up the game for a few hours on Saturday morning.&lt;/p&gt;
+			&lt;p&gt;But I digress. A few months ago I fired the game back up and started playing the &lt;strong&gt;Warlords of Draenor&lt;/strong&gt; expansion. It was a little fun, but not as much fun as it used to be chatting with my friends as we tackled the Mana Vaults or chased after some epic drop together. Then, one day, my brain made it much more entertaining by bolting on a storyline to my noodling around in an MMO without interacting with anyone.&lt;/p&gt;
+			&lt;p&gt;I wasn't playing through content, grinding my way to level or for reputation. No Blackelk was out of retirement because he was needed. His friends, Doash, Khagash and Mailen were missing and so he had to go find them. Every move I made, every daily quest, I shoehorned into a narrative in my brain of Blackelk searching for his friends, using the same pet, Heckler (a rare hyena from vanilla whan that used to matter), traveling back through old zones.&lt;/p&gt;
+			&lt;p&gt;I know I can never recapture the magic of that time when we played together, made up a narrative together, and basically enjoyed each other's company more often than we do now. Now I am capturing a different, lesser magic on my own.&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;	
+	&lt;/div&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;div class=&quot;span-12 col&quot;&gt;
+			&lt;div class=&quot;endnote&quot;&gt;&lt;/div&gt;	
+			
+&lt;div class=&quot;related-posts&quot;&gt;
+ &lt;h2&gt;Related Articles&lt;/h2&gt;
+  &lt;ul class=&quot;spaced-list unstyled&quot;&gt;
+	
+	  
+	  
+	                         
+	
+	  
+	  
+	  
+	    &lt;li&gt;&lt;a href=&quot;/articles/dragon-048.html&quot;&gt;The Dragon in Review, Issue Forty-Eight&lt;/a&gt;&lt;/li&gt;
+	                         
+	
+	  
+	  
+	                         
+	
+	  
+	  
+	  
+	    &lt;li&gt;&lt;a href=&quot;/articles/adventure-003.html&quot;&gt;Skyline to the Sea&lt;/a&gt;&lt;/li&gt;
+	                         
+	
+	  
+	  
+	  
+	    &lt;li&gt;&lt;a href=&quot;/articles/adventure-002.html&quot;&gt;Into the Mountains&lt;/a&gt;&lt;/li&gt;
+	                         
+	
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Wed, 17 Aug 2016 00:00:00 -0500</pubDate>
+        <link>http://conspiracyofshadows.com/articles/blackelk-saga-01.html</link>
+        <guid isPermaLink="true">http://conspiracyofshadows.com/articles/blackelk-saga-01.html</guid>
+        
+        <category>world of warcraft wow blackelk fiction vinette musings</category>
+        
+        
+        <category>articles</category>
+        
+      </item>
+    
+      <item>
+        <title>The Dragon in Review, Issue Fifty-One</title>
+        <description>&lt;section class=&quot;header&quot;&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-6 col&quot;&gt;
+		&lt;div class=&quot;hgroup&quot;&gt;
+			&lt;p class=&quot;post-meta&quot;&gt;Aug 16, 2016&lt;/p&gt;
+			&lt;h1&gt;The Dragon in Review, Issue Fifty-One&lt;/h1&gt;
+		&lt;/div&gt;
+			&lt;img src=&quot;/assets/img/articles/dragon/051/cover.jpg&quot; /&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;review continued&quot;&gt;
+	&lt;div class=&quot;content gutters&quot;&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-10 col&quot;&gt;
+			&lt;p&gt;Any issue that follows the 50&lt;sup&gt;th&lt;/sup&gt; issue is probably going to be a let down. All that energy thrown at a special issue filled with dragon themed goodness, the follow up is bound to be more subdued. However, the 51&lt;sup&gt;st&lt;/sup&gt; issue is more of a mixed bag than a let down.&lt;/p&gt;
+			&lt;p&gt;As issues go, it is a little uneaven, filled up front with Traveller articles and not a lot of D&amp;amp;D content. However it ends with a full board game called, &lt;em&gt;Search for the Emperor's Treasure&lt;/em&gt; that is rather interesting. So mixed bag, but still plenty to enjoy.&lt;/p&gt;
+			&lt;h2&gt;Susan Collins?&lt;/h2&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/dragon/051/full-cover.jpg&quot; alt=&quot;Cover by Susan Collins&quot; class=&quot;scale&quot; /&gt;
+				&lt;figcaption&gt;The very first cover for Dragon by Susan Collins.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+			&lt;p&gt;When I first dug up the credits for this cover I had a little shock. Susan Collins is listed as the artist and my brain first asked, &quot;The &lt;a href=&quot;www.susan-collins.net&quot; target=&quot;_blank&quot;&gt;British artist&lt;/a&gt;? Holy shit!&quot; However, I became convinced that it wasn't her. The piece just doesn't feel right to me (though I would be pleased to be wrong).&lt;/p&gt;
+			&lt;p&gt;The my brain spat out, &quot;Wait a second. The senator from Maine?!?! Holy shit that is even better.&quot; Again, I don't think that is right, but secretly wish it is true. I mean Maine is like Wisconsin. The winters are long, so maybe she played a lot of D&amp;amp;D in the 80s while moonlighting as an artist.&lt;/p&gt;
+			&lt;p&gt;Either way, I like this piece. I still hate the border framing of this era's covers, but I find the strong sense of realism in the piece enjoyable and refreshing.&lt;/p&gt;
+			&lt;h2&gt;Traveller Articles&lt;/h2&gt;
+			&lt;p&gt;I am the worst person to read through &lt;em&gt;&lt;strong&gt;Traveller&lt;/strong&gt;&lt;/em&gt; articles. I have never cared about the game and feel myself falling asleep from boredom as I write this. With that in mind, you get these briefest of summaries.&lt;/p&gt;
+			&lt;ul class=&quot;spaced-list&quot;&gt;
+				&lt;li&gt;&lt;em&gt;Make Your Own Aliens&lt;/em&gt; by Roger E. Moore is the thinest of articles with a few tables for determing the individual length of the alien's feet and what not.&lt;/li&gt;
+				&lt;li&gt;&lt;em&gt;Plotting a Course for Choosy Players&lt;/em&gt;, by Jeff Swycaffer basically hates the character generation of Traveller and wants to make Han Solo. The article is how you do that without the random generation part of character creation, which I thought was the whole point of this ridiculous game.&lt;/li&gt;
+				&lt;li&gt;&lt;em&gt;New Ideas for Old Ships&lt;/em&gt;, by Paul Montgomery Cranbaugh, is a bunch of tables for modifying the standard ships to give them character and a history. That only makes sense in this article if character and history are determined by weapon combinations.&lt;/li&gt;
+				&lt;li&gt;Paul Montgomery Cranbaugh is back with an article titled &lt;em&gt;In the Defense of Computers&lt;/em&gt;. I have to be honest. I see no utility in this article at all. It is really just a description of computers in the &lt;strong&gt;&lt;em&gt;Traveller&lt;/em&gt;&lt;/strong&gt; fiction.&lt;/li&gt;
+				&lt;li&gt;Paul Montgomery Cranbaugh will not go away. He writes two additional articles, &lt;em&gt;Planet Parameters&lt;/em&gt; and &lt;em&gt;Masers and Cameras&lt;/em&gt;. The first is basically a math lesson on how gravity and planetary rotation works for different sized worlds. The second explains what a Maser, Survey Module, and Autocannon are in the game for your ship.&lt;/li&gt;
+				&lt;li&gt;Paul Montgomery Cranbaugh finally lets someone else have the mic and Marc Miller gives us &lt;em&gt;The Miller Milk Bottle&lt;/em&gt;. It is literally an article regarding milk bottles, which were left out of the rules. I am not convinced that this is a joke considering the nature of the other articles.&lt;/li&gt;				
+			&lt;/ul&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/dragon/051/traveller.jpg&quot; alt=&quot;Traveller Article Cover&quot; /&gt;
+				&lt;figcaption&gt;Traveller might have the most boring illustration style in games.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+			&lt;h2&gt;The Winged Folk&lt;/h2&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/dragon/051/winged-folk.jpg&quot; alt=&quot;An Illustration of the Winged Folk&quot; /&gt;
+				&lt;figcaption&gt;Winged Folk illustration by Todd Lockwood.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+			&lt;p&gt;With no transition from the &lt;em&gt;slow ship to space&lt;/em&gt; we are presented the Winged Folk, by William Lenox. I'll let the stat block speak for itself, but what caught my eye was the artist. Todd Lockwood, who was key in defining the look and feel of D&amp;amp;D 3rd Edition.&lt;/p&gt;
+			&lt;ul class=&quot;spaced-list unstyled&quot;&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Frequency:&lt;/strong&gt; &lt;em&gt;Uncommon&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;No. Appearing:&lt;/strong&gt; &lt;em&gt;10-100 (100 - 1000)&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Armor Class:&lt;/strong&gt; &lt;em&gt;7 (or better)&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Move:&lt;/strong&gt; &lt;em&gt;12&quot;/18&quot;&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Hit Dice:&lt;/strong&gt; &lt;em&gt;1 + 1&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;% in Lair:&lt;/strong&gt; &lt;em&gt;10%&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Treasure Type:&lt;/strong&gt; &lt;em&gt;N (G, S, T in lair)&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;No. of Attacks:&lt;/strong&gt; &lt;em&gt;1&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Damage/Attack:&lt;/strong&gt; &lt;em&gt;1 - 10 or by weapon type&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Special Attacks:&lt;/strong&gt; &lt;em&gt;+1 to hit with bow or javelin&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Special Defenses:&lt;/strong&gt; &lt;em&gt;Surprised only on a 1&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Magic Resistance:&lt;/strong&gt; &lt;em&gt;Standard&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Intelligence:&lt;/strong&gt; &lt;em&gt;Very to Genius&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Alignment:&lt;/strong&gt; &lt;em&gt;Neutral to Chaotic Good&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Size:&lt;/strong&gt; &lt;em&gt;M (5'-6' tall, 10'-12' wingspan)&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Psionic Ability:&lt;/strong&gt; &lt;em&gt;Nil&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Attack/Defense Modes:&lt;/strong&gt; &lt;em&gt;Nil&lt;/em&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+			&lt;h2&gt;Ten Commandments for Paladins&lt;/h2&gt;
+			&lt;p&gt;Sure. Why not? Let's just make paladins monolithic regardless of the relgious underpinnings of their beliefs.&lt;/p&gt;
+			&lt;p&gt;I really shouldn't be surprised. As stated in the article, it is based on 11th centry knights of western Europe. Most amateur medieval scholarship focuses on France and England and makes the assumption that &quot;it was like that in all of Europe.&quot; Nevermind that that even France wasn't monolithic at this time culturally.&lt;/p&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/dragon/051/paladins.jpg&quot; alt=&quot;Paladin on a Horse&quot; /&gt;
+				&lt;figcaption&gt;No idea who made this illustration, but I like it despite the weird cresent moon.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+			&lt;p&gt;If you haven't guessed, not a fan of this article and it's anacronisms. Take a look thou self:&lt;/p&gt;
+			&lt;ol class=&quot;spaced-list&quot;&gt;
+				&lt;li&gt;Thou shalt accept the counsels of thy mentor and obey all his commandments&lt;/li&gt;
+				&lt;li&gt;Thou shalt defend thy mentor&lt;/li&gt;
+				&lt;li&gt;Thou shalt respect all weakness and constitute thyself the defender of them&lt;/li&gt;
+				&lt;li&gt;Thou shalt be faithful to the mentor who reared thee&lt;/li&gt;
+				&lt;li&gt;Thou shalt not recoil before thine enemy&lt;/li&gt;
+				&lt;li&gt;Thou shalt make war against eveil without cessation and without mercy&lt;/li&gt;
+				&lt;li&gt;Thou shalt perform scrupulously thy duties to thy mentor&lt;/li&gt;
+				&lt;li&gt;Thou shalt never lie, and shalt remain faithful to thy pledged word&lt;/li&gt;
+				&lt;li&gt;Thou shalt give largely of thy wealth&lt;/li&gt;
+				&lt;li&gt;Thou shalt be everywhere and always the champion of the right and the good against injustice and evil&lt;/li&gt;
+			&lt;/ol&gt;
+			&lt;h2&gt;The Search for the Emperor's Treasure&lt;/h2&gt;
+			&lt;p&gt;I really don't know much about the game. It seems, like many of the games from this time frame, a little confused. It has lots of bits that you think would work in theory, but not sure how well it would work in play. I mean just look at this &lt;em&gt;inventory of game parts&lt;/em&gt;:&lt;/p&gt;
+			&lt;ul class=&quot;unstyled spaced-list&quot;&gt;
+				&lt;li&gt;172 game markers&lt;/li&gt;
+				&lt;li&gt;34 treasure chits&lt;/li&gt;
+				&lt;li&gt;8 character chits&lt;/li&gt;
+				&lt;li&gt;42 encounter chits&lt;/li&gt;
+				&lt;li&gt;27 arms chits&lt;/li&gt;
+				&lt;li&gt;26 spell chits&lt;/li&gt;
+				&lt;li&gt;2 ship markers&lt;/li&gt;
+				&lt;li&gt;45 wound markers&lt;/li&gt;
+				&lt;li&gt;1 sheet of 8 character cards&lt;/li&gt;
+				&lt;li&gt;1 playing map&lt;/li&gt;
+				&lt;li&gt;1 rules booklet&lt;/li&gt;
+				&lt;li&gt;Several 6 sided dice&lt;/li&gt;
+			&lt;/ul&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/dragon/051/emperors-treasure.jpg&quot; alt=&quot;Map from the Search for the Emperor's Treasure Board Game&quot; /&gt;
+				&lt;figcaption&gt;I absolutely love the maps for this game&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;div class=&quot;span-12 col&quot;&gt;
+			&lt;div class=&quot;endnote&quot;&gt;&lt;/div&gt;	
+			
+&lt;div class=&quot;related-posts&quot;&gt;
+ &lt;h2&gt;Related Articles&lt;/h2&gt;
+  &lt;ul class=&quot;spaced-list unstyled&quot;&gt;
+	
+	  
+	  
+	                         
+	
+	  
+	  
+	                         
+	
+	  
+	  
+	  
+	    &lt;li&gt;&lt;a href=&quot;/articles/dragon-048.html&quot;&gt;The Dragon in Review, Issue Forty-Eight&lt;/a&gt;&lt;/li&gt;
+	                         
+	
+	  
+	  
+	  
+	    &lt;li&gt;&lt;a href=&quot;/articles/adventure-003.html&quot;&gt;Skyline to the Sea&lt;/a&gt;&lt;/li&gt;
+	                         
+	
+	  
+	  
+	  
+	    &lt;li&gt;&lt;a href=&quot;/articles/dragon-year-one.html&quot;&gt;The Dragon in Review, Year One&lt;/a&gt;&lt;/li&gt;
+	                         
+	
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Tue, 16 Aug 2016 00:00:00 -0500</pubDate>
+        <link>http://conspiracyofshadows.com/articles/dragon-051.html</link>
+        <guid isPermaLink="true">http://conspiracyofshadows.com/articles/dragon-051.html</guid>
+        
+        <category>role playing game rpg dragon magazine reviews</category>
+        
+        
+        <category>articles</category>
+        
+      </item>
+    
+      <item>
+        <title>The Dragon in Review, Issue Fifty</title>
+        <description>&lt;section class=&quot;header&quot;&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-6 col&quot;&gt;
+		&lt;div class=&quot;hgroup&quot;&gt;
+			&lt;p class=&quot;post-meta&quot;&gt;Jul 27, 2016&lt;/p&gt;
+			&lt;h1&gt;The Dragon in Review, Issue Fifty&lt;/h1&gt;
+		&lt;/div&gt;
+			&lt;img src=&quot;/assets/img/articles/dragon/050/cover.jpg&quot; /&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;review continued&quot;&gt;
+	&lt;div class=&quot;content gutters&quot;&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-6 col&quot;&gt;
+			&lt;p&gt;Dragons! There are Dragons everywhere, because of course they are. How else do you celebrate both the 5&lt;sup&gt;th&lt;/sup&gt; anniversary and 50&lt;sup&gt;th&lt;/sup&gt; issue of a magazine named &lt;em&gt;The Dragon&lt;/em&gt;? By filling it with Dragons of course!&lt;/p&gt;
+			&lt;h2&gt;A 5&lt;sup&gt;th&lt;/sup&gt; Anniversary Cover Must Have a Dragon&lt;/h2&gt;
+			&lt;p&gt;I gotta say, I am a big fan of this piece of artwork. It does strike me as odd that the 50&lt;sup&gt;th&lt;/sup&gt; issue and 5&lt;sup&gt;th&lt;/sup&gt; anniversary issue went back to the brand they have established for the covers. I thought that they might continue the full page artwork for this cover that they had in the previous issue, but alas the border is back.&lt;/p&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/dragon/050/full-cover.jpg&quot; alt=&quot;Cover by Carl Lundgren&quot; class=&quot;scale&quot; /&gt;
+				&lt;figcaption&gt;A return to the brand guidelines with a cover by Carl Lundgren.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+			&lt;p&gt;This doesn't at all deter from the work though. &lt;a href=&quot;http://www.carllundgren.com/&quot; target=&quot;_blank&quot;&gt;Carl Lundgren's&lt;/a&gt; style remminds me of Richard Corben in the rounded look to his &lt;em&gt;&lt;strong&gt;dragon&lt;/strong&gt;&lt;/em&gt;, which is wonderful. The rest of the piece is strong, but pretty standard fantasy, but that &lt;em&gt;&lt;strong&gt;dragon&lt;/strong&gt;&lt;/em&gt; is just weird enough to make me super happy.&lt;/p&gt;
+			&lt;p&gt;I encourage you to go to &lt;a href=&quot;http://www.carllundgren.com/&quot; target=&quot;_blank&quot;&gt;his site&lt;/a&gt; and take a look at his artwork. He isn't by any means the typical fantasy artist, having worked in the 60's as a concert poster artist and Underground Comix publisher.&lt;/p&gt;
+			&lt;h2&gt;Dragon Articles&lt;/h2&gt;
+			&lt;p&gt;This issue opens with three straight &lt;em&gt;&lt;strong&gt;dragon&lt;/strong&gt;&lt;/em&gt; themed. Each one is fun and interesting in it's own way.&lt;/p&gt;
+			&lt;ul class=&quot;spaced-list&quot;&gt;
+				&lt;li&gt;&lt;em&gt;Self Defense for Dragons&lt;/em&gt; takes the stance that &lt;em&gt;&lt;strong&gt;dragons&lt;/strong&gt;&lt;/em&gt; are an endangered species, being pushed out by rapidly reproducing humans. Gregory Rihn, the author of the article, explores ways in which the creatures can survive encounters with adventurers.&lt;/li&gt;
+				&lt;li&gt;&lt;em&gt;True Dragons&lt;/em&gt;, by Lewis Pulsipher, revamps how &lt;em&gt;&lt;strong&gt;dragons&lt;/strong&gt;&lt;/em&gt; are used in play, exploring all of their abilities, and if I recall their old stat bock correctly, adding a whole lot of extra edge.&lt;/li&gt;
+				&lt;li&gt;&lt;em&gt;Hatching is Only the Beginning...&lt;/em&gt;, by Colleen A. Bishop, explores the hatching and development of &lt;em&gt;&lt;strong&gt;baby dragons&lt;/strong&gt;&lt;/em&gt;. That was one thing we never explored when I played a lot of D&amp;amp;D, encountering baby dragons. Now I want to use them some how.&lt;/li&gt;
+			&lt;/ul&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/dragon/050/dragons.jpg&quot; alt=&quot;Dragon illustration by Corinna Taylor&quot; /&gt;
+				&lt;figcaption&gt;A wonderful color illustration by Corinna Taylor.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+			&lt;h2&gt;Zines&lt;/h2&gt;
+			&lt;p&gt;I thought this was pretty interesting in light of the resurgence of zines in the OSR community. This article, by David F. Nalle, rates and reviews a bunch from the time, which makes me kinda want to do the same thing. The Zines he looks at are:&lt;/p&gt;
+			&lt;ul class=&quot;spaced-list&quot;&gt;
+				&lt;li&gt;&lt;em&gt;Abyss&lt;/em&gt;, a magazine&lt;/li&gt;
+				&lt;li&gt;&lt;em&gt;Alarums &amp;amp; Excursions&lt;/em&gt;, an Amateur Press Association&lt;/li&gt;
+				&lt;li&gt;&lt;em&gt;The Beholder&lt;/em&gt;, a magazine&lt;/li&gt;
+				&lt;li&gt;&lt;em&gt;The Lords of Chaos&lt;/em&gt;, an Amateur Press Association&lt;/li&gt;
+				&lt;li&gt;&lt;em&gt;Morningstar&lt;/em&gt;, an Amateur Press Association&lt;/li&gt;
+				&lt;li&gt;&lt;em&gt;Pandemonium&lt;/em&gt;, an Amateur Press Association&lt;/li&gt;
+				&lt;li&gt;&lt;em&gt;Quick Quincy Gazette&lt;/em&gt;, a magazine&lt;/li&gt;
+				&lt;li&gt;&lt;em&gt;The Stormlord&lt;/em&gt;, a magazine&lt;/li&gt;
+				&lt;li&gt;&lt;em&gt;Trollcrusher&lt;/em&gt;, an Amateur Press Association&lt;/li&gt;
+				&lt;li&gt;&lt;em&gt;The Wild Hunt&lt;/em&gt;, an Amateur Press Association&lt;/li&gt;
+				&lt;li&gt;&lt;em&gt;Zeppelin&lt;/em&gt;, a magazine&lt;/li&gt;
+			&lt;/ul&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/dragon/050/zines.png&quot; alt=&quot;Zines!&quot; /&gt;
+				&lt;figcaption&gt;The more things change, the more they stay the same.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+			&lt;h2&gt;The Chapel of Silence&lt;/h2&gt;
+			&lt;p&gt;It couldn't be an anniversary issue if there wasn't an adventure included. This issue gifts us with Mollie Plants' &lt;em&gt;The Chapel of Silence&lt;/em&gt;. It is listed as &quot;First Place, Basic Division IDDC II&quot; which means nothing to me. I assume it is from some sort of tournament, but that was never my thing.&lt;/p&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/dragon/050/chapel.png&quot; alt=&quot;The Chapel of Silence&quot; /&gt;
+				&lt;figcaption&gt;I love the title of this adventure.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+			&lt;p&gt;The adventure is designed for a &lt;em&gt;balanced&lt;/em&gt; party of six second to third level characters. It begins with some prophetic dreams and has some basic room descriptions but no maps included. It reads like it would be a lot of fun, and has some nice twists and turns.&lt;/p&gt;
+			&lt;h2&gt;Giant Vampire Frog&lt;/h2&gt;
+			&lt;p&gt;This picture and stat block... I am with out words how awesome this critter, created by Alan Fomorin, is. Well done Alan. Well done.&lt;/p&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/dragon/050/frog.png&quot; alt=&quot;Giant Vampire Frog&quot; /&gt;
+				&lt;figcaption&gt;This is the best thing ever&lt;/figcaption&gt;
+			&lt;/figure&gt;
+			&lt;ul class=&quot;spaced-list unstyled&quot;&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Frequency:&lt;/strong&gt; &lt;em&gt;Uncommon&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;No. Appearing:&lt;/strong&gt; &lt;em&gt;3-18&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Armor Class:&lt;/strong&gt; &lt;em&gt;5&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Move:&lt;/strong&gt; &lt;em&gt;6&quot;/18&quot;&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Hit Dice:&lt;/strong&gt; &lt;em&gt;2&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;% in Lair:&lt;/strong&gt; &lt;em&gt;80%&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Treasure Type:&lt;/strong&gt; &lt;em&gt;Nil&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;No. of Attacks:&lt;/strong&gt; &lt;em&gt;3&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Damage/Attack:&lt;/strong&gt; &lt;em&gt;1-2/1-2/1-6&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Special Attacks:&lt;/strong&gt; &lt;em&gt;Drain blood&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Special Defenses:&lt;/strong&gt; &lt;em&gt;50% attack aimed at the vampire frog will hit the victim instead.&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Magic Resistance:&lt;/strong&gt; &lt;em&gt;Standard&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Intelligence:&lt;/strong&gt; &lt;em&gt;Animal&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Alignment:&lt;/strong&gt; &lt;em&gt;Neutral&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Size:&lt;/strong&gt; &lt;em&gt;S&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Psionic Ability:&lt;/strong&gt; &lt;em&gt;Nil&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Attack/Defense Modes:&lt;/strong&gt; &lt;em&gt;Nil&lt;/em&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;div class=&quot;span-12 col&quot;&gt;
+			&lt;div class=&quot;endnote&quot;&gt;&lt;/div&gt;	
+			
+&lt;div class=&quot;related-posts&quot;&gt;
+ &lt;h2&gt;Related Articles&lt;/h2&gt;
+  &lt;ul class=&quot;spaced-list unstyled&quot;&gt;
+	
+	  
+	  
+	                         
+	
+	  
+	  
+	                         
+	
+	  
+	  
+	  
+	    &lt;li&gt;&lt;a href=&quot;/articles/adventure-003.html&quot;&gt;Skyline to the Sea&lt;/a&gt;&lt;/li&gt;
+	                         
+	
+	  
+	  
+	  
+	    &lt;li&gt;&lt;a href=&quot;/articles/dragon-048.html&quot;&gt;The Dragon in Review, Issue Forty-Eight&lt;/a&gt;&lt;/li&gt;
+	                         
+	
+	  
+	  
+	  
+	    &lt;li&gt;&lt;a href=&quot;/articles/adventure-002.html&quot;&gt;Into the Mountains&lt;/a&gt;&lt;/li&gt;
+	                         
+	
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Wed, 27 Jul 2016 00:00:00 -0500</pubDate>
+        <link>http://conspiracyofshadows.com/articles/dragon-050.html</link>
+        <guid isPermaLink="true">http://conspiracyofshadows.com/articles/dragon-050.html</guid>
+        
+        <category>role playing game rpg dragon magazine reviews</category>
+        
+        
+        <category>articles</category>
+        
+      </item>
+    
+      <item>
+        <title>Marco Polo: Season Two</title>
+        <description>&lt;section class=&quot;header&quot;&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-6 col&quot;&gt;
+		&lt;div class=&quot;hgroup&quot;&gt;
+			&lt;p class=&quot;post-meta&quot;&gt;Jul 20, 2016&lt;/p&gt;
+			&lt;h1&gt;Marco Polo: Season Two&lt;/h1&gt;
+		&lt;/div&gt;
+			&lt;img src=&quot;/assets/img/musings/marco-polo.jpg&quot; /&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;review continued&quot;&gt;
+	&lt;div class=&quot;content gutters&quot;&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-6 col&quot;&gt;
+		&lt;p&gt;This epic adventure follows a young Marco Polo, who finds himself in the court of the great Kublai Khan and must navigate a world of greed, betrayal and sexual intrigue as the Mongol leader wages a bloody campaign to become Emperor of the World. Re-creating the legendary explorer's 13th century exploits in the Far East, this historical drama chronicles the intrigues, duplicity and greed running rampant in the court of the Mongolian ruler Khan.&lt;/p&gt;
+		&lt;p class=&quot;text-right&quot;&gt;&lt;em&gt;~ Amazon.com Summary&lt;/em&gt;&lt;/p&gt;
+			&lt;p&gt;When the first season of this show came out, I enjoyed it, but wasn't blown away. It had some serious high points, but also some wooden acting at times. Enjoyable, but not in a way that gives you the vapors.&lt;/p&gt;
+			&lt;p&gt;This second season though... Damn was it good. It has pushed it's way to the top of the list for Netflix produced TV shows for me and ahead of anything HBO is doing right now (though those first 20 minutes of the last episode of Game of Thrones was pretty amazing).&lt;/p&gt;
+			&lt;p&gt;If you gave it a try with the first season and weren't thrilled, I think you should give it one more go.&lt;/p&gt;
+				&lt;div class=&quot;youtube&quot;&gt;
+					&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OXfgvcJ5T8E&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;	
+	&lt;/div&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;div class=&quot;span-12 col&quot;&gt;
+			&lt;div class=&quot;endnote&quot;&gt;&lt;/div&gt;	
+			
+&lt;div class=&quot;related-posts&quot;&gt;
+ &lt;h2&gt;Related Articles&lt;/h2&gt;
+  &lt;ul class=&quot;spaced-list unstyled&quot;&gt;
+	
+	  
+	  
+	                         
+	
+	  
+	  
+	                         
+	
+	  
+	  
+	  
+	    &lt;li&gt;&lt;a href=&quot;/articles/dragon-048.html&quot;&gt;The Dragon in Review, Issue Forty-Eight&lt;/a&gt;&lt;/li&gt;
+	                         
+	
+	  
+	  
+	  
+	    &lt;li&gt;&lt;a href=&quot;/articles/adventure-003.html&quot;&gt;Skyline to the Sea&lt;/a&gt;&lt;/li&gt;
+	                         
+	
+	  
+	  
+	  
+	    &lt;li&gt;&lt;a href=&quot;/articles/dragon-047.html&quot;&gt;The Dragon in Review, Issue Forty-Seven&lt;/a&gt;&lt;/li&gt;
+	                         
+	
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Wed, 20 Jul 2016 00:00:00 -0500</pubDate>
+        <link>http://conspiracyofshadows.com/articles/marco-polo.html</link>
+        <guid isPermaLink="true">http://conspiracyofshadows.com/articles/marco-polo.html</guid>
+        
+        <category>marco polo netflix tv musings</category>
+        
+        
+        <category>articles</category>
+        
+      </item>
+    
+      <item>
+        <title>Conspiracy of Shadows: RPG</title>
+        <description>&lt;section class=&quot;header&quot;&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-6 col&quot;&gt;
+		&lt;div class=&quot;hgroup&quot;&gt;
+			&lt;p class=&quot;post-meta&quot;&gt;Jun 14, 2016&lt;/p&gt;
+			&lt;h1&gt;Conspiracy of Shadows: RPG&lt;/h1&gt;
+		&lt;/div&gt;
+			&lt;img src=&quot;/assets/img/articles/css.jpg&quot; /&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+&lt;section class=&quot;review continued&quot;&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-6 col&quot;&gt;
+			&lt;p&gt;&lt;span class=&quot;first-letter-box&quot;&gt;&lt;span&gt;C&lt;/span&gt;&lt;/span&gt;
+				&lt;strong&gt;&lt;em&gt;onspiracy of Shadows&lt;/em&gt;&lt;/strong&gt; is a play on the dark gothic fantasy role-playing games I so enjoyed in the 90's. In it you take on the role of the overwhelmed but determined heroes on an impossible quest to save the world from darkness. In doing so you explore gothic castles, face tainted monstrosities, and strive against the agents of a twisted conspiracy.&lt;/p&gt;
+			&lt;p&gt;This is a game about being the hero. It is about drawing a line in the sand and shaking your fist against the night. It isn't about survival, but about ensuring the world's survival.&lt;/p&gt;
+			&lt;p&gt;After a few years of tinkering and months of writing I finally have a full draft of the core rules. Below is a link to a PDF of the most current draft. It contains all the rules to start play. The draft will be updated as editorial continues. If you are interested in doing some playtesting and providing feedback, let me know over at the &lt;a href=&quot;https://www.facebook.com/ConspiracyofShadows/&quot;&gt;Conspiracy of Shadows Facebook page&lt;/a&gt; and I will send you a printed copy of the most recent draft.&lt;/p&gt;
+			&lt;p&gt;&lt;a href=&quot;/downloads/editorial-draft-1.0.pdf&quot; target=&quot;_blank&quot; class=&quot;button&quot;&gt;Conspiracy of Shadows Core&lt;br /&gt; Draft 1.0&lt;/a&gt;&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;div class=&quot;span-12 col&quot;&gt;
+			&lt;div class=&quot;endnote&quot;&gt;&lt;/div&gt;	
+			
+&lt;div class=&quot;related-posts&quot;&gt;
+ &lt;h2&gt;Related Articles&lt;/h2&gt;
+  &lt;ul class=&quot;spaced-list unstyled&quot;&gt;
+	
+	  
+	  
+	  
+	    &lt;li&gt;&lt;a href=&quot;/games/apprentice.html&quot;&gt;Apprentice&lt;/a&gt;&lt;/li&gt;
+	                         
+	
+	  
+	  
+	                         
+	
+	  
+	  
+	  
+	    &lt;li&gt;&lt;a href=&quot;/games/rune-thrower.html&quot;&gt;Rune Caster&lt;/a&gt;&lt;/li&gt;
+	                         
+	
+	  
+	  
+	                         
+	
+	  
+	  
+	                         
+	
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Tue, 14 Jun 2016 10:21:23 -0500</pubDate>
+        <link>http://conspiracyofshadows.com/games/cos-core.html</link>
+        <guid isPermaLink="true">http://conspiracyofshadows.com/games/cos-core.html</guid>
+        
+        <category>role playing game rpg mechanics rules conspiracy of shadows core rune caster dice futhark</category>
+        
+        
+        <category>games</category>
+        
+      </item>
+    
+      <item>
+        <title>Skyline to the Sea</title>
+        <description>&lt;section class=&quot;header&quot;&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-6 col&quot;&gt;
+		&lt;div class=&quot;hgroup&quot;&gt;
+			&lt;p class=&quot;post-meta&quot;&gt;May 7, 2016&lt;/p&gt;
+			&lt;h1&gt;Skyline to the Sea&lt;/h1&gt;
+		&lt;/div&gt;
+			&lt;img src=&quot;/assets/img/articles/adventure/thirty-miles/cover.jpg&quot; /&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;review continued&quot;&gt;
+	&lt;div class=&quot;content gutters&quot;&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-6 col&quot;&gt;
+			&lt;p&gt;&lt;span class=&quot;first-letter-box&quot;&gt;&lt;span&gt;W&lt;/span&gt;&lt;/span&gt;hen I got out to California the first thing I did was look for outdoors things to do. The hiking in the bay area is amazing and it didn't take me too long to find the site, &lt;strong&gt;&lt;a href=&quot;http://www.redwoodhikes.com/&quot; target=&quot;_blank&quot;&gt;Redwood Hikes&lt;/a&gt;&lt;/strong&gt;. After my solo quest in Big Basin I knew I wanted to tackle the &lt;a href=&quot;http://www.redwoodhikes.com/BigBasin/S-to-S.html&quot; target=&quot;_blank&quot;&gt;Skyline-to-the-Sea Trail&lt;/a&gt;. Of course being me, I wasn't going to take 3 days to do it or take the shorter route.&lt;/p&gt;
+			&lt;p&gt;The trick from the beginning was to do this as a one way hike, being dropped off at &lt;em&gt;Castle Rock State Park&lt;/em&gt; and picked up at &lt;em&gt;Waddell Beach&lt;/em&gt;. I wasn't gonna use Lyft or a cab because that would be insane. Luckily Jason was more than willing to drop me off early in the morning, spend the day golfing and surfing, before ultimately picking up my exhausted ass at the end.&lt;/p&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/articles/adventure/thirty-miles/StoSaltprofilepreview.gif&quot; data-action=&quot;zoom&quot; alt=&quot;Profile Preview&quot; /&gt;
+				&lt;figcaption&gt;As you can see, it is a downhill slog with a bunch of peaks along the way. Source: &lt;a href=&quot;http://www.redwoodhikes.com/BigBasin/S-to-S.html&quot; target=&quot;_blank&quot;&gt;Redwood Hikes&lt;/a&gt;&lt;/figcaption&gt;
+			&lt;/figure&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/articles/adventure/thirty-miles/01-trailhead.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;Taken at the Castle Rock Trailhead&quot; /&gt;
+				&lt;figcaption&gt;I didn't want to start with a picture of the Castle Rock parking lot so here is a picture just past the trailhead.&lt;/figcaption&gt;
+			&lt;/figure&gt;	
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/StoSmap1.jpg&quot; alt=&quot;Map of Castle Rock State Park&quot; /&gt;
+				&lt;figcaption&gt;I purchased this map and used that as my guide through the entire hike. Source: &lt;a href=&quot;http://www.redwoodhikes.com/BigBasin/S-to-S.html&quot; target=&quot;_blank&quot;&gt;Redwood Hikes&lt;/a&gt;&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/02-firstmarker.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;I was super excited when I hit my first marker not too far from the trailhead.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/03.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;The morning was lovely. Nice and cool and look! A babbling brook!&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/04.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;The trail leading to the waterfall in Castle Rock State Park.&lt;/figcaption&gt;
+			&lt;/figure&gt;	
+			&lt;div class=&quot;youtube&quot;&gt;
+				&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/BTKtysI4K0E?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+			&lt;/div&gt;		
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/05.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;The mountains were covered in this lingering mist for the entire morning and the trail was empty of people at this point.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/06.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;I had already hiked Castle Rock State Park, doing the Saratoga Gap Loop there, so this was familiar territory. The only difference is I am going in the opposite direction.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/07.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;The flowers were in full bloom along the trail.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/08.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;The Patrick Charles Allen memorial grove of readwoods, not too far from the falls.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/09.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;Later on, I will miss the cool mists as the humidity spikes and the sun comes out on the trail.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;div class=&quot;youtube&quot;&gt;
+				&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NecRi7x3DEI?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+			&lt;/div&gt;		
+			&lt;div class=&quot;youtube&quot;&gt;
+				&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ybMdPzX-3fg?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+			&lt;/div&gt;		
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/11.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;The first time I came to Castle Rock we got lost at these stupid campsites. This time I had a map so didn't happen.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/12.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;Seeing signs like this made me angry. Not because I wanted to go off the trail, but the fact that I saw signs of people doing exactly that.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/13.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;The Benjamin Shore, M.D. and Margaret Dawson Shore Memorial Grove was kind of the saddest grove along the trail.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/14.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;First selfie along the Tavertine Springs Trail. I am still smiling at this point.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/16.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;This is where I begin to move away from the beautiful ridgeline and into the humidity ridden woods.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/18-jason.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;Ken's Sunglasses! A running gag the entire time I was in California was Jason stealing Ken's sunglasses and taking pictures of them in different locations.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/19.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;The mists are burning away!&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;div class=&quot;youtube&quot;&gt;
+				&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pbwjMFvZweA?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+			&lt;/div&gt;		
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/21.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;This grove marks where I finally get on the Skyline-to-the-Sea Trail.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/StoSmap2.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;I thought getting onto the Skyline-to-the-Sea trail felt like a milestone, but I still had so many miles to go. Look at all of this hiking I have to do just to get to Big Basin. Source: &lt;a href=&quot;http://www.redwoodhikes.com/BigBasin/S-to-S.html&quot; target=&quot;_blank&quot;&gt;Redwood Hikes&lt;/a&gt;&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/22.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;Seriously, I can't get enough of these views.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/23.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;The first proof of what trail I am on other than being able ot orient myself with the map.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/24.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;Second selfie. Tired and in front of fire scared redwoods.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/25.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;At this point, I started making noise as I moved, loosening my pack. I was pretty sure this is a mountain lion paw print.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/26.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;The trail moves me out of the woods and back to the ridgeline and views like this.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/27.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;Selfie number three as the sun makes a full on appearance. Soon the heat will come. Soon.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/28.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;The trail took me a few hundred yards away from the road for a time. This is car number one and it has been here a long time.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/29.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;Car number two has been here even longer.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/30.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;These are just the parts of a car that clearly flew apart.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/31.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;Lots of giant, burned out redwoods along the trail.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/35.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;I have no idea why I took this picture.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+		&lt;/div&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content gutters&quot;&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-5 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/32.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;Sad selfie. Clearly tired. Humidity is kicking in. Also note, I am wearing a San Jose Giants shirt, not an SF Giants shirt.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+		&lt;/div&gt;			
+		&lt;div class=&quot;span-5 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/34.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;I love these old trail markers. I didn't find many on this hike, but found them all over the place on other hikes.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+		&lt;/div&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content gutters&quot;&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-6 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/36.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;And suddenly a happy selfie. I have no recollection what was going through my head, but it was a long time to be alone with your thoughts and no technological distractions.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;div class=&quot;youtube&quot;&gt;
+				&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-Q5Jg-HF_0E?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+			&lt;/div&gt;		
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/38.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;This is where the prelude to my near death experience began. Odd sandstone formations.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/39.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;Again, very cool rock formations, but little did I know...&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/40.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;Here is the trail that would lead to me almost falling off the mountain. See that rock down the trail, that is where it happens. The trail was blocked by rubble so I climbed up the rock to get over it, slipped on the sandstone and would have fallen off the mountain if my heel didn't slam into a very sharp rock.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;div class=&quot;youtube&quot;&gt;
+				&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pzvyu-SduKc?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+			&lt;/div&gt;		
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/42.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;While I sat shaking after my near death experience I had an amazing view.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/43.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;Again with the pretty flowers.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/44.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;Undetered by my very bruised and soon to be covered in a giant blister, I decide to muster on. I didn't know it at the time, but the mesh heel of my hiking boots had broken in my fall and would lead to some serious issues as the hike progressed.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/45.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;This grove is just north of where I make the turn towards Big Basin.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/StoSmap3.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;Loving Parents Grove is the LP at the top of the trail. Near one of those beautiful view spots is where I almost went over. Source: &lt;a href=&quot;http://www.redwoodhikes.com/BigBasin/S-to-S.html&quot; target=&quot;_blank&quot;&gt;Redwood Hikes&lt;/a&gt;&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;div class=&quot;youtube&quot;&gt;
+				&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rDbpiYzyPvk?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+			&lt;/div&gt;		
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/47.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;Trees growing out of rocks are amazing. Serves to remind me that after we destroy ourselves on this planet, eventually all of our capitalist monuments will be consumed by wildlife.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/48.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;If a tree falls in a forest... Yeah I started to go there but stopped myself.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/49.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;I just thought this was some fascinating symetry.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/50.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;LUNCH! At this point I have made it to the headquarters of Big Basin State Park, and it was jam packed with people. Boo!&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/51.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;This looks familiar. My solo quest took me to Berry Creek Falls, only this time I am taking that 12 mile trip to Waddell Beach.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/52.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;You are here. Notice that where I am going doesn't even fit in the picture.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/53.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;I have to step back here so I can get the entire 12 mile trek on film, so to speak.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/54.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;Clearly I am tired because I didn't take a single picture of anything between the park headquarters and the makeshift, seasonal bridge that leads me to the last leg of my hike.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/55.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;This is the face of an exhausted man with a bum foot and miles to go.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/adventure/thirty-miles/56.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;figcaption&gt;I hate this map. I thought I was close then saw this and realized I had roughly 7 miles to go. I stopped taking pictures cause no way was I up to it anymore. I just wanted to get to the ocean.&lt;/figcaption&gt;
+			&lt;/figure&gt;			
+			&lt;div class=&quot;youtube&quot;&gt;
+				&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/T4VqRKbWBts?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+			&lt;/div&gt;		
+		&lt;/div&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;div class=&quot;span-12 col&quot;&gt;
+			&lt;div class=&quot;endnote&quot;&gt;&lt;/div&gt;	
+			
+&lt;div class=&quot;related-posts&quot;&gt;
+ &lt;h2&gt;Related Articles&lt;/h2&gt;
+  &lt;ul class=&quot;spaced-list unstyled&quot;&gt;
+	
+	  
+	  
+	                         
+	
+	  
+	  
+	  
+	    &lt;li&gt;&lt;a href=&quot;/articles/adventure-002.html&quot;&gt;Into the Mountains&lt;/a&gt;&lt;/li&gt;
+	                         
+	
+	  
+	  
+	                         
+	
+	  
+	  
+	  
+	    &lt;li&gt;&lt;a href=&quot;/articles/dragon-048.html&quot;&gt;The Dragon in Review, Issue Forty-Eight&lt;/a&gt;&lt;/li&gt;
+	                         
+	
+	  
+	  
+	  
+	    &lt;li&gt;&lt;a href=&quot;/articles/dragon-year-one.html&quot;&gt;The Dragon in Review, Year One&lt;/a&gt;&lt;/li&gt;
+	                         
+	
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Sat, 07 May 2016 00:00:00 -0500</pubDate>
+        <link>http://conspiracyofshadows.com/articles/adventure-003.html</link>
+        <guid isPermaLink="true">http://conspiracyofshadows.com/articles/adventure-003.html</guid>
+        
+        <category>adventure big basin castle rock mountains state park solo 30 mile skyline-to-the-sea trail</category>
+        
+        
+        <category>articles</category>
+        
+      </item>
+    
+      <item>
+        <title>The Tapestry Deck</title>
+        <description>&lt;section class=&quot;header&quot;&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-6 col&quot;&gt;
+		&lt;div class=&quot;hgroup&quot;&gt;
+			&lt;p class=&quot;post-meta&quot;&gt;Apr 1, 2016&lt;/p&gt;
+			&lt;h1&gt;The Tapestry Deck&lt;/h1&gt;
+		&lt;/div&gt;
+			&lt;img src=&quot;/assets/img/artwork/suit-dooms/banners.jpg&quot; /&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;review continued&quot;&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-6 col non-responsive&quot;&gt;
+			&lt;p&gt;&lt;span class=&quot;first-letter-box&quot;&gt;&lt;span&gt;I&lt;/span&gt;&lt;/span&gt;
+				began what I thought would be a short experiment in card design in 2013. I had always wanted to create my own Tarot Deck and dipped my toes in that fall while I was fumbling around looking for something to do. I also was looking to relearn how to work in color. The previous decade I had spent working mostly with black ink in various ways and wanted to flex atrophed muscles.&lt;/p&gt;
+				&lt;h2&gt;The Dooms&lt;/h2&gt;
+			&lt;p&gt;Honestly, this was all driven by me overpaying for illustration markers and illustration paper and not knowing what to do with it. I started without a true plan for what cards I was going to make and simply decided upon &lt;em&gt;The Fool&lt;/em&gt;. He was quickly followed by &lt;em&gt;The Dark Master&lt;/em&gt;, &lt;em&gt;The Shepherd&lt;/em&gt;,&lt;em&gt;The Traitor&lt;/em&gt;, &lt;em&gt;The Innocent&lt;/em&gt;, and &lt;em&gt;The Puppet&lt;/em&gt;, which were all done on the &quot;right&quot; side of the paper. You can tell by looking at these pieces by how the colors aren't as blended that the paper was toothier.&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content non-responsive gutters&quot;&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-dooms/theFool.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Fool&quot; /&gt;
+				&lt;figcaption&gt;The Fool seemed like a natural place to start. He is a classical trope from Tarot decks.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-dooms/theDarkMaster.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Dark Master&quot; /&gt;
+				&lt;figcaption&gt;The Dark Master I thought would be more interesting as a soldier and not the classic wizard trope.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-dooms/theShepherd.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Shepherd&quot; /&gt;
+				&lt;figcaption&gt;The Shepherd was an attempt to break down the idea that age = wisdom.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content non-responsive gutters&quot;&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-dooms/theTraitor.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Traitor&quot; /&gt;
+				&lt;figcaption&gt;I like to imagine The Traitor whispering, &quot;I'm sorry&quot;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-dooms/theInnocent.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Innocent&quot; /&gt;
+				&lt;figcaption&gt;The Innocent was straight up an excuse to draw my oldest child.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-dooms/thePuppet.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Puppet&quot; /&gt;
+				&lt;figcaption&gt;With The Puppet I tried to avoid the unknowable puppet master trope.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-6 col non-responsive&quot;&gt;
+			&lt;p&gt;After hammering out these six something kind of magical happened. I accidently used the &quot;wrong&quot; side of the paper, which is all glossy and doesn't absorb the ink as readily. Suddenly a somewhat unsatisfying exprience became magical. You could see the &quot;brush&quot; strokes and blend colors. That colorless blender became useful.&lt;/p&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-dooms/theCharlatan.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Charlatan&quot; /&gt;
+				&lt;figcaption&gt;Black suddenly got harder but everything else got easier when I worked on The Charlatan.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content non-responsive gutters&quot;&gt;
+		&lt;div class=&quot;span-6 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-dooms/theWarden-wip.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Warden WIP&quot; /&gt;
+				&lt;figcaption&gt;With The Warden you can see me clearly exploring layering in color.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-6 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-dooms/theWarden.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Warden Completed&quot; /&gt;
+				&lt;figcaption&gt;What is amazing to me is this is still one of the stronger pieces.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-6 col non-responsive&quot;&gt;
+			&lt;p&gt;I knew I wanted to do a Ghost and I knew that I wanted it to be transparent. What I didn't know what how the hell I was going to pull that off. I'm not sure what made me think to grab some vellum and draw it on there in blue marker, cut it out and glue in on the illustration, but I am glad I did. It wouldn't be the last time I use this technique and it harkens back to my copious use of collage in college.&lt;/p&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-dooms/theGhost.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Ghost&quot; /&gt;
+				&lt;figcaption&gt;Seriously, The Ghost is kind of amazing because it totally works.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+			&lt;p&gt;At some point I realized that this was moving from an experiment and decided on making a thing. Really it ended up being multiple things, but either way I needed to design the back of the cards. As you may have guessed ravens have a strong visual influence on what I make, so I started with the idea of that being central to the card.&lt;/p&gt;
+			&lt;p&gt;From the Ravens I moved to the idea of the Fates, mixed in some Norse influence through the wolves and trees, and wrapped it in the art deco via medieval illumination style I had been cultivating for the design of all of this. In the end, I came up with something I was happy with, but not something that was easy to print out effectively, I later learned.&lt;/p&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-dooms/cardBack.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Back&quot; /&gt;
+				&lt;figcaption&gt;I may not be an original, but I sure as hell can remix multiple influences into a cohesive idea.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+			&lt;p&gt;From that point onward, the &lt;em&gt;Dooms&lt;/em&gt; (High Arcana for Tarot folks) of the Tapestry Deck just sort of flowed from one idea into another. I wanted to capture primarl archetypes and decided to ignore a lot of what makes Tarot decks hum. This was my own thing, built on my own weird mix of mythology that had come out of my other art, game design, and fiction.&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content non-responsive gutters&quot;&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-dooms/theBeast.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Beast&quot; /&gt;
+				&lt;figcaption&gt;There is something satisfying about not drawing the monster or only drawing parts of it to hint at the dread.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-dooms/theFates.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Fates&quot; /&gt;
+				&lt;figcaption&gt;If anything terrifies me in this world, it is the idea that the fates of mythology could be real and waiting to cut my string.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-dooms/theHangedGod.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Hanged God&quot; /&gt;
+				&lt;figcaption&gt;I have no idea how this manifested. I knew I wanted to do a version of the Hanged Man, but to harken back to the Wodan/Odin myth.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content non-responsive gutters&quot;&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-dooms/theHorseman.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Horseman&quot; /&gt;
+				&lt;figcaption&gt;If you don't like the headless horseman you need to go away. Seriously, there is so much weird and cool about the idea of that figure.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-dooms/theJutun.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Jutun&quot; /&gt;
+				&lt;figcaption&gt;The Jutun are the ancient big bad in my head and I wanted to capture that horrifying moment in which a man finds out they are real and awful.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-dooms/theLost.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Lost&quot; /&gt;
+				&lt;figcaption&gt;I love and hate this peice because I think it is compositionally strong, but don't think I captured the idea I was trying to convey.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content non-responsive gutters&quot;&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-dooms/theRaven.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Raven&quot; /&gt;
+				&lt;figcaption&gt;The idea behind The Raven was always to be this terrifying, unexplainable force. I think I got that here, but may have skewed too modern in the design.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-dooms/theSanctuary.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Sanctuary&quot; /&gt;
+				&lt;figcaption&gt;When I first worked up this piece I was trying to add some optimism to the deck. So missed it. These monk guys are freaky and you know this place is sour.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-dooms/theTorturers.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Torturers&quot; /&gt;
+				&lt;figcaption&gt;I think I was rereading the New Sun books when I worked on this. It is the only explaination I can offer for even including this card in the deck. Feels maybe a little too superhero-y.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content non-responsive gutters&quot;&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-dooms/theWildHunt.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Wild Hunt&quot; /&gt;
+				&lt;figcaption&gt;I wanted to avoid the huntsman and his hounds. I thought a ghost stag headed woman would be much more terrifying.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col &quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-dooms/theHoodedMan.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Hooded Man&quot; /&gt;
+				&lt;figcaption&gt;I wanted to capture the archetype of the seducer/rapist found in all folklore and I think I made this plenty creepy to do so.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-dooms/theAvenger.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Avenger&quot; /&gt;
+				&lt;figcaption&gt;Again, I was looking to not show the subject but imply the archetype through mood. Clearly channeling Mignola.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-6 col non-responsive&quot;&gt;
+			&lt;h2&gt;The Suit of Swords&lt;/h2&gt;
+			&lt;p&gt;As I begain to plan the actual suits and design the icons for each, I stumbled on the idea of telling a story rather than showing the number of &lt;em&gt;X&lt;/em&gt; on each card. While I have seen really clever renditions of tarot cards with 10 swords on them, it really isn't my thing. So instead I pictured in my head a warrior woman and her journey.&lt;/p&gt;
+			&lt;p&gt;I made a conscious choice to use a woman, and a woman of color in particular, as the focus of the story I wanted to tell. That choice was in one part a response to all of the male heavy driven fantasy art and in another part to challenge me as an artist.&lt;/p&gt;
+			&lt;p&gt;I get dudes. I get white dudes with swords. I'm a white dude with a sword, so telling my story easy and frankly not that exciting. However, telling the story of a woman of color in a fantasy world without objectification is compelling. Who doesn't want to make compelling art or tell compelling stories?&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content non-responsive gutters&quot;&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-swords/01-TornSky.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Torn Sky&quot; /&gt;
+				&lt;figcaption&gt;I wanted to start my story with something legendary, and what is more legendary than a magic rock tearing through the sky and shaking the foundations of those who witness?&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col &quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-swords/02-Discovery.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Discovery&quot; /&gt;
+				&lt;figcaption&gt;It was important to me to show my heroine as a sort of everywoman, doing her own dirty work. Too often I think we forget about the dirty parts of life that feed into the epic.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-swords/03-Forging.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Forging&quot; /&gt;
+				&lt;figcaption&gt;Being the suit of the swords, I knew I needed to forge a singlular &lt;strong&gt;Sword&lt;/strong&gt;. The story wouldn't be complete without it and she needed to be the person to do it.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content non-responsive gutters&quot;&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-swords/04-Prayer.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Prayer&quot; /&gt;
+				&lt;figcaption&gt;I'm not religious by any mean, but I can appreaciate the power of religion as a part of a story. I wanted the sacred to be an important part of her narrative.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col &quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-swords/05-Meeting.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Meeting&quot; /&gt;
+				&lt;figcaption&gt;Ok I am a sucker for a good love story, and in my mind there is nothing better than when those prospective lovers face each other as equals. You know he end up unhorsed.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-swords/06-Courtship.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Courtship&quot; /&gt;
+				&lt;figcaption&gt;While a sucker for a good love story, I hate the courtship part in narratives. I wanted to capture the courtship as something very different reflecting my hero and her dude.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content non-responsive gutters&quot;&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-swords/07-PerfectMoment.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Perfect Moment&quot; /&gt;
+				&lt;figcaption&gt;The first half of the deck is filled with hope and promise, but the later half had to be tragic and dark. I wanted to do some foreshadowing, but capture their love amongst the mess.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col &quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-swords/08-TheEnd.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Beginning of the End&quot; /&gt;
+				&lt;figcaption&gt;You knew this wasn't going to end well for our couple but I kind of suprised myself by going the zombie bite route. I didn't want him to die in a boring manner, but in a heart breaking one.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-swords/09-Need.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Unfortunate Need&quot; /&gt;
+				&lt;figcaption&gt;She had to kill him. It was the only way I could see this story unfolding, with love being both the thing sacrificed and the instrument to bring about the sacrifice.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content non-responsive gutters&quot;&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-swords/10-Escape.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Escape&quot; /&gt;
+				&lt;figcaption&gt;At this point I was planning the next suit and where I wanted to take it. This meant getting her out of the hot mess that is this story and towards the next story.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col &quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-swords/11-PerfectGift.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Perfect Gift&quot; /&gt;
+				&lt;figcaption&gt;As a dad, I can say my kids are the perfect gift. I think they help humanize us in life and characters in stories so it was important for my heroine to walk out of this tragedy with some hope.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-swords/12-LongRoad.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Long Road&quot; /&gt;
+				&lt;figcaption&gt;I like it when stories give me a moment at the end to be contemplative. Where did it start, where is it going, why the hell did I finish this at all? This card is meant to be that epilogue.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-6 col non-responsive&quot;&gt;
+			&lt;h2&gt;The Suit of Flames&lt;/h2&gt;
+			&lt;p&gt;While I was planning out the &lt;strong&gt;suit of swords&lt;/strong&gt;, I knew I wanted to tell the next part of her story. When I eventually decided she would have a child I knew I wanted to go full lone wolf and cub, taking a warrior mom and her son and watch him grow up in the context of surviving the horrors of the world I invented. The two of them are important and targets and kind of like &lt;em&gt;Terminator 2&lt;/em&gt;, they are always on the run... until they are not.&lt;/p&gt;
+			&lt;div class=&quot;youtube&quot;&gt;
+				&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Axot3j7n5BU?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+			&lt;/div&gt;		
+		&lt;/div&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content non-responsive gutters&quot;&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-flames/01-BullGod.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Bull God&quot; /&gt;
+				&lt;figcaption&gt;I have no idea where this idea came from, but I imagine my heroes surviving and being warned of their danger by this first encounter.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col &quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-flames/02-Axeman.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Axeman&quot; /&gt;
+				&lt;figcaption&gt;The Axeman has long been a part of the mythology of Conspiracy of Shadows. He sits in this &lt;em&gt;Sleepy Hollow&lt;/em&gt; meets &lt;em&gt;Texas Chainsaw Massacre&lt;/em&gt; space.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-flames/03-Archer.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Archer&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content non-responsive gutters&quot;&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-flames/04-Destroyer.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Destroyer&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col &quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-flames/05-Parasites.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Parasites&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-flames/06-Purifier.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Purifier&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content non-responsive gutters&quot;&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-flames/07-Savior.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Savior&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col &quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-flames/08-Warlord.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Warlord&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-flames/09-Guardian.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Guardian&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content non-responsive gutters&quot;&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-flames/10-DeadEaters.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Dead Eaters&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col &quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-flames/11-Deathless.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Deathless&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-flames/12-DeadQueen.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Dead Queen&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-6 col non-responsive&quot;&gt;
+			&lt;h2&gt;The Suit of Stars&lt;/h2&gt;
+			&lt;p&gt;Description&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content non-responsive gutters&quot;&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-stars/01-theBull.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Bull&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col &quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-stars/02-theCoyote.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Coyote&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-stars/03-theCrab.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Crab&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content non-responsive gutters&quot;&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-stars/04-theOurobaros.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Outobaros&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col &quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-stars/05-theBalance.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Balance&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-stars/06-theStag.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Stag&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content non-responsive gutters&quot;&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-stars/07-theMermaid.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Mermaid&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col &quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-stars/08-theLovers.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Lovers&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-stars/09-theUsurper.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Usurper&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content non-responsive gutters&quot;&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-stars/10-theHighPriest.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The High Priest&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col &quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-stars/11-theCarrionEater.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Carrion Eater&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-stars/12-theWolf.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Wolf&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-6 col non-responsive&quot;&gt;
+			&lt;h2&gt;The Suit of Coins&lt;/h2&gt;
+			&lt;p&gt;Description&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content non-responsive gutters&quot;&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-coins/01-theMercenary.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Mercenary&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col &quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-coins/02-theHunter.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Hunter&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-coins/03-theGuardsman.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Guardsman&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content non-responsive gutters&quot;&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-coins/04-theSkald.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Skald&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col &quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-coins/05-theApprentice.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Apprentice&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-coins/06-theCaravanMaster.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Caravan Master&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content non-responsive gutters&quot;&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-coins/07-theAnaSister.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Ana Sister&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col &quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-coins/08-theGuildsman.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Guildsman&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-coins/09-theInquisidar.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Inquisidar&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content non-responsive gutters&quot;&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-coins/10-theBearskin.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Bearskin&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col &quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-coins/11-theGalgagramr.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Galgagramr&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-4 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-src=&quot;/assets/img/artwork/suit-coins/12-theAlfarKing.jpg&quot; data-action=&quot;zoom&quot; alt=&quot;The Alfar King&quot; /&gt;
+				&lt;figcaption&gt;.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;div class=&quot;span-12 col&quot;&gt;
+			&lt;div class=&quot;endnote&quot;&gt;&lt;/div&gt;	
+			
+&lt;div class=&quot;related-posts&quot;&gt;
+ &lt;h2&gt;Related Articles&lt;/h2&gt;
+  &lt;ul class=&quot;spaced-list unstyled&quot;&gt;
+	
+	  
+	  
+	                         
+	
+	  
+	  
+	                         
+	
+	  
+	  
+	                         
+	
+	  
+	  
+	                         
+	
+	  
+	  
+	                         
+	
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Fri, 01 Apr 2016 10:21:23 -0500</pubDate>
+        <link>http://conspiracyofshadows.com/artwork/tapestry-deck.html</link>
+        <guid isPermaLink="true">http://conspiracyofshadows.com/artwork/tapestry-deck.html</guid>
+        
+        <category>conspiracy of shadows tapestry deck dooms art artwork illustration</category>
+        
+        
+        <category>artwork</category>
+        
+      </item>
+    
+      <item>
+        <title>The Dragon in Review, Issue Forty-Nine</title>
+        <description>&lt;section class=&quot;header&quot;&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-6 col&quot;&gt;
+		&lt;div class=&quot;hgroup&quot;&gt;
+			&lt;p class=&quot;post-meta&quot;&gt;Mar 31, 2016&lt;/p&gt;
+			&lt;h1&gt;The Dragon in Review, Issue Forty-Nine&lt;/h1&gt;
+		&lt;/div&gt;
+			&lt;img src=&quot;/assets/img/articles/dragon/049/cover.jpg&quot; /&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;review continued&quot;&gt;
+	&lt;div class=&quot;content gutters&quot;&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-6 col&quot;&gt;
+			&lt;p&gt;This issue of &lt;strong&gt;Dragon&lt;/strong&gt; is pretty full of interesting articles, both from a practical standpoint and from a &lt;em&gt;well that is interesting&lt;/em&gt; historical survey standpoint. We get some long-form journalism in the vein of &lt;em&gt;Rolling Stone&lt;/em&gt; or &lt;em&gt;The Atlantic&lt;/em&gt;, a series of articles and counter articles concerning Fantasy Role playing Tournaments, and lots of bits and bobs for actual gaming. All told, this is a pretty solid issue where things dovetailed nicely together to make it feel like a &lt;em&gt;real&lt;/em&gt; magazine.&lt;/p&gt;
+			&lt;h2&gt;Tim Hildebrandt in Detail&lt;/h2&gt;
+			&lt;p&gt;I will say it now, I have never been a huge fan of the &lt;strong&gt;Hildebrandt Brothers&lt;/strong&gt;. I have always respected their craft and really like a few of their &lt;strong&gt;Tolkien&lt;/strong&gt; pieces, but they never inspired me. Something about their work always felt static to me, much like Larry Elmore's work.&lt;/p&gt;
+			&lt;p&gt;Artistic inspiration is a tough thing to quantify. It grows and matures over time along with you as an artist and a person. There is no right or wrong about it. That all said, the long-form interview with Tim Hildebrandt in this issue is pretty great.&lt;/p&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/dragon/049/full-cover.jpg&quot; alt=&quot;Full Cover by Tim Hildebrandt&quot; class=&quot;scale&quot; /&gt;
+				&lt;figcaption&gt;With this special cover from Tim Hildebrandt, they break their current brand guidelines for covers.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+			&lt;p&gt;Written and photographed by &lt;strong&gt;Bryce Knorr&lt;/strong&gt; it reads like nothing else I have seen in this magazine. It is just a strong piece of journalism that doesn't have that fanzine gloss of adoration all over it. You get to see into the world of Tim Hildebrandt for a time and walk out of it all the better for it.&lt;/p&gt;
+			&lt;h2&gt;Fantasy Role Playing Tournaments?&lt;/h2&gt;
+			&lt;p&gt;As a historical note, the three articles in this issue regarding the flaws in role playing game tournaments is rather interesting. It opens with an article on how to more effectively judge tournaments, then moves onto how fix the AD&amp;amp;D Open, and ends with Mentzer's reply that it isn't quite so simple. It is a very interesting historical note considering how much a part of the convention scene this sort of play was.&lt;/p&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/dragon/049/tournament.png&quot; alt=&quot;Tournament Rules&quot; /&gt;
+				&lt;figcaption&gt;I don't think I will ever understand D&amp;amp;D Tournaments.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+			&lt;p&gt;For my own part, I have never understood the appeal of a D&amp;amp;D tournament. I understand that because of the war-gaming roots of the hobby there would be an appeal, but then why not just play in war game tournaments? Just like the irrational hatred of genre movies for some folks, I will never understand it.&lt;/p&gt;
+			&lt;h2&gt;Another NPC Class?&lt;/h2&gt;
+			&lt;p&gt;Why? Please tell me why these things are needed? Why is a samurai NPC class a thing and not just a class? What purpose does this really serve? What need is it filling?&lt;/p&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/dragon/049/the-samurai.png&quot; alt=&quot;The Samurai&quot; /&gt;
+				&lt;figcaption&gt;Regardless how silly NPC classes are, this image is hot.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+			&lt;p&gt;Maybe it is as simple as DM's want to play cool PC's in the game along side the party. Maybe the hundreds of monster options aren't good enough for them. Maybe the designers of these things just want to make classes without really thinking through the rules. Maybe people are just bored. I am with these types of articles.&lt;/p&gt;
+			&lt;h2&gt;Alchemy&lt;/h2&gt;
+			&lt;p&gt;This should be in the rules for anyone to use. Not quarantined off in an NPC class. This image is just the tip of the iceberg of the interesting stuff in this article to extend the Alchemist NPC class.&lt;/p&gt;
+			&lt;p&gt;It's criminal. Criminal I say.&lt;/p&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/dragon/049/alchemist.png&quot; alt=&quot;Alchemist Rules.&quot; /&gt;
+				&lt;figcaption&gt;Alchemy rules like this shouldn't be relegated to just NPCs.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+			&lt;h2&gt;Ed Greenwood Wants DM's to Cry&lt;/h2&gt;
+			&lt;p&gt;So I tried this very thing Greenwood is advocating, having the DM handle all the rules and let the players dive deep into the narrative. In theory it seems like a good idea. It is more narrative driven in theory, but in practice it is a nightmare. In my experience it is disempowering of the players and a logistical nightmare for the DM.&lt;/p&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/assets/img/social-share.png&quot; data-action=&quot;zoom&quot; data-src=&quot;/assets/img/articles/dragon/049/no-rules.png&quot; alt=&quot;No Rules For You&quot; /&gt;
+				&lt;figcaption&gt;No rules for you, one year.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;div class=&quot;span-12 col&quot;&gt;
+			&lt;div class=&quot;endnote&quot;&gt;&lt;/div&gt;	
+			
+&lt;div class=&quot;related-posts&quot;&gt;
+ &lt;h2&gt;Related Articles&lt;/h2&gt;
+  &lt;ul class=&quot;spaced-list unstyled&quot;&gt;
+	
+	  
+	  
+	                         
+	
+	  
+	  
+	                         
+	
+	  
+	  
+	  
+	    &lt;li&gt;&lt;a href=&quot;/articles/dragon-048.html&quot;&gt;The Dragon in Review, Issue Forty-Eight&lt;/a&gt;&lt;/li&gt;
+	                         
+	
+	  
+	  
+	  
+	    &lt;li&gt;&lt;a href=&quot;/articles/adventure-003.html&quot;&gt;Skyline to the Sea&lt;/a&gt;&lt;/li&gt;
+	                         
+	
+	  
+	  
+	  
+	    &lt;li&gt;&lt;a href=&quot;/articles/adventure-002.html&quot;&gt;Into the Mountains&lt;/a&gt;&lt;/li&gt;
+	                         
+	
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+
+</description>
+        <pubDate>Thu, 31 Mar 2016 00:00:00 -0500</pubDate>
+        <link>http://conspiracyofshadows.com/articles/dragon-049.html</link>
+        <guid isPermaLink="true">http://conspiracyofshadows.com/articles/dragon-049.html</guid>
+        
+        <category>role playing game rpg dragon magazine reviews</category>
+        
+        
+        <category>articles</category>
+        
+      </item>
+    
+      <item>
+        <title>The Dragon in Review, Issue Forty-Eight</title>
+        <description>&lt;section class=&quot;header&quot; style=&quot;background-image:url('../../img/articles/dragon/048/cover.jpg');&quot;&gt;
+	&lt;div class=&quot;content&quot;&gt;
+	&lt;aside class=&quot;span-3 col empty&quot;&gt;&lt;/aside&gt;
+	&lt;div class=&quot;span-6 col&quot;&gt;
+		&lt;p class=&quot;post-meta&quot;&gt;Mar 14, 2016&lt;/p&gt;
+		&lt;h1&gt;The Dragon in Review, Issue Forty-Eight&lt;/h1&gt;
+		&lt;p&gt;While I found a lot of this issue's content to be lacking, it did trigger a lot of thoughts. That is sometimes the case with these things and why I love &lt;strong&gt;Dragon&lt;/strong&gt; so much. It wasn't always the content itself or the art, but where my brain went in reaction to it. In some ways &lt;strong&gt;Dragon&lt;/strong&gt; is at it's best when it is prompting you to write the issue you wanted to see, not the one they presented you.&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;aside class=&quot;span-3 col empty&quot;&gt;&lt;/aside&gt;	
+	&lt;/div&gt;
+&lt;/section&gt;
+&lt;section class=&quot;review continued&quot;&gt;
+	&lt;div class=&quot;content gutters&quot;&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-10 col&quot;&gt;
+			&lt;h2&gt;Cos I'm the Taxman, Yeah, I'm the Taxman&lt;/h2&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content gutters&quot;&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+		&lt;aside class=&quot;span-5 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/img/loading.gif&quot; data-src=&quot;/img/articles/dragon/048/full-cover.jpg&quot; alt=&quot;Full Cover by Phil Foglio&quot; class=&quot;scale&quot; /&gt;
+				&lt;figcaption&gt;Phil  Foglio's artwork is always amusing to me.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/aside&gt;	
+		&lt;div class=&quot;span-5 col&quot;&gt;
+			&lt;p&gt;A funny thing happens when I see the great &lt;strong&gt;Phil Foglio's&lt;/strong&gt; artwork. It is always recognizable, which brings a smile to my face. This is always followed by an internal debate in my head because in my brain I mispronounce his name as &lt;em&gt;Foliogo&lt;/em&gt;. I have no idea what my problem is.&lt;/p&gt;
+			&lt;p&gt;Anyway, this cover is pleasantly amusing. It isn't by any streach of the imagination his best work, but it does it's job well. Considering how much of a pain in the ass taxes are for the average freelancer, I am doubly amused by the idea of adventurers getting hit by the tax man.&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+		
+&lt;/section&gt;
+&lt;section class=&quot;review continued&quot;&gt;
+	&lt;div class=&quot;content gutters&quot;&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-10 col&quot;&gt;
+			&lt;h2&gt;Tell Us a Little About Yourself&lt;/h2&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content gutters&quot;&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-5 col&quot;&gt;
+			&lt;p&gt;This article on finding the right DM to play with is pretty interesting. Not so much because of the content but because of how I met some of my closest friends through a &lt;a href=&quot;http://burningwheel.com&quot; target=&quot;_blank&quot;&gt;Burning Wheel&lt;/a&gt; game. It basically was a nerd interview.&lt;/p&gt;
+			&lt;p&gt;How it went down, I was pointed in their direction and we met a Cleo's on Chicago Ave. I walked in, found three guys sitting at a table and introduced myself. What followed was something similar to the &lt;em&gt;chemistry test&lt;/em&gt; we use when hiring folks at my work. You get a feel for interests, attitudes and personality quirks. All and all, I think a very effective way to find folks you want to spend time playing games with.&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-5 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/img/loading.gif&quot; data-src=&quot;/img/articles/dragon/048/dm-interview.png&quot; alt=&quot;Interviewing a DM&quot; /&gt;
+				&lt;figcaption&gt;None of this is bad advice really.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;	
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+&lt;section class=&quot;review continued&quot;&gt;
+	&lt;div class=&quot;content gutters&quot;&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-10 col&quot;&gt;
+			&lt;h2&gt;GAMA&lt;/h2&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content gutters&quot;&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-5 col&quot;&gt;
+			&lt;p&gt;I just thought this public announcement was interesting because of the ongoing debate when I got into game design way back in 2004. Back then the question was, &lt;em&gt;Is it worth joining GAMA as an independent game designer?&lt;/em&gt; Ultimately I along with many of my peers of that day thought no because the cost/benefit of the time. However, back in the day it had to make sense.&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;aside class=&quot;span-5 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/img/loading.gif&quot; data-src=&quot;/img/articles/dragon/048/gama.png&quot; alt=&quot;GAMA Announcement&quot; /&gt;
+				&lt;figcaption&gt;It's kinda like when you announce a wedding in the local paper.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/aside&gt;	
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+&lt;section class=&quot;review continued&quot;&gt;
+	&lt;div class=&quot;content gutters&quot;&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-10 col&quot;&gt;
+			&lt;h2&gt;Mules are Important&lt;/h2&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content gutters&quot;&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-5 col&quot;&gt;
+			&lt;p&gt;Years ago I used to run &lt;strong&gt;AD&amp;amp;D Second Edition&lt;/strong&gt; all the time for basically anyone who was interested. I had a core group of friends that always played, but we always had folks filter in and out. Because of that and my desire to play with the new toys in &lt;strong&gt;Dragon&lt;/strong&gt; and stuff I picked up at the local &lt;strong&gt;Waldenbooks&lt;/strong&gt; we cycled through &lt;em&gt;campaigns&lt;/em&gt; pretty quickly.&lt;/p&gt;
+			&lt;p&gt;Despite that cycle of play, because we had the core four players, it almost became really one game. Like the &lt;strong&gt;Eternal Champion&lt;/strong&gt;, names changed but fundamental characters stayed the same. Two of those players were basically &lt;strong&gt;Abbot and Costello&lt;/strong&gt;, always at odds and getting into trouble because of the constant back and forth.&lt;/p&gt;
+			&lt;p&gt;From that interplay I learned the importance of a good donkey or mule, particularly one called &lt;strong&gt;Alexi&lt;/strong&gt;. See,  &lt;strong&gt;Costello&lt;/strong&gt; named his donkey after &lt;strong&gt;Abbott's&lt;/strong&gt; character leading to many amusing moments of play. &lt;strong&gt;Abbott&lt;/strong&gt; really wanted to kill his namesake, but because the donkey carried so much gear he never could bring himself to do it.&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;aside class=&quot;span-5 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/img/loading.gif&quot; data-src=&quot;/img/articles/dragon/048/mule.png&quot; alt=&quot;Black Bart's Mule Cart.&quot; /&gt;
+				&lt;figcaption&gt;Mules are so much more valuable than we give them credit.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/aside&gt;	
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+&lt;section class=&quot;review continued&quot;&gt;
+	&lt;div class=&quot;content gutters&quot;&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-10 col&quot;&gt;
+			&lt;h2&gt;Real Life?&lt;/h2&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content gutters&quot;&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-5 col&quot;&gt;
+			&lt;p&gt;Ok, I know this is meant to be a fun little joke game thing. I get that. I really do, but damn who the hell wants to play this? It is like a more depressing version of &lt;strong&gt;The Stanley Parable&lt;/strong&gt;.&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;aside class=&quot;span-5 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/img/loading.gif&quot; data-src=&quot;/img/articles/dragon/048/real-life.png&quot; alt=&quot;Rules for Real Life&quot; /&gt;
+				&lt;figcaption&gt;Just let the income numbers sink in for a minute.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/aside&gt;	
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;review continued&quot;&gt;
+	&lt;div class=&quot;content gutters&quot;&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-10 col&quot;&gt;
+			&lt;h2&gt;Underwater Rules&lt;/h2&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content gutters&quot;&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-6 col&quot;&gt;
+			&lt;p&gt;Underwater rules for RPGs always seem to suck. They either go deep down the rabbit hole of &lt;em&gt;realism&lt;/em&gt; or are entirely unsatisfying in their &lt;em&gt;hand-wavery&lt;/em&gt;. This set of rules is a bit more of the former than the latter, but I thought the general approach (outlined in the first paragraph) was a good faith attempt to get it right.&lt;/p&gt;
+			&lt;p&gt;What really caught my eye was the second section. The question it poses is valid and rife with interesting game play options. A few issues ago we got the &lt;strong&gt;Temple of Poseidon &lt;/strong&gt; as an insert. It is a shame this wasn't in that issue along with a &lt;em&gt;wilderness&lt;/em&gt; setting surrounding it all with this kind of content exploration.&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-3 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content gutters&quot;&gt;
+		&lt;div class=&quot;span-2 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-8 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/img/loading.gif&quot; data-src=&quot;/img/articles/dragon/048/underwater-question.png&quot; alt=&quot;Underwater Rules&quot; /&gt;
+				&lt;figcaption&gt;There is so much interesting meat in these little bits.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/div&gt;	
+		&lt;div class=&quot;span-2 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+&lt;section class=&quot;review continued&quot;&gt;
+	&lt;div class=&quot;content gutters&quot;&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-10 col&quot;&gt;
+			&lt;h2&gt;What the Crap?&lt;/h2&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content gutters&quot;&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+		&lt;aside class=&quot;span-5 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/img/loading.gif&quot; data-src=&quot;/img/articles/dragon/048/cover-48-half.jpg&quot; alt=&quot;Issue 48 1/2 Cover&quot; class=&quot;scale&quot; /&gt;
+				&lt;figcaption&gt;Who did this? I couldn't find any information in the issue.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/aside&gt;	
+		&lt;div class=&quot;span-5 col&quot;&gt;
+			&lt;p&gt;There is this weird 48&lt;sup&gt;1/2&lt;/sup&gt; issue inside of issue 48, but it isn't very well deliniated. I think it is meant to be a humor bit, but the humor is so awful I'm not sure where one ends and the other begins.&lt;/p&gt;
+			&lt;p&gt;Despite that, what is truly criminal is that I can't find who did the art for this cover. The style is really familiar and it is killing me that I can't figure it out. It is a wonderful little piece and the artist deserves the recognition.&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+		
+&lt;/section&gt;
+&lt;section class=&quot;review continued&quot;&gt;
+	&lt;div class=&quot;content gutters&quot;&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-10 col&quot;&gt;
+			&lt;h2&gt;Why? Just Why?&lt;/h2&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;content gutters&quot;&gt;
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;span-5 col&quot;&gt;
+			&lt;p&gt;Why would you spend money on this advertisement? You don't have a stock ad you could drop here to ensure there is something useful for folks?&lt;/p&gt;
+			&lt;p&gt;I mean, I understand sometimes things don't get done on time. I work in digital advertising and used to work in print, so I get it. What I don't get is how you have &lt;em&gt;nothing&lt;/em&gt; at all to put here except &lt;strong&gt;COming Soon...&lt;/strong&gt;. I mean even &lt;strong&gt;George R.R. Martin&lt;/strong&gt; (the R.R. stands for really, really long winded) has &lt;em&gt;winter is coming&lt;/em&gt; to fill space with.&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;aside class=&quot;span-5 col&quot;&gt;
+			&lt;figure&gt;
+				&lt;img src=&quot;/img/loading.gif&quot; data-src=&quot;/img/articles/dragon/048/add-why.jpg&quot; alt=&quot;Why is this here?&quot; class=&quot;scale&quot; /&gt;
+				&lt;figcaption&gt;What a waste of money.&lt;/figcaption&gt;
+			&lt;/figure&gt;
+		&lt;/aside&gt;	
+		&lt;div class=&quot;span-1 col empty&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;divider&quot;&gt;&lt;/div&gt;	
+		
+&lt;/section&gt;
+</description>
+        <pubDate>Mon, 14 Mar 2016 00:00:00 -0500</pubDate>
+        <link>http://conspiracyofshadows.com/articles/dragon-048.html</link>
+        <guid isPermaLink="true">http://conspiracyofshadows.com/articles/dragon-048.html</guid>
+        
+        <category>role playing game rpg dragon magazine reviews</category>
+        
+        
+        <category>articles</category>
+        
+      </item>
+    
   </channel>
 </rss>
