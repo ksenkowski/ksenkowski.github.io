@@ -4,7 +4,7 @@
 set -e
 
 # Install bundles if needed
-# bundle check || bundle install
+ bundle check || bundle install
 
 # NPM install if needed.
  npm install
