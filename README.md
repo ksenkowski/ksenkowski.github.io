@@ -4,17 +4,19 @@ This is the Jekyll site for my never ending art project, Conspiracy of Shadows. 
 
 Prerequisites
 -------------
-To run this project you'll need to have Ruby 1.9.3 or later and [bundler](http://bundler.io/) installed.  
+The way I run this project requires me to install (if not already on the machine): 
+* Ruby 2.2.0-p0
+* rbenv
+* gulp
+* node
+* Jekyll
+* Travis CLI
 
 Running
 -------
-If it's your first time, you'll want to make sure you have the correct dependencies installed:
+Rather than using Jekyll to do the building on it's own, I'm using Gulp to manage the building on the "redesign" branch and leveraging Travis to move the files from the site folder into the Master branch where the site lives on Github Pages. 
 
-    bundle install
-
-After that, you should be able to run the following command:
-
-    jekyll serve --watch
+You can learn more about this whole process the same place I did, [Savas Labs](http://savaslabs.com/2016/10/25/deploy-jekyll-with-travis.html)
 
 License
 -------
