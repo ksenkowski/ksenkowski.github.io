@@ -37,11 +37,12 @@
 	}
 	.post-meta{
 		font-family:$secondary-stack;
-		margin:0;
+		margin:0 0 25px;
 		line-height:50%;
 		font-weight:400;
 		color:$color-primary-1;
 		font-size:em(12px);
+		text-align:right;
 	}
 	h2{
 		font-family:$secondary-stack;
