@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://conspiracyofshadows.com/articles/banana-peanut-butter-cookies.html</loc>
+<lastmod>2017-05-08T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://conspiracyofshadows.com/articles/zrazy-beef-roles.html</loc>
+<lastmod>2017-05-08T00:00:00-05:00</lastmod>
+</url>
+<url>
 <loc>http://conspiracyofshadows.com/articles/boxed-set.html</loc>
 <lastmod>2016-12-22T00:00:00-06:00</lastmod>
 </url>
@@ -119,6 +127,10 @@
 <url>
 <loc>http://conspiracyofshadows.com/articles/strategic-review.html</loc>
 <lastmod>2014-01-12T00:00:00-06:00</lastmod>
+</url>
+<url>
+<loc>http://conspiracyofshadows.com/articles/dungeon-world-aar.html</loc>
+<lastmod>2013-04-06T00:00:00-05:00</lastmod>
 </url>
 <url>
 <loc>http://conspiracyofshadows.com/404</loc>
