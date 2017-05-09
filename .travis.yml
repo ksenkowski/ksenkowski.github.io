@@ -1,5 +1,7 @@
 language: node_js
 sudo: required
+script:
+  - ./_scripts/run-tests.sh
 branches:
   except:
   - master
@@ -11,7 +13,7 @@ env:
   - secure: fQaM4bywhlrV3rl3pTFZLQISJDFCLZrTKAgNu069jYKeY72yoOB4HAJPJAajp66Kgi2RCaQs3e2+KeRKJ9Bd2to7lV5yCV2fAZMN/lIonb9SW7MvMhEgkx4nxWBzPtiyMrLGY8MOt2d+SKDHq1DoXgBkQaj4vvSqVOf+TM/8eZH4HzbCaGc+iUOr8ZbO8oaWJMC9txtl5Xng8UFytoPcCQI57KJ9zckoYOLF/PhSgJaNE0isSkh4J/Za+6dFRvBhQVJVZV/5x791nDXubwfaqnwLAdf43/bg0v8yFxTcIMxjGxf89ZC7GxNngxJv0lLskEAozgaG3ewJz5qrJck8hp7R/LZ/y2gFgr3suvLQa/KIAlPmmMxkQ9A9jbGa786GLJkbQQzJpZW5IriOZ0Ial0OBPL8dZECw/V1Wb2B7fOjtIAx+DAzBH1G+nXQhPCFbnnCD+Sxpsp2RdZbs2gUr5DxnYZI/qEnWVDUUukFsTE7cHdkWfCfgKG9cSwqERXVWCGfyUEOuqmzF8TSQ71YrSXePxO9vQa9SkAyws/Zzv7zO+02SrNoMQq8kqjfzPGcO4IhIPKlkCB88BQeei5HSRsLOM9zt/ATbtNwTYkOdRD9trBjR1QP4HaVgCEJFcqBZGo4J7FA0B7rn2k4mM3prtxi4+FriDSrM+5j8gTUIgo8=
 deploy:
   provider: script
-  script: "./build.sh"
+  script: "./_scripts/build.sh"
   skip_cleanup: false
   on:
     branch: redesign
