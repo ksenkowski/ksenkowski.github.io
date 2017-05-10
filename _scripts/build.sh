@@ -14,17 +14,17 @@ gulp clean
 gulp
 
 # Checkout master and remove everything
-git clone https://${GH_TOKEN}@github.com/ksenkowski/ksenkowski.github.io ../ksenkowski.github.io.master
-cd ../ksenkowski.github.io.master
+git clone https://${GH_TOKEN}@github.com/ksenkowski/ksenkowski.github.io ../../ksenkowski.github.io.master
+cd ../../ksenkowski.github.io.master
 git checkout master
 rm -rf *
 
 # Copy generated HTML site from source branch in original repo.
 # Now the master branch will contain only the contents of the _site directory.
-cp -R ../ksenkowski.github.io/_site/* .
+cp -R ~/Documents/repos/ksenkowski.github.io/_site/* .
 
 # Make sure we have the updated .travis.yml file so tests won't run on master.
-cp ../ksenkowski.github.io/.travis.yml .
+cp ~/Documents/repos/ksenkowski.github.io/.travis.yml .
 git config user.email ${GH_EMAIL}
 git config user.name "ksenkowski"
 
